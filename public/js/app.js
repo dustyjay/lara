@@ -828,6 +828,169 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Skills.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    skill: Object,
+    shift: Boolean
+  },
+  data: function data() {
+    return {
+      hover: false
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
@@ -842,7 +1005,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Courses__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Courses */ "./resources/js/components/Courses.vue");
 /* harmony import */ var _components_CoursesMobile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/CoursesMobile */ "./resources/js/components/CoursesMobile.vue");
 /* harmony import */ var _components_Plans__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Plans */ "./resources/js/components/Plans.vue");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./resources/js/components/Footer.vue");
+/* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Skills */ "./resources/js/components/Skills.vue");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer */ "./resources/js/components/Footer.vue");
+/* harmony import */ var vue_flickity__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue-flickity */ "./node_modules/vue-flickity/src/flickity.vue");
 //
 //
 //
@@ -1228,6 +1393,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 
 
 
@@ -1242,10 +1433,17 @@ __webpack_require__.r(__webpack_exports__);
     Courses: _components_Courses__WEBPACK_IMPORTED_MODULE_2__["default"],
     CoursesMobile: _components_CoursesMobile__WEBPACK_IMPORTED_MODULE_3__["default"],
     Plans: _components_Plans__WEBPACK_IMPORTED_MODULE_4__["default"],
-    Footer: _components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"]
+    Skills: _components_Skills__WEBPACK_IMPORTED_MODULE_5__["default"],
+    Flickity: vue_flickity__WEBPACK_IMPORTED_MODULE_7__["default"],
+    Footer: _components_Footer__WEBPACK_IMPORTED_MODULE_6__["default"]
   },
   data: function data() {
     return {
+      flickityOptions: {
+        pageDots: false,
+        wrapAround: true,
+        freeScroll: false
+      },
       social_hover: ["fill:#ccc;", "fill:#ccc;", "fill:#bbb;"],
       personal: true,
       concise: [{
@@ -1339,6 +1537,103 @@ __webpack_require__.r(__webpack_exports__);
         image: "https://laracasts.com/images/plans/team-5-developers-icon.svg?v=3",
         link: "/",
         text: "Wire your account to support 5 developers with a year’s worth of access to Laracasts!"
+      }],
+      skills: [{
+        id: 1,
+        name: "Laravel",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 2,
+        name: "JavaScript",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 3,
+        name: "PHP",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 1,
+        name: "VueJs",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 1,
+        name: "ReactJs",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 1,
+        name: "Angular",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 1,
+        name: "Django",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
+      }, {
+        id: 1,
+        name: "Python",
+        difficulty: "Beginner",
+        title: "Eloquent Relationships",
+        text: "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+        image: "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+        color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+        secondarycolor: "#dba112",
+        lessons: 12,
+        time: "300",
+        link: "/"
       }]
     };
   },
@@ -1359,6 +1654,32 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       window.requestAnimationFrame(step);
+    },
+    next: function next() {
+      this.$refs.flickity.next();
+    },
+    previous: function previous() {
+      this.$refs.flickity.previous();
+    }
+  },
+  computed: {
+    activeskills: function activeskills() {
+      var newarray = [];
+      this.skills.forEach(function (element, index) {
+        if (index % 2 == 0) {
+          newarray.push(element);
+        }
+      });
+      return newarray;
+    },
+    inactiveskills: function inactiveskills() {
+      var newarray = [];
+      this.skills.forEach(function (element, index) {
+        if (index % 2 != 0) {
+          newarray.push(element);
+        }
+      });
+      return newarray;
     }
   }
 });
@@ -1400,6 +1721,25 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Cra
 
 // module
 exports.push([module.i, "/**\n * This injects Tailwind's base styles, which is a combination of\n * Normalize.css and some additional base styles.\n *\n * You can see the styles here:\n * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css\n *\n * If using `postcss-import`, use this import instead:\n *\n * @import \"tailwindcss/preflight\";\n */\n\n/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\n\n/* Document\n   ========================================================================== */\n\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\n\nhtml {\n  line-height: 1.15; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/* Sections\n   ========================================================================== */\n\n/**\n * Remove the margin in all browsers.\n */\n\nbody {\n  margin: 0;\n}\n\n/**\n * Render the `main` element consistently in IE.\n */\n\nmain {\n  display: block;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\n\nh1 {\n  font-size: 2em;\n  margin: .67em 0;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\n\nhr {\n  box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\npre {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Remove the gray background on active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\n\nabbr[title] {\n  border-bottom: none; /* 1 */\n          text-decoration: underline; /* 2 */\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted; /* 2 */\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\n * Add the correct font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove the border on images inside links in IE 10.\n */\n\nimg {\n  border-style: none;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: 1.15; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\n\nbutton,\ninput {\n  /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\n\nbutton,\nselect {\n  /* 1 */\n  text-transform: none;\n}\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\n\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\n\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Correct the padding in Firefox.\n */\n\nfieldset {\n  padding: .35em .75em .625em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\n\nlegend {\n  box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/* Interactive\n   ========================================================================== */\n\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\n\ndetails {\n  display: block;\n}\n\n/*\n * Add the correct display in all browsers.\n */\n\nsummary {\n  display: list-item;\n}\n\n/* Misc\n   ========================================================================== */\n\n/**\n * Add the correct display in IE 10+.\n */\n\ntemplate {\n  display: none;\n}\n\n/**\n * Add the correct display in IE 10.\n */\n\n[hidden] {\n  display: none;\n}\n\n/**\n * Manually forked from SUIT CSS Base: https://github.com/suitcss/base\n * A thin layer on top of normalize.css that provides a starting point more\n * suitable for web applications.\n */\n\n/**\n * 1. Prevent padding and border from affecting element width\n * https://goo.gl/pYtbK7\n * 2. Change the default font family in all browsers (opinionated)\n */\n\nhtml {\n  box-sizing: border-box; /* 1 */\n  font-family: sans-serif; /* 2 */\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n}\n\n/**\n * Removes the default spacing and border for appropriate elements.\n */\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nbutton {\n  background: transparent;\n  padding: 0;\n}\n\n/**\n * Work around a Firefox/IE bug where the transparent `button` background\n * results in a loss of the default `button` focus styles.\n */\n\nbutton:focus {\n  outline: 1px dotted;\n  outline: 5px auto -webkit-focus-ring-color;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nol,\nul {\n  margin: 0;\n}\n\n/**\n * Tailwind custom reset styles\n */\n\n/**\n * Allow adding a border to an element by just adding a border-width.\n *\n * By default, the way the browser specifies that an element should have no\n * border is by setting it's border-style to `none` in the user-agent\n * stylesheet.\n *\n * In order to easily add borders to elements by just setting the `border-width`\n * property, we change the default border-style for all elements to `solid`, and\n * use border-width to hide them instead. This way our `border` utilities only\n * need to set the `border-width` property instead of the entire `border`\n * shorthand, making our border utilities much more straightforward to compose.\n *\n * https://github.com/tailwindcss/tailwindcss/pull/116\n */\n\n*,\n*::before,\n*::after {\n  border-width: 0;\n  border-style: solid;\n  border-color: #dae1e7;\n}\n\n/**\n * Undo the `border-style: none` reset that Normalize applies to images so that\n * our `border-{width}` utilities have the expected effect.\n *\n * The Normalize reset is unnecessary for us since we default the border-width\n * to 0 on all elements.\n *\n * https://github.com/tailwindcss/tailwindcss/issues/362\n */\n\nimg {\n  border-style: solid;\n}\n\ntextarea {\n  resize: vertical;\n}\n\nimg {\n  max-width: 100%;\n  height: auto;\n}\n\ninput::-webkit-input-placeholder,\ntextarea::-webkit-input-placeholder {\n  color: inherit;\n  opacity: .5;\n}\n\ninput:-ms-input-placeholder,\ntextarea:-ms-input-placeholder {\n  color: inherit;\n  opacity: .5;\n}\n\ninput::-ms-input-placeholder,\ntextarea::-ms-input-placeholder {\n  color: inherit;\n  opacity: .5;\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  color: inherit;\n  opacity: .5;\n}\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\ntable {\n  border-collapse: collapse;\n}\n\n/**\n * This injects any component classes registered by plugins.\n *\n * If using `postcss-import`, use this import instead:\n *\n * @import \"tailwindcss/components\";\n */\n\n.tw-container {\n  width: 100%;\n  margin-right: auto;\n  margin-left: auto;\n}\n\n@media (min-width: 576px) {\n  .tw-container {\n    max-width: 576px;\n  }\n}\n\n@media (min-width: 768px) {\n  .tw-container {\n    max-width: 768px;\n  }\n}\n\n@media (min-width: 992px) {\n  .tw-container {\n    max-width: 992px;\n  }\n}\n\n@media (min-width: 1200px) {\n  .tw-container {\n    max-width: 1200px;\n  }\n}\n\n/**\n * Here you would add any of your custom component classes; stuff that you'd\n * want loaded *before* the utilities so that the utilities could still\n * override them.\n *\n * Example:\n *\n * .btn { ... }\n * .form-input { ... }\n *\n * Or if using a preprocessor or `postcss-import`:\n *\n * @import \"components/buttons\";\n * @import \"components/forms\";\n */\n\n/**\n * This injects all of Tailwind's utility classes, generated based on your\n * config file.\n *\n * If using `postcss-import`, use this import instead:\n *\n * @import \"tailwindcss/utilities\";\n */\n\n.tw-list-reset {\n  list-style: none;\n  padding: 0;\n}\n\n.tw-appearance-none {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n}\n\n.tw-bg-fixed {\n  background-attachment: fixed;\n}\n\n.tw-bg-local {\n  background-attachment: local;\n}\n\n.tw-bg-scroll {\n  background-attachment: scroll;\n}\n\n.tw-bg-transparent {\n  background-color: transparent;\n}\n\n.tw-bg-black {\n  background-color: #22292f;\n}\n\n.tw-bg-grey-darkest {\n  background-color: #3d4852;\n}\n\n.tw-bg-grey-darker {\n  background-color: #606f7b;\n}\n\n.tw-bg-grey-dark {\n  background-color: #8795a1;\n}\n\n.tw-bg-grey {\n  background-color: #b8c2cc;\n}\n\n.tw-bg-grey-light {\n  background-color: #dae1e7;\n}\n\n.tw-bg-grey-lighter {\n  background-color: #f1f5f8;\n}\n\n.tw-bg-grey-lightest {\n  background-color: #f8fafc;\n}\n\n.tw-bg-white {\n  background-color: #fff;\n}\n\n.tw-bg-red-darkest {\n  background-color: #3b0d0c;\n}\n\n.tw-bg-red-darker {\n  background-color: #621b18;\n}\n\n.tw-bg-red-dark {\n  background-color: #cc1f1a;\n}\n\n.tw-bg-red {\n  background-color: #e3342f;\n}\n\n.tw-bg-red-light {\n  background-color: #ef5753;\n}\n\n.tw-bg-red-lighter {\n  background-color: #f9acaa;\n}\n\n.tw-bg-red-lightest {\n  background-color: #fcebea;\n}\n\n.tw-bg-orange-darkest {\n  background-color: #462a16;\n}\n\n.tw-bg-orange-darker {\n  background-color: #613b1f;\n}\n\n.tw-bg-orange-dark {\n  background-color: #de751f;\n}\n\n.tw-bg-orange {\n  background-color: #f6993f;\n}\n\n.tw-bg-orange-light {\n  background-color: #faad63;\n}\n\n.tw-bg-orange-lighter {\n  background-color: #fcd9b6;\n}\n\n.tw-bg-orange-lightest {\n  background-color: #fff5eb;\n}\n\n.tw-bg-yellow-darkest {\n  background-color: #453411;\n}\n\n.tw-bg-yellow-darker {\n  background-color: #684f1d;\n}\n\n.tw-bg-yellow-dark {\n  background-color: #f2d024;\n}\n\n.tw-bg-yellow {\n  background-color: #ffed4a;\n}\n\n.tw-bg-yellow-light {\n  background-color: #fff382;\n}\n\n.tw-bg-yellow-lighter {\n  background-color: #fff9c2;\n}\n\n.tw-bg-yellow-lightest {\n  background-color: #fcfbeb;\n}\n\n.tw-bg-green-darkest {\n  background-color: #0f2f21;\n}\n\n.tw-bg-green-darker {\n  background-color: #1a4731;\n}\n\n.tw-bg-green-dark {\n  background-color: #1f9d55;\n}\n\n.tw-bg-green {\n  background-color: #38c172;\n}\n\n.tw-bg-green-light {\n  background-color: #51d88a;\n}\n\n.tw-bg-green-lighter {\n  background-color: #a2f5bf;\n}\n\n.tw-bg-green-lightest {\n  background-color: #e3fcec;\n}\n\n.tw-bg-teal-darkest {\n  background-color: #0d3331;\n}\n\n.tw-bg-teal-darker {\n  background-color: #20504f;\n}\n\n.tw-bg-teal-dark {\n  background-color: #38a89d;\n}\n\n.tw-bg-teal {\n  background-color: #4dc0b5;\n}\n\n.tw-bg-teal-light {\n  background-color: #64d5ca;\n}\n\n.tw-bg-teal-lighter {\n  background-color: #a0f0ed;\n}\n\n.tw-bg-teal-lightest {\n  background-color: #e8fffe;\n}\n\n.tw-bg-blue-darkest {\n  background-color: #12283a;\n}\n\n.tw-bg-blue-darker {\n  background-color: #1c3d5a;\n}\n\n.tw-bg-blue-dark {\n  background-color: #2779bd;\n}\n\n.tw-bg-blue {\n  background-color: #3490dc;\n}\n\n.tw-bg-blue-light {\n  background-color: #6cb2eb;\n}\n\n.tw-bg-blue-lighter {\n  background-color: #bcdefa;\n}\n\n.tw-bg-blue-lightest {\n  background-color: #eff8ff;\n}\n\n.tw-bg-indigo-darkest {\n  background-color: #191e38;\n}\n\n.tw-bg-indigo-darker {\n  background-color: #2f365f;\n}\n\n.tw-bg-indigo-dark {\n  background-color: #5661b3;\n}\n\n.tw-bg-indigo {\n  background-color: #6574cd;\n}\n\n.tw-bg-indigo-light {\n  background-color: #7886d7;\n}\n\n.tw-bg-indigo-lighter {\n  background-color: #b2b7ff;\n}\n\n.tw-bg-indigo-lightest {\n  background-color: #e6e8ff;\n}\n\n.tw-bg-purple-darkest {\n  background-color: #21183c;\n}\n\n.tw-bg-purple-darker {\n  background-color: #382b5f;\n}\n\n.tw-bg-purple-dark {\n  background-color: #794acf;\n}\n\n.tw-bg-purple {\n  background-color: #9561e2;\n}\n\n.tw-bg-purple-light {\n  background-color: #a779e9;\n}\n\n.tw-bg-purple-lighter {\n  background-color: #d6bbfc;\n}\n\n.tw-bg-purple-lightest {\n  background-color: #f3ebff;\n}\n\n.tw-bg-pink-darkest {\n  background-color: #451225;\n}\n\n.tw-bg-pink-darker {\n  background-color: #6f213f;\n}\n\n.tw-bg-pink-dark {\n  background-color: #eb5286;\n}\n\n.tw-bg-pink {\n  background-color: #f66d9b;\n}\n\n.tw-bg-pink-light {\n  background-color: #fa7ea8;\n}\n\n.tw-bg-pink-lighter {\n  background-color: #ffbbca;\n}\n\n.tw-bg-pink-lightest {\n  background-color: #ffebef;\n}\n\n.tw-bg-linkColor {\n  background-color: royalblue;\n}\n\n.tw-bg-linkHoverColor {\n  background-color: darkblue;\n}\n\n.hover\\:tw-bg-transparent:hover {\n  background-color: transparent;\n}\n\n.hover\\:tw-bg-black:hover {\n  background-color: #22292f;\n}\n\n.hover\\:tw-bg-grey-darkest:hover {\n  background-color: #3d4852;\n}\n\n.hover\\:tw-bg-grey-darker:hover {\n  background-color: #606f7b;\n}\n\n.hover\\:tw-bg-grey-dark:hover {\n  background-color: #8795a1;\n}\n\n.hover\\:tw-bg-grey:hover {\n  background-color: #b8c2cc;\n}\n\n.hover\\:tw-bg-grey-light:hover {\n  background-color: #dae1e7;\n}\n\n.hover\\:tw-bg-grey-lighter:hover {\n  background-color: #f1f5f8;\n}\n\n.hover\\:tw-bg-grey-lightest:hover {\n  background-color: #f8fafc;\n}\n\n.hover\\:tw-bg-white:hover {\n  background-color: #fff;\n}\n\n.hover\\:tw-bg-red-darkest:hover {\n  background-color: #3b0d0c;\n}\n\n.hover\\:tw-bg-red-darker:hover {\n  background-color: #621b18;\n}\n\n.hover\\:tw-bg-red-dark:hover {\n  background-color: #cc1f1a;\n}\n\n.hover\\:tw-bg-red:hover {\n  background-color: #e3342f;\n}\n\n.hover\\:tw-bg-red-light:hover {\n  background-color: #ef5753;\n}\n\n.hover\\:tw-bg-red-lighter:hover {\n  background-color: #f9acaa;\n}\n\n.hover\\:tw-bg-red-lightest:hover {\n  background-color: #fcebea;\n}\n\n.hover\\:tw-bg-orange-darkest:hover {\n  background-color: #462a16;\n}\n\n.hover\\:tw-bg-orange-darker:hover {\n  background-color: #613b1f;\n}\n\n.hover\\:tw-bg-orange-dark:hover {\n  background-color: #de751f;\n}\n\n.hover\\:tw-bg-orange:hover {\n  background-color: #f6993f;\n}\n\n.hover\\:tw-bg-orange-light:hover {\n  background-color: #faad63;\n}\n\n.hover\\:tw-bg-orange-lighter:hover {\n  background-color: #fcd9b6;\n}\n\n.hover\\:tw-bg-orange-lightest:hover {\n  background-color: #fff5eb;\n}\n\n.hover\\:tw-bg-yellow-darkest:hover {\n  background-color: #453411;\n}\n\n.hover\\:tw-bg-yellow-darker:hover {\n  background-color: #684f1d;\n}\n\n.hover\\:tw-bg-yellow-dark:hover {\n  background-color: #f2d024;\n}\n\n.hover\\:tw-bg-yellow:hover {\n  background-color: #ffed4a;\n}\n\n.hover\\:tw-bg-yellow-light:hover {\n  background-color: #fff382;\n}\n\n.hover\\:tw-bg-yellow-lighter:hover {\n  background-color: #fff9c2;\n}\n\n.hover\\:tw-bg-yellow-lightest:hover {\n  background-color: #fcfbeb;\n}\n\n.hover\\:tw-bg-green-darkest:hover {\n  background-color: #0f2f21;\n}\n\n.hover\\:tw-bg-green-darker:hover {\n  background-color: #1a4731;\n}\n\n.hover\\:tw-bg-green-dark:hover {\n  background-color: #1f9d55;\n}\n\n.hover\\:tw-bg-green:hover {\n  background-color: #38c172;\n}\n\n.hover\\:tw-bg-green-light:hover {\n  background-color: #51d88a;\n}\n\n.hover\\:tw-bg-green-lighter:hover {\n  background-color: #a2f5bf;\n}\n\n.hover\\:tw-bg-green-lightest:hover {\n  background-color: #e3fcec;\n}\n\n.hover\\:tw-bg-teal-darkest:hover {\n  background-color: #0d3331;\n}\n\n.hover\\:tw-bg-teal-darker:hover {\n  background-color: #20504f;\n}\n\n.hover\\:tw-bg-teal-dark:hover {\n  background-color: #38a89d;\n}\n\n.hover\\:tw-bg-teal:hover {\n  background-color: #4dc0b5;\n}\n\n.hover\\:tw-bg-teal-light:hover {\n  background-color: #64d5ca;\n}\n\n.hover\\:tw-bg-teal-lighter:hover {\n  background-color: #a0f0ed;\n}\n\n.hover\\:tw-bg-teal-lightest:hover {\n  background-color: #e8fffe;\n}\n\n.hover\\:tw-bg-blue-darkest:hover {\n  background-color: #12283a;\n}\n\n.hover\\:tw-bg-blue-darker:hover {\n  background-color: #1c3d5a;\n}\n\n.hover\\:tw-bg-blue-dark:hover {\n  background-color: #2779bd;\n}\n\n.hover\\:tw-bg-blue:hover {\n  background-color: #3490dc;\n}\n\n.hover\\:tw-bg-blue-light:hover {\n  background-color: #6cb2eb;\n}\n\n.hover\\:tw-bg-blue-lighter:hover {\n  background-color: #bcdefa;\n}\n\n.hover\\:tw-bg-blue-lightest:hover {\n  background-color: #eff8ff;\n}\n\n.hover\\:tw-bg-indigo-darkest:hover {\n  background-color: #191e38;\n}\n\n.hover\\:tw-bg-indigo-darker:hover {\n  background-color: #2f365f;\n}\n\n.hover\\:tw-bg-indigo-dark:hover {\n  background-color: #5661b3;\n}\n\n.hover\\:tw-bg-indigo:hover {\n  background-color: #6574cd;\n}\n\n.hover\\:tw-bg-indigo-light:hover {\n  background-color: #7886d7;\n}\n\n.hover\\:tw-bg-indigo-lighter:hover {\n  background-color: #b2b7ff;\n}\n\n.hover\\:tw-bg-indigo-lightest:hover {\n  background-color: #e6e8ff;\n}\n\n.hover\\:tw-bg-purple-darkest:hover {\n  background-color: #21183c;\n}\n\n.hover\\:tw-bg-purple-darker:hover {\n  background-color: #382b5f;\n}\n\n.hover\\:tw-bg-purple-dark:hover {\n  background-color: #794acf;\n}\n\n.hover\\:tw-bg-purple:hover {\n  background-color: #9561e2;\n}\n\n.hover\\:tw-bg-purple-light:hover {\n  background-color: #a779e9;\n}\n\n.hover\\:tw-bg-purple-lighter:hover {\n  background-color: #d6bbfc;\n}\n\n.hover\\:tw-bg-purple-lightest:hover {\n  background-color: #f3ebff;\n}\n\n.hover\\:tw-bg-pink-darkest:hover {\n  background-color: #451225;\n}\n\n.hover\\:tw-bg-pink-darker:hover {\n  background-color: #6f213f;\n}\n\n.hover\\:tw-bg-pink-dark:hover {\n  background-color: #eb5286;\n}\n\n.hover\\:tw-bg-pink:hover {\n  background-color: #f66d9b;\n}\n\n.hover\\:tw-bg-pink-light:hover {\n  background-color: #fa7ea8;\n}\n\n.hover\\:tw-bg-pink-lighter:hover {\n  background-color: #ffbbca;\n}\n\n.hover\\:tw-bg-pink-lightest:hover {\n  background-color: #ffebef;\n}\n\n.hover\\:tw-bg-linkColor:hover {\n  background-color: royalblue;\n}\n\n.hover\\:tw-bg-linkHoverColor:hover {\n  background-color: darkblue;\n}\n\n.focus\\:tw-bg-transparent:focus {\n  background-color: transparent;\n}\n\n.focus\\:tw-bg-black:focus {\n  background-color: #22292f;\n}\n\n.focus\\:tw-bg-grey-darkest:focus {\n  background-color: #3d4852;\n}\n\n.focus\\:tw-bg-grey-darker:focus {\n  background-color: #606f7b;\n}\n\n.focus\\:tw-bg-grey-dark:focus {\n  background-color: #8795a1;\n}\n\n.focus\\:tw-bg-grey:focus {\n  background-color: #b8c2cc;\n}\n\n.focus\\:tw-bg-grey-light:focus {\n  background-color: #dae1e7;\n}\n\n.focus\\:tw-bg-grey-lighter:focus {\n  background-color: #f1f5f8;\n}\n\n.focus\\:tw-bg-grey-lightest:focus {\n  background-color: #f8fafc;\n}\n\n.focus\\:tw-bg-white:focus {\n  background-color: #fff;\n}\n\n.focus\\:tw-bg-red-darkest:focus {\n  background-color: #3b0d0c;\n}\n\n.focus\\:tw-bg-red-darker:focus {\n  background-color: #621b18;\n}\n\n.focus\\:tw-bg-red-dark:focus {\n  background-color: #cc1f1a;\n}\n\n.focus\\:tw-bg-red:focus {\n  background-color: #e3342f;\n}\n\n.focus\\:tw-bg-red-light:focus {\n  background-color: #ef5753;\n}\n\n.focus\\:tw-bg-red-lighter:focus {\n  background-color: #f9acaa;\n}\n\n.focus\\:tw-bg-red-lightest:focus {\n  background-color: #fcebea;\n}\n\n.focus\\:tw-bg-orange-darkest:focus {\n  background-color: #462a16;\n}\n\n.focus\\:tw-bg-orange-darker:focus {\n  background-color: #613b1f;\n}\n\n.focus\\:tw-bg-orange-dark:focus {\n  background-color: #de751f;\n}\n\n.focus\\:tw-bg-orange:focus {\n  background-color: #f6993f;\n}\n\n.focus\\:tw-bg-orange-light:focus {\n  background-color: #faad63;\n}\n\n.focus\\:tw-bg-orange-lighter:focus {\n  background-color: #fcd9b6;\n}\n\n.focus\\:tw-bg-orange-lightest:focus {\n  background-color: #fff5eb;\n}\n\n.focus\\:tw-bg-yellow-darkest:focus {\n  background-color: #453411;\n}\n\n.focus\\:tw-bg-yellow-darker:focus {\n  background-color: #684f1d;\n}\n\n.focus\\:tw-bg-yellow-dark:focus {\n  background-color: #f2d024;\n}\n\n.focus\\:tw-bg-yellow:focus {\n  background-color: #ffed4a;\n}\n\n.focus\\:tw-bg-yellow-light:focus {\n  background-color: #fff382;\n}\n\n.focus\\:tw-bg-yellow-lighter:focus {\n  background-color: #fff9c2;\n}\n\n.focus\\:tw-bg-yellow-lightest:focus {\n  background-color: #fcfbeb;\n}\n\n.focus\\:tw-bg-green-darkest:focus {\n  background-color: #0f2f21;\n}\n\n.focus\\:tw-bg-green-darker:focus {\n  background-color: #1a4731;\n}\n\n.focus\\:tw-bg-green-dark:focus {\n  background-color: #1f9d55;\n}\n\n.focus\\:tw-bg-green:focus {\n  background-color: #38c172;\n}\n\n.focus\\:tw-bg-green-light:focus {\n  background-color: #51d88a;\n}\n\n.focus\\:tw-bg-green-lighter:focus {\n  background-color: #a2f5bf;\n}\n\n.focus\\:tw-bg-green-lightest:focus {\n  background-color: #e3fcec;\n}\n\n.focus\\:tw-bg-teal-darkest:focus {\n  background-color: #0d3331;\n}\n\n.focus\\:tw-bg-teal-darker:focus {\n  background-color: #20504f;\n}\n\n.focus\\:tw-bg-teal-dark:focus {\n  background-color: #38a89d;\n}\n\n.focus\\:tw-bg-teal:focus {\n  background-color: #4dc0b5;\n}\n\n.focus\\:tw-bg-teal-light:focus {\n  background-color: #64d5ca;\n}\n\n.focus\\:tw-bg-teal-lighter:focus {\n  background-color: #a0f0ed;\n}\n\n.focus\\:tw-bg-teal-lightest:focus {\n  background-color: #e8fffe;\n}\n\n.focus\\:tw-bg-blue-darkest:focus {\n  background-color: #12283a;\n}\n\n.focus\\:tw-bg-blue-darker:focus {\n  background-color: #1c3d5a;\n}\n\n.focus\\:tw-bg-blue-dark:focus {\n  background-color: #2779bd;\n}\n\n.focus\\:tw-bg-blue:focus {\n  background-color: #3490dc;\n}\n\n.focus\\:tw-bg-blue-light:focus {\n  background-color: #6cb2eb;\n}\n\n.focus\\:tw-bg-blue-lighter:focus {\n  background-color: #bcdefa;\n}\n\n.focus\\:tw-bg-blue-lightest:focus {\n  background-color: #eff8ff;\n}\n\n.focus\\:tw-bg-indigo-darkest:focus {\n  background-color: #191e38;\n}\n\n.focus\\:tw-bg-indigo-darker:focus {\n  background-color: #2f365f;\n}\n\n.focus\\:tw-bg-indigo-dark:focus {\n  background-color: #5661b3;\n}\n\n.focus\\:tw-bg-indigo:focus {\n  background-color: #6574cd;\n}\n\n.focus\\:tw-bg-indigo-light:focus {\n  background-color: #7886d7;\n}\n\n.focus\\:tw-bg-indigo-lighter:focus {\n  background-color: #b2b7ff;\n}\n\n.focus\\:tw-bg-indigo-lightest:focus {\n  background-color: #e6e8ff;\n}\n\n.focus\\:tw-bg-purple-darkest:focus {\n  background-color: #21183c;\n}\n\n.focus\\:tw-bg-purple-darker:focus {\n  background-color: #382b5f;\n}\n\n.focus\\:tw-bg-purple-dark:focus {\n  background-color: #794acf;\n}\n\n.focus\\:tw-bg-purple:focus {\n  background-color: #9561e2;\n}\n\n.focus\\:tw-bg-purple-light:focus {\n  background-color: #a779e9;\n}\n\n.focus\\:tw-bg-purple-lighter:focus {\n  background-color: #d6bbfc;\n}\n\n.focus\\:tw-bg-purple-lightest:focus {\n  background-color: #f3ebff;\n}\n\n.focus\\:tw-bg-pink-darkest:focus {\n  background-color: #451225;\n}\n\n.focus\\:tw-bg-pink-darker:focus {\n  background-color: #6f213f;\n}\n\n.focus\\:tw-bg-pink-dark:focus {\n  background-color: #eb5286;\n}\n\n.focus\\:tw-bg-pink:focus {\n  background-color: #f66d9b;\n}\n\n.focus\\:tw-bg-pink-light:focus {\n  background-color: #fa7ea8;\n}\n\n.focus\\:tw-bg-pink-lighter:focus {\n  background-color: #ffbbca;\n}\n\n.focus\\:tw-bg-pink-lightest:focus {\n  background-color: #ffebef;\n}\n\n.focus\\:tw-bg-linkColor:focus {\n  background-color: royalblue;\n}\n\n.focus\\:tw-bg-linkHoverColor:focus {\n  background-color: darkblue;\n}\n\n.tw-bg-bottom {\n  background-position: bottom;\n}\n\n.tw-bg-center {\n  background-position: center;\n}\n\n.tw-bg-left {\n  background-position: left;\n}\n\n.tw-bg-left-bottom {\n  background-position: left bottom;\n}\n\n.tw-bg-left-top {\n  background-position: left top;\n}\n\n.tw-bg-right {\n  background-position: right;\n}\n\n.tw-bg-right-bottom {\n  background-position: right bottom;\n}\n\n.tw-bg-right-top {\n  background-position: right top;\n}\n\n.tw-bg-top {\n  background-position: top;\n}\n\n.tw-bg-repeat {\n  background-repeat: repeat;\n}\n\n.tw-bg-no-repeat {\n  background-repeat: no-repeat;\n}\n\n.tw-bg-repeat-x {\n  background-repeat: repeat-x;\n}\n\n.tw-bg-repeat-y {\n  background-repeat: repeat-y;\n}\n\n.tw-bg-auto {\n  background-size: auto;\n}\n\n.tw-bg-cover {\n  background-size: cover;\n}\n\n.tw-bg-contain {\n  background-size: contain;\n}\n\n.tw-border-collapse {\n  border-collapse: collapse;\n}\n\n.tw-border-separate {\n  border-collapse: separate;\n}\n\n.tw-border-transparent {\n  border-color: transparent;\n}\n\n.tw-border-black {\n  border-color: #22292f;\n}\n\n.tw-border-grey-darkest {\n  border-color: #3d4852;\n}\n\n.tw-border-grey-darker {\n  border-color: #606f7b;\n}\n\n.tw-border-grey-dark {\n  border-color: #8795a1;\n}\n\n.tw-border-grey {\n  border-color: #b8c2cc;\n}\n\n.tw-border-grey-light {\n  border-color: #dae1e7;\n}\n\n.tw-border-grey-lighter {\n  border-color: #f1f5f8;\n}\n\n.tw-border-grey-lightest {\n  border-color: #f8fafc;\n}\n\n.tw-border-white {\n  border-color: #fff;\n}\n\n.tw-border-red-darkest {\n  border-color: #3b0d0c;\n}\n\n.tw-border-red-darker {\n  border-color: #621b18;\n}\n\n.tw-border-red-dark {\n  border-color: #cc1f1a;\n}\n\n.tw-border-red {\n  border-color: #e3342f;\n}\n\n.tw-border-red-light {\n  border-color: #ef5753;\n}\n\n.tw-border-red-lighter {\n  border-color: #f9acaa;\n}\n\n.tw-border-red-lightest {\n  border-color: #fcebea;\n}\n\n.tw-border-orange-darkest {\n  border-color: #462a16;\n}\n\n.tw-border-orange-darker {\n  border-color: #613b1f;\n}\n\n.tw-border-orange-dark {\n  border-color: #de751f;\n}\n\n.tw-border-orange {\n  border-color: #f6993f;\n}\n\n.tw-border-orange-light {\n  border-color: #faad63;\n}\n\n.tw-border-orange-lighter {\n  border-color: #fcd9b6;\n}\n\n.tw-border-orange-lightest {\n  border-color: #fff5eb;\n}\n\n.tw-border-yellow-darkest {\n  border-color: #453411;\n}\n\n.tw-border-yellow-darker {\n  border-color: #684f1d;\n}\n\n.tw-border-yellow-dark {\n  border-color: #f2d024;\n}\n\n.tw-border-yellow {\n  border-color: #ffed4a;\n}\n\n.tw-border-yellow-light {\n  border-color: #fff382;\n}\n\n.tw-border-yellow-lighter {\n  border-color: #fff9c2;\n}\n\n.tw-border-yellow-lightest {\n  border-color: #fcfbeb;\n}\n\n.tw-border-green-darkest {\n  border-color: #0f2f21;\n}\n\n.tw-border-green-darker {\n  border-color: #1a4731;\n}\n\n.tw-border-green-dark {\n  border-color: #1f9d55;\n}\n\n.tw-border-green {\n  border-color: #38c172;\n}\n\n.tw-border-green-light {\n  border-color: #51d88a;\n}\n\n.tw-border-green-lighter {\n  border-color: #a2f5bf;\n}\n\n.tw-border-green-lightest {\n  border-color: #e3fcec;\n}\n\n.tw-border-teal-darkest {\n  border-color: #0d3331;\n}\n\n.tw-border-teal-darker {\n  border-color: #20504f;\n}\n\n.tw-border-teal-dark {\n  border-color: #38a89d;\n}\n\n.tw-border-teal {\n  border-color: #4dc0b5;\n}\n\n.tw-border-teal-light {\n  border-color: #64d5ca;\n}\n\n.tw-border-teal-lighter {\n  border-color: #a0f0ed;\n}\n\n.tw-border-teal-lightest {\n  border-color: #e8fffe;\n}\n\n.tw-border-blue-darkest {\n  border-color: #12283a;\n}\n\n.tw-border-blue-darker {\n  border-color: #1c3d5a;\n}\n\n.tw-border-blue-dark {\n  border-color: #2779bd;\n}\n\n.tw-border-blue {\n  border-color: #3490dc;\n}\n\n.tw-border-blue-light {\n  border-color: #6cb2eb;\n}\n\n.tw-border-blue-lighter {\n  border-color: #bcdefa;\n}\n\n.tw-border-blue-lightest {\n  border-color: #eff8ff;\n}\n\n.tw-border-indigo-darkest {\n  border-color: #191e38;\n}\n\n.tw-border-indigo-darker {\n  border-color: #2f365f;\n}\n\n.tw-border-indigo-dark {\n  border-color: #5661b3;\n}\n\n.tw-border-indigo {\n  border-color: #6574cd;\n}\n\n.tw-border-indigo-light {\n  border-color: #7886d7;\n}\n\n.tw-border-indigo-lighter {\n  border-color: #b2b7ff;\n}\n\n.tw-border-indigo-lightest {\n  border-color: #e6e8ff;\n}\n\n.tw-border-purple-darkest {\n  border-color: #21183c;\n}\n\n.tw-border-purple-darker {\n  border-color: #382b5f;\n}\n\n.tw-border-purple-dark {\n  border-color: #794acf;\n}\n\n.tw-border-purple {\n  border-color: #9561e2;\n}\n\n.tw-border-purple-light {\n  border-color: #a779e9;\n}\n\n.tw-border-purple-lighter {\n  border-color: #d6bbfc;\n}\n\n.tw-border-purple-lightest {\n  border-color: #f3ebff;\n}\n\n.tw-border-pink-darkest {\n  border-color: #451225;\n}\n\n.tw-border-pink-darker {\n  border-color: #6f213f;\n}\n\n.tw-border-pink-dark {\n  border-color: #eb5286;\n}\n\n.tw-border-pink {\n  border-color: #f66d9b;\n}\n\n.tw-border-pink-light {\n  border-color: #fa7ea8;\n}\n\n.tw-border-pink-lighter {\n  border-color: #ffbbca;\n}\n\n.tw-border-pink-lightest {\n  border-color: #ffebef;\n}\n\n.hover\\:tw-border-transparent:hover {\n  border-color: transparent;\n}\n\n.hover\\:tw-border-black:hover {\n  border-color: #22292f;\n}\n\n.hover\\:tw-border-grey-darkest:hover {\n  border-color: #3d4852;\n}\n\n.hover\\:tw-border-grey-darker:hover {\n  border-color: #606f7b;\n}\n\n.hover\\:tw-border-grey-dark:hover {\n  border-color: #8795a1;\n}\n\n.hover\\:tw-border-grey:hover {\n  border-color: #b8c2cc;\n}\n\n.hover\\:tw-border-grey-light:hover {\n  border-color: #dae1e7;\n}\n\n.hover\\:tw-border-grey-lighter:hover {\n  border-color: #f1f5f8;\n}\n\n.hover\\:tw-border-grey-lightest:hover {\n  border-color: #f8fafc;\n}\n\n.hover\\:tw-border-white:hover {\n  border-color: #fff;\n}\n\n.hover\\:tw-border-red-darkest:hover {\n  border-color: #3b0d0c;\n}\n\n.hover\\:tw-border-red-darker:hover {\n  border-color: #621b18;\n}\n\n.hover\\:tw-border-red-dark:hover {\n  border-color: #cc1f1a;\n}\n\n.hover\\:tw-border-red:hover {\n  border-color: #e3342f;\n}\n\n.hover\\:tw-border-red-light:hover {\n  border-color: #ef5753;\n}\n\n.hover\\:tw-border-red-lighter:hover {\n  border-color: #f9acaa;\n}\n\n.hover\\:tw-border-red-lightest:hover {\n  border-color: #fcebea;\n}\n\n.hover\\:tw-border-orange-darkest:hover {\n  border-color: #462a16;\n}\n\n.hover\\:tw-border-orange-darker:hover {\n  border-color: #613b1f;\n}\n\n.hover\\:tw-border-orange-dark:hover {\n  border-color: #de751f;\n}\n\n.hover\\:tw-border-orange:hover {\n  border-color: #f6993f;\n}\n\n.hover\\:tw-border-orange-light:hover {\n  border-color: #faad63;\n}\n\n.hover\\:tw-border-orange-lighter:hover {\n  border-color: #fcd9b6;\n}\n\n.hover\\:tw-border-orange-lightest:hover {\n  border-color: #fff5eb;\n}\n\n.hover\\:tw-border-yellow-darkest:hover {\n  border-color: #453411;\n}\n\n.hover\\:tw-border-yellow-darker:hover {\n  border-color: #684f1d;\n}\n\n.hover\\:tw-border-yellow-dark:hover {\n  border-color: #f2d024;\n}\n\n.hover\\:tw-border-yellow:hover {\n  border-color: #ffed4a;\n}\n\n.hover\\:tw-border-yellow-light:hover {\n  border-color: #fff382;\n}\n\n.hover\\:tw-border-yellow-lighter:hover {\n  border-color: #fff9c2;\n}\n\n.hover\\:tw-border-yellow-lightest:hover {\n  border-color: #fcfbeb;\n}\n\n.hover\\:tw-border-green-darkest:hover {\n  border-color: #0f2f21;\n}\n\n.hover\\:tw-border-green-darker:hover {\n  border-color: #1a4731;\n}\n\n.hover\\:tw-border-green-dark:hover {\n  border-color: #1f9d55;\n}\n\n.hover\\:tw-border-green:hover {\n  border-color: #38c172;\n}\n\n.hover\\:tw-border-green-light:hover {\n  border-color: #51d88a;\n}\n\n.hover\\:tw-border-green-lighter:hover {\n  border-color: #a2f5bf;\n}\n\n.hover\\:tw-border-green-lightest:hover {\n  border-color: #e3fcec;\n}\n\n.hover\\:tw-border-teal-darkest:hover {\n  border-color: #0d3331;\n}\n\n.hover\\:tw-border-teal-darker:hover {\n  border-color: #20504f;\n}\n\n.hover\\:tw-border-teal-dark:hover {\n  border-color: #38a89d;\n}\n\n.hover\\:tw-border-teal:hover {\n  border-color: #4dc0b5;\n}\n\n.hover\\:tw-border-teal-light:hover {\n  border-color: #64d5ca;\n}\n\n.hover\\:tw-border-teal-lighter:hover {\n  border-color: #a0f0ed;\n}\n\n.hover\\:tw-border-teal-lightest:hover {\n  border-color: #e8fffe;\n}\n\n.hover\\:tw-border-blue-darkest:hover {\n  border-color: #12283a;\n}\n\n.hover\\:tw-border-blue-darker:hover {\n  border-color: #1c3d5a;\n}\n\n.hover\\:tw-border-blue-dark:hover {\n  border-color: #2779bd;\n}\n\n.hover\\:tw-border-blue:hover {\n  border-color: #3490dc;\n}\n\n.hover\\:tw-border-blue-light:hover {\n  border-color: #6cb2eb;\n}\n\n.hover\\:tw-border-blue-lighter:hover {\n  border-color: #bcdefa;\n}\n\n.hover\\:tw-border-blue-lightest:hover {\n  border-color: #eff8ff;\n}\n\n.hover\\:tw-border-indigo-darkest:hover {\n  border-color: #191e38;\n}\n\n.hover\\:tw-border-indigo-darker:hover {\n  border-color: #2f365f;\n}\n\n.hover\\:tw-border-indigo-dark:hover {\n  border-color: #5661b3;\n}\n\n.hover\\:tw-border-indigo:hover {\n  border-color: #6574cd;\n}\n\n.hover\\:tw-border-indigo-light:hover {\n  border-color: #7886d7;\n}\n\n.hover\\:tw-border-indigo-lighter:hover {\n  border-color: #b2b7ff;\n}\n\n.hover\\:tw-border-indigo-lightest:hover {\n  border-color: #e6e8ff;\n}\n\n.hover\\:tw-border-purple-darkest:hover {\n  border-color: #21183c;\n}\n\n.hover\\:tw-border-purple-darker:hover {\n  border-color: #382b5f;\n}\n\n.hover\\:tw-border-purple-dark:hover {\n  border-color: #794acf;\n}\n\n.hover\\:tw-border-purple:hover {\n  border-color: #9561e2;\n}\n\n.hover\\:tw-border-purple-light:hover {\n  border-color: #a779e9;\n}\n\n.hover\\:tw-border-purple-lighter:hover {\n  border-color: #d6bbfc;\n}\n\n.hover\\:tw-border-purple-lightest:hover {\n  border-color: #f3ebff;\n}\n\n.hover\\:tw-border-pink-darkest:hover {\n  border-color: #451225;\n}\n\n.hover\\:tw-border-pink-darker:hover {\n  border-color: #6f213f;\n}\n\n.hover\\:tw-border-pink-dark:hover {\n  border-color: #eb5286;\n}\n\n.hover\\:tw-border-pink:hover {\n  border-color: #f66d9b;\n}\n\n.hover\\:tw-border-pink-light:hover {\n  border-color: #fa7ea8;\n}\n\n.hover\\:tw-border-pink-lighter:hover {\n  border-color: #ffbbca;\n}\n\n.hover\\:tw-border-pink-lightest:hover {\n  border-color: #ffebef;\n}\n\n.focus\\:tw-border-transparent:focus {\n  border-color: transparent;\n}\n\n.focus\\:tw-border-black:focus {\n  border-color: #22292f;\n}\n\n.focus\\:tw-border-grey-darkest:focus {\n  border-color: #3d4852;\n}\n\n.focus\\:tw-border-grey-darker:focus {\n  border-color: #606f7b;\n}\n\n.focus\\:tw-border-grey-dark:focus {\n  border-color: #8795a1;\n}\n\n.focus\\:tw-border-grey:focus {\n  border-color: #b8c2cc;\n}\n\n.focus\\:tw-border-grey-light:focus {\n  border-color: #dae1e7;\n}\n\n.focus\\:tw-border-grey-lighter:focus {\n  border-color: #f1f5f8;\n}\n\n.focus\\:tw-border-grey-lightest:focus {\n  border-color: #f8fafc;\n}\n\n.focus\\:tw-border-white:focus {\n  border-color: #fff;\n}\n\n.focus\\:tw-border-red-darkest:focus {\n  border-color: #3b0d0c;\n}\n\n.focus\\:tw-border-red-darker:focus {\n  border-color: #621b18;\n}\n\n.focus\\:tw-border-red-dark:focus {\n  border-color: #cc1f1a;\n}\n\n.focus\\:tw-border-red:focus {\n  border-color: #e3342f;\n}\n\n.focus\\:tw-border-red-light:focus {\n  border-color: #ef5753;\n}\n\n.focus\\:tw-border-red-lighter:focus {\n  border-color: #f9acaa;\n}\n\n.focus\\:tw-border-red-lightest:focus {\n  border-color: #fcebea;\n}\n\n.focus\\:tw-border-orange-darkest:focus {\n  border-color: #462a16;\n}\n\n.focus\\:tw-border-orange-darker:focus {\n  border-color: #613b1f;\n}\n\n.focus\\:tw-border-orange-dark:focus {\n  border-color: #de751f;\n}\n\n.focus\\:tw-border-orange:focus {\n  border-color: #f6993f;\n}\n\n.focus\\:tw-border-orange-light:focus {\n  border-color: #faad63;\n}\n\n.focus\\:tw-border-orange-lighter:focus {\n  border-color: #fcd9b6;\n}\n\n.focus\\:tw-border-orange-lightest:focus {\n  border-color: #fff5eb;\n}\n\n.focus\\:tw-border-yellow-darkest:focus {\n  border-color: #453411;\n}\n\n.focus\\:tw-border-yellow-darker:focus {\n  border-color: #684f1d;\n}\n\n.focus\\:tw-border-yellow-dark:focus {\n  border-color: #f2d024;\n}\n\n.focus\\:tw-border-yellow:focus {\n  border-color: #ffed4a;\n}\n\n.focus\\:tw-border-yellow-light:focus {\n  border-color: #fff382;\n}\n\n.focus\\:tw-border-yellow-lighter:focus {\n  border-color: #fff9c2;\n}\n\n.focus\\:tw-border-yellow-lightest:focus {\n  border-color: #fcfbeb;\n}\n\n.focus\\:tw-border-green-darkest:focus {\n  border-color: #0f2f21;\n}\n\n.focus\\:tw-border-green-darker:focus {\n  border-color: #1a4731;\n}\n\n.focus\\:tw-border-green-dark:focus {\n  border-color: #1f9d55;\n}\n\n.focus\\:tw-border-green:focus {\n  border-color: #38c172;\n}\n\n.focus\\:tw-border-green-light:focus {\n  border-color: #51d88a;\n}\n\n.focus\\:tw-border-green-lighter:focus {\n  border-color: #a2f5bf;\n}\n\n.focus\\:tw-border-green-lightest:focus {\n  border-color: #e3fcec;\n}\n\n.focus\\:tw-border-teal-darkest:focus {\n  border-color: #0d3331;\n}\n\n.focus\\:tw-border-teal-darker:focus {\n  border-color: #20504f;\n}\n\n.focus\\:tw-border-teal-dark:focus {\n  border-color: #38a89d;\n}\n\n.focus\\:tw-border-teal:focus {\n  border-color: #4dc0b5;\n}\n\n.focus\\:tw-border-teal-light:focus {\n  border-color: #64d5ca;\n}\n\n.focus\\:tw-border-teal-lighter:focus {\n  border-color: #a0f0ed;\n}\n\n.focus\\:tw-border-teal-lightest:focus {\n  border-color: #e8fffe;\n}\n\n.focus\\:tw-border-blue-darkest:focus {\n  border-color: #12283a;\n}\n\n.focus\\:tw-border-blue-darker:focus {\n  border-color: #1c3d5a;\n}\n\n.focus\\:tw-border-blue-dark:focus {\n  border-color: #2779bd;\n}\n\n.focus\\:tw-border-blue:focus {\n  border-color: #3490dc;\n}\n\n.focus\\:tw-border-blue-light:focus {\n  border-color: #6cb2eb;\n}\n\n.focus\\:tw-border-blue-lighter:focus {\n  border-color: #bcdefa;\n}\n\n.focus\\:tw-border-blue-lightest:focus {\n  border-color: #eff8ff;\n}\n\n.focus\\:tw-border-indigo-darkest:focus {\n  border-color: #191e38;\n}\n\n.focus\\:tw-border-indigo-darker:focus {\n  border-color: #2f365f;\n}\n\n.focus\\:tw-border-indigo-dark:focus {\n  border-color: #5661b3;\n}\n\n.focus\\:tw-border-indigo:focus {\n  border-color: #6574cd;\n}\n\n.focus\\:tw-border-indigo-light:focus {\n  border-color: #7886d7;\n}\n\n.focus\\:tw-border-indigo-lighter:focus {\n  border-color: #b2b7ff;\n}\n\n.focus\\:tw-border-indigo-lightest:focus {\n  border-color: #e6e8ff;\n}\n\n.focus\\:tw-border-purple-darkest:focus {\n  border-color: #21183c;\n}\n\n.focus\\:tw-border-purple-darker:focus {\n  border-color: #382b5f;\n}\n\n.focus\\:tw-border-purple-dark:focus {\n  border-color: #794acf;\n}\n\n.focus\\:tw-border-purple:focus {\n  border-color: #9561e2;\n}\n\n.focus\\:tw-border-purple-light:focus {\n  border-color: #a779e9;\n}\n\n.focus\\:tw-border-purple-lighter:focus {\n  border-color: #d6bbfc;\n}\n\n.focus\\:tw-border-purple-lightest:focus {\n  border-color: #f3ebff;\n}\n\n.focus\\:tw-border-pink-darkest:focus {\n  border-color: #451225;\n}\n\n.focus\\:tw-border-pink-darker:focus {\n  border-color: #6f213f;\n}\n\n.focus\\:tw-border-pink-dark:focus {\n  border-color: #eb5286;\n}\n\n.focus\\:tw-border-pink:focus {\n  border-color: #f66d9b;\n}\n\n.focus\\:tw-border-pink-light:focus {\n  border-color: #fa7ea8;\n}\n\n.focus\\:tw-border-pink-lighter:focus {\n  border-color: #ffbbca;\n}\n\n.focus\\:tw-border-pink-lightest:focus {\n  border-color: #ffebef;\n}\n\n.tw-rounded-none {\n  border-radius: 0;\n}\n\n.tw-rounded-sm {\n  border-radius: .125rem;\n}\n\n.tw-rounded {\n  border-radius: .25rem;\n}\n\n.tw-rounded-lg {\n  border-radius: .5rem;\n}\n\n.tw-rounded-full {\n  border-radius: 9999px;\n}\n\n.tw-rounded-t-none {\n  border-top-left-radius: 0;\n  border-top-right-radius: 0;\n}\n\n.tw-rounded-r-none {\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0;\n}\n\n.tw-rounded-b-none {\n  border-bottom-right-radius: 0;\n  border-bottom-left-radius: 0;\n}\n\n.tw-rounded-l-none {\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0;\n}\n\n.tw-rounded-t-sm {\n  border-top-left-radius: .125rem;\n  border-top-right-radius: .125rem;\n}\n\n.tw-rounded-r-sm {\n  border-top-right-radius: .125rem;\n  border-bottom-right-radius: .125rem;\n}\n\n.tw-rounded-b-sm {\n  border-bottom-right-radius: .125rem;\n  border-bottom-left-radius: .125rem;\n}\n\n.tw-rounded-l-sm {\n  border-top-left-radius: .125rem;\n  border-bottom-left-radius: .125rem;\n}\n\n.tw-rounded-t {\n  border-top-left-radius: .25rem;\n  border-top-right-radius: .25rem;\n}\n\n.tw-rounded-r {\n  border-top-right-radius: .25rem;\n  border-bottom-right-radius: .25rem;\n}\n\n.tw-rounded-b {\n  border-bottom-right-radius: .25rem;\n  border-bottom-left-radius: .25rem;\n}\n\n.tw-rounded-l {\n  border-top-left-radius: .25rem;\n  border-bottom-left-radius: .25rem;\n}\n\n.tw-rounded-t-lg {\n  border-top-left-radius: .5rem;\n  border-top-right-radius: .5rem;\n}\n\n.tw-rounded-r-lg {\n  border-top-right-radius: .5rem;\n  border-bottom-right-radius: .5rem;\n}\n\n.tw-rounded-b-lg {\n  border-bottom-right-radius: .5rem;\n  border-bottom-left-radius: .5rem;\n}\n\n.tw-rounded-l-lg {\n  border-top-left-radius: .5rem;\n  border-bottom-left-radius: .5rem;\n}\n\n.tw-rounded-t-full {\n  border-top-left-radius: 9999px;\n  border-top-right-radius: 9999px;\n}\n\n.tw-rounded-r-full {\n  border-top-right-radius: 9999px;\n  border-bottom-right-radius: 9999px;\n}\n\n.tw-rounded-b-full {\n  border-bottom-right-radius: 9999px;\n  border-bottom-left-radius: 9999px;\n}\n\n.tw-rounded-l-full {\n  border-top-left-radius: 9999px;\n  border-bottom-left-radius: 9999px;\n}\n\n.tw-rounded-tl-none {\n  border-top-left-radius: 0;\n}\n\n.tw-rounded-tr-none {\n  border-top-right-radius: 0;\n}\n\n.tw-rounded-br-none {\n  border-bottom-right-radius: 0;\n}\n\n.tw-rounded-bl-none {\n  border-bottom-left-radius: 0;\n}\n\n.tw-rounded-tl-sm {\n  border-top-left-radius: .125rem;\n}\n\n.tw-rounded-tr-sm {\n  border-top-right-radius: .125rem;\n}\n\n.tw-rounded-br-sm {\n  border-bottom-right-radius: .125rem;\n}\n\n.tw-rounded-bl-sm {\n  border-bottom-left-radius: .125rem;\n}\n\n.tw-rounded-tl {\n  border-top-left-radius: .25rem;\n}\n\n.tw-rounded-tr {\n  border-top-right-radius: .25rem;\n}\n\n.tw-rounded-br {\n  border-bottom-right-radius: .25rem;\n}\n\n.tw-rounded-bl {\n  border-bottom-left-radius: .25rem;\n}\n\n.tw-rounded-tl-lg {\n  border-top-left-radius: .5rem;\n}\n\n.tw-rounded-tr-lg {\n  border-top-right-radius: .5rem;\n}\n\n.tw-rounded-br-lg {\n  border-bottom-right-radius: .5rem;\n}\n\n.tw-rounded-bl-lg {\n  border-bottom-left-radius: .5rem;\n}\n\n.tw-rounded-tl-full {\n  border-top-left-radius: 9999px;\n}\n\n.tw-rounded-tr-full {\n  border-top-right-radius: 9999px;\n}\n\n.tw-rounded-br-full {\n  border-bottom-right-radius: 9999px;\n}\n\n.tw-rounded-bl-full {\n  border-bottom-left-radius: 9999px;\n}\n\n.tw-border-solid {\n  border-style: solid;\n}\n\n.tw-border-dashed {\n  border-style: dashed;\n}\n\n.tw-border-dotted {\n  border-style: dotted;\n}\n\n.tw-border-none {\n  border-style: none;\n}\n\n.tw-border-0 {\n  border-width: 0;\n}\n\n.tw-border-2 {\n  border-width: 2px;\n}\n\n.tw-border-4 {\n  border-width: 4px;\n}\n\n.tw-border-8 {\n  border-width: 8px;\n}\n\n.tw-border {\n  border-width: 1px;\n}\n\n.tw-border-t-0 {\n  border-top-width: 0;\n}\n\n.tw-border-r-0 {\n  border-right-width: 0;\n}\n\n.tw-border-b-0 {\n  border-bottom-width: 0;\n}\n\n.tw-border-l-0 {\n  border-left-width: 0;\n}\n\n.tw-border-t-2 {\n  border-top-width: 2px;\n}\n\n.tw-border-r-2 {\n  border-right-width: 2px;\n}\n\n.tw-border-b-2 {\n  border-bottom-width: 2px;\n}\n\n.tw-border-l-2 {\n  border-left-width: 2px;\n}\n\n.tw-border-t-4 {\n  border-top-width: 4px;\n}\n\n.tw-border-r-4 {\n  border-right-width: 4px;\n}\n\n.tw-border-b-4 {\n  border-bottom-width: 4px;\n}\n\n.tw-border-l-4 {\n  border-left-width: 4px;\n}\n\n.tw-border-t-8 {\n  border-top-width: 8px;\n}\n\n.tw-border-r-8 {\n  border-right-width: 8px;\n}\n\n.tw-border-b-8 {\n  border-bottom-width: 8px;\n}\n\n.tw-border-l-8 {\n  border-left-width: 8px;\n}\n\n.tw-border-t {\n  border-top-width: 1px;\n}\n\n.tw-border-r {\n  border-right-width: 1px;\n}\n\n.tw-border-b {\n  border-bottom-width: 1px;\n}\n\n.tw-border-l {\n  border-left-width: 1px;\n}\n\n.tw-cursor-auto {\n  cursor: auto;\n}\n\n.tw-cursor-default {\n  cursor: default;\n}\n\n.tw-cursor-pointer {\n  cursor: pointer;\n}\n\n.tw-cursor-wait {\n  cursor: wait;\n}\n\n.tw-cursor-move {\n  cursor: move;\n}\n\n.tw-cursor-not-allowed {\n  cursor: not-allowed;\n}\n\n.tw-block {\n  display: block;\n}\n\n.tw-inline-block {\n  display: inline-block;\n}\n\n.tw-inline {\n  display: inline;\n}\n\n.tw-table {\n  display: table;\n}\n\n.tw-table-row {\n  display: table-row;\n}\n\n.tw-table-cell {\n  display: table-cell;\n}\n\n.tw-hidden {\n  display: none;\n}\n\n.tw-flex {\n  display: flex;\n}\n\n.tw-inline-flex {\n  display: inline-flex;\n}\n\n.tw-flex-row {\n  flex-direction: row;\n}\n\n.tw-flex-row-reverse {\n  flex-direction: row-reverse;\n}\n\n.tw-flex-col {\n  flex-direction: column;\n}\n\n.tw-flex-col-reverse {\n  flex-direction: column-reverse;\n}\n\n.tw-flex-wrap {\n  flex-wrap: wrap;\n}\n\n.tw-flex-wrap-reverse {\n  flex-wrap: wrap-reverse;\n}\n\n.tw-flex-no-wrap {\n  flex-wrap: nowrap;\n}\n\n.tw-items-start {\n  align-items: flex-start;\n}\n\n.tw-items-end {\n  align-items: flex-end;\n}\n\n.tw-items-center {\n  align-items: center;\n}\n\n.tw-items-baseline {\n  align-items: baseline;\n}\n\n.tw-items-stretch {\n  align-items: stretch;\n}\n\n.tw-self-auto {\n  align-self: auto;\n}\n\n.tw-self-start {\n  align-self: flex-start;\n}\n\n.tw-self-end {\n  align-self: flex-end;\n}\n\n.tw-self-center {\n  align-self: center;\n}\n\n.tw-self-stretch {\n  align-self: stretch;\n}\n\n.tw-justify-start {\n  justify-content: flex-start;\n}\n\n.tw-justify-end {\n  justify-content: flex-end;\n}\n\n.tw-justify-center {\n  justify-content: center;\n}\n\n.tw-justify-between {\n  justify-content: space-between;\n}\n\n.tw-justify-around {\n  justify-content: space-around;\n}\n\n.tw-content-center {\n  align-content: center;\n}\n\n.tw-content-start {\n  align-content: flex-start;\n}\n\n.tw-content-end {\n  align-content: flex-end;\n}\n\n.tw-content-between {\n  align-content: space-between;\n}\n\n.tw-content-around {\n  align-content: space-around;\n}\n\n.tw-flex-1 {\n  flex: 1 1 0%;\n}\n\n.tw-flex-auto {\n  flex: 1 1 auto;\n}\n\n.tw-flex-initial {\n  flex: 0 1 auto;\n}\n\n.tw-flex-none {\n  flex: none;\n}\n\n.tw-flex-grow {\n  flex-grow: 1;\n}\n\n.tw-flex-shrink {\n  flex-shrink: 1;\n}\n\n.tw-flex-no-grow {\n  flex-grow: 0;\n}\n\n.tw-flex-no-shrink {\n  flex-shrink: 0;\n}\n\n.tw-float-right {\n  float: right;\n}\n\n.tw-float-left {\n  float: left;\n}\n\n.tw-float-none {\n  float: none;\n}\n\n.tw-clearfix:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.tw-font-sans {\n  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.tw-font-serif {\n  font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;\n}\n\n.tw-font-mono {\n  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;\n}\n\n.tw-font-logo {\n  font-family: Crafty Girls, cursive;\n}\n\n.tw-font-hairline {\n  font-weight: 100;\n}\n\n.tw-font-thin {\n  font-weight: 200;\n}\n\n.tw-font-light {\n  font-weight: 300;\n}\n\n.tw-font-normal {\n  font-weight: 400;\n}\n\n.tw-font-medium {\n  font-weight: 500;\n}\n\n.tw-font-semibold {\n  font-weight: 600;\n}\n\n.tw-font-bold {\n  font-weight: 700;\n}\n\n.tw-font-extrabold {\n  font-weight: 800;\n}\n\n.tw-font-black {\n  font-weight: 900;\n}\n\n.hover\\:tw-font-hairline:hover {\n  font-weight: 100;\n}\n\n.hover\\:tw-font-thin:hover {\n  font-weight: 200;\n}\n\n.hover\\:tw-font-light:hover {\n  font-weight: 300;\n}\n\n.hover\\:tw-font-normal:hover {\n  font-weight: 400;\n}\n\n.hover\\:tw-font-medium:hover {\n  font-weight: 500;\n}\n\n.hover\\:tw-font-semibold:hover {\n  font-weight: 600;\n}\n\n.hover\\:tw-font-bold:hover {\n  font-weight: 700;\n}\n\n.hover\\:tw-font-extrabold:hover {\n  font-weight: 800;\n}\n\n.hover\\:tw-font-black:hover {\n  font-weight: 900;\n}\n\n.focus\\:tw-font-hairline:focus {\n  font-weight: 100;\n}\n\n.focus\\:tw-font-thin:focus {\n  font-weight: 200;\n}\n\n.focus\\:tw-font-light:focus {\n  font-weight: 300;\n}\n\n.focus\\:tw-font-normal:focus {\n  font-weight: 400;\n}\n\n.focus\\:tw-font-medium:focus {\n  font-weight: 500;\n}\n\n.focus\\:tw-font-semibold:focus {\n  font-weight: 600;\n}\n\n.focus\\:tw-font-bold:focus {\n  font-weight: 700;\n}\n\n.focus\\:tw-font-extrabold:focus {\n  font-weight: 800;\n}\n\n.focus\\:tw-font-black:focus {\n  font-weight: 900;\n}\n\n.tw-h-1 {\n  height: .25rem;\n}\n\n.tw-h-2 {\n  height: .5rem;\n}\n\n.tw-h-3 {\n  height: .75rem;\n}\n\n.tw-h-4 {\n  height: 1rem;\n}\n\n.tw-h-5 {\n  height: 1.25rem;\n}\n\n.tw-h-6 {\n  height: 1.5rem;\n}\n\n.tw-h-8 {\n  height: 2rem;\n}\n\n.tw-h-10 {\n  height: 2.5rem;\n}\n\n.tw-h-12 {\n  height: 3rem;\n}\n\n.tw-h-16 {\n  height: 4rem;\n}\n\n.tw-h-24 {\n  height: 6rem;\n}\n\n.tw-h-32 {\n  height: 8rem;\n}\n\n.tw-h-48 {\n  height: 12rem;\n}\n\n.tw-h-64 {\n  height: 16rem;\n}\n\n.tw-h-auto {\n  height: auto;\n}\n\n.tw-h-px {\n  height: 1px;\n}\n\n.tw-h-full {\n  height: 100%;\n}\n\n.tw-h-screen {\n  height: 100vh;\n}\n\n.tw-leading-none {\n  line-height: 1;\n}\n\n.tw-leading-tight {\n  line-height: 1.25;\n}\n\n.tw-leading-normal {\n  line-height: 1.5;\n}\n\n.tw-leading-loose {\n  line-height: 2;\n}\n\n.tw-m-0 {\n  margin: 0;\n}\n\n.tw-m-1 {\n  margin: .25rem;\n}\n\n.tw-m-2 {\n  margin: .5rem;\n}\n\n.tw-m-3 {\n  margin: .75rem;\n}\n\n.tw-m-4 {\n  margin: 1rem;\n}\n\n.tw-m-5 {\n  margin: 1.25rem;\n}\n\n.tw-m-6 {\n  margin: 1.5rem;\n}\n\n.tw-m-8 {\n  margin: 2rem;\n}\n\n.tw-m-10 {\n  margin: 2.5rem;\n}\n\n.tw-m-12 {\n  margin: 3rem;\n}\n\n.tw-m-16 {\n  margin: 4rem;\n}\n\n.tw-m-20 {\n  margin: 5rem;\n}\n\n.tw-m-24 {\n  margin: 6rem;\n}\n\n.tw-m-32 {\n  margin: 8rem;\n}\n\n.tw-m-auto {\n  margin: auto;\n}\n\n.tw-m-px {\n  margin: 1px;\n}\n\n.tw-my-0 {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.tw-mx-0 {\n  margin-left: 0;\n  margin-right: 0;\n}\n\n.tw-my-1 {\n  margin-top: .25rem;\n  margin-bottom: .25rem;\n}\n\n.tw-mx-1 {\n  margin-left: .25rem;\n  margin-right: .25rem;\n}\n\n.tw-my-2 {\n  margin-top: .5rem;\n  margin-bottom: .5rem;\n}\n\n.tw-mx-2 {\n  margin-left: .5rem;\n  margin-right: .5rem;\n}\n\n.tw-my-3 {\n  margin-top: .75rem;\n  margin-bottom: .75rem;\n}\n\n.tw-mx-3 {\n  margin-left: .75rem;\n  margin-right: .75rem;\n}\n\n.tw-my-4 {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n}\n\n.tw-mx-4 {\n  margin-left: 1rem;\n  margin-right: 1rem;\n}\n\n.tw-my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n\n.tw-mx-5 {\n  margin-left: 1.25rem;\n  margin-right: 1.25rem;\n}\n\n.tw-my-6 {\n  margin-top: 1.5rem;\n  margin-bottom: 1.5rem;\n}\n\n.tw-mx-6 {\n  margin-left: 1.5rem;\n  margin-right: 1.5rem;\n}\n\n.tw-my-8 {\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.tw-mx-8 {\n  margin-left: 2rem;\n  margin-right: 2rem;\n}\n\n.tw-my-10 {\n  margin-top: 2.5rem;\n  margin-bottom: 2.5rem;\n}\n\n.tw-mx-10 {\n  margin-left: 2.5rem;\n  margin-right: 2.5rem;\n}\n\n.tw-my-12 {\n  margin-top: 3rem;\n  margin-bottom: 3rem;\n}\n\n.tw-mx-12 {\n  margin-left: 3rem;\n  margin-right: 3rem;\n}\n\n.tw-my-16 {\n  margin-top: 4rem;\n  margin-bottom: 4rem;\n}\n\n.tw-mx-16 {\n  margin-left: 4rem;\n  margin-right: 4rem;\n}\n\n.tw-my-20 {\n  margin-top: 5rem;\n  margin-bottom: 5rem;\n}\n\n.tw-mx-20 {\n  margin-left: 5rem;\n  margin-right: 5rem;\n}\n\n.tw-my-24 {\n  margin-top: 6rem;\n  margin-bottom: 6rem;\n}\n\n.tw-mx-24 {\n  margin-left: 6rem;\n  margin-right: 6rem;\n}\n\n.tw-my-32 {\n  margin-top: 8rem;\n  margin-bottom: 8rem;\n}\n\n.tw-mx-32 {\n  margin-left: 8rem;\n  margin-right: 8rem;\n}\n\n.tw-my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.tw-mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.tw-my-px {\n  margin-top: 1px;\n  margin-bottom: 1px;\n}\n\n.tw-mx-px {\n  margin-left: 1px;\n  margin-right: 1px;\n}\n\n.tw-mt-0 {\n  margin-top: 0;\n}\n\n.tw-mr-0 {\n  margin-right: 0;\n}\n\n.tw-mb-0 {\n  margin-bottom: 0;\n}\n\n.tw-ml-0 {\n  margin-left: 0;\n}\n\n.tw-mt-1 {\n  margin-top: .25rem;\n}\n\n.tw-mr-1 {\n  margin-right: .25rem;\n}\n\n.tw-mb-1 {\n  margin-bottom: .25rem;\n}\n\n.tw-ml-1 {\n  margin-left: .25rem;\n}\n\n.tw-mt-2 {\n  margin-top: .5rem;\n}\n\n.tw-mr-2 {\n  margin-right: .5rem;\n}\n\n.tw-mb-2 {\n  margin-bottom: .5rem;\n}\n\n.tw-ml-2 {\n  margin-left: .5rem;\n}\n\n.tw-mt-3 {\n  margin-top: .75rem;\n}\n\n.tw-mr-3 {\n  margin-right: .75rem;\n}\n\n.tw-mb-3 {\n  margin-bottom: .75rem;\n}\n\n.tw-ml-3 {\n  margin-left: .75rem;\n}\n\n.tw-mt-4 {\n  margin-top: 1rem;\n}\n\n.tw-mr-4 {\n  margin-right: 1rem;\n}\n\n.tw-mb-4 {\n  margin-bottom: 1rem;\n}\n\n.tw-ml-4 {\n  margin-left: 1rem;\n}\n\n.tw-mt-5 {\n  margin-top: 1.25rem;\n}\n\n.tw-mr-5 {\n  margin-right: 1.25rem;\n}\n\n.tw-mb-5 {\n  margin-bottom: 1.25rem;\n}\n\n.tw-ml-5 {\n  margin-left: 1.25rem;\n}\n\n.tw-mt-6 {\n  margin-top: 1.5rem;\n}\n\n.tw-mr-6 {\n  margin-right: 1.5rem;\n}\n\n.tw-mb-6 {\n  margin-bottom: 1.5rem;\n}\n\n.tw-ml-6 {\n  margin-left: 1.5rem;\n}\n\n.tw-mt-8 {\n  margin-top: 2rem;\n}\n\n.tw-mr-8 {\n  margin-right: 2rem;\n}\n\n.tw-mb-8 {\n  margin-bottom: 2rem;\n}\n\n.tw-ml-8 {\n  margin-left: 2rem;\n}\n\n.tw-mt-10 {\n  margin-top: 2.5rem;\n}\n\n.tw-mr-10 {\n  margin-right: 2.5rem;\n}\n\n.tw-mb-10 {\n  margin-bottom: 2.5rem;\n}\n\n.tw-ml-10 {\n  margin-left: 2.5rem;\n}\n\n.tw-mt-12 {\n  margin-top: 3rem;\n}\n\n.tw-mr-12 {\n  margin-right: 3rem;\n}\n\n.tw-mb-12 {\n  margin-bottom: 3rem;\n}\n\n.tw-ml-12 {\n  margin-left: 3rem;\n}\n\n.tw-mt-16 {\n  margin-top: 4rem;\n}\n\n.tw-mr-16 {\n  margin-right: 4rem;\n}\n\n.tw-mb-16 {\n  margin-bottom: 4rem;\n}\n\n.tw-ml-16 {\n  margin-left: 4rem;\n}\n\n.tw-mt-20 {\n  margin-top: 5rem;\n}\n\n.tw-mr-20 {\n  margin-right: 5rem;\n}\n\n.tw-mb-20 {\n  margin-bottom: 5rem;\n}\n\n.tw-ml-20 {\n  margin-left: 5rem;\n}\n\n.tw-mt-24 {\n  margin-top: 6rem;\n}\n\n.tw-mr-24 {\n  margin-right: 6rem;\n}\n\n.tw-mb-24 {\n  margin-bottom: 6rem;\n}\n\n.tw-ml-24 {\n  margin-left: 6rem;\n}\n\n.tw-mt-32 {\n  margin-top: 8rem;\n}\n\n.tw-mr-32 {\n  margin-right: 8rem;\n}\n\n.tw-mb-32 {\n  margin-bottom: 8rem;\n}\n\n.tw-ml-32 {\n  margin-left: 8rem;\n}\n\n.tw-mt-auto {\n  margin-top: auto;\n}\n\n.tw-mr-auto {\n  margin-right: auto;\n}\n\n.tw-mb-auto {\n  margin-bottom: auto;\n}\n\n.tw-ml-auto {\n  margin-left: auto;\n}\n\n.tw-mt-px {\n  margin-top: 1px;\n}\n\n.tw-mr-px {\n  margin-right: 1px;\n}\n\n.tw-mb-px {\n  margin-bottom: 1px;\n}\n\n.tw-ml-px {\n  margin-left: 1px;\n}\n\n.tw-max-h-full {\n  max-height: 100%;\n}\n\n.tw-max-h-screen {\n  max-height: 100vh;\n}\n\n.tw-max-w-xs {\n  max-width: 20rem;\n}\n\n.tw-max-w-sm {\n  max-width: 30rem;\n}\n\n.tw-max-w-md {\n  max-width: 40rem;\n}\n\n.tw-max-w-lg {\n  max-width: 50rem;\n}\n\n.tw-max-w-xl {\n  max-width: 60rem;\n}\n\n.tw-max-w-2xl {\n  max-width: 70rem;\n}\n\n.tw-max-w-3xl {\n  max-width: 80rem;\n}\n\n.tw-max-w-4xl {\n  max-width: 90rem;\n}\n\n.tw-max-w-5xl {\n  max-width: 100rem;\n}\n\n.tw-max-w-full {\n  max-width: 100%;\n}\n\n.tw-min-h-0 {\n  min-height: 0;\n}\n\n.tw-min-h-full {\n  min-height: 100%;\n}\n\n.tw-min-h-screen {\n  min-height: 100vh;\n}\n\n.tw-min-w-0 {\n  min-width: 0;\n}\n\n.tw-min-w-full {\n  min-width: 100%;\n}\n\n.tw--m-0 {\n  margin: 0;\n}\n\n.tw--m-1 {\n  margin: -0.25rem;\n}\n\n.tw--m-2 {\n  margin: -0.5rem;\n}\n\n.tw--m-3 {\n  margin: -0.75rem;\n}\n\n.tw--m-4 {\n  margin: -1rem;\n}\n\n.tw--m-5 {\n  margin: -1.25rem;\n}\n\n.tw--m-6 {\n  margin: -1.5rem;\n}\n\n.tw--m-8 {\n  margin: -2rem;\n}\n\n.tw--m-10 {\n  margin: -2.5rem;\n}\n\n.tw--m-12 {\n  margin: -3rem;\n}\n\n.tw--m-16 {\n  margin: -4rem;\n}\n\n.tw--m-20 {\n  margin: -5rem;\n}\n\n.tw--m-24 {\n  margin: -6rem;\n}\n\n.tw--m-32 {\n  margin: -8rem;\n}\n\n.tw--m-px {\n  margin: -1px;\n}\n\n.tw--my-0 {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.tw--mx-0 {\n  margin-left: 0;\n  margin-right: 0;\n}\n\n.tw--my-1 {\n  margin-top: -0.25rem;\n  margin-bottom: -0.25rem;\n}\n\n.tw--mx-1 {\n  margin-left: -0.25rem;\n  margin-right: -0.25rem;\n}\n\n.tw--my-2 {\n  margin-top: -0.5rem;\n  margin-bottom: -0.5rem;\n}\n\n.tw--mx-2 {\n  margin-left: -0.5rem;\n  margin-right: -0.5rem;\n}\n\n.tw--my-3 {\n  margin-top: -0.75rem;\n  margin-bottom: -0.75rem;\n}\n\n.tw--mx-3 {\n  margin-left: -0.75rem;\n  margin-right: -0.75rem;\n}\n\n.tw--my-4 {\n  margin-top: -1rem;\n  margin-bottom: -1rem;\n}\n\n.tw--mx-4 {\n  margin-left: -1rem;\n  margin-right: -1rem;\n}\n\n.tw--my-5 {\n  margin-top: -1.25rem;\n  margin-bottom: -1.25rem;\n}\n\n.tw--mx-5 {\n  margin-left: -1.25rem;\n  margin-right: -1.25rem;\n}\n\n.tw--my-6 {\n  margin-top: -1.5rem;\n  margin-bottom: -1.5rem;\n}\n\n.tw--mx-6 {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n}\n\n.tw--my-8 {\n  margin-top: -2rem;\n  margin-bottom: -2rem;\n}\n\n.tw--mx-8 {\n  margin-left: -2rem;\n  margin-right: -2rem;\n}\n\n.tw--my-10 {\n  margin-top: -2.5rem;\n  margin-bottom: -2.5rem;\n}\n\n.tw--mx-10 {\n  margin-left: -2.5rem;\n  margin-right: -2.5rem;\n}\n\n.tw--my-12 {\n  margin-top: -3rem;\n  margin-bottom: -3rem;\n}\n\n.tw--mx-12 {\n  margin-left: -3rem;\n  margin-right: -3rem;\n}\n\n.tw--my-16 {\n  margin-top: -4rem;\n  margin-bottom: -4rem;\n}\n\n.tw--mx-16 {\n  margin-left: -4rem;\n  margin-right: -4rem;\n}\n\n.tw--my-20 {\n  margin-top: -5rem;\n  margin-bottom: -5rem;\n}\n\n.tw--mx-20 {\n  margin-left: -5rem;\n  margin-right: -5rem;\n}\n\n.tw--my-24 {\n  margin-top: -6rem;\n  margin-bottom: -6rem;\n}\n\n.tw--mx-24 {\n  margin-left: -6rem;\n  margin-right: -6rem;\n}\n\n.tw--my-32 {\n  margin-top: -8rem;\n  margin-bottom: -8rem;\n}\n\n.tw--mx-32 {\n  margin-left: -8rem;\n  margin-right: -8rem;\n}\n\n.tw--my-px {\n  margin-top: -1px;\n  margin-bottom: -1px;\n}\n\n.tw--mx-px {\n  margin-left: -1px;\n  margin-right: -1px;\n}\n\n.tw--mt-0 {\n  margin-top: 0;\n}\n\n.tw--mr-0 {\n  margin-right: 0;\n}\n\n.tw--mb-0 {\n  margin-bottom: 0;\n}\n\n.tw--ml-0 {\n  margin-left: 0;\n}\n\n.tw--mt-1 {\n  margin-top: -0.25rem;\n}\n\n.tw--mr-1 {\n  margin-right: -0.25rem;\n}\n\n.tw--mb-1 {\n  margin-bottom: -0.25rem;\n}\n\n.tw--ml-1 {\n  margin-left: -0.25rem;\n}\n\n.tw--mt-2 {\n  margin-top: -0.5rem;\n}\n\n.tw--mr-2 {\n  margin-right: -0.5rem;\n}\n\n.tw--mb-2 {\n  margin-bottom: -0.5rem;\n}\n\n.tw--ml-2 {\n  margin-left: -0.5rem;\n}\n\n.tw--mt-3 {\n  margin-top: -0.75rem;\n}\n\n.tw--mr-3 {\n  margin-right: -0.75rem;\n}\n\n.tw--mb-3 {\n  margin-bottom: -0.75rem;\n}\n\n.tw--ml-3 {\n  margin-left: -0.75rem;\n}\n\n.tw--mt-4 {\n  margin-top: -1rem;\n}\n\n.tw--mr-4 {\n  margin-right: -1rem;\n}\n\n.tw--mb-4 {\n  margin-bottom: -1rem;\n}\n\n.tw--ml-4 {\n  margin-left: -1rem;\n}\n\n.tw--mt-5 {\n  margin-top: -1.25rem;\n}\n\n.tw--mr-5 {\n  margin-right: -1.25rem;\n}\n\n.tw--mb-5 {\n  margin-bottom: -1.25rem;\n}\n\n.tw--ml-5 {\n  margin-left: -1.25rem;\n}\n\n.tw--mt-6 {\n  margin-top: -1.5rem;\n}\n\n.tw--mr-6 {\n  margin-right: -1.5rem;\n}\n\n.tw--mb-6 {\n  margin-bottom: -1.5rem;\n}\n\n.tw--ml-6 {\n  margin-left: -1.5rem;\n}\n\n.tw--mt-8 {\n  margin-top: -2rem;\n}\n\n.tw--mr-8 {\n  margin-right: -2rem;\n}\n\n.tw--mb-8 {\n  margin-bottom: -2rem;\n}\n\n.tw--ml-8 {\n  margin-left: -2rem;\n}\n\n.tw--mt-10 {\n  margin-top: -2.5rem;\n}\n\n.tw--mr-10 {\n  margin-right: -2.5rem;\n}\n\n.tw--mb-10 {\n  margin-bottom: -2.5rem;\n}\n\n.tw--ml-10 {\n  margin-left: -2.5rem;\n}\n\n.tw--mt-12 {\n  margin-top: -3rem;\n}\n\n.tw--mr-12 {\n  margin-right: -3rem;\n}\n\n.tw--mb-12 {\n  margin-bottom: -3rem;\n}\n\n.tw--ml-12 {\n  margin-left: -3rem;\n}\n\n.tw--mt-16 {\n  margin-top: -4rem;\n}\n\n.tw--mr-16 {\n  margin-right: -4rem;\n}\n\n.tw--mb-16 {\n  margin-bottom: -4rem;\n}\n\n.tw--ml-16 {\n  margin-left: -4rem;\n}\n\n.tw--mt-20 {\n  margin-top: -5rem;\n}\n\n.tw--mr-20 {\n  margin-right: -5rem;\n}\n\n.tw--mb-20 {\n  margin-bottom: -5rem;\n}\n\n.tw--ml-20 {\n  margin-left: -5rem;\n}\n\n.tw--mt-24 {\n  margin-top: -6rem;\n}\n\n.tw--mr-24 {\n  margin-right: -6rem;\n}\n\n.tw--mb-24 {\n  margin-bottom: -6rem;\n}\n\n.tw--ml-24 {\n  margin-left: -6rem;\n}\n\n.tw--mt-32 {\n  margin-top: -8rem;\n}\n\n.tw--mr-32 {\n  margin-right: -8rem;\n}\n\n.tw--mb-32 {\n  margin-bottom: -8rem;\n}\n\n.tw--ml-32 {\n  margin-left: -8rem;\n}\n\n.tw--mt-px {\n  margin-top: -1px;\n}\n\n.tw--mr-px {\n  margin-right: -1px;\n}\n\n.tw--mb-px {\n  margin-bottom: -1px;\n}\n\n.tw--ml-px {\n  margin-left: -1px;\n}\n\n.tw-opacity-0 {\n  opacity: 0;\n}\n\n.tw-opacity-25 {\n  opacity: .25;\n}\n\n.tw-opacity-50 {\n  opacity: .5;\n}\n\n.tw-opacity-75 {\n  opacity: .75;\n}\n\n.tw-opacity-100 {\n  opacity: 1;\n}\n\n.tw-outline-none {\n  outline: 0;\n}\n\n.focus\\:tw-outline-none:focus {\n  outline: 0;\n}\n\n.tw-overflow-auto {\n  overflow: auto;\n}\n\n.tw-overflow-hidden {\n  overflow: hidden;\n}\n\n.tw-overflow-visible {\n  overflow: visible;\n}\n\n.tw-overflow-scroll {\n  overflow: scroll;\n}\n\n.tw-overflow-x-auto {\n  overflow-x: auto;\n}\n\n.tw-overflow-y-auto {\n  overflow-y: auto;\n}\n\n.tw-overflow-x-hidden {\n  overflow-x: hidden;\n}\n\n.tw-overflow-y-hidden {\n  overflow-y: hidden;\n}\n\n.tw-overflow-x-visible {\n  overflow-x: visible;\n}\n\n.tw-overflow-y-visible {\n  overflow-y: visible;\n}\n\n.tw-overflow-x-scroll {\n  overflow-x: scroll;\n}\n\n.tw-overflow-y-scroll {\n  overflow-y: scroll;\n}\n\n.tw-scrolling-touch {\n  -webkit-overflow-scrolling: touch;\n}\n\n.tw-scrolling-auto {\n  -webkit-overflow-scrolling: auto;\n}\n\n.tw-p-0 {\n  padding: 0;\n}\n\n.tw-p-1 {\n  padding: .25rem;\n}\n\n.tw-p-2 {\n  padding: .5rem;\n}\n\n.tw-p-3 {\n  padding: .75rem;\n}\n\n.tw-p-4 {\n  padding: 1rem;\n}\n\n.tw-p-5 {\n  padding: 1.25rem;\n}\n\n.tw-p-6 {\n  padding: 1.5rem;\n}\n\n.tw-p-8 {\n  padding: 2rem;\n}\n\n.tw-p-10 {\n  padding: 2.5rem;\n}\n\n.tw-p-12 {\n  padding: 3rem;\n}\n\n.tw-p-16 {\n  padding: 4rem;\n}\n\n.tw-p-20 {\n  padding: 5rem;\n}\n\n.tw-p-24 {\n  padding: 6rem;\n}\n\n.tw-p-32 {\n  padding: 8rem;\n}\n\n.tw-p-px {\n  padding: 1px;\n}\n\n.tw-py-0 {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\n.tw-px-0 {\n  padding-left: 0;\n  padding-right: 0;\n}\n\n.tw-py-1 {\n  padding-top: .25rem;\n  padding-bottom: .25rem;\n}\n\n.tw-px-1 {\n  padding-left: .25rem;\n  padding-right: .25rem;\n}\n\n.tw-py-2 {\n  padding-top: .5rem;\n  padding-bottom: .5rem;\n}\n\n.tw-px-2 {\n  padding-left: .5rem;\n  padding-right: .5rem;\n}\n\n.tw-py-3 {\n  padding-top: .75rem;\n  padding-bottom: .75rem;\n}\n\n.tw-px-3 {\n  padding-left: .75rem;\n  padding-right: .75rem;\n}\n\n.tw-py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.tw-px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.tw-py-5 {\n  padding-top: 1.25rem;\n  padding-bottom: 1.25rem;\n}\n\n.tw-px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.tw-py-6 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\n\n.tw-px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.tw-py-8 {\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n\n.tw-px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n\n.tw-py-10 {\n  padding-top: 2.5rem;\n  padding-bottom: 2.5rem;\n}\n\n.tw-px-10 {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.tw-py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n\n.tw-px-12 {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n\n.tw-py-16 {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n\n.tw-px-16 {\n  padding-left: 4rem;\n  padding-right: 4rem;\n}\n\n.tw-py-20 {\n  padding-top: 5rem;\n  padding-bottom: 5rem;\n}\n\n.tw-px-20 {\n  padding-left: 5rem;\n  padding-right: 5rem;\n}\n\n.tw-py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n\n.tw-px-24 {\n  padding-left: 6rem;\n  padding-right: 6rem;\n}\n\n.tw-py-32 {\n  padding-top: 8rem;\n  padding-bottom: 8rem;\n}\n\n.tw-px-32 {\n  padding-left: 8rem;\n  padding-right: 8rem;\n}\n\n.tw-py-px {\n  padding-top: 1px;\n  padding-bottom: 1px;\n}\n\n.tw-px-px {\n  padding-left: 1px;\n  padding-right: 1px;\n}\n\n.tw-pt-0 {\n  padding-top: 0;\n}\n\n.tw-pr-0 {\n  padding-right: 0;\n}\n\n.tw-pb-0 {\n  padding-bottom: 0;\n}\n\n.tw-pl-0 {\n  padding-left: 0;\n}\n\n.tw-pt-1 {\n  padding-top: .25rem;\n}\n\n.tw-pr-1 {\n  padding-right: .25rem;\n}\n\n.tw-pb-1 {\n  padding-bottom: .25rem;\n}\n\n.tw-pl-1 {\n  padding-left: .25rem;\n}\n\n.tw-pt-2 {\n  padding-top: .5rem;\n}\n\n.tw-pr-2 {\n  padding-right: .5rem;\n}\n\n.tw-pb-2 {\n  padding-bottom: .5rem;\n}\n\n.tw-pl-2 {\n  padding-left: .5rem;\n}\n\n.tw-pt-3 {\n  padding-top: .75rem;\n}\n\n.tw-pr-3 {\n  padding-right: .75rem;\n}\n\n.tw-pb-3 {\n  padding-bottom: .75rem;\n}\n\n.tw-pl-3 {\n  padding-left: .75rem;\n}\n\n.tw-pt-4 {\n  padding-top: 1rem;\n}\n\n.tw-pr-4 {\n  padding-right: 1rem;\n}\n\n.tw-pb-4 {\n  padding-bottom: 1rem;\n}\n\n.tw-pl-4 {\n  padding-left: 1rem;\n}\n\n.tw-pt-5 {\n  padding-top: 1.25rem;\n}\n\n.tw-pr-5 {\n  padding-right: 1.25rem;\n}\n\n.tw-pb-5 {\n  padding-bottom: 1.25rem;\n}\n\n.tw-pl-5 {\n  padding-left: 1.25rem;\n}\n\n.tw-pt-6 {\n  padding-top: 1.5rem;\n}\n\n.tw-pr-6 {\n  padding-right: 1.5rem;\n}\n\n.tw-pb-6 {\n  padding-bottom: 1.5rem;\n}\n\n.tw-pl-6 {\n  padding-left: 1.5rem;\n}\n\n.tw-pt-8 {\n  padding-top: 2rem;\n}\n\n.tw-pr-8 {\n  padding-right: 2rem;\n}\n\n.tw-pb-8 {\n  padding-bottom: 2rem;\n}\n\n.tw-pl-8 {\n  padding-left: 2rem;\n}\n\n.tw-pt-10 {\n  padding-top: 2.5rem;\n}\n\n.tw-pr-10 {\n  padding-right: 2.5rem;\n}\n\n.tw-pb-10 {\n  padding-bottom: 2.5rem;\n}\n\n.tw-pl-10 {\n  padding-left: 2.5rem;\n}\n\n.tw-pt-12 {\n  padding-top: 3rem;\n}\n\n.tw-pr-12 {\n  padding-right: 3rem;\n}\n\n.tw-pb-12 {\n  padding-bottom: 3rem;\n}\n\n.tw-pl-12 {\n  padding-left: 3rem;\n}\n\n.tw-pt-16 {\n  padding-top: 4rem;\n}\n\n.tw-pr-16 {\n  padding-right: 4rem;\n}\n\n.tw-pb-16 {\n  padding-bottom: 4rem;\n}\n\n.tw-pl-16 {\n  padding-left: 4rem;\n}\n\n.tw-pt-20 {\n  padding-top: 5rem;\n}\n\n.tw-pr-20 {\n  padding-right: 5rem;\n}\n\n.tw-pb-20 {\n  padding-bottom: 5rem;\n}\n\n.tw-pl-20 {\n  padding-left: 5rem;\n}\n\n.tw-pt-24 {\n  padding-top: 6rem;\n}\n\n.tw-pr-24 {\n  padding-right: 6rem;\n}\n\n.tw-pb-24 {\n  padding-bottom: 6rem;\n}\n\n.tw-pl-24 {\n  padding-left: 6rem;\n}\n\n.tw-pt-32 {\n  padding-top: 8rem;\n}\n\n.tw-pr-32 {\n  padding-right: 8rem;\n}\n\n.tw-pb-32 {\n  padding-bottom: 8rem;\n}\n\n.tw-pl-32 {\n  padding-left: 8rem;\n}\n\n.tw-pt-px {\n  padding-top: 1px;\n}\n\n.tw-pr-px {\n  padding-right: 1px;\n}\n\n.tw-pb-px {\n  padding-bottom: 1px;\n}\n\n.tw-pl-px {\n  padding-left: 1px;\n}\n\n.tw-pointer-events-none {\n  pointer-events: none;\n}\n\n.tw-pointer-events-auto {\n  pointer-events: auto;\n}\n\n.tw-static {\n  position: static;\n}\n\n.tw-fixed {\n  position: fixed;\n}\n\n.tw-absolute {\n  position: absolute;\n}\n\n.tw-relative {\n  position: relative;\n}\n\n.tw-sticky {\n  position: -webkit-sticky;\n  position: sticky;\n}\n\n.tw-pin-none {\n  top: auto;\n  right: auto;\n  bottom: auto;\n  left: auto;\n}\n\n.tw-pin {\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.tw-pin-y {\n  top: 0;\n  bottom: 0;\n}\n\n.tw-pin-x {\n  right: 0;\n  left: 0;\n}\n\n.tw-pin-t {\n  top: 0;\n}\n\n.tw-pin-r {\n  right: 0;\n}\n\n.tw-pin-b {\n  bottom: 0;\n}\n\n.tw-pin-l {\n  left: 0;\n}\n\n.tw-resize-none {\n  resize: none;\n}\n\n.tw-resize-y {\n  resize: vertical;\n}\n\n.tw-resize-x {\n  resize: horizontal;\n}\n\n.tw-resize {\n  resize: both;\n}\n\n.tw-shadow {\n  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n}\n\n.tw-shadow-md {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n}\n\n.tw-shadow-lg {\n  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n}\n\n.tw-shadow-inner {\n  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n}\n\n.tw-shadow-outline {\n  box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n}\n\n.tw-shadow-none {\n  box-shadow: none;\n}\n\n.hover\\:tw-shadow:hover {\n  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n}\n\n.hover\\:tw-shadow-md:hover {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n}\n\n.hover\\:tw-shadow-lg:hover {\n  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n}\n\n.hover\\:tw-shadow-inner:hover {\n  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n}\n\n.hover\\:tw-shadow-outline:hover {\n  box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n}\n\n.hover\\:tw-shadow-none:hover {\n  box-shadow: none;\n}\n\n.focus\\:tw-shadow:focus {\n  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n}\n\n.focus\\:tw-shadow-md:focus {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n}\n\n.focus\\:tw-shadow-lg:focus {\n  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n}\n\n.focus\\:tw-shadow-inner:focus {\n  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n}\n\n.focus\\:tw-shadow-outline:focus {\n  box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n}\n\n.focus\\:tw-shadow-none:focus {\n  box-shadow: none;\n}\n\n.tw-fill-current {\n  fill: currentColor;\n}\n\n.tw-stroke-current {\n  stroke: currentColor;\n}\n\n.tw-table-auto {\n  table-layout: auto;\n}\n\n.tw-table-fixed {\n  table-layout: fixed;\n}\n\n.tw-text-left {\n  text-align: left;\n}\n\n.tw-text-center {\n  text-align: center;\n}\n\n.tw-text-right {\n  text-align: right;\n}\n\n.tw-text-justify {\n  text-align: justify;\n}\n\n.tw-text-transparent {\n  color: transparent;\n}\n\n.tw-text-black {\n  color: #22292f;\n}\n\n.tw-text-grey-darkest {\n  color: #3d4852;\n}\n\n.tw-text-grey-darker {\n  color: #606f7b;\n}\n\n.tw-text-grey-dark {\n  color: #8795a1;\n}\n\n.tw-text-grey {\n  color: #b8c2cc;\n}\n\n.tw-text-grey-light {\n  color: #dae1e7;\n}\n\n.tw-text-grey-lighter {\n  color: #f1f5f8;\n}\n\n.tw-text-grey-lightest {\n  color: #f8fafc;\n}\n\n.tw-text-white {\n  color: #fff;\n}\n\n.tw-text-red-darkest {\n  color: #3b0d0c;\n}\n\n.tw-text-red-darker {\n  color: #621b18;\n}\n\n.tw-text-red-dark {\n  color: #cc1f1a;\n}\n\n.tw-text-red {\n  color: #e3342f;\n}\n\n.tw-text-red-light {\n  color: #ef5753;\n}\n\n.tw-text-red-lighter {\n  color: #f9acaa;\n}\n\n.tw-text-red-lightest {\n  color: #fcebea;\n}\n\n.tw-text-orange-darkest {\n  color: #462a16;\n}\n\n.tw-text-orange-darker {\n  color: #613b1f;\n}\n\n.tw-text-orange-dark {\n  color: #de751f;\n}\n\n.tw-text-orange {\n  color: #f6993f;\n}\n\n.tw-text-orange-light {\n  color: #faad63;\n}\n\n.tw-text-orange-lighter {\n  color: #fcd9b6;\n}\n\n.tw-text-orange-lightest {\n  color: #fff5eb;\n}\n\n.tw-text-yellow-darkest {\n  color: #453411;\n}\n\n.tw-text-yellow-darker {\n  color: #684f1d;\n}\n\n.tw-text-yellow-dark {\n  color: #f2d024;\n}\n\n.tw-text-yellow {\n  color: #ffed4a;\n}\n\n.tw-text-yellow-light {\n  color: #fff382;\n}\n\n.tw-text-yellow-lighter {\n  color: #fff9c2;\n}\n\n.tw-text-yellow-lightest {\n  color: #fcfbeb;\n}\n\n.tw-text-green-darkest {\n  color: #0f2f21;\n}\n\n.tw-text-green-darker {\n  color: #1a4731;\n}\n\n.tw-text-green-dark {\n  color: #1f9d55;\n}\n\n.tw-text-green {\n  color: #38c172;\n}\n\n.tw-text-green-light {\n  color: #51d88a;\n}\n\n.tw-text-green-lighter {\n  color: #a2f5bf;\n}\n\n.tw-text-green-lightest {\n  color: #e3fcec;\n}\n\n.tw-text-teal-darkest {\n  color: #0d3331;\n}\n\n.tw-text-teal-darker {\n  color: #20504f;\n}\n\n.tw-text-teal-dark {\n  color: #38a89d;\n}\n\n.tw-text-teal {\n  color: #4dc0b5;\n}\n\n.tw-text-teal-light {\n  color: #64d5ca;\n}\n\n.tw-text-teal-lighter {\n  color: #a0f0ed;\n}\n\n.tw-text-teal-lightest {\n  color: #e8fffe;\n}\n\n.tw-text-blue-darkest {\n  color: #12283a;\n}\n\n.tw-text-blue-darker {\n  color: #1c3d5a;\n}\n\n.tw-text-blue-dark {\n  color: #2779bd;\n}\n\n.tw-text-blue {\n  color: #3490dc;\n}\n\n.tw-text-blue-light {\n  color: #6cb2eb;\n}\n\n.tw-text-blue-lighter {\n  color: #bcdefa;\n}\n\n.tw-text-blue-lightest {\n  color: #eff8ff;\n}\n\n.tw-text-indigo-darkest {\n  color: #191e38;\n}\n\n.tw-text-indigo-darker {\n  color: #2f365f;\n}\n\n.tw-text-indigo-dark {\n  color: #5661b3;\n}\n\n.tw-text-indigo {\n  color: #6574cd;\n}\n\n.tw-text-indigo-light {\n  color: #7886d7;\n}\n\n.tw-text-indigo-lighter {\n  color: #b2b7ff;\n}\n\n.tw-text-indigo-lightest {\n  color: #e6e8ff;\n}\n\n.tw-text-purple-darkest {\n  color: #21183c;\n}\n\n.tw-text-purple-darker {\n  color: #382b5f;\n}\n\n.tw-text-purple-dark {\n  color: #794acf;\n}\n\n.tw-text-purple {\n  color: #9561e2;\n}\n\n.tw-text-purple-light {\n  color: #a779e9;\n}\n\n.tw-text-purple-lighter {\n  color: #d6bbfc;\n}\n\n.tw-text-purple-lightest {\n  color: #f3ebff;\n}\n\n.tw-text-pink-darkest {\n  color: #451225;\n}\n\n.tw-text-pink-darker {\n  color: #6f213f;\n}\n\n.tw-text-pink-dark {\n  color: #eb5286;\n}\n\n.tw-text-pink {\n  color: #f66d9b;\n}\n\n.tw-text-pink-light {\n  color: #fa7ea8;\n}\n\n.tw-text-pink-lighter {\n  color: #ffbbca;\n}\n\n.tw-text-pink-lightest {\n  color: #ffebef;\n}\n\n.tw-text-linkColor {\n  color: royalblue;\n}\n\n.tw-text-linkHoverColor {\n  color: darkblue;\n}\n\n.hover\\:tw-text-transparent:hover {\n  color: transparent;\n}\n\n.hover\\:tw-text-black:hover {\n  color: #22292f;\n}\n\n.hover\\:tw-text-grey-darkest:hover {\n  color: #3d4852;\n}\n\n.hover\\:tw-text-grey-darker:hover {\n  color: #606f7b;\n}\n\n.hover\\:tw-text-grey-dark:hover {\n  color: #8795a1;\n}\n\n.hover\\:tw-text-grey:hover {\n  color: #b8c2cc;\n}\n\n.hover\\:tw-text-grey-light:hover {\n  color: #dae1e7;\n}\n\n.hover\\:tw-text-grey-lighter:hover {\n  color: #f1f5f8;\n}\n\n.hover\\:tw-text-grey-lightest:hover {\n  color: #f8fafc;\n}\n\n.hover\\:tw-text-white:hover {\n  color: #fff;\n}\n\n.hover\\:tw-text-red-darkest:hover {\n  color: #3b0d0c;\n}\n\n.hover\\:tw-text-red-darker:hover {\n  color: #621b18;\n}\n\n.hover\\:tw-text-red-dark:hover {\n  color: #cc1f1a;\n}\n\n.hover\\:tw-text-red:hover {\n  color: #e3342f;\n}\n\n.hover\\:tw-text-red-light:hover {\n  color: #ef5753;\n}\n\n.hover\\:tw-text-red-lighter:hover {\n  color: #f9acaa;\n}\n\n.hover\\:tw-text-red-lightest:hover {\n  color: #fcebea;\n}\n\n.hover\\:tw-text-orange-darkest:hover {\n  color: #462a16;\n}\n\n.hover\\:tw-text-orange-darker:hover {\n  color: #613b1f;\n}\n\n.hover\\:tw-text-orange-dark:hover {\n  color: #de751f;\n}\n\n.hover\\:tw-text-orange:hover {\n  color: #f6993f;\n}\n\n.hover\\:tw-text-orange-light:hover {\n  color: #faad63;\n}\n\n.hover\\:tw-text-orange-lighter:hover {\n  color: #fcd9b6;\n}\n\n.hover\\:tw-text-orange-lightest:hover {\n  color: #fff5eb;\n}\n\n.hover\\:tw-text-yellow-darkest:hover {\n  color: #453411;\n}\n\n.hover\\:tw-text-yellow-darker:hover {\n  color: #684f1d;\n}\n\n.hover\\:tw-text-yellow-dark:hover {\n  color: #f2d024;\n}\n\n.hover\\:tw-text-yellow:hover {\n  color: #ffed4a;\n}\n\n.hover\\:tw-text-yellow-light:hover {\n  color: #fff382;\n}\n\n.hover\\:tw-text-yellow-lighter:hover {\n  color: #fff9c2;\n}\n\n.hover\\:tw-text-yellow-lightest:hover {\n  color: #fcfbeb;\n}\n\n.hover\\:tw-text-green-darkest:hover {\n  color: #0f2f21;\n}\n\n.hover\\:tw-text-green-darker:hover {\n  color: #1a4731;\n}\n\n.hover\\:tw-text-green-dark:hover {\n  color: #1f9d55;\n}\n\n.hover\\:tw-text-green:hover {\n  color: #38c172;\n}\n\n.hover\\:tw-text-green-light:hover {\n  color: #51d88a;\n}\n\n.hover\\:tw-text-green-lighter:hover {\n  color: #a2f5bf;\n}\n\n.hover\\:tw-text-green-lightest:hover {\n  color: #e3fcec;\n}\n\n.hover\\:tw-text-teal-darkest:hover {\n  color: #0d3331;\n}\n\n.hover\\:tw-text-teal-darker:hover {\n  color: #20504f;\n}\n\n.hover\\:tw-text-teal-dark:hover {\n  color: #38a89d;\n}\n\n.hover\\:tw-text-teal:hover {\n  color: #4dc0b5;\n}\n\n.hover\\:tw-text-teal-light:hover {\n  color: #64d5ca;\n}\n\n.hover\\:tw-text-teal-lighter:hover {\n  color: #a0f0ed;\n}\n\n.hover\\:tw-text-teal-lightest:hover {\n  color: #e8fffe;\n}\n\n.hover\\:tw-text-blue-darkest:hover {\n  color: #12283a;\n}\n\n.hover\\:tw-text-blue-darker:hover {\n  color: #1c3d5a;\n}\n\n.hover\\:tw-text-blue-dark:hover {\n  color: #2779bd;\n}\n\n.hover\\:tw-text-blue:hover {\n  color: #3490dc;\n}\n\n.hover\\:tw-text-blue-light:hover {\n  color: #6cb2eb;\n}\n\n.hover\\:tw-text-blue-lighter:hover {\n  color: #bcdefa;\n}\n\n.hover\\:tw-text-blue-lightest:hover {\n  color: #eff8ff;\n}\n\n.hover\\:tw-text-indigo-darkest:hover {\n  color: #191e38;\n}\n\n.hover\\:tw-text-indigo-darker:hover {\n  color: #2f365f;\n}\n\n.hover\\:tw-text-indigo-dark:hover {\n  color: #5661b3;\n}\n\n.hover\\:tw-text-indigo:hover {\n  color: #6574cd;\n}\n\n.hover\\:tw-text-indigo-light:hover {\n  color: #7886d7;\n}\n\n.hover\\:tw-text-indigo-lighter:hover {\n  color: #b2b7ff;\n}\n\n.hover\\:tw-text-indigo-lightest:hover {\n  color: #e6e8ff;\n}\n\n.hover\\:tw-text-purple-darkest:hover {\n  color: #21183c;\n}\n\n.hover\\:tw-text-purple-darker:hover {\n  color: #382b5f;\n}\n\n.hover\\:tw-text-purple-dark:hover {\n  color: #794acf;\n}\n\n.hover\\:tw-text-purple:hover {\n  color: #9561e2;\n}\n\n.hover\\:tw-text-purple-light:hover {\n  color: #a779e9;\n}\n\n.hover\\:tw-text-purple-lighter:hover {\n  color: #d6bbfc;\n}\n\n.hover\\:tw-text-purple-lightest:hover {\n  color: #f3ebff;\n}\n\n.hover\\:tw-text-pink-darkest:hover {\n  color: #451225;\n}\n\n.hover\\:tw-text-pink-darker:hover {\n  color: #6f213f;\n}\n\n.hover\\:tw-text-pink-dark:hover {\n  color: #eb5286;\n}\n\n.hover\\:tw-text-pink:hover {\n  color: #f66d9b;\n}\n\n.hover\\:tw-text-pink-light:hover {\n  color: #fa7ea8;\n}\n\n.hover\\:tw-text-pink-lighter:hover {\n  color: #ffbbca;\n}\n\n.hover\\:tw-text-pink-lightest:hover {\n  color: #ffebef;\n}\n\n.hover\\:tw-text-linkColor:hover {\n  color: royalblue;\n}\n\n.hover\\:tw-text-linkHoverColor:hover {\n  color: darkblue;\n}\n\n.focus\\:tw-text-transparent:focus {\n  color: transparent;\n}\n\n.focus\\:tw-text-black:focus {\n  color: #22292f;\n}\n\n.focus\\:tw-text-grey-darkest:focus {\n  color: #3d4852;\n}\n\n.focus\\:tw-text-grey-darker:focus {\n  color: #606f7b;\n}\n\n.focus\\:tw-text-grey-dark:focus {\n  color: #8795a1;\n}\n\n.focus\\:tw-text-grey:focus {\n  color: #b8c2cc;\n}\n\n.focus\\:tw-text-grey-light:focus {\n  color: #dae1e7;\n}\n\n.focus\\:tw-text-grey-lighter:focus {\n  color: #f1f5f8;\n}\n\n.focus\\:tw-text-grey-lightest:focus {\n  color: #f8fafc;\n}\n\n.focus\\:tw-text-white:focus {\n  color: #fff;\n}\n\n.focus\\:tw-text-red-darkest:focus {\n  color: #3b0d0c;\n}\n\n.focus\\:tw-text-red-darker:focus {\n  color: #621b18;\n}\n\n.focus\\:tw-text-red-dark:focus {\n  color: #cc1f1a;\n}\n\n.focus\\:tw-text-red:focus {\n  color: #e3342f;\n}\n\n.focus\\:tw-text-red-light:focus {\n  color: #ef5753;\n}\n\n.focus\\:tw-text-red-lighter:focus {\n  color: #f9acaa;\n}\n\n.focus\\:tw-text-red-lightest:focus {\n  color: #fcebea;\n}\n\n.focus\\:tw-text-orange-darkest:focus {\n  color: #462a16;\n}\n\n.focus\\:tw-text-orange-darker:focus {\n  color: #613b1f;\n}\n\n.focus\\:tw-text-orange-dark:focus {\n  color: #de751f;\n}\n\n.focus\\:tw-text-orange:focus {\n  color: #f6993f;\n}\n\n.focus\\:tw-text-orange-light:focus {\n  color: #faad63;\n}\n\n.focus\\:tw-text-orange-lighter:focus {\n  color: #fcd9b6;\n}\n\n.focus\\:tw-text-orange-lightest:focus {\n  color: #fff5eb;\n}\n\n.focus\\:tw-text-yellow-darkest:focus {\n  color: #453411;\n}\n\n.focus\\:tw-text-yellow-darker:focus {\n  color: #684f1d;\n}\n\n.focus\\:tw-text-yellow-dark:focus {\n  color: #f2d024;\n}\n\n.focus\\:tw-text-yellow:focus {\n  color: #ffed4a;\n}\n\n.focus\\:tw-text-yellow-light:focus {\n  color: #fff382;\n}\n\n.focus\\:tw-text-yellow-lighter:focus {\n  color: #fff9c2;\n}\n\n.focus\\:tw-text-yellow-lightest:focus {\n  color: #fcfbeb;\n}\n\n.focus\\:tw-text-green-darkest:focus {\n  color: #0f2f21;\n}\n\n.focus\\:tw-text-green-darker:focus {\n  color: #1a4731;\n}\n\n.focus\\:tw-text-green-dark:focus {\n  color: #1f9d55;\n}\n\n.focus\\:tw-text-green:focus {\n  color: #38c172;\n}\n\n.focus\\:tw-text-green-light:focus {\n  color: #51d88a;\n}\n\n.focus\\:tw-text-green-lighter:focus {\n  color: #a2f5bf;\n}\n\n.focus\\:tw-text-green-lightest:focus {\n  color: #e3fcec;\n}\n\n.focus\\:tw-text-teal-darkest:focus {\n  color: #0d3331;\n}\n\n.focus\\:tw-text-teal-darker:focus {\n  color: #20504f;\n}\n\n.focus\\:tw-text-teal-dark:focus {\n  color: #38a89d;\n}\n\n.focus\\:tw-text-teal:focus {\n  color: #4dc0b5;\n}\n\n.focus\\:tw-text-teal-light:focus {\n  color: #64d5ca;\n}\n\n.focus\\:tw-text-teal-lighter:focus {\n  color: #a0f0ed;\n}\n\n.focus\\:tw-text-teal-lightest:focus {\n  color: #e8fffe;\n}\n\n.focus\\:tw-text-blue-darkest:focus {\n  color: #12283a;\n}\n\n.focus\\:tw-text-blue-darker:focus {\n  color: #1c3d5a;\n}\n\n.focus\\:tw-text-blue-dark:focus {\n  color: #2779bd;\n}\n\n.focus\\:tw-text-blue:focus {\n  color: #3490dc;\n}\n\n.focus\\:tw-text-blue-light:focus {\n  color: #6cb2eb;\n}\n\n.focus\\:tw-text-blue-lighter:focus {\n  color: #bcdefa;\n}\n\n.focus\\:tw-text-blue-lightest:focus {\n  color: #eff8ff;\n}\n\n.focus\\:tw-text-indigo-darkest:focus {\n  color: #191e38;\n}\n\n.focus\\:tw-text-indigo-darker:focus {\n  color: #2f365f;\n}\n\n.focus\\:tw-text-indigo-dark:focus {\n  color: #5661b3;\n}\n\n.focus\\:tw-text-indigo:focus {\n  color: #6574cd;\n}\n\n.focus\\:tw-text-indigo-light:focus {\n  color: #7886d7;\n}\n\n.focus\\:tw-text-indigo-lighter:focus {\n  color: #b2b7ff;\n}\n\n.focus\\:tw-text-indigo-lightest:focus {\n  color: #e6e8ff;\n}\n\n.focus\\:tw-text-purple-darkest:focus {\n  color: #21183c;\n}\n\n.focus\\:tw-text-purple-darker:focus {\n  color: #382b5f;\n}\n\n.focus\\:tw-text-purple-dark:focus {\n  color: #794acf;\n}\n\n.focus\\:tw-text-purple:focus {\n  color: #9561e2;\n}\n\n.focus\\:tw-text-purple-light:focus {\n  color: #a779e9;\n}\n\n.focus\\:tw-text-purple-lighter:focus {\n  color: #d6bbfc;\n}\n\n.focus\\:tw-text-purple-lightest:focus {\n  color: #f3ebff;\n}\n\n.focus\\:tw-text-pink-darkest:focus {\n  color: #451225;\n}\n\n.focus\\:tw-text-pink-darker:focus {\n  color: #6f213f;\n}\n\n.focus\\:tw-text-pink-dark:focus {\n  color: #eb5286;\n}\n\n.focus\\:tw-text-pink:focus {\n  color: #f66d9b;\n}\n\n.focus\\:tw-text-pink-light:focus {\n  color: #fa7ea8;\n}\n\n.focus\\:tw-text-pink-lighter:focus {\n  color: #ffbbca;\n}\n\n.focus\\:tw-text-pink-lightest:focus {\n  color: #ffebef;\n}\n\n.focus\\:tw-text-linkColor:focus {\n  color: royalblue;\n}\n\n.focus\\:tw-text-linkHoverColor:focus {\n  color: darkblue;\n}\n\n.tw-text-xs {\n  font-size: .75rem;\n}\n\n.tw-text-sm {\n  font-size: .875rem;\n}\n\n.tw-text-base {\n  font-size: 1rem;\n}\n\n.tw-text-lg {\n  font-size: 1.125rem;\n}\n\n.tw-text-xl {\n  font-size: 1.25rem;\n}\n\n.tw-text-2xl {\n  font-size: 1.5rem;\n}\n\n.tw-text-3xl {\n  font-size: 1.875rem;\n}\n\n.tw-text-4xl {\n  font-size: 2.25rem;\n}\n\n.tw-text-5xl {\n  font-size: 3rem;\n}\n\n.tw-italic {\n  font-style: italic;\n}\n\n.tw-roman {\n  font-style: normal;\n}\n\n.tw-uppercase {\n  text-transform: uppercase;\n}\n\n.tw-lowercase {\n  text-transform: lowercase;\n}\n\n.tw-capitalize {\n  text-transform: capitalize;\n}\n\n.tw-normal-case {\n  text-transform: none;\n}\n\n.tw-underline {\n  text-decoration: underline;\n}\n\n.tw-line-through {\n  text-decoration: line-through;\n}\n\n.tw-no-underline {\n  text-decoration: none;\n}\n\n.tw-antialiased {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.tw-subpixel-antialiased {\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n}\n\n.hover\\:tw-italic:hover {\n  font-style: italic;\n}\n\n.hover\\:tw-roman:hover {\n  font-style: normal;\n}\n\n.hover\\:tw-uppercase:hover {\n  text-transform: uppercase;\n}\n\n.hover\\:tw-lowercase:hover {\n  text-transform: lowercase;\n}\n\n.hover\\:tw-capitalize:hover {\n  text-transform: capitalize;\n}\n\n.hover\\:tw-normal-case:hover {\n  text-transform: none;\n}\n\n.hover\\:tw-underline:hover {\n  text-decoration: underline;\n}\n\n.hover\\:tw-line-through:hover {\n  text-decoration: line-through;\n}\n\n.hover\\:tw-no-underline:hover {\n  text-decoration: none;\n}\n\n.hover\\:tw-antialiased:hover {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.hover\\:tw-subpixel-antialiased:hover {\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n}\n\n.focus\\:tw-italic:focus {\n  font-style: italic;\n}\n\n.focus\\:tw-roman:focus {\n  font-style: normal;\n}\n\n.focus\\:tw-uppercase:focus {\n  text-transform: uppercase;\n}\n\n.focus\\:tw-lowercase:focus {\n  text-transform: lowercase;\n}\n\n.focus\\:tw-capitalize:focus {\n  text-transform: capitalize;\n}\n\n.focus\\:tw-normal-case:focus {\n  text-transform: none;\n}\n\n.focus\\:tw-underline:focus {\n  text-decoration: underline;\n}\n\n.focus\\:tw-line-through:focus {\n  text-decoration: line-through;\n}\n\n.focus\\:tw-no-underline:focus {\n  text-decoration: none;\n}\n\n.focus\\:tw-antialiased:focus {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.focus\\:tw-subpixel-antialiased:focus {\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n}\n\n.tw-tracking-tight {\n  letter-spacing: -0.05em;\n}\n\n.tw-tracking-normal {\n  letter-spacing: 0;\n}\n\n.tw-tracking-wide {\n  letter-spacing: .05em;\n}\n\n.tw-select-none {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.tw-select-text {\n  -webkit-user-select: text;\n     -moz-user-select: text;\n      -ms-user-select: text;\n          user-select: text;\n}\n\n.tw-align-baseline {\n  vertical-align: baseline;\n}\n\n.tw-align-top {\n  vertical-align: top;\n}\n\n.tw-align-middle {\n  vertical-align: middle;\n}\n\n.tw-align-bottom {\n  vertical-align: bottom;\n}\n\n.tw-align-text-top {\n  vertical-align: text-top;\n}\n\n.tw-align-text-bottom {\n  vertical-align: text-bottom;\n}\n\n.tw-visible {\n  visibility: visible;\n}\n\n.tw-invisible {\n  visibility: hidden;\n}\n\n.tw-whitespace-normal {\n  white-space: normal;\n}\n\n.tw-whitespace-no-wrap {\n  white-space: nowrap;\n}\n\n.tw-whitespace-pre {\n  white-space: pre;\n}\n\n.tw-whitespace-pre-line {\n  white-space: pre-line;\n}\n\n.tw-whitespace-pre-wrap {\n  white-space: pre-wrap;\n}\n\n.tw-break-words {\n  word-wrap: break-word;\n}\n\n.tw-break-normal {\n  word-wrap: normal;\n}\n\n.tw-truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.tw-w-1 {\n  width: .25rem;\n}\n\n.tw-w-2 {\n  width: .5rem;\n}\n\n.tw-w-3 {\n  width: .75rem;\n}\n\n.tw-w-4 {\n  width: 1rem;\n}\n\n.tw-w-5 {\n  width: 1.25rem;\n}\n\n.tw-w-6 {\n  width: 1.5rem;\n}\n\n.tw-w-8 {\n  width: 2rem;\n}\n\n.tw-w-10 {\n  width: 2.5rem;\n}\n\n.tw-w-12 {\n  width: 3rem;\n}\n\n.tw-w-16 {\n  width: 4rem;\n}\n\n.tw-w-24 {\n  width: 6rem;\n}\n\n.tw-w-32 {\n  width: 8rem;\n}\n\n.tw-w-48 {\n  width: 12rem;\n}\n\n.tw-w-64 {\n  width: 16rem;\n}\n\n.tw-w-auto {\n  width: auto;\n}\n\n.tw-w-px {\n  width: 1px;\n}\n\n.tw-w-1\\/2 {\n  width: 50%;\n}\n\n.tw-w-1\\/3 {\n  width: 33.33333%;\n}\n\n.tw-w-2\\/3 {\n  width: 66.66667%;\n}\n\n.tw-w-1\\/4 {\n  width: 25%;\n}\n\n.tw-w-3\\/4 {\n  width: 75%;\n}\n\n.tw-w-1\\/5 {\n  width: 20%;\n}\n\n.tw-w-2\\/5 {\n  width: 40%;\n}\n\n.tw-w-3\\/5 {\n  width: 60%;\n}\n\n.tw-w-4\\/5 {\n  width: 80%;\n}\n\n.tw-w-1\\/6 {\n  width: 16.66667%;\n}\n\n.tw-w-5\\/6 {\n  width: 83.33333%;\n}\n\n.tw-w-full {\n  width: 100%;\n}\n\n.tw-w-screen {\n  width: 100vw;\n}\n\n.tw-z-0 {\n  z-index: 0;\n}\n\n.tw-z-10 {\n  z-index: 10;\n}\n\n.tw-z-20 {\n  z-index: 20;\n}\n\n.tw-z-30 {\n  z-index: 30;\n}\n\n.tw-z-40 {\n  z-index: 40;\n}\n\n.tw-z-50 {\n  z-index: 50;\n}\n\n.tw-z-auto {\n  z-index: auto;\n}\n\n/**\n * Here you would add any custom utilities you need that don't come out of the\n * box with Tailwind.\n *\n * Example :\n *\n * .bg-pattern-graph-paper { ... }\n * .skew-45 { ... }\n *\n * Or if using a preprocessor or `postcss-import`:\n *\n * @import \"utilities/background-patterns\";\n * @import \"utilities/skew-transforms\";\n */\n\n/* Kunal custom CSS styling */\n\n@font-face {\n  font-family: sofia-pro;\n  src: url(https://use.typekit.net/af/30420e/00000000000000003b9b1a9e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"woff2\"), url(https://use.typekit.net/af/30420e/00000000000000003b9b1a9e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"woff\"), url(https://use.typekit.net/af/30420e/00000000000000003b9b1a9e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"opentype\");\n  font-weight: 700;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: sofia-pro;\n  src: url(https://use.typekit.net/af/572508/00000000000000003b9b1a96/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format(\"woff2\"), url(https://use.typekit.net/af/572508/00000000000000003b9b1a96/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format(\"woff\"), url(https://use.typekit.net/af/572508/00000000000000003b9b1a96/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format(\"opentype\");\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: sofia-pro;\n  src: url(https://use.typekit.net/af/b4d13d/00000000000000003b9b1a9a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format(\"woff2\"), url(https://use.typekit.net/af/b4d13d/00000000000000003b9b1a9a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format(\"woff\"), url(https://use.typekit.net/af/b4d13d/00000000000000003b9b1a9a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format(\"opentype\");\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: sofia-pro;\n  src: url(https://use.typekit.net/af/5855b2/00000000000000003b9b1a98/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff2\"), url(https://use.typekit.net/af/5855b2/00000000000000003b9b1a98/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff\"), url(https://use.typekit.net/af/5855b2/00000000000000003b9b1a98/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"opentype\");\n  font-weight: 400;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: sofia-pro;\n  src: url(https://use.typekit.net/af/98f96f/00000000000000003b9b1a97/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"woff2\"), url(https://use.typekit.net/af/98f96f/00000000000000003b9b1a97/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"woff\"), url(https://use.typekit.net/af/98f96f/00000000000000003b9b1a97/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"opentype\");\n  font-weight: 400;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: sofia-pro;\n  src: url(https://use.typekit.net/af/7158ff/00000000000000003b9b1a9c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format(\"woff2\"), url(https://use.typekit.net/af/7158ff/00000000000000003b9b1a9c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format(\"woff\"), url(https://use.typekit.net/af/7158ff/00000000000000003b9b1a9c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format(\"opentype\");\n  font-weight: 600;\n  font-style: normal;\n}\n\n/* this section taken from semantic UI CSS. Need to convert to tailwind format */\n\n.ui.comments {\n  margin: 1.5em 0;\n  max-width: 650px;\n}\n\n.ui.comments:first-child {\n  margin-top: 0;\n}\n\n.ui.comments:last-child {\n  margin-bottom: 0;\n}\n\n.ui.comments .comment {\n  position: relative;\n  background: 0 0;\n  margin: .5em 0 0;\n  padding: .5em 0 0;\n  border: none;\n  border-top: none;\n  line-height: 1.2;\n}\n\n.ui.comments .comment:first-child {\n  margin-top: 0;\n  padding-top: 0;\n}\n\n.ui.comments .comment .comments {\n  margin: 0 0 .5em .5em;\n  padding: 1em 0 1em 1em;\n}\n\n.ui.comments .comment .comments:before {\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.ui.comments .comment .comments .comment {\n  border: none;\n  border-top: none;\n  background: 0 0;\n}\n\n.ui.comments .comment .avatar {\n  display: block;\n  width: 2.5em;\n  height: auto;\n  float: left;\n  margin: .2em 0 0;\n}\n\n.ui.comments .comment .avatar img,\n.ui.comments .comment img.avatar {\n  display: block;\n  margin: 0 auto;\n  width: 100%;\n  height: 100%;\n  border-radius: .25rem;\n}\n\n.ui.comments .comment > .content {\n  display: block;\n}\n\n.ui.comments .comment > .avatar ~ .content {\n  margin-left: 3.5em;\n}\n\n.ui.comments .comment .author {\n  font-size: 1em;\n  color: rgba(0, 0, 0, .87);\n  font-weight: 700;\n}\n\n.ui.comments .comment a.author {\n  cursor: pointer;\n}\n\n.ui.comments .comment a.author:hover {\n  color: #1e70bf;\n}\n\n.ui.comments .comment .metadata {\n  display: inline-block;\n  margin-left: .5em;\n  color: rgba(0, 0, 0, .4);\n  font-size: .875em;\n}\n\n.ui.comments .comment .metadata > * {\n  display: inline-block;\n  margin: 0 .5em 0 0;\n}\n\n.ui.comments .comment .metadata > :last-child {\n  margin-right: 0;\n}\n\n.ui.comments .comment .text {\n  margin: .25em 0 .5em;\n  font-size: 1em;\n  word-wrap: break-word;\n  color: rgba(0, 0, 0, .87);\n  line-height: 1.3;\n}\n\n.ui.comments .comment .actions {\n  font-size: .875em;\n}\n\n.ui.comments .comment .actions a {\n  cursor: pointer;\n  display: inline-block;\n  margin: 0 .75em 0 0;\n  color: rgba(0, 0, 0, .4);\n}\n\n.ui.comments .comment .actions a:last-child {\n  margin-right: 0;\n}\n\n.ui.comments .comment .actions a.active,\n.ui.comments .comment .actions a:hover {\n  color: rgba(0, 0, 0, .8);\n}\n\n.ui.comments > .reply.form {\n  margin-top: 1em;\n}\n\n.ui.comments .comment .reply.form {\n  width: 100%;\n  margin-top: 1em;\n}\n\n.ui.comments .reply.form textarea {\n  font-size: 1em;\n  height: 12em;\n}\n\n.ui.mini.comments {\n  font-size: .78571429rem;\n}\n\n.ui.small.comments {\n  font-size: .92857143rem;\n}\n\n.ui.comments {\n  font-size: 1rem;\n}\n\n.ui.large.comments {\n  font-size: 1.14285714rem;\n}\n\n.ui.big.comments {\n  font-size: 1.28571429rem;\n}\n\n.ui.huge.comments {\n  font-size: 1.42857143rem;\n}\n\n/* extend the default semantic UI css styling */\n\n.ui.comments .comment .avatar img,\n.ui.comments .comment img.avatar {\n  border-radius: 2rem;\n  box-shadow: 3px 3px 5px 1px #aaa;\n}\n\na {\n  color: royalblue;\n  text-decoration: none;\n}\n\na:hover {\n  color: darkblue;\n}\n\n.tw-field-label {\n  margin-bottom: .5rem;\n  text-transform: uppercase;\n  font-weight: 700;\n  font-size: 1.125rem;\n  color: #3d4852;\n}\n\n@media (min-width: 576px) {\n  .sm\\:tw-list-reset {\n    list-style: none;\n    padding: 0;\n  }\n\n  .sm\\:tw-appearance-none {\n    -webkit-appearance: none;\n       -moz-appearance: none;\n            appearance: none;\n  }\n\n  .sm\\:tw-bg-fixed {\n    background-attachment: fixed;\n  }\n\n  .sm\\:tw-bg-local {\n    background-attachment: local;\n  }\n\n  .sm\\:tw-bg-scroll {\n    background-attachment: scroll;\n  }\n\n  .sm\\:tw-bg-transparent {\n    background-color: transparent;\n  }\n\n  .sm\\:tw-bg-black {\n    background-color: #22292f;\n  }\n\n  .sm\\:tw-bg-grey-darkest {\n    background-color: #3d4852;\n  }\n\n  .sm\\:tw-bg-grey-darker {\n    background-color: #606f7b;\n  }\n\n  .sm\\:tw-bg-grey-dark {\n    background-color: #8795a1;\n  }\n\n  .sm\\:tw-bg-grey {\n    background-color: #b8c2cc;\n  }\n\n  .sm\\:tw-bg-grey-light {\n    background-color: #dae1e7;\n  }\n\n  .sm\\:tw-bg-grey-lighter {\n    background-color: #f1f5f8;\n  }\n\n  .sm\\:tw-bg-grey-lightest {\n    background-color: #f8fafc;\n  }\n\n  .sm\\:tw-bg-white {\n    background-color: #fff;\n  }\n\n  .sm\\:tw-bg-red-darkest {\n    background-color: #3b0d0c;\n  }\n\n  .sm\\:tw-bg-red-darker {\n    background-color: #621b18;\n  }\n\n  .sm\\:tw-bg-red-dark {\n    background-color: #cc1f1a;\n  }\n\n  .sm\\:tw-bg-red {\n    background-color: #e3342f;\n  }\n\n  .sm\\:tw-bg-red-light {\n    background-color: #ef5753;\n  }\n\n  .sm\\:tw-bg-red-lighter {\n    background-color: #f9acaa;\n  }\n\n  .sm\\:tw-bg-red-lightest {\n    background-color: #fcebea;\n  }\n\n  .sm\\:tw-bg-orange-darkest {\n    background-color: #462a16;\n  }\n\n  .sm\\:tw-bg-orange-darker {\n    background-color: #613b1f;\n  }\n\n  .sm\\:tw-bg-orange-dark {\n    background-color: #de751f;\n  }\n\n  .sm\\:tw-bg-orange {\n    background-color: #f6993f;\n  }\n\n  .sm\\:tw-bg-orange-light {\n    background-color: #faad63;\n  }\n\n  .sm\\:tw-bg-orange-lighter {\n    background-color: #fcd9b6;\n  }\n\n  .sm\\:tw-bg-orange-lightest {\n    background-color: #fff5eb;\n  }\n\n  .sm\\:tw-bg-yellow-darkest {\n    background-color: #453411;\n  }\n\n  .sm\\:tw-bg-yellow-darker {\n    background-color: #684f1d;\n  }\n\n  .sm\\:tw-bg-yellow-dark {\n    background-color: #f2d024;\n  }\n\n  .sm\\:tw-bg-yellow {\n    background-color: #ffed4a;\n  }\n\n  .sm\\:tw-bg-yellow-light {\n    background-color: #fff382;\n  }\n\n  .sm\\:tw-bg-yellow-lighter {\n    background-color: #fff9c2;\n  }\n\n  .sm\\:tw-bg-yellow-lightest {\n    background-color: #fcfbeb;\n  }\n\n  .sm\\:tw-bg-green-darkest {\n    background-color: #0f2f21;\n  }\n\n  .sm\\:tw-bg-green-darker {\n    background-color: #1a4731;\n  }\n\n  .sm\\:tw-bg-green-dark {\n    background-color: #1f9d55;\n  }\n\n  .sm\\:tw-bg-green {\n    background-color: #38c172;\n  }\n\n  .sm\\:tw-bg-green-light {\n    background-color: #51d88a;\n  }\n\n  .sm\\:tw-bg-green-lighter {\n    background-color: #a2f5bf;\n  }\n\n  .sm\\:tw-bg-green-lightest {\n    background-color: #e3fcec;\n  }\n\n  .sm\\:tw-bg-teal-darkest {\n    background-color: #0d3331;\n  }\n\n  .sm\\:tw-bg-teal-darker {\n    background-color: #20504f;\n  }\n\n  .sm\\:tw-bg-teal-dark {\n    background-color: #38a89d;\n  }\n\n  .sm\\:tw-bg-teal {\n    background-color: #4dc0b5;\n  }\n\n  .sm\\:tw-bg-teal-light {\n    background-color: #64d5ca;\n  }\n\n  .sm\\:tw-bg-teal-lighter {\n    background-color: #a0f0ed;\n  }\n\n  .sm\\:tw-bg-teal-lightest {\n    background-color: #e8fffe;\n  }\n\n  .sm\\:tw-bg-blue-darkest {\n    background-color: #12283a;\n  }\n\n  .sm\\:tw-bg-blue-darker {\n    background-color: #1c3d5a;\n  }\n\n  .sm\\:tw-bg-blue-dark {\n    background-color: #2779bd;\n  }\n\n  .sm\\:tw-bg-blue {\n    background-color: #3490dc;\n  }\n\n  .sm\\:tw-bg-blue-light {\n    background-color: #6cb2eb;\n  }\n\n  .sm\\:tw-bg-blue-lighter {\n    background-color: #bcdefa;\n  }\n\n  .sm\\:tw-bg-blue-lightest {\n    background-color: #eff8ff;\n  }\n\n  .sm\\:tw-bg-indigo-darkest {\n    background-color: #191e38;\n  }\n\n  .sm\\:tw-bg-indigo-darker {\n    background-color: #2f365f;\n  }\n\n  .sm\\:tw-bg-indigo-dark {\n    background-color: #5661b3;\n  }\n\n  .sm\\:tw-bg-indigo {\n    background-color: #6574cd;\n  }\n\n  .sm\\:tw-bg-indigo-light {\n    background-color: #7886d7;\n  }\n\n  .sm\\:tw-bg-indigo-lighter {\n    background-color: #b2b7ff;\n  }\n\n  .sm\\:tw-bg-indigo-lightest {\n    background-color: #e6e8ff;\n  }\n\n  .sm\\:tw-bg-purple-darkest {\n    background-color: #21183c;\n  }\n\n  .sm\\:tw-bg-purple-darker {\n    background-color: #382b5f;\n  }\n\n  .sm\\:tw-bg-purple-dark {\n    background-color: #794acf;\n  }\n\n  .sm\\:tw-bg-purple {\n    background-color: #9561e2;\n  }\n\n  .sm\\:tw-bg-purple-light {\n    background-color: #a779e9;\n  }\n\n  .sm\\:tw-bg-purple-lighter {\n    background-color: #d6bbfc;\n  }\n\n  .sm\\:tw-bg-purple-lightest {\n    background-color: #f3ebff;\n  }\n\n  .sm\\:tw-bg-pink-darkest {\n    background-color: #451225;\n  }\n\n  .sm\\:tw-bg-pink-darker {\n    background-color: #6f213f;\n  }\n\n  .sm\\:tw-bg-pink-dark {\n    background-color: #eb5286;\n  }\n\n  .sm\\:tw-bg-pink {\n    background-color: #f66d9b;\n  }\n\n  .sm\\:tw-bg-pink-light {\n    background-color: #fa7ea8;\n  }\n\n  .sm\\:tw-bg-pink-lighter {\n    background-color: #ffbbca;\n  }\n\n  .sm\\:tw-bg-pink-lightest {\n    background-color: #ffebef;\n  }\n\n  .sm\\:tw-bg-linkColor {\n    background-color: royalblue;\n  }\n\n  .sm\\:tw-bg-linkHoverColor {\n    background-color: darkblue;\n  }\n\n  .sm\\:hover\\:tw-bg-transparent:hover {\n    background-color: transparent;\n  }\n\n  .sm\\:hover\\:tw-bg-black:hover {\n    background-color: #22292f;\n  }\n\n  .sm\\:hover\\:tw-bg-grey-darkest:hover {\n    background-color: #3d4852;\n  }\n\n  .sm\\:hover\\:tw-bg-grey-darker:hover {\n    background-color: #606f7b;\n  }\n\n  .sm\\:hover\\:tw-bg-grey-dark:hover {\n    background-color: #8795a1;\n  }\n\n  .sm\\:hover\\:tw-bg-grey:hover {\n    background-color: #b8c2cc;\n  }\n\n  .sm\\:hover\\:tw-bg-grey-light:hover {\n    background-color: #dae1e7;\n  }\n\n  .sm\\:hover\\:tw-bg-grey-lighter:hover {\n    background-color: #f1f5f8;\n  }\n\n  .sm\\:hover\\:tw-bg-grey-lightest:hover {\n    background-color: #f8fafc;\n  }\n\n  .sm\\:hover\\:tw-bg-white:hover {\n    background-color: #fff;\n  }\n\n  .sm\\:hover\\:tw-bg-red-darkest:hover {\n    background-color: #3b0d0c;\n  }\n\n  .sm\\:hover\\:tw-bg-red-darker:hover {\n    background-color: #621b18;\n  }\n\n  .sm\\:hover\\:tw-bg-red-dark:hover {\n    background-color: #cc1f1a;\n  }\n\n  .sm\\:hover\\:tw-bg-red:hover {\n    background-color: #e3342f;\n  }\n\n  .sm\\:hover\\:tw-bg-red-light:hover {\n    background-color: #ef5753;\n  }\n\n  .sm\\:hover\\:tw-bg-red-lighter:hover {\n    background-color: #f9acaa;\n  }\n\n  .sm\\:hover\\:tw-bg-red-lightest:hover {\n    background-color: #fcebea;\n  }\n\n  .sm\\:hover\\:tw-bg-orange-darkest:hover {\n    background-color: #462a16;\n  }\n\n  .sm\\:hover\\:tw-bg-orange-darker:hover {\n    background-color: #613b1f;\n  }\n\n  .sm\\:hover\\:tw-bg-orange-dark:hover {\n    background-color: #de751f;\n  }\n\n  .sm\\:hover\\:tw-bg-orange:hover {\n    background-color: #f6993f;\n  }\n\n  .sm\\:hover\\:tw-bg-orange-light:hover {\n    background-color: #faad63;\n  }\n\n  .sm\\:hover\\:tw-bg-orange-lighter:hover {\n    background-color: #fcd9b6;\n  }\n\n  .sm\\:hover\\:tw-bg-orange-lightest:hover {\n    background-color: #fff5eb;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow-darkest:hover {\n    background-color: #453411;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow-darker:hover {\n    background-color: #684f1d;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow-dark:hover {\n    background-color: #f2d024;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow:hover {\n    background-color: #ffed4a;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow-light:hover {\n    background-color: #fff382;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow-lighter:hover {\n    background-color: #fff9c2;\n  }\n\n  .sm\\:hover\\:tw-bg-yellow-lightest:hover {\n    background-color: #fcfbeb;\n  }\n\n  .sm\\:hover\\:tw-bg-green-darkest:hover {\n    background-color: #0f2f21;\n  }\n\n  .sm\\:hover\\:tw-bg-green-darker:hover {\n    background-color: #1a4731;\n  }\n\n  .sm\\:hover\\:tw-bg-green-dark:hover {\n    background-color: #1f9d55;\n  }\n\n  .sm\\:hover\\:tw-bg-green:hover {\n    background-color: #38c172;\n  }\n\n  .sm\\:hover\\:tw-bg-green-light:hover {\n    background-color: #51d88a;\n  }\n\n  .sm\\:hover\\:tw-bg-green-lighter:hover {\n    background-color: #a2f5bf;\n  }\n\n  .sm\\:hover\\:tw-bg-green-lightest:hover {\n    background-color: #e3fcec;\n  }\n\n  .sm\\:hover\\:tw-bg-teal-darkest:hover {\n    background-color: #0d3331;\n  }\n\n  .sm\\:hover\\:tw-bg-teal-darker:hover {\n    background-color: #20504f;\n  }\n\n  .sm\\:hover\\:tw-bg-teal-dark:hover {\n    background-color: #38a89d;\n  }\n\n  .sm\\:hover\\:tw-bg-teal:hover {\n    background-color: #4dc0b5;\n  }\n\n  .sm\\:hover\\:tw-bg-teal-light:hover {\n    background-color: #64d5ca;\n  }\n\n  .sm\\:hover\\:tw-bg-teal-lighter:hover {\n    background-color: #a0f0ed;\n  }\n\n  .sm\\:hover\\:tw-bg-teal-lightest:hover {\n    background-color: #e8fffe;\n  }\n\n  .sm\\:hover\\:tw-bg-blue-darkest:hover {\n    background-color: #12283a;\n  }\n\n  .sm\\:hover\\:tw-bg-blue-darker:hover {\n    background-color: #1c3d5a;\n  }\n\n  .sm\\:hover\\:tw-bg-blue-dark:hover {\n    background-color: #2779bd;\n  }\n\n  .sm\\:hover\\:tw-bg-blue:hover {\n    background-color: #3490dc;\n  }\n\n  .sm\\:hover\\:tw-bg-blue-light:hover {\n    background-color: #6cb2eb;\n  }\n\n  .sm\\:hover\\:tw-bg-blue-lighter:hover {\n    background-color: #bcdefa;\n  }\n\n  .sm\\:hover\\:tw-bg-blue-lightest:hover {\n    background-color: #eff8ff;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo-darkest:hover {\n    background-color: #191e38;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo-darker:hover {\n    background-color: #2f365f;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo-dark:hover {\n    background-color: #5661b3;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo:hover {\n    background-color: #6574cd;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo-light:hover {\n    background-color: #7886d7;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo-lighter:hover {\n    background-color: #b2b7ff;\n  }\n\n  .sm\\:hover\\:tw-bg-indigo-lightest:hover {\n    background-color: #e6e8ff;\n  }\n\n  .sm\\:hover\\:tw-bg-purple-darkest:hover {\n    background-color: #21183c;\n  }\n\n  .sm\\:hover\\:tw-bg-purple-darker:hover {\n    background-color: #382b5f;\n  }\n\n  .sm\\:hover\\:tw-bg-purple-dark:hover {\n    background-color: #794acf;\n  }\n\n  .sm\\:hover\\:tw-bg-purple:hover {\n    background-color: #9561e2;\n  }\n\n  .sm\\:hover\\:tw-bg-purple-light:hover {\n    background-color: #a779e9;\n  }\n\n  .sm\\:hover\\:tw-bg-purple-lighter:hover {\n    background-color: #d6bbfc;\n  }\n\n  .sm\\:hover\\:tw-bg-purple-lightest:hover {\n    background-color: #f3ebff;\n  }\n\n  .sm\\:hover\\:tw-bg-pink-darkest:hover {\n    background-color: #451225;\n  }\n\n  .sm\\:hover\\:tw-bg-pink-darker:hover {\n    background-color: #6f213f;\n  }\n\n  .sm\\:hover\\:tw-bg-pink-dark:hover {\n    background-color: #eb5286;\n  }\n\n  .sm\\:hover\\:tw-bg-pink:hover {\n    background-color: #f66d9b;\n  }\n\n  .sm\\:hover\\:tw-bg-pink-light:hover {\n    background-color: #fa7ea8;\n  }\n\n  .sm\\:hover\\:tw-bg-pink-lighter:hover {\n    background-color: #ffbbca;\n  }\n\n  .sm\\:hover\\:tw-bg-pink-lightest:hover {\n    background-color: #ffebef;\n  }\n\n  .sm\\:hover\\:tw-bg-linkColor:hover {\n    background-color: royalblue;\n  }\n\n  .sm\\:hover\\:tw-bg-linkHoverColor:hover {\n    background-color: darkblue;\n  }\n\n  .sm\\:focus\\:tw-bg-transparent:focus {\n    background-color: transparent;\n  }\n\n  .sm\\:focus\\:tw-bg-black:focus {\n    background-color: #22292f;\n  }\n\n  .sm\\:focus\\:tw-bg-grey-darkest:focus {\n    background-color: #3d4852;\n  }\n\n  .sm\\:focus\\:tw-bg-grey-darker:focus {\n    background-color: #606f7b;\n  }\n\n  .sm\\:focus\\:tw-bg-grey-dark:focus {\n    background-color: #8795a1;\n  }\n\n  .sm\\:focus\\:tw-bg-grey:focus {\n    background-color: #b8c2cc;\n  }\n\n  .sm\\:focus\\:tw-bg-grey-light:focus {\n    background-color: #dae1e7;\n  }\n\n  .sm\\:focus\\:tw-bg-grey-lighter:focus {\n    background-color: #f1f5f8;\n  }\n\n  .sm\\:focus\\:tw-bg-grey-lightest:focus {\n    background-color: #f8fafc;\n  }\n\n  .sm\\:focus\\:tw-bg-white:focus {\n    background-color: #fff;\n  }\n\n  .sm\\:focus\\:tw-bg-red-darkest:focus {\n    background-color: #3b0d0c;\n  }\n\n  .sm\\:focus\\:tw-bg-red-darker:focus {\n    background-color: #621b18;\n  }\n\n  .sm\\:focus\\:tw-bg-red-dark:focus {\n    background-color: #cc1f1a;\n  }\n\n  .sm\\:focus\\:tw-bg-red:focus {\n    background-color: #e3342f;\n  }\n\n  .sm\\:focus\\:tw-bg-red-light:focus {\n    background-color: #ef5753;\n  }\n\n  .sm\\:focus\\:tw-bg-red-lighter:focus {\n    background-color: #f9acaa;\n  }\n\n  .sm\\:focus\\:tw-bg-red-lightest:focus {\n    background-color: #fcebea;\n  }\n\n  .sm\\:focus\\:tw-bg-orange-darkest:focus {\n    background-color: #462a16;\n  }\n\n  .sm\\:focus\\:tw-bg-orange-darker:focus {\n    background-color: #613b1f;\n  }\n\n  .sm\\:focus\\:tw-bg-orange-dark:focus {\n    background-color: #de751f;\n  }\n\n  .sm\\:focus\\:tw-bg-orange:focus {\n    background-color: #f6993f;\n  }\n\n  .sm\\:focus\\:tw-bg-orange-light:focus {\n    background-color: #faad63;\n  }\n\n  .sm\\:focus\\:tw-bg-orange-lighter:focus {\n    background-color: #fcd9b6;\n  }\n\n  .sm\\:focus\\:tw-bg-orange-lightest:focus {\n    background-color: #fff5eb;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow-darkest:focus {\n    background-color: #453411;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow-darker:focus {\n    background-color: #684f1d;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow-dark:focus {\n    background-color: #f2d024;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow:focus {\n    background-color: #ffed4a;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow-light:focus {\n    background-color: #fff382;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow-lighter:focus {\n    background-color: #fff9c2;\n  }\n\n  .sm\\:focus\\:tw-bg-yellow-lightest:focus {\n    background-color: #fcfbeb;\n  }\n\n  .sm\\:focus\\:tw-bg-green-darkest:focus {\n    background-color: #0f2f21;\n  }\n\n  .sm\\:focus\\:tw-bg-green-darker:focus {\n    background-color: #1a4731;\n  }\n\n  .sm\\:focus\\:tw-bg-green-dark:focus {\n    background-color: #1f9d55;\n  }\n\n  .sm\\:focus\\:tw-bg-green:focus {\n    background-color: #38c172;\n  }\n\n  .sm\\:focus\\:tw-bg-green-light:focus {\n    background-color: #51d88a;\n  }\n\n  .sm\\:focus\\:tw-bg-green-lighter:focus {\n    background-color: #a2f5bf;\n  }\n\n  .sm\\:focus\\:tw-bg-green-lightest:focus {\n    background-color: #e3fcec;\n  }\n\n  .sm\\:focus\\:tw-bg-teal-darkest:focus {\n    background-color: #0d3331;\n  }\n\n  .sm\\:focus\\:tw-bg-teal-darker:focus {\n    background-color: #20504f;\n  }\n\n  .sm\\:focus\\:tw-bg-teal-dark:focus {\n    background-color: #38a89d;\n  }\n\n  .sm\\:focus\\:tw-bg-teal:focus {\n    background-color: #4dc0b5;\n  }\n\n  .sm\\:focus\\:tw-bg-teal-light:focus {\n    background-color: #64d5ca;\n  }\n\n  .sm\\:focus\\:tw-bg-teal-lighter:focus {\n    background-color: #a0f0ed;\n  }\n\n  .sm\\:focus\\:tw-bg-teal-lightest:focus {\n    background-color: #e8fffe;\n  }\n\n  .sm\\:focus\\:tw-bg-blue-darkest:focus {\n    background-color: #12283a;\n  }\n\n  .sm\\:focus\\:tw-bg-blue-darker:focus {\n    background-color: #1c3d5a;\n  }\n\n  .sm\\:focus\\:tw-bg-blue-dark:focus {\n    background-color: #2779bd;\n  }\n\n  .sm\\:focus\\:tw-bg-blue:focus {\n    background-color: #3490dc;\n  }\n\n  .sm\\:focus\\:tw-bg-blue-light:focus {\n    background-color: #6cb2eb;\n  }\n\n  .sm\\:focus\\:tw-bg-blue-lighter:focus {\n    background-color: #bcdefa;\n  }\n\n  .sm\\:focus\\:tw-bg-blue-lightest:focus {\n    background-color: #eff8ff;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo-darkest:focus {\n    background-color: #191e38;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo-darker:focus {\n    background-color: #2f365f;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo-dark:focus {\n    background-color: #5661b3;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo:focus {\n    background-color: #6574cd;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo-light:focus {\n    background-color: #7886d7;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo-lighter:focus {\n    background-color: #b2b7ff;\n  }\n\n  .sm\\:focus\\:tw-bg-indigo-lightest:focus {\n    background-color: #e6e8ff;\n  }\n\n  .sm\\:focus\\:tw-bg-purple-darkest:focus {\n    background-color: #21183c;\n  }\n\n  .sm\\:focus\\:tw-bg-purple-darker:focus {\n    background-color: #382b5f;\n  }\n\n  .sm\\:focus\\:tw-bg-purple-dark:focus {\n    background-color: #794acf;\n  }\n\n  .sm\\:focus\\:tw-bg-purple:focus {\n    background-color: #9561e2;\n  }\n\n  .sm\\:focus\\:tw-bg-purple-light:focus {\n    background-color: #a779e9;\n  }\n\n  .sm\\:focus\\:tw-bg-purple-lighter:focus {\n    background-color: #d6bbfc;\n  }\n\n  .sm\\:focus\\:tw-bg-purple-lightest:focus {\n    background-color: #f3ebff;\n  }\n\n  .sm\\:focus\\:tw-bg-pink-darkest:focus {\n    background-color: #451225;\n  }\n\n  .sm\\:focus\\:tw-bg-pink-darker:focus {\n    background-color: #6f213f;\n  }\n\n  .sm\\:focus\\:tw-bg-pink-dark:focus {\n    background-color: #eb5286;\n  }\n\n  .sm\\:focus\\:tw-bg-pink:focus {\n    background-color: #f66d9b;\n  }\n\n  .sm\\:focus\\:tw-bg-pink-light:focus {\n    background-color: #fa7ea8;\n  }\n\n  .sm\\:focus\\:tw-bg-pink-lighter:focus {\n    background-color: #ffbbca;\n  }\n\n  .sm\\:focus\\:tw-bg-pink-lightest:focus {\n    background-color: #ffebef;\n  }\n\n  .sm\\:focus\\:tw-bg-linkColor:focus {\n    background-color: royalblue;\n  }\n\n  .sm\\:focus\\:tw-bg-linkHoverColor:focus {\n    background-color: darkblue;\n  }\n\n  .sm\\:tw-bg-bottom {\n    background-position: bottom;\n  }\n\n  .sm\\:tw-bg-center {\n    background-position: center;\n  }\n\n  .sm\\:tw-bg-left {\n    background-position: left;\n  }\n\n  .sm\\:tw-bg-left-bottom {\n    background-position: left bottom;\n  }\n\n  .sm\\:tw-bg-left-top {\n    background-position: left top;\n  }\n\n  .sm\\:tw-bg-right {\n    background-position: right;\n  }\n\n  .sm\\:tw-bg-right-bottom {\n    background-position: right bottom;\n  }\n\n  .sm\\:tw-bg-right-top {\n    background-position: right top;\n  }\n\n  .sm\\:tw-bg-top {\n    background-position: top;\n  }\n\n  .sm\\:tw-bg-repeat {\n    background-repeat: repeat;\n  }\n\n  .sm\\:tw-bg-no-repeat {\n    background-repeat: no-repeat;\n  }\n\n  .sm\\:tw-bg-repeat-x {\n    background-repeat: repeat-x;\n  }\n\n  .sm\\:tw-bg-repeat-y {\n    background-repeat: repeat-y;\n  }\n\n  .sm\\:tw-bg-auto {\n    background-size: auto;\n  }\n\n  .sm\\:tw-bg-cover {\n    background-size: cover;\n  }\n\n  .sm\\:tw-bg-contain {\n    background-size: contain;\n  }\n\n  .sm\\:tw-border-transparent {\n    border-color: transparent;\n  }\n\n  .sm\\:tw-border-black {\n    border-color: #22292f;\n  }\n\n  .sm\\:tw-border-grey-darkest {\n    border-color: #3d4852;\n  }\n\n  .sm\\:tw-border-grey-darker {\n    border-color: #606f7b;\n  }\n\n  .sm\\:tw-border-grey-dark {\n    border-color: #8795a1;\n  }\n\n  .sm\\:tw-border-grey {\n    border-color: #b8c2cc;\n  }\n\n  .sm\\:tw-border-grey-light {\n    border-color: #dae1e7;\n  }\n\n  .sm\\:tw-border-grey-lighter {\n    border-color: #f1f5f8;\n  }\n\n  .sm\\:tw-border-grey-lightest {\n    border-color: #f8fafc;\n  }\n\n  .sm\\:tw-border-white {\n    border-color: #fff;\n  }\n\n  .sm\\:tw-border-red-darkest {\n    border-color: #3b0d0c;\n  }\n\n  .sm\\:tw-border-red-darker {\n    border-color: #621b18;\n  }\n\n  .sm\\:tw-border-red-dark {\n    border-color: #cc1f1a;\n  }\n\n  .sm\\:tw-border-red {\n    border-color: #e3342f;\n  }\n\n  .sm\\:tw-border-red-light {\n    border-color: #ef5753;\n  }\n\n  .sm\\:tw-border-red-lighter {\n    border-color: #f9acaa;\n  }\n\n  .sm\\:tw-border-red-lightest {\n    border-color: #fcebea;\n  }\n\n  .sm\\:tw-border-orange-darkest {\n    border-color: #462a16;\n  }\n\n  .sm\\:tw-border-orange-darker {\n    border-color: #613b1f;\n  }\n\n  .sm\\:tw-border-orange-dark {\n    border-color: #de751f;\n  }\n\n  .sm\\:tw-border-orange {\n    border-color: #f6993f;\n  }\n\n  .sm\\:tw-border-orange-light {\n    border-color: #faad63;\n  }\n\n  .sm\\:tw-border-orange-lighter {\n    border-color: #fcd9b6;\n  }\n\n  .sm\\:tw-border-orange-lightest {\n    border-color: #fff5eb;\n  }\n\n  .sm\\:tw-border-yellow-darkest {\n    border-color: #453411;\n  }\n\n  .sm\\:tw-border-yellow-darker {\n    border-color: #684f1d;\n  }\n\n  .sm\\:tw-border-yellow-dark {\n    border-color: #f2d024;\n  }\n\n  .sm\\:tw-border-yellow {\n    border-color: #ffed4a;\n  }\n\n  .sm\\:tw-border-yellow-light {\n    border-color: #fff382;\n  }\n\n  .sm\\:tw-border-yellow-lighter {\n    border-color: #fff9c2;\n  }\n\n  .sm\\:tw-border-yellow-lightest {\n    border-color: #fcfbeb;\n  }\n\n  .sm\\:tw-border-green-darkest {\n    border-color: #0f2f21;\n  }\n\n  .sm\\:tw-border-green-darker {\n    border-color: #1a4731;\n  }\n\n  .sm\\:tw-border-green-dark {\n    border-color: #1f9d55;\n  }\n\n  .sm\\:tw-border-green {\n    border-color: #38c172;\n  }\n\n  .sm\\:tw-border-green-light {\n    border-color: #51d88a;\n  }\n\n  .sm\\:tw-border-green-lighter {\n    border-color: #a2f5bf;\n  }\n\n  .sm\\:tw-border-green-lightest {\n    border-color: #e3fcec;\n  }\n\n  .sm\\:tw-border-teal-darkest {\n    border-color: #0d3331;\n  }\n\n  .sm\\:tw-border-teal-darker {\n    border-color: #20504f;\n  }\n\n  .sm\\:tw-border-teal-dark {\n    border-color: #38a89d;\n  }\n\n  .sm\\:tw-border-teal {\n    border-color: #4dc0b5;\n  }\n\n  .sm\\:tw-border-teal-light {\n    border-color: #64d5ca;\n  }\n\n  .sm\\:tw-border-teal-lighter {\n    border-color: #a0f0ed;\n  }\n\n  .sm\\:tw-border-teal-lightest {\n    border-color: #e8fffe;\n  }\n\n  .sm\\:tw-border-blue-darkest {\n    border-color: #12283a;\n  }\n\n  .sm\\:tw-border-blue-darker {\n    border-color: #1c3d5a;\n  }\n\n  .sm\\:tw-border-blue-dark {\n    border-color: #2779bd;\n  }\n\n  .sm\\:tw-border-blue {\n    border-color: #3490dc;\n  }\n\n  .sm\\:tw-border-blue-light {\n    border-color: #6cb2eb;\n  }\n\n  .sm\\:tw-border-blue-lighter {\n    border-color: #bcdefa;\n  }\n\n  .sm\\:tw-border-blue-lightest {\n    border-color: #eff8ff;\n  }\n\n  .sm\\:tw-border-indigo-darkest {\n    border-color: #191e38;\n  }\n\n  .sm\\:tw-border-indigo-darker {\n    border-color: #2f365f;\n  }\n\n  .sm\\:tw-border-indigo-dark {\n    border-color: #5661b3;\n  }\n\n  .sm\\:tw-border-indigo {\n    border-color: #6574cd;\n  }\n\n  .sm\\:tw-border-indigo-light {\n    border-color: #7886d7;\n  }\n\n  .sm\\:tw-border-indigo-lighter {\n    border-color: #b2b7ff;\n  }\n\n  .sm\\:tw-border-indigo-lightest {\n    border-color: #e6e8ff;\n  }\n\n  .sm\\:tw-border-purple-darkest {\n    border-color: #21183c;\n  }\n\n  .sm\\:tw-border-purple-darker {\n    border-color: #382b5f;\n  }\n\n  .sm\\:tw-border-purple-dark {\n    border-color: #794acf;\n  }\n\n  .sm\\:tw-border-purple {\n    border-color: #9561e2;\n  }\n\n  .sm\\:tw-border-purple-light {\n    border-color: #a779e9;\n  }\n\n  .sm\\:tw-border-purple-lighter {\n    border-color: #d6bbfc;\n  }\n\n  .sm\\:tw-border-purple-lightest {\n    border-color: #f3ebff;\n  }\n\n  .sm\\:tw-border-pink-darkest {\n    border-color: #451225;\n  }\n\n  .sm\\:tw-border-pink-darker {\n    border-color: #6f213f;\n  }\n\n  .sm\\:tw-border-pink-dark {\n    border-color: #eb5286;\n  }\n\n  .sm\\:tw-border-pink {\n    border-color: #f66d9b;\n  }\n\n  .sm\\:tw-border-pink-light {\n    border-color: #fa7ea8;\n  }\n\n  .sm\\:tw-border-pink-lighter {\n    border-color: #ffbbca;\n  }\n\n  .sm\\:tw-border-pink-lightest {\n    border-color: #ffebef;\n  }\n\n  .sm\\:hover\\:tw-border-transparent:hover {\n    border-color: transparent;\n  }\n\n  .sm\\:hover\\:tw-border-black:hover {\n    border-color: #22292f;\n  }\n\n  .sm\\:hover\\:tw-border-grey-darkest:hover {\n    border-color: #3d4852;\n  }\n\n  .sm\\:hover\\:tw-border-grey-darker:hover {\n    border-color: #606f7b;\n  }\n\n  .sm\\:hover\\:tw-border-grey-dark:hover {\n    border-color: #8795a1;\n  }\n\n  .sm\\:hover\\:tw-border-grey:hover {\n    border-color: #b8c2cc;\n  }\n\n  .sm\\:hover\\:tw-border-grey-light:hover {\n    border-color: #dae1e7;\n  }\n\n  .sm\\:hover\\:tw-border-grey-lighter:hover {\n    border-color: #f1f5f8;\n  }\n\n  .sm\\:hover\\:tw-border-grey-lightest:hover {\n    border-color: #f8fafc;\n  }\n\n  .sm\\:hover\\:tw-border-white:hover {\n    border-color: #fff;\n  }\n\n  .sm\\:hover\\:tw-border-red-darkest:hover {\n    border-color: #3b0d0c;\n  }\n\n  .sm\\:hover\\:tw-border-red-darker:hover {\n    border-color: #621b18;\n  }\n\n  .sm\\:hover\\:tw-border-red-dark:hover {\n    border-color: #cc1f1a;\n  }\n\n  .sm\\:hover\\:tw-border-red:hover {\n    border-color: #e3342f;\n  }\n\n  .sm\\:hover\\:tw-border-red-light:hover {\n    border-color: #ef5753;\n  }\n\n  .sm\\:hover\\:tw-border-red-lighter:hover {\n    border-color: #f9acaa;\n  }\n\n  .sm\\:hover\\:tw-border-red-lightest:hover {\n    border-color: #fcebea;\n  }\n\n  .sm\\:hover\\:tw-border-orange-darkest:hover {\n    border-color: #462a16;\n  }\n\n  .sm\\:hover\\:tw-border-orange-darker:hover {\n    border-color: #613b1f;\n  }\n\n  .sm\\:hover\\:tw-border-orange-dark:hover {\n    border-color: #de751f;\n  }\n\n  .sm\\:hover\\:tw-border-orange:hover {\n    border-color: #f6993f;\n  }\n\n  .sm\\:hover\\:tw-border-orange-light:hover {\n    border-color: #faad63;\n  }\n\n  .sm\\:hover\\:tw-border-orange-lighter:hover {\n    border-color: #fcd9b6;\n  }\n\n  .sm\\:hover\\:tw-border-orange-lightest:hover {\n    border-color: #fff5eb;\n  }\n\n  .sm\\:hover\\:tw-border-yellow-darkest:hover {\n    border-color: #453411;\n  }\n\n  .sm\\:hover\\:tw-border-yellow-darker:hover {\n    border-color: #684f1d;\n  }\n\n  .sm\\:hover\\:tw-border-yellow-dark:hover {\n    border-color: #f2d024;\n  }\n\n  .sm\\:hover\\:tw-border-yellow:hover {\n    border-color: #ffed4a;\n  }\n\n  .sm\\:hover\\:tw-border-yellow-light:hover {\n    border-color: #fff382;\n  }\n\n  .sm\\:hover\\:tw-border-yellow-lighter:hover {\n    border-color: #fff9c2;\n  }\n\n  .sm\\:hover\\:tw-border-yellow-lightest:hover {\n    border-color: #fcfbeb;\n  }\n\n  .sm\\:hover\\:tw-border-green-darkest:hover {\n    border-color: #0f2f21;\n  }\n\n  .sm\\:hover\\:tw-border-green-darker:hover {\n    border-color: #1a4731;\n  }\n\n  .sm\\:hover\\:tw-border-green-dark:hover {\n    border-color: #1f9d55;\n  }\n\n  .sm\\:hover\\:tw-border-green:hover {\n    border-color: #38c172;\n  }\n\n  .sm\\:hover\\:tw-border-green-light:hover {\n    border-color: #51d88a;\n  }\n\n  .sm\\:hover\\:tw-border-green-lighter:hover {\n    border-color: #a2f5bf;\n  }\n\n  .sm\\:hover\\:tw-border-green-lightest:hover {\n    border-color: #e3fcec;\n  }\n\n  .sm\\:hover\\:tw-border-teal-darkest:hover {\n    border-color: #0d3331;\n  }\n\n  .sm\\:hover\\:tw-border-teal-darker:hover {\n    border-color: #20504f;\n  }\n\n  .sm\\:hover\\:tw-border-teal-dark:hover {\n    border-color: #38a89d;\n  }\n\n  .sm\\:hover\\:tw-border-teal:hover {\n    border-color: #4dc0b5;\n  }\n\n  .sm\\:hover\\:tw-border-teal-light:hover {\n    border-color: #64d5ca;\n  }\n\n  .sm\\:hover\\:tw-border-teal-lighter:hover {\n    border-color: #a0f0ed;\n  }\n\n  .sm\\:hover\\:tw-border-teal-lightest:hover {\n    border-color: #e8fffe;\n  }\n\n  .sm\\:hover\\:tw-border-blue-darkest:hover {\n    border-color: #12283a;\n  }\n\n  .sm\\:hover\\:tw-border-blue-darker:hover {\n    border-color: #1c3d5a;\n  }\n\n  .sm\\:hover\\:tw-border-blue-dark:hover {\n    border-color: #2779bd;\n  }\n\n  .sm\\:hover\\:tw-border-blue:hover {\n    border-color: #3490dc;\n  }\n\n  .sm\\:hover\\:tw-border-blue-light:hover {\n    border-color: #6cb2eb;\n  }\n\n  .sm\\:hover\\:tw-border-blue-lighter:hover {\n    border-color: #bcdefa;\n  }\n\n  .sm\\:hover\\:tw-border-blue-lightest:hover {\n    border-color: #eff8ff;\n  }\n\n  .sm\\:hover\\:tw-border-indigo-darkest:hover {\n    border-color: #191e38;\n  }\n\n  .sm\\:hover\\:tw-border-indigo-darker:hover {\n    border-color: #2f365f;\n  }\n\n  .sm\\:hover\\:tw-border-indigo-dark:hover {\n    border-color: #5661b3;\n  }\n\n  .sm\\:hover\\:tw-border-indigo:hover {\n    border-color: #6574cd;\n  }\n\n  .sm\\:hover\\:tw-border-indigo-light:hover {\n    border-color: #7886d7;\n  }\n\n  .sm\\:hover\\:tw-border-indigo-lighter:hover {\n    border-color: #b2b7ff;\n  }\n\n  .sm\\:hover\\:tw-border-indigo-lightest:hover {\n    border-color: #e6e8ff;\n  }\n\n  .sm\\:hover\\:tw-border-purple-darkest:hover {\n    border-color: #21183c;\n  }\n\n  .sm\\:hover\\:tw-border-purple-darker:hover {\n    border-color: #382b5f;\n  }\n\n  .sm\\:hover\\:tw-border-purple-dark:hover {\n    border-color: #794acf;\n  }\n\n  .sm\\:hover\\:tw-border-purple:hover {\n    border-color: #9561e2;\n  }\n\n  .sm\\:hover\\:tw-border-purple-light:hover {\n    border-color: #a779e9;\n  }\n\n  .sm\\:hover\\:tw-border-purple-lighter:hover {\n    border-color: #d6bbfc;\n  }\n\n  .sm\\:hover\\:tw-border-purple-lightest:hover {\n    border-color: #f3ebff;\n  }\n\n  .sm\\:hover\\:tw-border-pink-darkest:hover {\n    border-color: #451225;\n  }\n\n  .sm\\:hover\\:tw-border-pink-darker:hover {\n    border-color: #6f213f;\n  }\n\n  .sm\\:hover\\:tw-border-pink-dark:hover {\n    border-color: #eb5286;\n  }\n\n  .sm\\:hover\\:tw-border-pink:hover {\n    border-color: #f66d9b;\n  }\n\n  .sm\\:hover\\:tw-border-pink-light:hover {\n    border-color: #fa7ea8;\n  }\n\n  .sm\\:hover\\:tw-border-pink-lighter:hover {\n    border-color: #ffbbca;\n  }\n\n  .sm\\:hover\\:tw-border-pink-lightest:hover {\n    border-color: #ffebef;\n  }\n\n  .sm\\:focus\\:tw-border-transparent:focus {\n    border-color: transparent;\n  }\n\n  .sm\\:focus\\:tw-border-black:focus {\n    border-color: #22292f;\n  }\n\n  .sm\\:focus\\:tw-border-grey-darkest:focus {\n    border-color: #3d4852;\n  }\n\n  .sm\\:focus\\:tw-border-grey-darker:focus {\n    border-color: #606f7b;\n  }\n\n  .sm\\:focus\\:tw-border-grey-dark:focus {\n    border-color: #8795a1;\n  }\n\n  .sm\\:focus\\:tw-border-grey:focus {\n    border-color: #b8c2cc;\n  }\n\n  .sm\\:focus\\:tw-border-grey-light:focus {\n    border-color: #dae1e7;\n  }\n\n  .sm\\:focus\\:tw-border-grey-lighter:focus {\n    border-color: #f1f5f8;\n  }\n\n  .sm\\:focus\\:tw-border-grey-lightest:focus {\n    border-color: #f8fafc;\n  }\n\n  .sm\\:focus\\:tw-border-white:focus {\n    border-color: #fff;\n  }\n\n  .sm\\:focus\\:tw-border-red-darkest:focus {\n    border-color: #3b0d0c;\n  }\n\n  .sm\\:focus\\:tw-border-red-darker:focus {\n    border-color: #621b18;\n  }\n\n  .sm\\:focus\\:tw-border-red-dark:focus {\n    border-color: #cc1f1a;\n  }\n\n  .sm\\:focus\\:tw-border-red:focus {\n    border-color: #e3342f;\n  }\n\n  .sm\\:focus\\:tw-border-red-light:focus {\n    border-color: #ef5753;\n  }\n\n  .sm\\:focus\\:tw-border-red-lighter:focus {\n    border-color: #f9acaa;\n  }\n\n  .sm\\:focus\\:tw-border-red-lightest:focus {\n    border-color: #fcebea;\n  }\n\n  .sm\\:focus\\:tw-border-orange-darkest:focus {\n    border-color: #462a16;\n  }\n\n  .sm\\:focus\\:tw-border-orange-darker:focus {\n    border-color: #613b1f;\n  }\n\n  .sm\\:focus\\:tw-border-orange-dark:focus {\n    border-color: #de751f;\n  }\n\n  .sm\\:focus\\:tw-border-orange:focus {\n    border-color: #f6993f;\n  }\n\n  .sm\\:focus\\:tw-border-orange-light:focus {\n    border-color: #faad63;\n  }\n\n  .sm\\:focus\\:tw-border-orange-lighter:focus {\n    border-color: #fcd9b6;\n  }\n\n  .sm\\:focus\\:tw-border-orange-lightest:focus {\n    border-color: #fff5eb;\n  }\n\n  .sm\\:focus\\:tw-border-yellow-darkest:focus {\n    border-color: #453411;\n  }\n\n  .sm\\:focus\\:tw-border-yellow-darker:focus {\n    border-color: #684f1d;\n  }\n\n  .sm\\:focus\\:tw-border-yellow-dark:focus {\n    border-color: #f2d024;\n  }\n\n  .sm\\:focus\\:tw-border-yellow:focus {\n    border-color: #ffed4a;\n  }\n\n  .sm\\:focus\\:tw-border-yellow-light:focus {\n    border-color: #fff382;\n  }\n\n  .sm\\:focus\\:tw-border-yellow-lighter:focus {\n    border-color: #fff9c2;\n  }\n\n  .sm\\:focus\\:tw-border-yellow-lightest:focus {\n    border-color: #fcfbeb;\n  }\n\n  .sm\\:focus\\:tw-border-green-darkest:focus {\n    border-color: #0f2f21;\n  }\n\n  .sm\\:focus\\:tw-border-green-darker:focus {\n    border-color: #1a4731;\n  }\n\n  .sm\\:focus\\:tw-border-green-dark:focus {\n    border-color: #1f9d55;\n  }\n\n  .sm\\:focus\\:tw-border-green:focus {\n    border-color: #38c172;\n  }\n\n  .sm\\:focus\\:tw-border-green-light:focus {\n    border-color: #51d88a;\n  }\n\n  .sm\\:focus\\:tw-border-green-lighter:focus {\n    border-color: #a2f5bf;\n  }\n\n  .sm\\:focus\\:tw-border-green-lightest:focus {\n    border-color: #e3fcec;\n  }\n\n  .sm\\:focus\\:tw-border-teal-darkest:focus {\n    border-color: #0d3331;\n  }\n\n  .sm\\:focus\\:tw-border-teal-darker:focus {\n    border-color: #20504f;\n  }\n\n  .sm\\:focus\\:tw-border-teal-dark:focus {\n    border-color: #38a89d;\n  }\n\n  .sm\\:focus\\:tw-border-teal:focus {\n    border-color: #4dc0b5;\n  }\n\n  .sm\\:focus\\:tw-border-teal-light:focus {\n    border-color: #64d5ca;\n  }\n\n  .sm\\:focus\\:tw-border-teal-lighter:focus {\n    border-color: #a0f0ed;\n  }\n\n  .sm\\:focus\\:tw-border-teal-lightest:focus {\n    border-color: #e8fffe;\n  }\n\n  .sm\\:focus\\:tw-border-blue-darkest:focus {\n    border-color: #12283a;\n  }\n\n  .sm\\:focus\\:tw-border-blue-darker:focus {\n    border-color: #1c3d5a;\n  }\n\n  .sm\\:focus\\:tw-border-blue-dark:focus {\n    border-color: #2779bd;\n  }\n\n  .sm\\:focus\\:tw-border-blue:focus {\n    border-color: #3490dc;\n  }\n\n  .sm\\:focus\\:tw-border-blue-light:focus {\n    border-color: #6cb2eb;\n  }\n\n  .sm\\:focus\\:tw-border-blue-lighter:focus {\n    border-color: #bcdefa;\n  }\n\n  .sm\\:focus\\:tw-border-blue-lightest:focus {\n    border-color: #eff8ff;\n  }\n\n  .sm\\:focus\\:tw-border-indigo-darkest:focus {\n    border-color: #191e38;\n  }\n\n  .sm\\:focus\\:tw-border-indigo-darker:focus {\n    border-color: #2f365f;\n  }\n\n  .sm\\:focus\\:tw-border-indigo-dark:focus {\n    border-color: #5661b3;\n  }\n\n  .sm\\:focus\\:tw-border-indigo:focus {\n    border-color: #6574cd;\n  }\n\n  .sm\\:focus\\:tw-border-indigo-light:focus {\n    border-color: #7886d7;\n  }\n\n  .sm\\:focus\\:tw-border-indigo-lighter:focus {\n    border-color: #b2b7ff;\n  }\n\n  .sm\\:focus\\:tw-border-indigo-lightest:focus {\n    border-color: #e6e8ff;\n  }\n\n  .sm\\:focus\\:tw-border-purple-darkest:focus {\n    border-color: #21183c;\n  }\n\n  .sm\\:focus\\:tw-border-purple-darker:focus {\n    border-color: #382b5f;\n  }\n\n  .sm\\:focus\\:tw-border-purple-dark:focus {\n    border-color: #794acf;\n  }\n\n  .sm\\:focus\\:tw-border-purple:focus {\n    border-color: #9561e2;\n  }\n\n  .sm\\:focus\\:tw-border-purple-light:focus {\n    border-color: #a779e9;\n  }\n\n  .sm\\:focus\\:tw-border-purple-lighter:focus {\n    border-color: #d6bbfc;\n  }\n\n  .sm\\:focus\\:tw-border-purple-lightest:focus {\n    border-color: #f3ebff;\n  }\n\n  .sm\\:focus\\:tw-border-pink-darkest:focus {\n    border-color: #451225;\n  }\n\n  .sm\\:focus\\:tw-border-pink-darker:focus {\n    border-color: #6f213f;\n  }\n\n  .sm\\:focus\\:tw-border-pink-dark:focus {\n    border-color: #eb5286;\n  }\n\n  .sm\\:focus\\:tw-border-pink:focus {\n    border-color: #f66d9b;\n  }\n\n  .sm\\:focus\\:tw-border-pink-light:focus {\n    border-color: #fa7ea8;\n  }\n\n  .sm\\:focus\\:tw-border-pink-lighter:focus {\n    border-color: #ffbbca;\n  }\n\n  .sm\\:focus\\:tw-border-pink-lightest:focus {\n    border-color: #ffebef;\n  }\n\n  .sm\\:tw-rounded-none {\n    border-radius: 0;\n  }\n\n  .sm\\:tw-rounded-sm {\n    border-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded {\n    border-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-lg {\n    border-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-full {\n    border-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-t-none {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0;\n  }\n\n  .sm\\:tw-rounded-r-none {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n  }\n\n  .sm\\:tw-rounded-b-none {\n    border-bottom-right-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .sm\\:tw-rounded-l-none {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .sm\\:tw-rounded-t-sm {\n    border-top-left-radius: .125rem;\n    border-top-right-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-r-sm {\n    border-top-right-radius: .125rem;\n    border-bottom-right-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-b-sm {\n    border-bottom-right-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-l-sm {\n    border-top-left-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-t {\n    border-top-left-radius: .25rem;\n    border-top-right-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-r {\n    border-top-right-radius: .25rem;\n    border-bottom-right-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-b {\n    border-bottom-right-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-l {\n    border-top-left-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-t-lg {\n    border-top-left-radius: .5rem;\n    border-top-right-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-r-lg {\n    border-top-right-radius: .5rem;\n    border-bottom-right-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-b-lg {\n    border-bottom-right-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-l-lg {\n    border-top-left-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-t-full {\n    border-top-left-radius: 9999px;\n    border-top-right-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-r-full {\n    border-top-right-radius: 9999px;\n    border-bottom-right-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-b-full {\n    border-bottom-right-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-l-full {\n    border-top-left-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-tl-none {\n    border-top-left-radius: 0;\n  }\n\n  .sm\\:tw-rounded-tr-none {\n    border-top-right-radius: 0;\n  }\n\n  .sm\\:tw-rounded-br-none {\n    border-bottom-right-radius: 0;\n  }\n\n  .sm\\:tw-rounded-bl-none {\n    border-bottom-left-radius: 0;\n  }\n\n  .sm\\:tw-rounded-tl-sm {\n    border-top-left-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-tr-sm {\n    border-top-right-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-br-sm {\n    border-bottom-right-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-bl-sm {\n    border-bottom-left-radius: .125rem;\n  }\n\n  .sm\\:tw-rounded-tl {\n    border-top-left-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-tr {\n    border-top-right-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-br {\n    border-bottom-right-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-bl {\n    border-bottom-left-radius: .25rem;\n  }\n\n  .sm\\:tw-rounded-tl-lg {\n    border-top-left-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-tr-lg {\n    border-top-right-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-br-lg {\n    border-bottom-right-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-bl-lg {\n    border-bottom-left-radius: .5rem;\n  }\n\n  .sm\\:tw-rounded-tl-full {\n    border-top-left-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-tr-full {\n    border-top-right-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-br-full {\n    border-bottom-right-radius: 9999px;\n  }\n\n  .sm\\:tw-rounded-bl-full {\n    border-bottom-left-radius: 9999px;\n  }\n\n  .sm\\:tw-border-solid {\n    border-style: solid;\n  }\n\n  .sm\\:tw-border-dashed {\n    border-style: dashed;\n  }\n\n  .sm\\:tw-border-dotted {\n    border-style: dotted;\n  }\n\n  .sm\\:tw-border-none {\n    border-style: none;\n  }\n\n  .sm\\:tw-border-0 {\n    border-width: 0;\n  }\n\n  .sm\\:tw-border-2 {\n    border-width: 2px;\n  }\n\n  .sm\\:tw-border-4 {\n    border-width: 4px;\n  }\n\n  .sm\\:tw-border-8 {\n    border-width: 8px;\n  }\n\n  .sm\\:tw-border {\n    border-width: 1px;\n  }\n\n  .sm\\:tw-border-t-0 {\n    border-top-width: 0;\n  }\n\n  .sm\\:tw-border-r-0 {\n    border-right-width: 0;\n  }\n\n  .sm\\:tw-border-b-0 {\n    border-bottom-width: 0;\n  }\n\n  .sm\\:tw-border-l-0 {\n    border-left-width: 0;\n  }\n\n  .sm\\:tw-border-t-2 {\n    border-top-width: 2px;\n  }\n\n  .sm\\:tw-border-r-2 {\n    border-right-width: 2px;\n  }\n\n  .sm\\:tw-border-b-2 {\n    border-bottom-width: 2px;\n  }\n\n  .sm\\:tw-border-l-2 {\n    border-left-width: 2px;\n  }\n\n  .sm\\:tw-border-t-4 {\n    border-top-width: 4px;\n  }\n\n  .sm\\:tw-border-r-4 {\n    border-right-width: 4px;\n  }\n\n  .sm\\:tw-border-b-4 {\n    border-bottom-width: 4px;\n  }\n\n  .sm\\:tw-border-l-4 {\n    border-left-width: 4px;\n  }\n\n  .sm\\:tw-border-t-8 {\n    border-top-width: 8px;\n  }\n\n  .sm\\:tw-border-r-8 {\n    border-right-width: 8px;\n  }\n\n  .sm\\:tw-border-b-8 {\n    border-bottom-width: 8px;\n  }\n\n  .sm\\:tw-border-l-8 {\n    border-left-width: 8px;\n  }\n\n  .sm\\:tw-border-t {\n    border-top-width: 1px;\n  }\n\n  .sm\\:tw-border-r {\n    border-right-width: 1px;\n  }\n\n  .sm\\:tw-border-b {\n    border-bottom-width: 1px;\n  }\n\n  .sm\\:tw-border-l {\n    border-left-width: 1px;\n  }\n\n  .sm\\:tw-cursor-auto {\n    cursor: auto;\n  }\n\n  .sm\\:tw-cursor-default {\n    cursor: default;\n  }\n\n  .sm\\:tw-cursor-pointer {\n    cursor: pointer;\n  }\n\n  .sm\\:tw-cursor-wait {\n    cursor: wait;\n  }\n\n  .sm\\:tw-cursor-move {\n    cursor: move;\n  }\n\n  .sm\\:tw-cursor-not-allowed {\n    cursor: not-allowed;\n  }\n\n  .sm\\:tw-block {\n    display: block;\n  }\n\n  .sm\\:tw-inline-block {\n    display: inline-block;\n  }\n\n  .sm\\:tw-inline {\n    display: inline;\n  }\n\n  .sm\\:tw-table {\n    display: table;\n  }\n\n  .sm\\:tw-table-row {\n    display: table-row;\n  }\n\n  .sm\\:tw-table-cell {\n    display: table-cell;\n  }\n\n  .sm\\:tw-hidden {\n    display: none;\n  }\n\n  .sm\\:tw-flex {\n    display: flex;\n  }\n\n  .sm\\:tw-inline-flex {\n    display: inline-flex;\n  }\n\n  .sm\\:tw-flex-row {\n    flex-direction: row;\n  }\n\n  .sm\\:tw-flex-row-reverse {\n    flex-direction: row-reverse;\n  }\n\n  .sm\\:tw-flex-col {\n    flex-direction: column;\n  }\n\n  .sm\\:tw-flex-col-reverse {\n    flex-direction: column-reverse;\n  }\n\n  .sm\\:tw-flex-wrap {\n    flex-wrap: wrap;\n  }\n\n  .sm\\:tw-flex-wrap-reverse {\n    flex-wrap: wrap-reverse;\n  }\n\n  .sm\\:tw-flex-no-wrap {\n    flex-wrap: nowrap;\n  }\n\n  .sm\\:tw-items-start {\n    align-items: flex-start;\n  }\n\n  .sm\\:tw-items-end {\n    align-items: flex-end;\n  }\n\n  .sm\\:tw-items-center {\n    align-items: center;\n  }\n\n  .sm\\:tw-items-baseline {\n    align-items: baseline;\n  }\n\n  .sm\\:tw-items-stretch {\n    align-items: stretch;\n  }\n\n  .sm\\:tw-self-auto {\n    align-self: auto;\n  }\n\n  .sm\\:tw-self-start {\n    align-self: flex-start;\n  }\n\n  .sm\\:tw-self-end {\n    align-self: flex-end;\n  }\n\n  .sm\\:tw-self-center {\n    align-self: center;\n  }\n\n  .sm\\:tw-self-stretch {\n    align-self: stretch;\n  }\n\n  .sm\\:tw-justify-start {\n    justify-content: flex-start;\n  }\n\n  .sm\\:tw-justify-end {\n    justify-content: flex-end;\n  }\n\n  .sm\\:tw-justify-center {\n    justify-content: center;\n  }\n\n  .sm\\:tw-justify-between {\n    justify-content: space-between;\n  }\n\n  .sm\\:tw-justify-around {\n    justify-content: space-around;\n  }\n\n  .sm\\:tw-content-center {\n    align-content: center;\n  }\n\n  .sm\\:tw-content-start {\n    align-content: flex-start;\n  }\n\n  .sm\\:tw-content-end {\n    align-content: flex-end;\n  }\n\n  .sm\\:tw-content-between {\n    align-content: space-between;\n  }\n\n  .sm\\:tw-content-around {\n    align-content: space-around;\n  }\n\n  .sm\\:tw-flex-1 {\n    flex: 1 1 0%;\n  }\n\n  .sm\\:tw-flex-auto {\n    flex: 1 1 auto;\n  }\n\n  .sm\\:tw-flex-initial {\n    flex: 0 1 auto;\n  }\n\n  .sm\\:tw-flex-none {\n    flex: none;\n  }\n\n  .sm\\:tw-flex-grow {\n    flex-grow: 1;\n  }\n\n  .sm\\:tw-flex-shrink {\n    flex-shrink: 1;\n  }\n\n  .sm\\:tw-flex-no-grow {\n    flex-grow: 0;\n  }\n\n  .sm\\:tw-flex-no-shrink {\n    flex-shrink: 0;\n  }\n\n  .sm\\:tw-float-right {\n    float: right;\n  }\n\n  .sm\\:tw-float-left {\n    float: left;\n  }\n\n  .sm\\:tw-float-none {\n    float: none;\n  }\n\n  .sm\\:tw-clearfix:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n  .sm\\:tw-font-sans {\n    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  }\n\n  .sm\\:tw-font-serif {\n    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;\n  }\n\n  .sm\\:tw-font-mono {\n    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;\n  }\n\n  .sm\\:tw-font-logo {\n    font-family: Crafty Girls, cursive;\n  }\n\n  .sm\\:tw-font-hairline {\n    font-weight: 100;\n  }\n\n  .sm\\:tw-font-thin {\n    font-weight: 200;\n  }\n\n  .sm\\:tw-font-light {\n    font-weight: 300;\n  }\n\n  .sm\\:tw-font-normal {\n    font-weight: 400;\n  }\n\n  .sm\\:tw-font-medium {\n    font-weight: 500;\n  }\n\n  .sm\\:tw-font-semibold {\n    font-weight: 600;\n  }\n\n  .sm\\:tw-font-bold {\n    font-weight: 700;\n  }\n\n  .sm\\:tw-font-extrabold {\n    font-weight: 800;\n  }\n\n  .sm\\:tw-font-black {\n    font-weight: 900;\n  }\n\n  .sm\\:hover\\:tw-font-hairline:hover {\n    font-weight: 100;\n  }\n\n  .sm\\:hover\\:tw-font-thin:hover {\n    font-weight: 200;\n  }\n\n  .sm\\:hover\\:tw-font-light:hover {\n    font-weight: 300;\n  }\n\n  .sm\\:hover\\:tw-font-normal:hover {\n    font-weight: 400;\n  }\n\n  .sm\\:hover\\:tw-font-medium:hover {\n    font-weight: 500;\n  }\n\n  .sm\\:hover\\:tw-font-semibold:hover {\n    font-weight: 600;\n  }\n\n  .sm\\:hover\\:tw-font-bold:hover {\n    font-weight: 700;\n  }\n\n  .sm\\:hover\\:tw-font-extrabold:hover {\n    font-weight: 800;\n  }\n\n  .sm\\:hover\\:tw-font-black:hover {\n    font-weight: 900;\n  }\n\n  .sm\\:focus\\:tw-font-hairline:focus {\n    font-weight: 100;\n  }\n\n  .sm\\:focus\\:tw-font-thin:focus {\n    font-weight: 200;\n  }\n\n  .sm\\:focus\\:tw-font-light:focus {\n    font-weight: 300;\n  }\n\n  .sm\\:focus\\:tw-font-normal:focus {\n    font-weight: 400;\n  }\n\n  .sm\\:focus\\:tw-font-medium:focus {\n    font-weight: 500;\n  }\n\n  .sm\\:focus\\:tw-font-semibold:focus {\n    font-weight: 600;\n  }\n\n  .sm\\:focus\\:tw-font-bold:focus {\n    font-weight: 700;\n  }\n\n  .sm\\:focus\\:tw-font-extrabold:focus {\n    font-weight: 800;\n  }\n\n  .sm\\:focus\\:tw-font-black:focus {\n    font-weight: 900;\n  }\n\n  .sm\\:tw-h-1 {\n    height: .25rem;\n  }\n\n  .sm\\:tw-h-2 {\n    height: .5rem;\n  }\n\n  .sm\\:tw-h-3 {\n    height: .75rem;\n  }\n\n  .sm\\:tw-h-4 {\n    height: 1rem;\n  }\n\n  .sm\\:tw-h-5 {\n    height: 1.25rem;\n  }\n\n  .sm\\:tw-h-6 {\n    height: 1.5rem;\n  }\n\n  .sm\\:tw-h-8 {\n    height: 2rem;\n  }\n\n  .sm\\:tw-h-10 {\n    height: 2.5rem;\n  }\n\n  .sm\\:tw-h-12 {\n    height: 3rem;\n  }\n\n  .sm\\:tw-h-16 {\n    height: 4rem;\n  }\n\n  .sm\\:tw-h-24 {\n    height: 6rem;\n  }\n\n  .sm\\:tw-h-32 {\n    height: 8rem;\n  }\n\n  .sm\\:tw-h-48 {\n    height: 12rem;\n  }\n\n  .sm\\:tw-h-64 {\n    height: 16rem;\n  }\n\n  .sm\\:tw-h-auto {\n    height: auto;\n  }\n\n  .sm\\:tw-h-px {\n    height: 1px;\n  }\n\n  .sm\\:tw-h-full {\n    height: 100%;\n  }\n\n  .sm\\:tw-h-screen {\n    height: 100vh;\n  }\n\n  .sm\\:tw-leading-none {\n    line-height: 1;\n  }\n\n  .sm\\:tw-leading-tight {\n    line-height: 1.25;\n  }\n\n  .sm\\:tw-leading-normal {\n    line-height: 1.5;\n  }\n\n  .sm\\:tw-leading-loose {\n    line-height: 2;\n  }\n\n  .sm\\:tw-m-0 {\n    margin: 0;\n  }\n\n  .sm\\:tw-m-1 {\n    margin: .25rem;\n  }\n\n  .sm\\:tw-m-2 {\n    margin: .5rem;\n  }\n\n  .sm\\:tw-m-3 {\n    margin: .75rem;\n  }\n\n  .sm\\:tw-m-4 {\n    margin: 1rem;\n  }\n\n  .sm\\:tw-m-5 {\n    margin: 1.25rem;\n  }\n\n  .sm\\:tw-m-6 {\n    margin: 1.5rem;\n  }\n\n  .sm\\:tw-m-8 {\n    margin: 2rem;\n  }\n\n  .sm\\:tw-m-10 {\n    margin: 2.5rem;\n  }\n\n  .sm\\:tw-m-12 {\n    margin: 3rem;\n  }\n\n  .sm\\:tw-m-16 {\n    margin: 4rem;\n  }\n\n  .sm\\:tw-m-20 {\n    margin: 5rem;\n  }\n\n  .sm\\:tw-m-24 {\n    margin: 6rem;\n  }\n\n  .sm\\:tw-m-32 {\n    margin: 8rem;\n  }\n\n  .sm\\:tw-m-auto {\n    margin: auto;\n  }\n\n  .sm\\:tw-m-px {\n    margin: 1px;\n  }\n\n  .sm\\:tw-my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .sm\\:tw-mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .sm\\:tw-my-1 {\n    margin-top: .25rem;\n    margin-bottom: .25rem;\n  }\n\n  .sm\\:tw-mx-1 {\n    margin-left: .25rem;\n    margin-right: .25rem;\n  }\n\n  .sm\\:tw-my-2 {\n    margin-top: .5rem;\n    margin-bottom: .5rem;\n  }\n\n  .sm\\:tw-mx-2 {\n    margin-left: .5rem;\n    margin-right: .5rem;\n  }\n\n  .sm\\:tw-my-3 {\n    margin-top: .75rem;\n    margin-bottom: .75rem;\n  }\n\n  .sm\\:tw-mx-3 {\n    margin-left: .75rem;\n    margin-right: .75rem;\n  }\n\n  .sm\\:tw-my-4 {\n    margin-top: 1rem;\n    margin-bottom: 1rem;\n  }\n\n  .sm\\:tw-mx-4 {\n    margin-left: 1rem;\n    margin-right: 1rem;\n  }\n\n  .sm\\:tw-my-5 {\n    margin-top: 1.25rem;\n    margin-bottom: 1.25rem;\n  }\n\n  .sm\\:tw-mx-5 {\n    margin-left: 1.25rem;\n    margin-right: 1.25rem;\n  }\n\n  .sm\\:tw-my-6 {\n    margin-top: 1.5rem;\n    margin-bottom: 1.5rem;\n  }\n\n  .sm\\:tw-mx-6 {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n\n  .sm\\:tw-my-8 {\n    margin-top: 2rem;\n    margin-bottom: 2rem;\n  }\n\n  .sm\\:tw-mx-8 {\n    margin-left: 2rem;\n    margin-right: 2rem;\n  }\n\n  .sm\\:tw-my-10 {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n  }\n\n  .sm\\:tw-mx-10 {\n    margin-left: 2.5rem;\n    margin-right: 2.5rem;\n  }\n\n  .sm\\:tw-my-12 {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n  }\n\n  .sm\\:tw-mx-12 {\n    margin-left: 3rem;\n    margin-right: 3rem;\n  }\n\n  .sm\\:tw-my-16 {\n    margin-top: 4rem;\n    margin-bottom: 4rem;\n  }\n\n  .sm\\:tw-mx-16 {\n    margin-left: 4rem;\n    margin-right: 4rem;\n  }\n\n  .sm\\:tw-my-20 {\n    margin-top: 5rem;\n    margin-bottom: 5rem;\n  }\n\n  .sm\\:tw-mx-20 {\n    margin-left: 5rem;\n    margin-right: 5rem;\n  }\n\n  .sm\\:tw-my-24 {\n    margin-top: 6rem;\n    margin-bottom: 6rem;\n  }\n\n  .sm\\:tw-mx-24 {\n    margin-left: 6rem;\n    margin-right: 6rem;\n  }\n\n  .sm\\:tw-my-32 {\n    margin-top: 8rem;\n    margin-bottom: 8rem;\n  }\n\n  .sm\\:tw-mx-32 {\n    margin-left: 8rem;\n    margin-right: 8rem;\n  }\n\n  .sm\\:tw-my-auto {\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n\n  .sm\\:tw-mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .sm\\:tw-my-px {\n    margin-top: 1px;\n    margin-bottom: 1px;\n  }\n\n  .sm\\:tw-mx-px {\n    margin-left: 1px;\n    margin-right: 1px;\n  }\n\n  .sm\\:tw-mt-0 {\n    margin-top: 0;\n  }\n\n  .sm\\:tw-mr-0 {\n    margin-right: 0;\n  }\n\n  .sm\\:tw-mb-0 {\n    margin-bottom: 0;\n  }\n\n  .sm\\:tw-ml-0 {\n    margin-left: 0;\n  }\n\n  .sm\\:tw-mt-1 {\n    margin-top: .25rem;\n  }\n\n  .sm\\:tw-mr-1 {\n    margin-right: .25rem;\n  }\n\n  .sm\\:tw-mb-1 {\n    margin-bottom: .25rem;\n  }\n\n  .sm\\:tw-ml-1 {\n    margin-left: .25rem;\n  }\n\n  .sm\\:tw-mt-2 {\n    margin-top: .5rem;\n  }\n\n  .sm\\:tw-mr-2 {\n    margin-right: .5rem;\n  }\n\n  .sm\\:tw-mb-2 {\n    margin-bottom: .5rem;\n  }\n\n  .sm\\:tw-ml-2 {\n    margin-left: .5rem;\n  }\n\n  .sm\\:tw-mt-3 {\n    margin-top: .75rem;\n  }\n\n  .sm\\:tw-mr-3 {\n    margin-right: .75rem;\n  }\n\n  .sm\\:tw-mb-3 {\n    margin-bottom: .75rem;\n  }\n\n  .sm\\:tw-ml-3 {\n    margin-left: .75rem;\n  }\n\n  .sm\\:tw-mt-4 {\n    margin-top: 1rem;\n  }\n\n  .sm\\:tw-mr-4 {\n    margin-right: 1rem;\n  }\n\n  .sm\\:tw-mb-4 {\n    margin-bottom: 1rem;\n  }\n\n  .sm\\:tw-ml-4 {\n    margin-left: 1rem;\n  }\n\n  .sm\\:tw-mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .sm\\:tw-mr-5 {\n    margin-right: 1.25rem;\n  }\n\n  .sm\\:tw-mb-5 {\n    margin-bottom: 1.25rem;\n  }\n\n  .sm\\:tw-ml-5 {\n    margin-left: 1.25rem;\n  }\n\n  .sm\\:tw-mt-6 {\n    margin-top: 1.5rem;\n  }\n\n  .sm\\:tw-mr-6 {\n    margin-right: 1.5rem;\n  }\n\n  .sm\\:tw-mb-6 {\n    margin-bottom: 1.5rem;\n  }\n\n  .sm\\:tw-ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .sm\\:tw-mt-8 {\n    margin-top: 2rem;\n  }\n\n  .sm\\:tw-mr-8 {\n    margin-right: 2rem;\n  }\n\n  .sm\\:tw-mb-8 {\n    margin-bottom: 2rem;\n  }\n\n  .sm\\:tw-ml-8 {\n    margin-left: 2rem;\n  }\n\n  .sm\\:tw-mt-10 {\n    margin-top: 2.5rem;\n  }\n\n  .sm\\:tw-mr-10 {\n    margin-right: 2.5rem;\n  }\n\n  .sm\\:tw-mb-10 {\n    margin-bottom: 2.5rem;\n  }\n\n  .sm\\:tw-ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .sm\\:tw-mt-12 {\n    margin-top: 3rem;\n  }\n\n  .sm\\:tw-mr-12 {\n    margin-right: 3rem;\n  }\n\n  .sm\\:tw-mb-12 {\n    margin-bottom: 3rem;\n  }\n\n  .sm\\:tw-ml-12 {\n    margin-left: 3rem;\n  }\n\n  .sm\\:tw-mt-16 {\n    margin-top: 4rem;\n  }\n\n  .sm\\:tw-mr-16 {\n    margin-right: 4rem;\n  }\n\n  .sm\\:tw-mb-16 {\n    margin-bottom: 4rem;\n  }\n\n  .sm\\:tw-ml-16 {\n    margin-left: 4rem;\n  }\n\n  .sm\\:tw-mt-20 {\n    margin-top: 5rem;\n  }\n\n  .sm\\:tw-mr-20 {\n    margin-right: 5rem;\n  }\n\n  .sm\\:tw-mb-20 {\n    margin-bottom: 5rem;\n  }\n\n  .sm\\:tw-ml-20 {\n    margin-left: 5rem;\n  }\n\n  .sm\\:tw-mt-24 {\n    margin-top: 6rem;\n  }\n\n  .sm\\:tw-mr-24 {\n    margin-right: 6rem;\n  }\n\n  .sm\\:tw-mb-24 {\n    margin-bottom: 6rem;\n  }\n\n  .sm\\:tw-ml-24 {\n    margin-left: 6rem;\n  }\n\n  .sm\\:tw-mt-32 {\n    margin-top: 8rem;\n  }\n\n  .sm\\:tw-mr-32 {\n    margin-right: 8rem;\n  }\n\n  .sm\\:tw-mb-32 {\n    margin-bottom: 8rem;\n  }\n\n  .sm\\:tw-ml-32 {\n    margin-left: 8rem;\n  }\n\n  .sm\\:tw-mt-auto {\n    margin-top: auto;\n  }\n\n  .sm\\:tw-mr-auto {\n    margin-right: auto;\n  }\n\n  .sm\\:tw-mb-auto {\n    margin-bottom: auto;\n  }\n\n  .sm\\:tw-ml-auto {\n    margin-left: auto;\n  }\n\n  .sm\\:tw-mt-px {\n    margin-top: 1px;\n  }\n\n  .sm\\:tw-mr-px {\n    margin-right: 1px;\n  }\n\n  .sm\\:tw-mb-px {\n    margin-bottom: 1px;\n  }\n\n  .sm\\:tw-ml-px {\n    margin-left: 1px;\n  }\n\n  .sm\\:tw-max-h-full {\n    max-height: 100%;\n  }\n\n  .sm\\:tw-max-h-screen {\n    max-height: 100vh;\n  }\n\n  .sm\\:tw-max-w-xs {\n    max-width: 20rem;\n  }\n\n  .sm\\:tw-max-w-sm {\n    max-width: 30rem;\n  }\n\n  .sm\\:tw-max-w-md {\n    max-width: 40rem;\n  }\n\n  .sm\\:tw-max-w-lg {\n    max-width: 50rem;\n  }\n\n  .sm\\:tw-max-w-xl {\n    max-width: 60rem;\n  }\n\n  .sm\\:tw-max-w-2xl {\n    max-width: 70rem;\n  }\n\n  .sm\\:tw-max-w-3xl {\n    max-width: 80rem;\n  }\n\n  .sm\\:tw-max-w-4xl {\n    max-width: 90rem;\n  }\n\n  .sm\\:tw-max-w-5xl {\n    max-width: 100rem;\n  }\n\n  .sm\\:tw-max-w-full {\n    max-width: 100%;\n  }\n\n  .sm\\:tw-min-h-0 {\n    min-height: 0;\n  }\n\n  .sm\\:tw-min-h-full {\n    min-height: 100%;\n  }\n\n  .sm\\:tw-min-h-screen {\n    min-height: 100vh;\n  }\n\n  .sm\\:tw-min-w-0 {\n    min-width: 0;\n  }\n\n  .sm\\:tw-min-w-full {\n    min-width: 100%;\n  }\n\n  .sm\\:tw--m-0 {\n    margin: 0;\n  }\n\n  .sm\\:tw--m-1 {\n    margin: -0.25rem;\n  }\n\n  .sm\\:tw--m-2 {\n    margin: -0.5rem;\n  }\n\n  .sm\\:tw--m-3 {\n    margin: -0.75rem;\n  }\n\n  .sm\\:tw--m-4 {\n    margin: -1rem;\n  }\n\n  .sm\\:tw--m-5 {\n    margin: -1.25rem;\n  }\n\n  .sm\\:tw--m-6 {\n    margin: -1.5rem;\n  }\n\n  .sm\\:tw--m-8 {\n    margin: -2rem;\n  }\n\n  .sm\\:tw--m-10 {\n    margin: -2.5rem;\n  }\n\n  .sm\\:tw--m-12 {\n    margin: -3rem;\n  }\n\n  .sm\\:tw--m-16 {\n    margin: -4rem;\n  }\n\n  .sm\\:tw--m-20 {\n    margin: -5rem;\n  }\n\n  .sm\\:tw--m-24 {\n    margin: -6rem;\n  }\n\n  .sm\\:tw--m-32 {\n    margin: -8rem;\n  }\n\n  .sm\\:tw--m-px {\n    margin: -1px;\n  }\n\n  .sm\\:tw--my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .sm\\:tw--mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .sm\\:tw--my-1 {\n    margin-top: -0.25rem;\n    margin-bottom: -0.25rem;\n  }\n\n  .sm\\:tw--mx-1 {\n    margin-left: -0.25rem;\n    margin-right: -0.25rem;\n  }\n\n  .sm\\:tw--my-2 {\n    margin-top: -0.5rem;\n    margin-bottom: -0.5rem;\n  }\n\n  .sm\\:tw--mx-2 {\n    margin-left: -0.5rem;\n    margin-right: -0.5rem;\n  }\n\n  .sm\\:tw--my-3 {\n    margin-top: -0.75rem;\n    margin-bottom: -0.75rem;\n  }\n\n  .sm\\:tw--mx-3 {\n    margin-left: -0.75rem;\n    margin-right: -0.75rem;\n  }\n\n  .sm\\:tw--my-4 {\n    margin-top: -1rem;\n    margin-bottom: -1rem;\n  }\n\n  .sm\\:tw--mx-4 {\n    margin-left: -1rem;\n    margin-right: -1rem;\n  }\n\n  .sm\\:tw--my-5 {\n    margin-top: -1.25rem;\n    margin-bottom: -1.25rem;\n  }\n\n  .sm\\:tw--mx-5 {\n    margin-left: -1.25rem;\n    margin-right: -1.25rem;\n  }\n\n  .sm\\:tw--my-6 {\n    margin-top: -1.5rem;\n    margin-bottom: -1.5rem;\n  }\n\n  .sm\\:tw--mx-6 {\n    margin-left: -1.5rem;\n    margin-right: -1.5rem;\n  }\n\n  .sm\\:tw--my-8 {\n    margin-top: -2rem;\n    margin-bottom: -2rem;\n  }\n\n  .sm\\:tw--mx-8 {\n    margin-left: -2rem;\n    margin-right: -2rem;\n  }\n\n  .sm\\:tw--my-10 {\n    margin-top: -2.5rem;\n    margin-bottom: -2.5rem;\n  }\n\n  .sm\\:tw--mx-10 {\n    margin-left: -2.5rem;\n    margin-right: -2.5rem;\n  }\n\n  .sm\\:tw--my-12 {\n    margin-top: -3rem;\n    margin-bottom: -3rem;\n  }\n\n  .sm\\:tw--mx-12 {\n    margin-left: -3rem;\n    margin-right: -3rem;\n  }\n\n  .sm\\:tw--my-16 {\n    margin-top: -4rem;\n    margin-bottom: -4rem;\n  }\n\n  .sm\\:tw--mx-16 {\n    margin-left: -4rem;\n    margin-right: -4rem;\n  }\n\n  .sm\\:tw--my-20 {\n    margin-top: -5rem;\n    margin-bottom: -5rem;\n  }\n\n  .sm\\:tw--mx-20 {\n    margin-left: -5rem;\n    margin-right: -5rem;\n  }\n\n  .sm\\:tw--my-24 {\n    margin-top: -6rem;\n    margin-bottom: -6rem;\n  }\n\n  .sm\\:tw--mx-24 {\n    margin-left: -6rem;\n    margin-right: -6rem;\n  }\n\n  .sm\\:tw--my-32 {\n    margin-top: -8rem;\n    margin-bottom: -8rem;\n  }\n\n  .sm\\:tw--mx-32 {\n    margin-left: -8rem;\n    margin-right: -8rem;\n  }\n\n  .sm\\:tw--my-px {\n    margin-top: -1px;\n    margin-bottom: -1px;\n  }\n\n  .sm\\:tw--mx-px {\n    margin-left: -1px;\n    margin-right: -1px;\n  }\n\n  .sm\\:tw--mt-0 {\n    margin-top: 0;\n  }\n\n  .sm\\:tw--mr-0 {\n    margin-right: 0;\n  }\n\n  .sm\\:tw--mb-0 {\n    margin-bottom: 0;\n  }\n\n  .sm\\:tw--ml-0 {\n    margin-left: 0;\n  }\n\n  .sm\\:tw--mt-1 {\n    margin-top: -0.25rem;\n  }\n\n  .sm\\:tw--mr-1 {\n    margin-right: -0.25rem;\n  }\n\n  .sm\\:tw--mb-1 {\n    margin-bottom: -0.25rem;\n  }\n\n  .sm\\:tw--ml-1 {\n    margin-left: -0.25rem;\n  }\n\n  .sm\\:tw--mt-2 {\n    margin-top: -0.5rem;\n  }\n\n  .sm\\:tw--mr-2 {\n    margin-right: -0.5rem;\n  }\n\n  .sm\\:tw--mb-2 {\n    margin-bottom: -0.5rem;\n  }\n\n  .sm\\:tw--ml-2 {\n    margin-left: -0.5rem;\n  }\n\n  .sm\\:tw--mt-3 {\n    margin-top: -0.75rem;\n  }\n\n  .sm\\:tw--mr-3 {\n    margin-right: -0.75rem;\n  }\n\n  .sm\\:tw--mb-3 {\n    margin-bottom: -0.75rem;\n  }\n\n  .sm\\:tw--ml-3 {\n    margin-left: -0.75rem;\n  }\n\n  .sm\\:tw--mt-4 {\n    margin-top: -1rem;\n  }\n\n  .sm\\:tw--mr-4 {\n    margin-right: -1rem;\n  }\n\n  .sm\\:tw--mb-4 {\n    margin-bottom: -1rem;\n  }\n\n  .sm\\:tw--ml-4 {\n    margin-left: -1rem;\n  }\n\n  .sm\\:tw--mt-5 {\n    margin-top: -1.25rem;\n  }\n\n  .sm\\:tw--mr-5 {\n    margin-right: -1.25rem;\n  }\n\n  .sm\\:tw--mb-5 {\n    margin-bottom: -1.25rem;\n  }\n\n  .sm\\:tw--ml-5 {\n    margin-left: -1.25rem;\n  }\n\n  .sm\\:tw--mt-6 {\n    margin-top: -1.5rem;\n  }\n\n  .sm\\:tw--mr-6 {\n    margin-right: -1.5rem;\n  }\n\n  .sm\\:tw--mb-6 {\n    margin-bottom: -1.5rem;\n  }\n\n  .sm\\:tw--ml-6 {\n    margin-left: -1.5rem;\n  }\n\n  .sm\\:tw--mt-8 {\n    margin-top: -2rem;\n  }\n\n  .sm\\:tw--mr-8 {\n    margin-right: -2rem;\n  }\n\n  .sm\\:tw--mb-8 {\n    margin-bottom: -2rem;\n  }\n\n  .sm\\:tw--ml-8 {\n    margin-left: -2rem;\n  }\n\n  .sm\\:tw--mt-10 {\n    margin-top: -2.5rem;\n  }\n\n  .sm\\:tw--mr-10 {\n    margin-right: -2.5rem;\n  }\n\n  .sm\\:tw--mb-10 {\n    margin-bottom: -2.5rem;\n  }\n\n  .sm\\:tw--ml-10 {\n    margin-left: -2.5rem;\n  }\n\n  .sm\\:tw--mt-12 {\n    margin-top: -3rem;\n  }\n\n  .sm\\:tw--mr-12 {\n    margin-right: -3rem;\n  }\n\n  .sm\\:tw--mb-12 {\n    margin-bottom: -3rem;\n  }\n\n  .sm\\:tw--ml-12 {\n    margin-left: -3rem;\n  }\n\n  .sm\\:tw--mt-16 {\n    margin-top: -4rem;\n  }\n\n  .sm\\:tw--mr-16 {\n    margin-right: -4rem;\n  }\n\n  .sm\\:tw--mb-16 {\n    margin-bottom: -4rem;\n  }\n\n  .sm\\:tw--ml-16 {\n    margin-left: -4rem;\n  }\n\n  .sm\\:tw--mt-20 {\n    margin-top: -5rem;\n  }\n\n  .sm\\:tw--mr-20 {\n    margin-right: -5rem;\n  }\n\n  .sm\\:tw--mb-20 {\n    margin-bottom: -5rem;\n  }\n\n  .sm\\:tw--ml-20 {\n    margin-left: -5rem;\n  }\n\n  .sm\\:tw--mt-24 {\n    margin-top: -6rem;\n  }\n\n  .sm\\:tw--mr-24 {\n    margin-right: -6rem;\n  }\n\n  .sm\\:tw--mb-24 {\n    margin-bottom: -6rem;\n  }\n\n  .sm\\:tw--ml-24 {\n    margin-left: -6rem;\n  }\n\n  .sm\\:tw--mt-32 {\n    margin-top: -8rem;\n  }\n\n  .sm\\:tw--mr-32 {\n    margin-right: -8rem;\n  }\n\n  .sm\\:tw--mb-32 {\n    margin-bottom: -8rem;\n  }\n\n  .sm\\:tw--ml-32 {\n    margin-left: -8rem;\n  }\n\n  .sm\\:tw--mt-px {\n    margin-top: -1px;\n  }\n\n  .sm\\:tw--mr-px {\n    margin-right: -1px;\n  }\n\n  .sm\\:tw--mb-px {\n    margin-bottom: -1px;\n  }\n\n  .sm\\:tw--ml-px {\n    margin-left: -1px;\n  }\n\n  .sm\\:tw-opacity-0 {\n    opacity: 0;\n  }\n\n  .sm\\:tw-opacity-25 {\n    opacity: .25;\n  }\n\n  .sm\\:tw-opacity-50 {\n    opacity: .5;\n  }\n\n  .sm\\:tw-opacity-75 {\n    opacity: .75;\n  }\n\n  .sm\\:tw-opacity-100 {\n    opacity: 1;\n  }\n\n  .sm\\:tw-overflow-auto {\n    overflow: auto;\n  }\n\n  .sm\\:tw-overflow-hidden {\n    overflow: hidden;\n  }\n\n  .sm\\:tw-overflow-visible {\n    overflow: visible;\n  }\n\n  .sm\\:tw-overflow-scroll {\n    overflow: scroll;\n  }\n\n  .sm\\:tw-overflow-x-auto {\n    overflow-x: auto;\n  }\n\n  .sm\\:tw-overflow-y-auto {\n    overflow-y: auto;\n  }\n\n  .sm\\:tw-overflow-x-hidden {\n    overflow-x: hidden;\n  }\n\n  .sm\\:tw-overflow-y-hidden {\n    overflow-y: hidden;\n  }\n\n  .sm\\:tw-overflow-x-visible {\n    overflow-x: visible;\n  }\n\n  .sm\\:tw-overflow-y-visible {\n    overflow-y: visible;\n  }\n\n  .sm\\:tw-overflow-x-scroll {\n    overflow-x: scroll;\n  }\n\n  .sm\\:tw-overflow-y-scroll {\n    overflow-y: scroll;\n  }\n\n  .sm\\:tw-scrolling-touch {\n    -webkit-overflow-scrolling: touch;\n  }\n\n  .sm\\:tw-scrolling-auto {\n    -webkit-overflow-scrolling: auto;\n  }\n\n  .sm\\:tw-p-0 {\n    padding: 0;\n  }\n\n  .sm\\:tw-p-1 {\n    padding: .25rem;\n  }\n\n  .sm\\:tw-p-2 {\n    padding: .5rem;\n  }\n\n  .sm\\:tw-p-3 {\n    padding: .75rem;\n  }\n\n  .sm\\:tw-p-4 {\n    padding: 1rem;\n  }\n\n  .sm\\:tw-p-5 {\n    padding: 1.25rem;\n  }\n\n  .sm\\:tw-p-6 {\n    padding: 1.5rem;\n  }\n\n  .sm\\:tw-p-8 {\n    padding: 2rem;\n  }\n\n  .sm\\:tw-p-10 {\n    padding: 2.5rem;\n  }\n\n  .sm\\:tw-p-12 {\n    padding: 3rem;\n  }\n\n  .sm\\:tw-p-16 {\n    padding: 4rem;\n  }\n\n  .sm\\:tw-p-20 {\n    padding: 5rem;\n  }\n\n  .sm\\:tw-p-24 {\n    padding: 6rem;\n  }\n\n  .sm\\:tw-p-32 {\n    padding: 8rem;\n  }\n\n  .sm\\:tw-p-px {\n    padding: 1px;\n  }\n\n  .sm\\:tw-py-0 {\n    padding-top: 0;\n    padding-bottom: 0;\n  }\n\n  .sm\\:tw-px-0 {\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  .sm\\:tw-py-1 {\n    padding-top: .25rem;\n    padding-bottom: .25rem;\n  }\n\n  .sm\\:tw-px-1 {\n    padding-left: .25rem;\n    padding-right: .25rem;\n  }\n\n  .sm\\:tw-py-2 {\n    padding-top: .5rem;\n    padding-bottom: .5rem;\n  }\n\n  .sm\\:tw-px-2 {\n    padding-left: .5rem;\n    padding-right: .5rem;\n  }\n\n  .sm\\:tw-py-3 {\n    padding-top: .75rem;\n    padding-bottom: .75rem;\n  }\n\n  .sm\\:tw-px-3 {\n    padding-left: .75rem;\n    padding-right: .75rem;\n  }\n\n  .sm\\:tw-py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .sm\\:tw-px-4 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n\n  .sm\\:tw-py-5 {\n    padding-top: 1.25rem;\n    padding-bottom: 1.25rem;\n  }\n\n  .sm\\:tw-px-5 {\n    padding-left: 1.25rem;\n    padding-right: 1.25rem;\n  }\n\n  .sm\\:tw-py-6 {\n    padding-top: 1.5rem;\n    padding-bottom: 1.5rem;\n  }\n\n  .sm\\:tw-px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:tw-py-8 {\n    padding-top: 2rem;\n    padding-bottom: 2rem;\n  }\n\n  .sm\\:tw-px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .sm\\:tw-py-10 {\n    padding-top: 2.5rem;\n    padding-bottom: 2.5rem;\n  }\n\n  .sm\\:tw-px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .sm\\:tw-py-12 {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n  }\n\n  .sm\\:tw-px-12 {\n    padding-left: 3rem;\n    padding-right: 3rem;\n  }\n\n  .sm\\:tw-py-16 {\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n  }\n\n  .sm\\:tw-px-16 {\n    padding-left: 4rem;\n    padding-right: 4rem;\n  }\n\n  .sm\\:tw-py-20 {\n    padding-top: 5rem;\n    padding-bottom: 5rem;\n  }\n\n  .sm\\:tw-px-20 {\n    padding-left: 5rem;\n    padding-right: 5rem;\n  }\n\n  .sm\\:tw-py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .sm\\:tw-px-24 {\n    padding-left: 6rem;\n    padding-right: 6rem;\n  }\n\n  .sm\\:tw-py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .sm\\:tw-px-32 {\n    padding-left: 8rem;\n    padding-right: 8rem;\n  }\n\n  .sm\\:tw-py-px {\n    padding-top: 1px;\n    padding-bottom: 1px;\n  }\n\n  .sm\\:tw-px-px {\n    padding-left: 1px;\n    padding-right: 1px;\n  }\n\n  .sm\\:tw-pt-0 {\n    padding-top: 0;\n  }\n\n  .sm\\:tw-pr-0 {\n    padding-right: 0;\n  }\n\n  .sm\\:tw-pb-0 {\n    padding-bottom: 0;\n  }\n\n  .sm\\:tw-pl-0 {\n    padding-left: 0;\n  }\n\n  .sm\\:tw-pt-1 {\n    padding-top: .25rem;\n  }\n\n  .sm\\:tw-pr-1 {\n    padding-right: .25rem;\n  }\n\n  .sm\\:tw-pb-1 {\n    padding-bottom: .25rem;\n  }\n\n  .sm\\:tw-pl-1 {\n    padding-left: .25rem;\n  }\n\n  .sm\\:tw-pt-2 {\n    padding-top: .5rem;\n  }\n\n  .sm\\:tw-pr-2 {\n    padding-right: .5rem;\n  }\n\n  .sm\\:tw-pb-2 {\n    padding-bottom: .5rem;\n  }\n\n  .sm\\:tw-pl-2 {\n    padding-left: .5rem;\n  }\n\n  .sm\\:tw-pt-3 {\n    padding-top: .75rem;\n  }\n\n  .sm\\:tw-pr-3 {\n    padding-right: .75rem;\n  }\n\n  .sm\\:tw-pb-3 {\n    padding-bottom: .75rem;\n  }\n\n  .sm\\:tw-pl-3 {\n    padding-left: .75rem;\n  }\n\n  .sm\\:tw-pt-4 {\n    padding-top: 1rem;\n  }\n\n  .sm\\:tw-pr-4 {\n    padding-right: 1rem;\n  }\n\n  .sm\\:tw-pb-4 {\n    padding-bottom: 1rem;\n  }\n\n  .sm\\:tw-pl-4 {\n    padding-left: 1rem;\n  }\n\n  .sm\\:tw-pt-5 {\n    padding-top: 1.25rem;\n  }\n\n  .sm\\:tw-pr-5 {\n    padding-right: 1.25rem;\n  }\n\n  .sm\\:tw-pb-5 {\n    padding-bottom: 1.25rem;\n  }\n\n  .sm\\:tw-pl-5 {\n    padding-left: 1.25rem;\n  }\n\n  .sm\\:tw-pt-6 {\n    padding-top: 1.5rem;\n  }\n\n  .sm\\:tw-pr-6 {\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:tw-pb-6 {\n    padding-bottom: 1.5rem;\n  }\n\n  .sm\\:tw-pl-6 {\n    padding-left: 1.5rem;\n  }\n\n  .sm\\:tw-pt-8 {\n    padding-top: 2rem;\n  }\n\n  .sm\\:tw-pr-8 {\n    padding-right: 2rem;\n  }\n\n  .sm\\:tw-pb-8 {\n    padding-bottom: 2rem;\n  }\n\n  .sm\\:tw-pl-8 {\n    padding-left: 2rem;\n  }\n\n  .sm\\:tw-pt-10 {\n    padding-top: 2.5rem;\n  }\n\n  .sm\\:tw-pr-10 {\n    padding-right: 2.5rem;\n  }\n\n  .sm\\:tw-pb-10 {\n    padding-bottom: 2.5rem;\n  }\n\n  .sm\\:tw-pl-10 {\n    padding-left: 2.5rem;\n  }\n\n  .sm\\:tw-pt-12 {\n    padding-top: 3rem;\n  }\n\n  .sm\\:tw-pr-12 {\n    padding-right: 3rem;\n  }\n\n  .sm\\:tw-pb-12 {\n    padding-bottom: 3rem;\n  }\n\n  .sm\\:tw-pl-12 {\n    padding-left: 3rem;\n  }\n\n  .sm\\:tw-pt-16 {\n    padding-top: 4rem;\n  }\n\n  .sm\\:tw-pr-16 {\n    padding-right: 4rem;\n  }\n\n  .sm\\:tw-pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .sm\\:tw-pl-16 {\n    padding-left: 4rem;\n  }\n\n  .sm\\:tw-pt-20 {\n    padding-top: 5rem;\n  }\n\n  .sm\\:tw-pr-20 {\n    padding-right: 5rem;\n  }\n\n  .sm\\:tw-pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .sm\\:tw-pl-20 {\n    padding-left: 5rem;\n  }\n\n  .sm\\:tw-pt-24 {\n    padding-top: 6rem;\n  }\n\n  .sm\\:tw-pr-24 {\n    padding-right: 6rem;\n  }\n\n  .sm\\:tw-pb-24 {\n    padding-bottom: 6rem;\n  }\n\n  .sm\\:tw-pl-24 {\n    padding-left: 6rem;\n  }\n\n  .sm\\:tw-pt-32 {\n    padding-top: 8rem;\n  }\n\n  .sm\\:tw-pr-32 {\n    padding-right: 8rem;\n  }\n\n  .sm\\:tw-pb-32 {\n    padding-bottom: 8rem;\n  }\n\n  .sm\\:tw-pl-32 {\n    padding-left: 8rem;\n  }\n\n  .sm\\:tw-pt-px {\n    padding-top: 1px;\n  }\n\n  .sm\\:tw-pr-px {\n    padding-right: 1px;\n  }\n\n  .sm\\:tw-pb-px {\n    padding-bottom: 1px;\n  }\n\n  .sm\\:tw-pl-px {\n    padding-left: 1px;\n  }\n\n  .sm\\:tw-pointer-events-none {\n    pointer-events: none;\n  }\n\n  .sm\\:tw-pointer-events-auto {\n    pointer-events: auto;\n  }\n\n  .sm\\:tw-static {\n    position: static;\n  }\n\n  .sm\\:tw-fixed {\n    position: fixed;\n  }\n\n  .sm\\:tw-absolute {\n    position: absolute;\n  }\n\n  .sm\\:tw-relative {\n    position: relative;\n  }\n\n  .sm\\:tw-sticky {\n    position: -webkit-sticky;\n    position: sticky;\n  }\n\n  .sm\\:tw-pin-none {\n    top: auto;\n    right: auto;\n    bottom: auto;\n    left: auto;\n  }\n\n  .sm\\:tw-pin {\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .sm\\:tw-pin-y {\n    top: 0;\n    bottom: 0;\n  }\n\n  .sm\\:tw-pin-x {\n    right: 0;\n    left: 0;\n  }\n\n  .sm\\:tw-pin-t {\n    top: 0;\n  }\n\n  .sm\\:tw-pin-r {\n    right: 0;\n  }\n\n  .sm\\:tw-pin-b {\n    bottom: 0;\n  }\n\n  .sm\\:tw-pin-l {\n    left: 0;\n  }\n\n  .sm\\:tw-resize-none {\n    resize: none;\n  }\n\n  .sm\\:tw-resize-y {\n    resize: vertical;\n  }\n\n  .sm\\:tw-resize-x {\n    resize: horizontal;\n  }\n\n  .sm\\:tw-resize {\n    resize: both;\n  }\n\n  .sm\\:tw-shadow {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .sm\\:tw-shadow-md {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .sm\\:tw-shadow-lg {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .sm\\:tw-shadow-inner {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .sm\\:tw-shadow-outline {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .sm\\:tw-shadow-none {\n    box-shadow: none;\n  }\n\n  .sm\\:hover\\:tw-shadow:hover {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .sm\\:hover\\:tw-shadow-md:hover {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .sm\\:hover\\:tw-shadow-lg:hover {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .sm\\:hover\\:tw-shadow-inner:hover {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .sm\\:hover\\:tw-shadow-outline:hover {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .sm\\:hover\\:tw-shadow-none:hover {\n    box-shadow: none;\n  }\n\n  .sm\\:focus\\:tw-shadow:focus {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .sm\\:focus\\:tw-shadow-md:focus {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .sm\\:focus\\:tw-shadow-lg:focus {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .sm\\:focus\\:tw-shadow-inner:focus {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .sm\\:focus\\:tw-shadow-outline:focus {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .sm\\:focus\\:tw-shadow-none:focus {\n    box-shadow: none;\n  }\n\n  .sm\\:tw-table-auto {\n    table-layout: auto;\n  }\n\n  .sm\\:tw-table-fixed {\n    table-layout: fixed;\n  }\n\n  .sm\\:tw-text-left {\n    text-align: left;\n  }\n\n  .sm\\:tw-text-center {\n    text-align: center;\n  }\n\n  .sm\\:tw-text-right {\n    text-align: right;\n  }\n\n  .sm\\:tw-text-justify {\n    text-align: justify;\n  }\n\n  .sm\\:tw-text-transparent {\n    color: transparent;\n  }\n\n  .sm\\:tw-text-black {\n    color: #22292f;\n  }\n\n  .sm\\:tw-text-grey-darkest {\n    color: #3d4852;\n  }\n\n  .sm\\:tw-text-grey-darker {\n    color: #606f7b;\n  }\n\n  .sm\\:tw-text-grey-dark {\n    color: #8795a1;\n  }\n\n  .sm\\:tw-text-grey {\n    color: #b8c2cc;\n  }\n\n  .sm\\:tw-text-grey-light {\n    color: #dae1e7;\n  }\n\n  .sm\\:tw-text-grey-lighter {\n    color: #f1f5f8;\n  }\n\n  .sm\\:tw-text-grey-lightest {\n    color: #f8fafc;\n  }\n\n  .sm\\:tw-text-white {\n    color: #fff;\n  }\n\n  .sm\\:tw-text-red-darkest {\n    color: #3b0d0c;\n  }\n\n  .sm\\:tw-text-red-darker {\n    color: #621b18;\n  }\n\n  .sm\\:tw-text-red-dark {\n    color: #cc1f1a;\n  }\n\n  .sm\\:tw-text-red {\n    color: #e3342f;\n  }\n\n  .sm\\:tw-text-red-light {\n    color: #ef5753;\n  }\n\n  .sm\\:tw-text-red-lighter {\n    color: #f9acaa;\n  }\n\n  .sm\\:tw-text-red-lightest {\n    color: #fcebea;\n  }\n\n  .sm\\:tw-text-orange-darkest {\n    color: #462a16;\n  }\n\n  .sm\\:tw-text-orange-darker {\n    color: #613b1f;\n  }\n\n  .sm\\:tw-text-orange-dark {\n    color: #de751f;\n  }\n\n  .sm\\:tw-text-orange {\n    color: #f6993f;\n  }\n\n  .sm\\:tw-text-orange-light {\n    color: #faad63;\n  }\n\n  .sm\\:tw-text-orange-lighter {\n    color: #fcd9b6;\n  }\n\n  .sm\\:tw-text-orange-lightest {\n    color: #fff5eb;\n  }\n\n  .sm\\:tw-text-yellow-darkest {\n    color: #453411;\n  }\n\n  .sm\\:tw-text-yellow-darker {\n    color: #684f1d;\n  }\n\n  .sm\\:tw-text-yellow-dark {\n    color: #f2d024;\n  }\n\n  .sm\\:tw-text-yellow {\n    color: #ffed4a;\n  }\n\n  .sm\\:tw-text-yellow-light {\n    color: #fff382;\n  }\n\n  .sm\\:tw-text-yellow-lighter {\n    color: #fff9c2;\n  }\n\n  .sm\\:tw-text-yellow-lightest {\n    color: #fcfbeb;\n  }\n\n  .sm\\:tw-text-green-darkest {\n    color: #0f2f21;\n  }\n\n  .sm\\:tw-text-green-darker {\n    color: #1a4731;\n  }\n\n  .sm\\:tw-text-green-dark {\n    color: #1f9d55;\n  }\n\n  .sm\\:tw-text-green {\n    color: #38c172;\n  }\n\n  .sm\\:tw-text-green-light {\n    color: #51d88a;\n  }\n\n  .sm\\:tw-text-green-lighter {\n    color: #a2f5bf;\n  }\n\n  .sm\\:tw-text-green-lightest {\n    color: #e3fcec;\n  }\n\n  .sm\\:tw-text-teal-darkest {\n    color: #0d3331;\n  }\n\n  .sm\\:tw-text-teal-darker {\n    color: #20504f;\n  }\n\n  .sm\\:tw-text-teal-dark {\n    color: #38a89d;\n  }\n\n  .sm\\:tw-text-teal {\n    color: #4dc0b5;\n  }\n\n  .sm\\:tw-text-teal-light {\n    color: #64d5ca;\n  }\n\n  .sm\\:tw-text-teal-lighter {\n    color: #a0f0ed;\n  }\n\n  .sm\\:tw-text-teal-lightest {\n    color: #e8fffe;\n  }\n\n  .sm\\:tw-text-blue-darkest {\n    color: #12283a;\n  }\n\n  .sm\\:tw-text-blue-darker {\n    color: #1c3d5a;\n  }\n\n  .sm\\:tw-text-blue-dark {\n    color: #2779bd;\n  }\n\n  .sm\\:tw-text-blue {\n    color: #3490dc;\n  }\n\n  .sm\\:tw-text-blue-light {\n    color: #6cb2eb;\n  }\n\n  .sm\\:tw-text-blue-lighter {\n    color: #bcdefa;\n  }\n\n  .sm\\:tw-text-blue-lightest {\n    color: #eff8ff;\n  }\n\n  .sm\\:tw-text-indigo-darkest {\n    color: #191e38;\n  }\n\n  .sm\\:tw-text-indigo-darker {\n    color: #2f365f;\n  }\n\n  .sm\\:tw-text-indigo-dark {\n    color: #5661b3;\n  }\n\n  .sm\\:tw-text-indigo {\n    color: #6574cd;\n  }\n\n  .sm\\:tw-text-indigo-light {\n    color: #7886d7;\n  }\n\n  .sm\\:tw-text-indigo-lighter {\n    color: #b2b7ff;\n  }\n\n  .sm\\:tw-text-indigo-lightest {\n    color: #e6e8ff;\n  }\n\n  .sm\\:tw-text-purple-darkest {\n    color: #21183c;\n  }\n\n  .sm\\:tw-text-purple-darker {\n    color: #382b5f;\n  }\n\n  .sm\\:tw-text-purple-dark {\n    color: #794acf;\n  }\n\n  .sm\\:tw-text-purple {\n    color: #9561e2;\n  }\n\n  .sm\\:tw-text-purple-light {\n    color: #a779e9;\n  }\n\n  .sm\\:tw-text-purple-lighter {\n    color: #d6bbfc;\n  }\n\n  .sm\\:tw-text-purple-lightest {\n    color: #f3ebff;\n  }\n\n  .sm\\:tw-text-pink-darkest {\n    color: #451225;\n  }\n\n  .sm\\:tw-text-pink-darker {\n    color: #6f213f;\n  }\n\n  .sm\\:tw-text-pink-dark {\n    color: #eb5286;\n  }\n\n  .sm\\:tw-text-pink {\n    color: #f66d9b;\n  }\n\n  .sm\\:tw-text-pink-light {\n    color: #fa7ea8;\n  }\n\n  .sm\\:tw-text-pink-lighter {\n    color: #ffbbca;\n  }\n\n  .sm\\:tw-text-pink-lightest {\n    color: #ffebef;\n  }\n\n  .sm\\:tw-text-linkColor {\n    color: royalblue;\n  }\n\n  .sm\\:tw-text-linkHoverColor {\n    color: darkblue;\n  }\n\n  .sm\\:hover\\:tw-text-transparent:hover {\n    color: transparent;\n  }\n\n  .sm\\:hover\\:tw-text-black:hover {\n    color: #22292f;\n  }\n\n  .sm\\:hover\\:tw-text-grey-darkest:hover {\n    color: #3d4852;\n  }\n\n  .sm\\:hover\\:tw-text-grey-darker:hover {\n    color: #606f7b;\n  }\n\n  .sm\\:hover\\:tw-text-grey-dark:hover {\n    color: #8795a1;\n  }\n\n  .sm\\:hover\\:tw-text-grey:hover {\n    color: #b8c2cc;\n  }\n\n  .sm\\:hover\\:tw-text-grey-light:hover {\n    color: #dae1e7;\n  }\n\n  .sm\\:hover\\:tw-text-grey-lighter:hover {\n    color: #f1f5f8;\n  }\n\n  .sm\\:hover\\:tw-text-grey-lightest:hover {\n    color: #f8fafc;\n  }\n\n  .sm\\:hover\\:tw-text-white:hover {\n    color: #fff;\n  }\n\n  .sm\\:hover\\:tw-text-red-darkest:hover {\n    color: #3b0d0c;\n  }\n\n  .sm\\:hover\\:tw-text-red-darker:hover {\n    color: #621b18;\n  }\n\n  .sm\\:hover\\:tw-text-red-dark:hover {\n    color: #cc1f1a;\n  }\n\n  .sm\\:hover\\:tw-text-red:hover {\n    color: #e3342f;\n  }\n\n  .sm\\:hover\\:tw-text-red-light:hover {\n    color: #ef5753;\n  }\n\n  .sm\\:hover\\:tw-text-red-lighter:hover {\n    color: #f9acaa;\n  }\n\n  .sm\\:hover\\:tw-text-red-lightest:hover {\n    color: #fcebea;\n  }\n\n  .sm\\:hover\\:tw-text-orange-darkest:hover {\n    color: #462a16;\n  }\n\n  .sm\\:hover\\:tw-text-orange-darker:hover {\n    color: #613b1f;\n  }\n\n  .sm\\:hover\\:tw-text-orange-dark:hover {\n    color: #de751f;\n  }\n\n  .sm\\:hover\\:tw-text-orange:hover {\n    color: #f6993f;\n  }\n\n  .sm\\:hover\\:tw-text-orange-light:hover {\n    color: #faad63;\n  }\n\n  .sm\\:hover\\:tw-text-orange-lighter:hover {\n    color: #fcd9b6;\n  }\n\n  .sm\\:hover\\:tw-text-orange-lightest:hover {\n    color: #fff5eb;\n  }\n\n  .sm\\:hover\\:tw-text-yellow-darkest:hover {\n    color: #453411;\n  }\n\n  .sm\\:hover\\:tw-text-yellow-darker:hover {\n    color: #684f1d;\n  }\n\n  .sm\\:hover\\:tw-text-yellow-dark:hover {\n    color: #f2d024;\n  }\n\n  .sm\\:hover\\:tw-text-yellow:hover {\n    color: #ffed4a;\n  }\n\n  .sm\\:hover\\:tw-text-yellow-light:hover {\n    color: #fff382;\n  }\n\n  .sm\\:hover\\:tw-text-yellow-lighter:hover {\n    color: #fff9c2;\n  }\n\n  .sm\\:hover\\:tw-text-yellow-lightest:hover {\n    color: #fcfbeb;\n  }\n\n  .sm\\:hover\\:tw-text-green-darkest:hover {\n    color: #0f2f21;\n  }\n\n  .sm\\:hover\\:tw-text-green-darker:hover {\n    color: #1a4731;\n  }\n\n  .sm\\:hover\\:tw-text-green-dark:hover {\n    color: #1f9d55;\n  }\n\n  .sm\\:hover\\:tw-text-green:hover {\n    color: #38c172;\n  }\n\n  .sm\\:hover\\:tw-text-green-light:hover {\n    color: #51d88a;\n  }\n\n  .sm\\:hover\\:tw-text-green-lighter:hover {\n    color: #a2f5bf;\n  }\n\n  .sm\\:hover\\:tw-text-green-lightest:hover {\n    color: #e3fcec;\n  }\n\n  .sm\\:hover\\:tw-text-teal-darkest:hover {\n    color: #0d3331;\n  }\n\n  .sm\\:hover\\:tw-text-teal-darker:hover {\n    color: #20504f;\n  }\n\n  .sm\\:hover\\:tw-text-teal-dark:hover {\n    color: #38a89d;\n  }\n\n  .sm\\:hover\\:tw-text-teal:hover {\n    color: #4dc0b5;\n  }\n\n  .sm\\:hover\\:tw-text-teal-light:hover {\n    color: #64d5ca;\n  }\n\n  .sm\\:hover\\:tw-text-teal-lighter:hover {\n    color: #a0f0ed;\n  }\n\n  .sm\\:hover\\:tw-text-teal-lightest:hover {\n    color: #e8fffe;\n  }\n\n  .sm\\:hover\\:tw-text-blue-darkest:hover {\n    color: #12283a;\n  }\n\n  .sm\\:hover\\:tw-text-blue-darker:hover {\n    color: #1c3d5a;\n  }\n\n  .sm\\:hover\\:tw-text-blue-dark:hover {\n    color: #2779bd;\n  }\n\n  .sm\\:hover\\:tw-text-blue:hover {\n    color: #3490dc;\n  }\n\n  .sm\\:hover\\:tw-text-blue-light:hover {\n    color: #6cb2eb;\n  }\n\n  .sm\\:hover\\:tw-text-blue-lighter:hover {\n    color: #bcdefa;\n  }\n\n  .sm\\:hover\\:tw-text-blue-lightest:hover {\n    color: #eff8ff;\n  }\n\n  .sm\\:hover\\:tw-text-indigo-darkest:hover {\n    color: #191e38;\n  }\n\n  .sm\\:hover\\:tw-text-indigo-darker:hover {\n    color: #2f365f;\n  }\n\n  .sm\\:hover\\:tw-text-indigo-dark:hover {\n    color: #5661b3;\n  }\n\n  .sm\\:hover\\:tw-text-indigo:hover {\n    color: #6574cd;\n  }\n\n  .sm\\:hover\\:tw-text-indigo-light:hover {\n    color: #7886d7;\n  }\n\n  .sm\\:hover\\:tw-text-indigo-lighter:hover {\n    color: #b2b7ff;\n  }\n\n  .sm\\:hover\\:tw-text-indigo-lightest:hover {\n    color: #e6e8ff;\n  }\n\n  .sm\\:hover\\:tw-text-purple-darkest:hover {\n    color: #21183c;\n  }\n\n  .sm\\:hover\\:tw-text-purple-darker:hover {\n    color: #382b5f;\n  }\n\n  .sm\\:hover\\:tw-text-purple-dark:hover {\n    color: #794acf;\n  }\n\n  .sm\\:hover\\:tw-text-purple:hover {\n    color: #9561e2;\n  }\n\n  .sm\\:hover\\:tw-text-purple-light:hover {\n    color: #a779e9;\n  }\n\n  .sm\\:hover\\:tw-text-purple-lighter:hover {\n    color: #d6bbfc;\n  }\n\n  .sm\\:hover\\:tw-text-purple-lightest:hover {\n    color: #f3ebff;\n  }\n\n  .sm\\:hover\\:tw-text-pink-darkest:hover {\n    color: #451225;\n  }\n\n  .sm\\:hover\\:tw-text-pink-darker:hover {\n    color: #6f213f;\n  }\n\n  .sm\\:hover\\:tw-text-pink-dark:hover {\n    color: #eb5286;\n  }\n\n  .sm\\:hover\\:tw-text-pink:hover {\n    color: #f66d9b;\n  }\n\n  .sm\\:hover\\:tw-text-pink-light:hover {\n    color: #fa7ea8;\n  }\n\n  .sm\\:hover\\:tw-text-pink-lighter:hover {\n    color: #ffbbca;\n  }\n\n  .sm\\:hover\\:tw-text-pink-lightest:hover {\n    color: #ffebef;\n  }\n\n  .sm\\:hover\\:tw-text-linkColor:hover {\n    color: royalblue;\n  }\n\n  .sm\\:hover\\:tw-text-linkHoverColor:hover {\n    color: darkblue;\n  }\n\n  .sm\\:focus\\:tw-text-transparent:focus {\n    color: transparent;\n  }\n\n  .sm\\:focus\\:tw-text-black:focus {\n    color: #22292f;\n  }\n\n  .sm\\:focus\\:tw-text-grey-darkest:focus {\n    color: #3d4852;\n  }\n\n  .sm\\:focus\\:tw-text-grey-darker:focus {\n    color: #606f7b;\n  }\n\n  .sm\\:focus\\:tw-text-grey-dark:focus {\n    color: #8795a1;\n  }\n\n  .sm\\:focus\\:tw-text-grey:focus {\n    color: #b8c2cc;\n  }\n\n  .sm\\:focus\\:tw-text-grey-light:focus {\n    color: #dae1e7;\n  }\n\n  .sm\\:focus\\:tw-text-grey-lighter:focus {\n    color: #f1f5f8;\n  }\n\n  .sm\\:focus\\:tw-text-grey-lightest:focus {\n    color: #f8fafc;\n  }\n\n  .sm\\:focus\\:tw-text-white:focus {\n    color: #fff;\n  }\n\n  .sm\\:focus\\:tw-text-red-darkest:focus {\n    color: #3b0d0c;\n  }\n\n  .sm\\:focus\\:tw-text-red-darker:focus {\n    color: #621b18;\n  }\n\n  .sm\\:focus\\:tw-text-red-dark:focus {\n    color: #cc1f1a;\n  }\n\n  .sm\\:focus\\:tw-text-red:focus {\n    color: #e3342f;\n  }\n\n  .sm\\:focus\\:tw-text-red-light:focus {\n    color: #ef5753;\n  }\n\n  .sm\\:focus\\:tw-text-red-lighter:focus {\n    color: #f9acaa;\n  }\n\n  .sm\\:focus\\:tw-text-red-lightest:focus {\n    color: #fcebea;\n  }\n\n  .sm\\:focus\\:tw-text-orange-darkest:focus {\n    color: #462a16;\n  }\n\n  .sm\\:focus\\:tw-text-orange-darker:focus {\n    color: #613b1f;\n  }\n\n  .sm\\:focus\\:tw-text-orange-dark:focus {\n    color: #de751f;\n  }\n\n  .sm\\:focus\\:tw-text-orange:focus {\n    color: #f6993f;\n  }\n\n  .sm\\:focus\\:tw-text-orange-light:focus {\n    color: #faad63;\n  }\n\n  .sm\\:focus\\:tw-text-orange-lighter:focus {\n    color: #fcd9b6;\n  }\n\n  .sm\\:focus\\:tw-text-orange-lightest:focus {\n    color: #fff5eb;\n  }\n\n  .sm\\:focus\\:tw-text-yellow-darkest:focus {\n    color: #453411;\n  }\n\n  .sm\\:focus\\:tw-text-yellow-darker:focus {\n    color: #684f1d;\n  }\n\n  .sm\\:focus\\:tw-text-yellow-dark:focus {\n    color: #f2d024;\n  }\n\n  .sm\\:focus\\:tw-text-yellow:focus {\n    color: #ffed4a;\n  }\n\n  .sm\\:focus\\:tw-text-yellow-light:focus {\n    color: #fff382;\n  }\n\n  .sm\\:focus\\:tw-text-yellow-lighter:focus {\n    color: #fff9c2;\n  }\n\n  .sm\\:focus\\:tw-text-yellow-lightest:focus {\n    color: #fcfbeb;\n  }\n\n  .sm\\:focus\\:tw-text-green-darkest:focus {\n    color: #0f2f21;\n  }\n\n  .sm\\:focus\\:tw-text-green-darker:focus {\n    color: #1a4731;\n  }\n\n  .sm\\:focus\\:tw-text-green-dark:focus {\n    color: #1f9d55;\n  }\n\n  .sm\\:focus\\:tw-text-green:focus {\n    color: #38c172;\n  }\n\n  .sm\\:focus\\:tw-text-green-light:focus {\n    color: #51d88a;\n  }\n\n  .sm\\:focus\\:tw-text-green-lighter:focus {\n    color: #a2f5bf;\n  }\n\n  .sm\\:focus\\:tw-text-green-lightest:focus {\n    color: #e3fcec;\n  }\n\n  .sm\\:focus\\:tw-text-teal-darkest:focus {\n    color: #0d3331;\n  }\n\n  .sm\\:focus\\:tw-text-teal-darker:focus {\n    color: #20504f;\n  }\n\n  .sm\\:focus\\:tw-text-teal-dark:focus {\n    color: #38a89d;\n  }\n\n  .sm\\:focus\\:tw-text-teal:focus {\n    color: #4dc0b5;\n  }\n\n  .sm\\:focus\\:tw-text-teal-light:focus {\n    color: #64d5ca;\n  }\n\n  .sm\\:focus\\:tw-text-teal-lighter:focus {\n    color: #a0f0ed;\n  }\n\n  .sm\\:focus\\:tw-text-teal-lightest:focus {\n    color: #e8fffe;\n  }\n\n  .sm\\:focus\\:tw-text-blue-darkest:focus {\n    color: #12283a;\n  }\n\n  .sm\\:focus\\:tw-text-blue-darker:focus {\n    color: #1c3d5a;\n  }\n\n  .sm\\:focus\\:tw-text-blue-dark:focus {\n    color: #2779bd;\n  }\n\n  .sm\\:focus\\:tw-text-blue:focus {\n    color: #3490dc;\n  }\n\n  .sm\\:focus\\:tw-text-blue-light:focus {\n    color: #6cb2eb;\n  }\n\n  .sm\\:focus\\:tw-text-blue-lighter:focus {\n    color: #bcdefa;\n  }\n\n  .sm\\:focus\\:tw-text-blue-lightest:focus {\n    color: #eff8ff;\n  }\n\n  .sm\\:focus\\:tw-text-indigo-darkest:focus {\n    color: #191e38;\n  }\n\n  .sm\\:focus\\:tw-text-indigo-darker:focus {\n    color: #2f365f;\n  }\n\n  .sm\\:focus\\:tw-text-indigo-dark:focus {\n    color: #5661b3;\n  }\n\n  .sm\\:focus\\:tw-text-indigo:focus {\n    color: #6574cd;\n  }\n\n  .sm\\:focus\\:tw-text-indigo-light:focus {\n    color: #7886d7;\n  }\n\n  .sm\\:focus\\:tw-text-indigo-lighter:focus {\n    color: #b2b7ff;\n  }\n\n  .sm\\:focus\\:tw-text-indigo-lightest:focus {\n    color: #e6e8ff;\n  }\n\n  .sm\\:focus\\:tw-text-purple-darkest:focus {\n    color: #21183c;\n  }\n\n  .sm\\:focus\\:tw-text-purple-darker:focus {\n    color: #382b5f;\n  }\n\n  .sm\\:focus\\:tw-text-purple-dark:focus {\n    color: #794acf;\n  }\n\n  .sm\\:focus\\:tw-text-purple:focus {\n    color: #9561e2;\n  }\n\n  .sm\\:focus\\:tw-text-purple-light:focus {\n    color: #a779e9;\n  }\n\n  .sm\\:focus\\:tw-text-purple-lighter:focus {\n    color: #d6bbfc;\n  }\n\n  .sm\\:focus\\:tw-text-purple-lightest:focus {\n    color: #f3ebff;\n  }\n\n  .sm\\:focus\\:tw-text-pink-darkest:focus {\n    color: #451225;\n  }\n\n  .sm\\:focus\\:tw-text-pink-darker:focus {\n    color: #6f213f;\n  }\n\n  .sm\\:focus\\:tw-text-pink-dark:focus {\n    color: #eb5286;\n  }\n\n  .sm\\:focus\\:tw-text-pink:focus {\n    color: #f66d9b;\n  }\n\n  .sm\\:focus\\:tw-text-pink-light:focus {\n    color: #fa7ea8;\n  }\n\n  .sm\\:focus\\:tw-text-pink-lighter:focus {\n    color: #ffbbca;\n  }\n\n  .sm\\:focus\\:tw-text-pink-lightest:focus {\n    color: #ffebef;\n  }\n\n  .sm\\:focus\\:tw-text-linkColor:focus {\n    color: royalblue;\n  }\n\n  .sm\\:focus\\:tw-text-linkHoverColor:focus {\n    color: darkblue;\n  }\n\n  .sm\\:tw-text-xs {\n    font-size: .75rem;\n  }\n\n  .sm\\:tw-text-sm {\n    font-size: .875rem;\n  }\n\n  .sm\\:tw-text-base {\n    font-size: 1rem;\n  }\n\n  .sm\\:tw-text-lg {\n    font-size: 1.125rem;\n  }\n\n  .sm\\:tw-text-xl {\n    font-size: 1.25rem;\n  }\n\n  .sm\\:tw-text-2xl {\n    font-size: 1.5rem;\n  }\n\n  .sm\\:tw-text-3xl {\n    font-size: 1.875rem;\n  }\n\n  .sm\\:tw-text-4xl {\n    font-size: 2.25rem;\n  }\n\n  .sm\\:tw-text-5xl {\n    font-size: 3rem;\n  }\n\n  .sm\\:tw-italic {\n    font-style: italic;\n  }\n\n  .sm\\:tw-roman {\n    font-style: normal;\n  }\n\n  .sm\\:tw-uppercase {\n    text-transform: uppercase;\n  }\n\n  .sm\\:tw-lowercase {\n    text-transform: lowercase;\n  }\n\n  .sm\\:tw-capitalize {\n    text-transform: capitalize;\n  }\n\n  .sm\\:tw-normal-case {\n    text-transform: none;\n  }\n\n  .sm\\:tw-underline {\n    text-decoration: underline;\n  }\n\n  .sm\\:tw-line-through {\n    text-decoration: line-through;\n  }\n\n  .sm\\:tw-no-underline {\n    text-decoration: none;\n  }\n\n  .sm\\:tw-antialiased {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .sm\\:tw-subpixel-antialiased {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .sm\\:hover\\:tw-italic:hover {\n    font-style: italic;\n  }\n\n  .sm\\:hover\\:tw-roman:hover {\n    font-style: normal;\n  }\n\n  .sm\\:hover\\:tw-uppercase:hover {\n    text-transform: uppercase;\n  }\n\n  .sm\\:hover\\:tw-lowercase:hover {\n    text-transform: lowercase;\n  }\n\n  .sm\\:hover\\:tw-capitalize:hover {\n    text-transform: capitalize;\n  }\n\n  .sm\\:hover\\:tw-normal-case:hover {\n    text-transform: none;\n  }\n\n  .sm\\:hover\\:tw-underline:hover {\n    text-decoration: underline;\n  }\n\n  .sm\\:hover\\:tw-line-through:hover {\n    text-decoration: line-through;\n  }\n\n  .sm\\:hover\\:tw-no-underline:hover {\n    text-decoration: none;\n  }\n\n  .sm\\:hover\\:tw-antialiased:hover {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .sm\\:hover\\:tw-subpixel-antialiased:hover {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .sm\\:focus\\:tw-italic:focus {\n    font-style: italic;\n  }\n\n  .sm\\:focus\\:tw-roman:focus {\n    font-style: normal;\n  }\n\n  .sm\\:focus\\:tw-uppercase:focus {\n    text-transform: uppercase;\n  }\n\n  .sm\\:focus\\:tw-lowercase:focus {\n    text-transform: lowercase;\n  }\n\n  .sm\\:focus\\:tw-capitalize:focus {\n    text-transform: capitalize;\n  }\n\n  .sm\\:focus\\:tw-normal-case:focus {\n    text-transform: none;\n  }\n\n  .sm\\:focus\\:tw-underline:focus {\n    text-decoration: underline;\n  }\n\n  .sm\\:focus\\:tw-line-through:focus {\n    text-decoration: line-through;\n  }\n\n  .sm\\:focus\\:tw-no-underline:focus {\n    text-decoration: none;\n  }\n\n  .sm\\:focus\\:tw-antialiased:focus {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .sm\\:focus\\:tw-subpixel-antialiased:focus {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .sm\\:tw-tracking-tight {\n    letter-spacing: -0.05em;\n  }\n\n  .sm\\:tw-tracking-normal {\n    letter-spacing: 0;\n  }\n\n  .sm\\:tw-tracking-wide {\n    letter-spacing: .05em;\n  }\n\n  .sm\\:tw-select-none {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n  }\n\n  .sm\\:tw-select-text {\n    -webkit-user-select: text;\n       -moz-user-select: text;\n        -ms-user-select: text;\n            user-select: text;\n  }\n\n  .sm\\:tw-align-baseline {\n    vertical-align: baseline;\n  }\n\n  .sm\\:tw-align-top {\n    vertical-align: top;\n  }\n\n  .sm\\:tw-align-middle {\n    vertical-align: middle;\n  }\n\n  .sm\\:tw-align-bottom {\n    vertical-align: bottom;\n  }\n\n  .sm\\:tw-align-text-top {\n    vertical-align: text-top;\n  }\n\n  .sm\\:tw-align-text-bottom {\n    vertical-align: text-bottom;\n  }\n\n  .sm\\:tw-visible {\n    visibility: visible;\n  }\n\n  .sm\\:tw-invisible {\n    visibility: hidden;\n  }\n\n  .sm\\:tw-whitespace-normal {\n    white-space: normal;\n  }\n\n  .sm\\:tw-whitespace-no-wrap {\n    white-space: nowrap;\n  }\n\n  .sm\\:tw-whitespace-pre {\n    white-space: pre;\n  }\n\n  .sm\\:tw-whitespace-pre-line {\n    white-space: pre-line;\n  }\n\n  .sm\\:tw-whitespace-pre-wrap {\n    white-space: pre-wrap;\n  }\n\n  .sm\\:tw-break-words {\n    word-wrap: break-word;\n  }\n\n  .sm\\:tw-break-normal {\n    word-wrap: normal;\n  }\n\n  .sm\\:tw-truncate {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n  }\n\n  .sm\\:tw-w-1 {\n    width: .25rem;\n  }\n\n  .sm\\:tw-w-2 {\n    width: .5rem;\n  }\n\n  .sm\\:tw-w-3 {\n    width: .75rem;\n  }\n\n  .sm\\:tw-w-4 {\n    width: 1rem;\n  }\n\n  .sm\\:tw-w-5 {\n    width: 1.25rem;\n  }\n\n  .sm\\:tw-w-6 {\n    width: 1.5rem;\n  }\n\n  .sm\\:tw-w-8 {\n    width: 2rem;\n  }\n\n  .sm\\:tw-w-10 {\n    width: 2.5rem;\n  }\n\n  .sm\\:tw-w-12 {\n    width: 3rem;\n  }\n\n  .sm\\:tw-w-16 {\n    width: 4rem;\n  }\n\n  .sm\\:tw-w-24 {\n    width: 6rem;\n  }\n\n  .sm\\:tw-w-32 {\n    width: 8rem;\n  }\n\n  .sm\\:tw-w-48 {\n    width: 12rem;\n  }\n\n  .sm\\:tw-w-64 {\n    width: 16rem;\n  }\n\n  .sm\\:tw-w-auto {\n    width: auto;\n  }\n\n  .sm\\:tw-w-px {\n    width: 1px;\n  }\n\n  .sm\\:tw-w-1\\/2 {\n    width: 50%;\n  }\n\n  .sm\\:tw-w-1\\/3 {\n    width: 33.33333%;\n  }\n\n  .sm\\:tw-w-2\\/3 {\n    width: 66.66667%;\n  }\n\n  .sm\\:tw-w-1\\/4 {\n    width: 25%;\n  }\n\n  .sm\\:tw-w-3\\/4 {\n    width: 75%;\n  }\n\n  .sm\\:tw-w-1\\/5 {\n    width: 20%;\n  }\n\n  .sm\\:tw-w-2\\/5 {\n    width: 40%;\n  }\n\n  .sm\\:tw-w-3\\/5 {\n    width: 60%;\n  }\n\n  .sm\\:tw-w-4\\/5 {\n    width: 80%;\n  }\n\n  .sm\\:tw-w-1\\/6 {\n    width: 16.66667%;\n  }\n\n  .sm\\:tw-w-5\\/6 {\n    width: 83.33333%;\n  }\n\n  .sm\\:tw-w-full {\n    width: 100%;\n  }\n\n  .sm\\:tw-w-screen {\n    width: 100vw;\n  }\n\n  .sm\\:tw-z-0 {\n    z-index: 0;\n  }\n\n  .sm\\:tw-z-10 {\n    z-index: 10;\n  }\n\n  .sm\\:tw-z-20 {\n    z-index: 20;\n  }\n\n  .sm\\:tw-z-30 {\n    z-index: 30;\n  }\n\n  .sm\\:tw-z-40 {\n    z-index: 40;\n  }\n\n  .sm\\:tw-z-50 {\n    z-index: 50;\n  }\n\n  .sm\\:tw-z-auto {\n    z-index: auto;\n  }\n}\n\n@media (min-width: 768px) {\n  .md\\:tw-list-reset {\n    list-style: none;\n    padding: 0;\n  }\n\n  .md\\:tw-appearance-none {\n    -webkit-appearance: none;\n       -moz-appearance: none;\n            appearance: none;\n  }\n\n  .md\\:tw-bg-fixed {\n    background-attachment: fixed;\n  }\n\n  .md\\:tw-bg-local {\n    background-attachment: local;\n  }\n\n  .md\\:tw-bg-scroll {\n    background-attachment: scroll;\n  }\n\n  .md\\:tw-bg-transparent {\n    background-color: transparent;\n  }\n\n  .md\\:tw-bg-black {\n    background-color: #22292f;\n  }\n\n  .md\\:tw-bg-grey-darkest {\n    background-color: #3d4852;\n  }\n\n  .md\\:tw-bg-grey-darker {\n    background-color: #606f7b;\n  }\n\n  .md\\:tw-bg-grey-dark {\n    background-color: #8795a1;\n  }\n\n  .md\\:tw-bg-grey {\n    background-color: #b8c2cc;\n  }\n\n  .md\\:tw-bg-grey-light {\n    background-color: #dae1e7;\n  }\n\n  .md\\:tw-bg-grey-lighter {\n    background-color: #f1f5f8;\n  }\n\n  .md\\:tw-bg-grey-lightest {\n    background-color: #f8fafc;\n  }\n\n  .md\\:tw-bg-white {\n    background-color: #fff;\n  }\n\n  .md\\:tw-bg-red-darkest {\n    background-color: #3b0d0c;\n  }\n\n  .md\\:tw-bg-red-darker {\n    background-color: #621b18;\n  }\n\n  .md\\:tw-bg-red-dark {\n    background-color: #cc1f1a;\n  }\n\n  .md\\:tw-bg-red {\n    background-color: #e3342f;\n  }\n\n  .md\\:tw-bg-red-light {\n    background-color: #ef5753;\n  }\n\n  .md\\:tw-bg-red-lighter {\n    background-color: #f9acaa;\n  }\n\n  .md\\:tw-bg-red-lightest {\n    background-color: #fcebea;\n  }\n\n  .md\\:tw-bg-orange-darkest {\n    background-color: #462a16;\n  }\n\n  .md\\:tw-bg-orange-darker {\n    background-color: #613b1f;\n  }\n\n  .md\\:tw-bg-orange-dark {\n    background-color: #de751f;\n  }\n\n  .md\\:tw-bg-orange {\n    background-color: #f6993f;\n  }\n\n  .md\\:tw-bg-orange-light {\n    background-color: #faad63;\n  }\n\n  .md\\:tw-bg-orange-lighter {\n    background-color: #fcd9b6;\n  }\n\n  .md\\:tw-bg-orange-lightest {\n    background-color: #fff5eb;\n  }\n\n  .md\\:tw-bg-yellow-darkest {\n    background-color: #453411;\n  }\n\n  .md\\:tw-bg-yellow-darker {\n    background-color: #684f1d;\n  }\n\n  .md\\:tw-bg-yellow-dark {\n    background-color: #f2d024;\n  }\n\n  .md\\:tw-bg-yellow {\n    background-color: #ffed4a;\n  }\n\n  .md\\:tw-bg-yellow-light {\n    background-color: #fff382;\n  }\n\n  .md\\:tw-bg-yellow-lighter {\n    background-color: #fff9c2;\n  }\n\n  .md\\:tw-bg-yellow-lightest {\n    background-color: #fcfbeb;\n  }\n\n  .md\\:tw-bg-green-darkest {\n    background-color: #0f2f21;\n  }\n\n  .md\\:tw-bg-green-darker {\n    background-color: #1a4731;\n  }\n\n  .md\\:tw-bg-green-dark {\n    background-color: #1f9d55;\n  }\n\n  .md\\:tw-bg-green {\n    background-color: #38c172;\n  }\n\n  .md\\:tw-bg-green-light {\n    background-color: #51d88a;\n  }\n\n  .md\\:tw-bg-green-lighter {\n    background-color: #a2f5bf;\n  }\n\n  .md\\:tw-bg-green-lightest {\n    background-color: #e3fcec;\n  }\n\n  .md\\:tw-bg-teal-darkest {\n    background-color: #0d3331;\n  }\n\n  .md\\:tw-bg-teal-darker {\n    background-color: #20504f;\n  }\n\n  .md\\:tw-bg-teal-dark {\n    background-color: #38a89d;\n  }\n\n  .md\\:tw-bg-teal {\n    background-color: #4dc0b5;\n  }\n\n  .md\\:tw-bg-teal-light {\n    background-color: #64d5ca;\n  }\n\n  .md\\:tw-bg-teal-lighter {\n    background-color: #a0f0ed;\n  }\n\n  .md\\:tw-bg-teal-lightest {\n    background-color: #e8fffe;\n  }\n\n  .md\\:tw-bg-blue-darkest {\n    background-color: #12283a;\n  }\n\n  .md\\:tw-bg-blue-darker {\n    background-color: #1c3d5a;\n  }\n\n  .md\\:tw-bg-blue-dark {\n    background-color: #2779bd;\n  }\n\n  .md\\:tw-bg-blue {\n    background-color: #3490dc;\n  }\n\n  .md\\:tw-bg-blue-light {\n    background-color: #6cb2eb;\n  }\n\n  .md\\:tw-bg-blue-lighter {\n    background-color: #bcdefa;\n  }\n\n  .md\\:tw-bg-blue-lightest {\n    background-color: #eff8ff;\n  }\n\n  .md\\:tw-bg-indigo-darkest {\n    background-color: #191e38;\n  }\n\n  .md\\:tw-bg-indigo-darker {\n    background-color: #2f365f;\n  }\n\n  .md\\:tw-bg-indigo-dark {\n    background-color: #5661b3;\n  }\n\n  .md\\:tw-bg-indigo {\n    background-color: #6574cd;\n  }\n\n  .md\\:tw-bg-indigo-light {\n    background-color: #7886d7;\n  }\n\n  .md\\:tw-bg-indigo-lighter {\n    background-color: #b2b7ff;\n  }\n\n  .md\\:tw-bg-indigo-lightest {\n    background-color: #e6e8ff;\n  }\n\n  .md\\:tw-bg-purple-darkest {\n    background-color: #21183c;\n  }\n\n  .md\\:tw-bg-purple-darker {\n    background-color: #382b5f;\n  }\n\n  .md\\:tw-bg-purple-dark {\n    background-color: #794acf;\n  }\n\n  .md\\:tw-bg-purple {\n    background-color: #9561e2;\n  }\n\n  .md\\:tw-bg-purple-light {\n    background-color: #a779e9;\n  }\n\n  .md\\:tw-bg-purple-lighter {\n    background-color: #d6bbfc;\n  }\n\n  .md\\:tw-bg-purple-lightest {\n    background-color: #f3ebff;\n  }\n\n  .md\\:tw-bg-pink-darkest {\n    background-color: #451225;\n  }\n\n  .md\\:tw-bg-pink-darker {\n    background-color: #6f213f;\n  }\n\n  .md\\:tw-bg-pink-dark {\n    background-color: #eb5286;\n  }\n\n  .md\\:tw-bg-pink {\n    background-color: #f66d9b;\n  }\n\n  .md\\:tw-bg-pink-light {\n    background-color: #fa7ea8;\n  }\n\n  .md\\:tw-bg-pink-lighter {\n    background-color: #ffbbca;\n  }\n\n  .md\\:tw-bg-pink-lightest {\n    background-color: #ffebef;\n  }\n\n  .md\\:tw-bg-linkColor {\n    background-color: royalblue;\n  }\n\n  .md\\:tw-bg-linkHoverColor {\n    background-color: darkblue;\n  }\n\n  .md\\:hover\\:tw-bg-transparent:hover {\n    background-color: transparent;\n  }\n\n  .md\\:hover\\:tw-bg-black:hover {\n    background-color: #22292f;\n  }\n\n  .md\\:hover\\:tw-bg-grey-darkest:hover {\n    background-color: #3d4852;\n  }\n\n  .md\\:hover\\:tw-bg-grey-darker:hover {\n    background-color: #606f7b;\n  }\n\n  .md\\:hover\\:tw-bg-grey-dark:hover {\n    background-color: #8795a1;\n  }\n\n  .md\\:hover\\:tw-bg-grey:hover {\n    background-color: #b8c2cc;\n  }\n\n  .md\\:hover\\:tw-bg-grey-light:hover {\n    background-color: #dae1e7;\n  }\n\n  .md\\:hover\\:tw-bg-grey-lighter:hover {\n    background-color: #f1f5f8;\n  }\n\n  .md\\:hover\\:tw-bg-grey-lightest:hover {\n    background-color: #f8fafc;\n  }\n\n  .md\\:hover\\:tw-bg-white:hover {\n    background-color: #fff;\n  }\n\n  .md\\:hover\\:tw-bg-red-darkest:hover {\n    background-color: #3b0d0c;\n  }\n\n  .md\\:hover\\:tw-bg-red-darker:hover {\n    background-color: #621b18;\n  }\n\n  .md\\:hover\\:tw-bg-red-dark:hover {\n    background-color: #cc1f1a;\n  }\n\n  .md\\:hover\\:tw-bg-red:hover {\n    background-color: #e3342f;\n  }\n\n  .md\\:hover\\:tw-bg-red-light:hover {\n    background-color: #ef5753;\n  }\n\n  .md\\:hover\\:tw-bg-red-lighter:hover {\n    background-color: #f9acaa;\n  }\n\n  .md\\:hover\\:tw-bg-red-lightest:hover {\n    background-color: #fcebea;\n  }\n\n  .md\\:hover\\:tw-bg-orange-darkest:hover {\n    background-color: #462a16;\n  }\n\n  .md\\:hover\\:tw-bg-orange-darker:hover {\n    background-color: #613b1f;\n  }\n\n  .md\\:hover\\:tw-bg-orange-dark:hover {\n    background-color: #de751f;\n  }\n\n  .md\\:hover\\:tw-bg-orange:hover {\n    background-color: #f6993f;\n  }\n\n  .md\\:hover\\:tw-bg-orange-light:hover {\n    background-color: #faad63;\n  }\n\n  .md\\:hover\\:tw-bg-orange-lighter:hover {\n    background-color: #fcd9b6;\n  }\n\n  .md\\:hover\\:tw-bg-orange-lightest:hover {\n    background-color: #fff5eb;\n  }\n\n  .md\\:hover\\:tw-bg-yellow-darkest:hover {\n    background-color: #453411;\n  }\n\n  .md\\:hover\\:tw-bg-yellow-darker:hover {\n    background-color: #684f1d;\n  }\n\n  .md\\:hover\\:tw-bg-yellow-dark:hover {\n    background-color: #f2d024;\n  }\n\n  .md\\:hover\\:tw-bg-yellow:hover {\n    background-color: #ffed4a;\n  }\n\n  .md\\:hover\\:tw-bg-yellow-light:hover {\n    background-color: #fff382;\n  }\n\n  .md\\:hover\\:tw-bg-yellow-lighter:hover {\n    background-color: #fff9c2;\n  }\n\n  .md\\:hover\\:tw-bg-yellow-lightest:hover {\n    background-color: #fcfbeb;\n  }\n\n  .md\\:hover\\:tw-bg-green-darkest:hover {\n    background-color: #0f2f21;\n  }\n\n  .md\\:hover\\:tw-bg-green-darker:hover {\n    background-color: #1a4731;\n  }\n\n  .md\\:hover\\:tw-bg-green-dark:hover {\n    background-color: #1f9d55;\n  }\n\n  .md\\:hover\\:tw-bg-green:hover {\n    background-color: #38c172;\n  }\n\n  .md\\:hover\\:tw-bg-green-light:hover {\n    background-color: #51d88a;\n  }\n\n  .md\\:hover\\:tw-bg-green-lighter:hover {\n    background-color: #a2f5bf;\n  }\n\n  .md\\:hover\\:tw-bg-green-lightest:hover {\n    background-color: #e3fcec;\n  }\n\n  .md\\:hover\\:tw-bg-teal-darkest:hover {\n    background-color: #0d3331;\n  }\n\n  .md\\:hover\\:tw-bg-teal-darker:hover {\n    background-color: #20504f;\n  }\n\n  .md\\:hover\\:tw-bg-teal-dark:hover {\n    background-color: #38a89d;\n  }\n\n  .md\\:hover\\:tw-bg-teal:hover {\n    background-color: #4dc0b5;\n  }\n\n  .md\\:hover\\:tw-bg-teal-light:hover {\n    background-color: #64d5ca;\n  }\n\n  .md\\:hover\\:tw-bg-teal-lighter:hover {\n    background-color: #a0f0ed;\n  }\n\n  .md\\:hover\\:tw-bg-teal-lightest:hover {\n    background-color: #e8fffe;\n  }\n\n  .md\\:hover\\:tw-bg-blue-darkest:hover {\n    background-color: #12283a;\n  }\n\n  .md\\:hover\\:tw-bg-blue-darker:hover {\n    background-color: #1c3d5a;\n  }\n\n  .md\\:hover\\:tw-bg-blue-dark:hover {\n    background-color: #2779bd;\n  }\n\n  .md\\:hover\\:tw-bg-blue:hover {\n    background-color: #3490dc;\n  }\n\n  .md\\:hover\\:tw-bg-blue-light:hover {\n    background-color: #6cb2eb;\n  }\n\n  .md\\:hover\\:tw-bg-blue-lighter:hover {\n    background-color: #bcdefa;\n  }\n\n  .md\\:hover\\:tw-bg-blue-lightest:hover {\n    background-color: #eff8ff;\n  }\n\n  .md\\:hover\\:tw-bg-indigo-darkest:hover {\n    background-color: #191e38;\n  }\n\n  .md\\:hover\\:tw-bg-indigo-darker:hover {\n    background-color: #2f365f;\n  }\n\n  .md\\:hover\\:tw-bg-indigo-dark:hover {\n    background-color: #5661b3;\n  }\n\n  .md\\:hover\\:tw-bg-indigo:hover {\n    background-color: #6574cd;\n  }\n\n  .md\\:hover\\:tw-bg-indigo-light:hover {\n    background-color: #7886d7;\n  }\n\n  .md\\:hover\\:tw-bg-indigo-lighter:hover {\n    background-color: #b2b7ff;\n  }\n\n  .md\\:hover\\:tw-bg-indigo-lightest:hover {\n    background-color: #e6e8ff;\n  }\n\n  .md\\:hover\\:tw-bg-purple-darkest:hover {\n    background-color: #21183c;\n  }\n\n  .md\\:hover\\:tw-bg-purple-darker:hover {\n    background-color: #382b5f;\n  }\n\n  .md\\:hover\\:tw-bg-purple-dark:hover {\n    background-color: #794acf;\n  }\n\n  .md\\:hover\\:tw-bg-purple:hover {\n    background-color: #9561e2;\n  }\n\n  .md\\:hover\\:tw-bg-purple-light:hover {\n    background-color: #a779e9;\n  }\n\n  .md\\:hover\\:tw-bg-purple-lighter:hover {\n    background-color: #d6bbfc;\n  }\n\n  .md\\:hover\\:tw-bg-purple-lightest:hover {\n    background-color: #f3ebff;\n  }\n\n  .md\\:hover\\:tw-bg-pink-darkest:hover {\n    background-color: #451225;\n  }\n\n  .md\\:hover\\:tw-bg-pink-darker:hover {\n    background-color: #6f213f;\n  }\n\n  .md\\:hover\\:tw-bg-pink-dark:hover {\n    background-color: #eb5286;\n  }\n\n  .md\\:hover\\:tw-bg-pink:hover {\n    background-color: #f66d9b;\n  }\n\n  .md\\:hover\\:tw-bg-pink-light:hover {\n    background-color: #fa7ea8;\n  }\n\n  .md\\:hover\\:tw-bg-pink-lighter:hover {\n    background-color: #ffbbca;\n  }\n\n  .md\\:hover\\:tw-bg-pink-lightest:hover {\n    background-color: #ffebef;\n  }\n\n  .md\\:hover\\:tw-bg-linkColor:hover {\n    background-color: royalblue;\n  }\n\n  .md\\:hover\\:tw-bg-linkHoverColor:hover {\n    background-color: darkblue;\n  }\n\n  .md\\:focus\\:tw-bg-transparent:focus {\n    background-color: transparent;\n  }\n\n  .md\\:focus\\:tw-bg-black:focus {\n    background-color: #22292f;\n  }\n\n  .md\\:focus\\:tw-bg-grey-darkest:focus {\n    background-color: #3d4852;\n  }\n\n  .md\\:focus\\:tw-bg-grey-darker:focus {\n    background-color: #606f7b;\n  }\n\n  .md\\:focus\\:tw-bg-grey-dark:focus {\n    background-color: #8795a1;\n  }\n\n  .md\\:focus\\:tw-bg-grey:focus {\n    background-color: #b8c2cc;\n  }\n\n  .md\\:focus\\:tw-bg-grey-light:focus {\n    background-color: #dae1e7;\n  }\n\n  .md\\:focus\\:tw-bg-grey-lighter:focus {\n    background-color: #f1f5f8;\n  }\n\n  .md\\:focus\\:tw-bg-grey-lightest:focus {\n    background-color: #f8fafc;\n  }\n\n  .md\\:focus\\:tw-bg-white:focus {\n    background-color: #fff;\n  }\n\n  .md\\:focus\\:tw-bg-red-darkest:focus {\n    background-color: #3b0d0c;\n  }\n\n  .md\\:focus\\:tw-bg-red-darker:focus {\n    background-color: #621b18;\n  }\n\n  .md\\:focus\\:tw-bg-red-dark:focus {\n    background-color: #cc1f1a;\n  }\n\n  .md\\:focus\\:tw-bg-red:focus {\n    background-color: #e3342f;\n  }\n\n  .md\\:focus\\:tw-bg-red-light:focus {\n    background-color: #ef5753;\n  }\n\n  .md\\:focus\\:tw-bg-red-lighter:focus {\n    background-color: #f9acaa;\n  }\n\n  .md\\:focus\\:tw-bg-red-lightest:focus {\n    background-color: #fcebea;\n  }\n\n  .md\\:focus\\:tw-bg-orange-darkest:focus {\n    background-color: #462a16;\n  }\n\n  .md\\:focus\\:tw-bg-orange-darker:focus {\n    background-color: #613b1f;\n  }\n\n  .md\\:focus\\:tw-bg-orange-dark:focus {\n    background-color: #de751f;\n  }\n\n  .md\\:focus\\:tw-bg-orange:focus {\n    background-color: #f6993f;\n  }\n\n  .md\\:focus\\:tw-bg-orange-light:focus {\n    background-color: #faad63;\n  }\n\n  .md\\:focus\\:tw-bg-orange-lighter:focus {\n    background-color: #fcd9b6;\n  }\n\n  .md\\:focus\\:tw-bg-orange-lightest:focus {\n    background-color: #fff5eb;\n  }\n\n  .md\\:focus\\:tw-bg-yellow-darkest:focus {\n    background-color: #453411;\n  }\n\n  .md\\:focus\\:tw-bg-yellow-darker:focus {\n    background-color: #684f1d;\n  }\n\n  .md\\:focus\\:tw-bg-yellow-dark:focus {\n    background-color: #f2d024;\n  }\n\n  .md\\:focus\\:tw-bg-yellow:focus {\n    background-color: #ffed4a;\n  }\n\n  .md\\:focus\\:tw-bg-yellow-light:focus {\n    background-color: #fff382;\n  }\n\n  .md\\:focus\\:tw-bg-yellow-lighter:focus {\n    background-color: #fff9c2;\n  }\n\n  .md\\:focus\\:tw-bg-yellow-lightest:focus {\n    background-color: #fcfbeb;\n  }\n\n  .md\\:focus\\:tw-bg-green-darkest:focus {\n    background-color: #0f2f21;\n  }\n\n  .md\\:focus\\:tw-bg-green-darker:focus {\n    background-color: #1a4731;\n  }\n\n  .md\\:focus\\:tw-bg-green-dark:focus {\n    background-color: #1f9d55;\n  }\n\n  .md\\:focus\\:tw-bg-green:focus {\n    background-color: #38c172;\n  }\n\n  .md\\:focus\\:tw-bg-green-light:focus {\n    background-color: #51d88a;\n  }\n\n  .md\\:focus\\:tw-bg-green-lighter:focus {\n    background-color: #a2f5bf;\n  }\n\n  .md\\:focus\\:tw-bg-green-lightest:focus {\n    background-color: #e3fcec;\n  }\n\n  .md\\:focus\\:tw-bg-teal-darkest:focus {\n    background-color: #0d3331;\n  }\n\n  .md\\:focus\\:tw-bg-teal-darker:focus {\n    background-color: #20504f;\n  }\n\n  .md\\:focus\\:tw-bg-teal-dark:focus {\n    background-color: #38a89d;\n  }\n\n  .md\\:focus\\:tw-bg-teal:focus {\n    background-color: #4dc0b5;\n  }\n\n  .md\\:focus\\:tw-bg-teal-light:focus {\n    background-color: #64d5ca;\n  }\n\n  .md\\:focus\\:tw-bg-teal-lighter:focus {\n    background-color: #a0f0ed;\n  }\n\n  .md\\:focus\\:tw-bg-teal-lightest:focus {\n    background-color: #e8fffe;\n  }\n\n  .md\\:focus\\:tw-bg-blue-darkest:focus {\n    background-color: #12283a;\n  }\n\n  .md\\:focus\\:tw-bg-blue-darker:focus {\n    background-color: #1c3d5a;\n  }\n\n  .md\\:focus\\:tw-bg-blue-dark:focus {\n    background-color: #2779bd;\n  }\n\n  .md\\:focus\\:tw-bg-blue:focus {\n    background-color: #3490dc;\n  }\n\n  .md\\:focus\\:tw-bg-blue-light:focus {\n    background-color: #6cb2eb;\n  }\n\n  .md\\:focus\\:tw-bg-blue-lighter:focus {\n    background-color: #bcdefa;\n  }\n\n  .md\\:focus\\:tw-bg-blue-lightest:focus {\n    background-color: #eff8ff;\n  }\n\n  .md\\:focus\\:tw-bg-indigo-darkest:focus {\n    background-color: #191e38;\n  }\n\n  .md\\:focus\\:tw-bg-indigo-darker:focus {\n    background-color: #2f365f;\n  }\n\n  .md\\:focus\\:tw-bg-indigo-dark:focus {\n    background-color: #5661b3;\n  }\n\n  .md\\:focus\\:tw-bg-indigo:focus {\n    background-color: #6574cd;\n  }\n\n  .md\\:focus\\:tw-bg-indigo-light:focus {\n    background-color: #7886d7;\n  }\n\n  .md\\:focus\\:tw-bg-indigo-lighter:focus {\n    background-color: #b2b7ff;\n  }\n\n  .md\\:focus\\:tw-bg-indigo-lightest:focus {\n    background-color: #e6e8ff;\n  }\n\n  .md\\:focus\\:tw-bg-purple-darkest:focus {\n    background-color: #21183c;\n  }\n\n  .md\\:focus\\:tw-bg-purple-darker:focus {\n    background-color: #382b5f;\n  }\n\n  .md\\:focus\\:tw-bg-purple-dark:focus {\n    background-color: #794acf;\n  }\n\n  .md\\:focus\\:tw-bg-purple:focus {\n    background-color: #9561e2;\n  }\n\n  .md\\:focus\\:tw-bg-purple-light:focus {\n    background-color: #a779e9;\n  }\n\n  .md\\:focus\\:tw-bg-purple-lighter:focus {\n    background-color: #d6bbfc;\n  }\n\n  .md\\:focus\\:tw-bg-purple-lightest:focus {\n    background-color: #f3ebff;\n  }\n\n  .md\\:focus\\:tw-bg-pink-darkest:focus {\n    background-color: #451225;\n  }\n\n  .md\\:focus\\:tw-bg-pink-darker:focus {\n    background-color: #6f213f;\n  }\n\n  .md\\:focus\\:tw-bg-pink-dark:focus {\n    background-color: #eb5286;\n  }\n\n  .md\\:focus\\:tw-bg-pink:focus {\n    background-color: #f66d9b;\n  }\n\n  .md\\:focus\\:tw-bg-pink-light:focus {\n    background-color: #fa7ea8;\n  }\n\n  .md\\:focus\\:tw-bg-pink-lighter:focus {\n    background-color: #ffbbca;\n  }\n\n  .md\\:focus\\:tw-bg-pink-lightest:focus {\n    background-color: #ffebef;\n  }\n\n  .md\\:focus\\:tw-bg-linkColor:focus {\n    background-color: royalblue;\n  }\n\n  .md\\:focus\\:tw-bg-linkHoverColor:focus {\n    background-color: darkblue;\n  }\n\n  .md\\:tw-bg-bottom {\n    background-position: bottom;\n  }\n\n  .md\\:tw-bg-center {\n    background-position: center;\n  }\n\n  .md\\:tw-bg-left {\n    background-position: left;\n  }\n\n  .md\\:tw-bg-left-bottom {\n    background-position: left bottom;\n  }\n\n  .md\\:tw-bg-left-top {\n    background-position: left top;\n  }\n\n  .md\\:tw-bg-right {\n    background-position: right;\n  }\n\n  .md\\:tw-bg-right-bottom {\n    background-position: right bottom;\n  }\n\n  .md\\:tw-bg-right-top {\n    background-position: right top;\n  }\n\n  .md\\:tw-bg-top {\n    background-position: top;\n  }\n\n  .md\\:tw-bg-repeat {\n    background-repeat: repeat;\n  }\n\n  .md\\:tw-bg-no-repeat {\n    background-repeat: no-repeat;\n  }\n\n  .md\\:tw-bg-repeat-x {\n    background-repeat: repeat-x;\n  }\n\n  .md\\:tw-bg-repeat-y {\n    background-repeat: repeat-y;\n  }\n\n  .md\\:tw-bg-auto {\n    background-size: auto;\n  }\n\n  .md\\:tw-bg-cover {\n    background-size: cover;\n  }\n\n  .md\\:tw-bg-contain {\n    background-size: contain;\n  }\n\n  .md\\:tw-border-transparent {\n    border-color: transparent;\n  }\n\n  .md\\:tw-border-black {\n    border-color: #22292f;\n  }\n\n  .md\\:tw-border-grey-darkest {\n    border-color: #3d4852;\n  }\n\n  .md\\:tw-border-grey-darker {\n    border-color: #606f7b;\n  }\n\n  .md\\:tw-border-grey-dark {\n    border-color: #8795a1;\n  }\n\n  .md\\:tw-border-grey {\n    border-color: #b8c2cc;\n  }\n\n  .md\\:tw-border-grey-light {\n    border-color: #dae1e7;\n  }\n\n  .md\\:tw-border-grey-lighter {\n    border-color: #f1f5f8;\n  }\n\n  .md\\:tw-border-grey-lightest {\n    border-color: #f8fafc;\n  }\n\n  .md\\:tw-border-white {\n    border-color: #fff;\n  }\n\n  .md\\:tw-border-red-darkest {\n    border-color: #3b0d0c;\n  }\n\n  .md\\:tw-border-red-darker {\n    border-color: #621b18;\n  }\n\n  .md\\:tw-border-red-dark {\n    border-color: #cc1f1a;\n  }\n\n  .md\\:tw-border-red {\n    border-color: #e3342f;\n  }\n\n  .md\\:tw-border-red-light {\n    border-color: #ef5753;\n  }\n\n  .md\\:tw-border-red-lighter {\n    border-color: #f9acaa;\n  }\n\n  .md\\:tw-border-red-lightest {\n    border-color: #fcebea;\n  }\n\n  .md\\:tw-border-orange-darkest {\n    border-color: #462a16;\n  }\n\n  .md\\:tw-border-orange-darker {\n    border-color: #613b1f;\n  }\n\n  .md\\:tw-border-orange-dark {\n    border-color: #de751f;\n  }\n\n  .md\\:tw-border-orange {\n    border-color: #f6993f;\n  }\n\n  .md\\:tw-border-orange-light {\n    border-color: #faad63;\n  }\n\n  .md\\:tw-border-orange-lighter {\n    border-color: #fcd9b6;\n  }\n\n  .md\\:tw-border-orange-lightest {\n    border-color: #fff5eb;\n  }\n\n  .md\\:tw-border-yellow-darkest {\n    border-color: #453411;\n  }\n\n  .md\\:tw-border-yellow-darker {\n    border-color: #684f1d;\n  }\n\n  .md\\:tw-border-yellow-dark {\n    border-color: #f2d024;\n  }\n\n  .md\\:tw-border-yellow {\n    border-color: #ffed4a;\n  }\n\n  .md\\:tw-border-yellow-light {\n    border-color: #fff382;\n  }\n\n  .md\\:tw-border-yellow-lighter {\n    border-color: #fff9c2;\n  }\n\n  .md\\:tw-border-yellow-lightest {\n    border-color: #fcfbeb;\n  }\n\n  .md\\:tw-border-green-darkest {\n    border-color: #0f2f21;\n  }\n\n  .md\\:tw-border-green-darker {\n    border-color: #1a4731;\n  }\n\n  .md\\:tw-border-green-dark {\n    border-color: #1f9d55;\n  }\n\n  .md\\:tw-border-green {\n    border-color: #38c172;\n  }\n\n  .md\\:tw-border-green-light {\n    border-color: #51d88a;\n  }\n\n  .md\\:tw-border-green-lighter {\n    border-color: #a2f5bf;\n  }\n\n  .md\\:tw-border-green-lightest {\n    border-color: #e3fcec;\n  }\n\n  .md\\:tw-border-teal-darkest {\n    border-color: #0d3331;\n  }\n\n  .md\\:tw-border-teal-darker {\n    border-color: #20504f;\n  }\n\n  .md\\:tw-border-teal-dark {\n    border-color: #38a89d;\n  }\n\n  .md\\:tw-border-teal {\n    border-color: #4dc0b5;\n  }\n\n  .md\\:tw-border-teal-light {\n    border-color: #64d5ca;\n  }\n\n  .md\\:tw-border-teal-lighter {\n    border-color: #a0f0ed;\n  }\n\n  .md\\:tw-border-teal-lightest {\n    border-color: #e8fffe;\n  }\n\n  .md\\:tw-border-blue-darkest {\n    border-color: #12283a;\n  }\n\n  .md\\:tw-border-blue-darker {\n    border-color: #1c3d5a;\n  }\n\n  .md\\:tw-border-blue-dark {\n    border-color: #2779bd;\n  }\n\n  .md\\:tw-border-blue {\n    border-color: #3490dc;\n  }\n\n  .md\\:tw-border-blue-light {\n    border-color: #6cb2eb;\n  }\n\n  .md\\:tw-border-blue-lighter {\n    border-color: #bcdefa;\n  }\n\n  .md\\:tw-border-blue-lightest {\n    border-color: #eff8ff;\n  }\n\n  .md\\:tw-border-indigo-darkest {\n    border-color: #191e38;\n  }\n\n  .md\\:tw-border-indigo-darker {\n    border-color: #2f365f;\n  }\n\n  .md\\:tw-border-indigo-dark {\n    border-color: #5661b3;\n  }\n\n  .md\\:tw-border-indigo {\n    border-color: #6574cd;\n  }\n\n  .md\\:tw-border-indigo-light {\n    border-color: #7886d7;\n  }\n\n  .md\\:tw-border-indigo-lighter {\n    border-color: #b2b7ff;\n  }\n\n  .md\\:tw-border-indigo-lightest {\n    border-color: #e6e8ff;\n  }\n\n  .md\\:tw-border-purple-darkest {\n    border-color: #21183c;\n  }\n\n  .md\\:tw-border-purple-darker {\n    border-color: #382b5f;\n  }\n\n  .md\\:tw-border-purple-dark {\n    border-color: #794acf;\n  }\n\n  .md\\:tw-border-purple {\n    border-color: #9561e2;\n  }\n\n  .md\\:tw-border-purple-light {\n    border-color: #a779e9;\n  }\n\n  .md\\:tw-border-purple-lighter {\n    border-color: #d6bbfc;\n  }\n\n  .md\\:tw-border-purple-lightest {\n    border-color: #f3ebff;\n  }\n\n  .md\\:tw-border-pink-darkest {\n    border-color: #451225;\n  }\n\n  .md\\:tw-border-pink-darker {\n    border-color: #6f213f;\n  }\n\n  .md\\:tw-border-pink-dark {\n    border-color: #eb5286;\n  }\n\n  .md\\:tw-border-pink {\n    border-color: #f66d9b;\n  }\n\n  .md\\:tw-border-pink-light {\n    border-color: #fa7ea8;\n  }\n\n  .md\\:tw-border-pink-lighter {\n    border-color: #ffbbca;\n  }\n\n  .md\\:tw-border-pink-lightest {\n    border-color: #ffebef;\n  }\n\n  .md\\:hover\\:tw-border-transparent:hover {\n    border-color: transparent;\n  }\n\n  .md\\:hover\\:tw-border-black:hover {\n    border-color: #22292f;\n  }\n\n  .md\\:hover\\:tw-border-grey-darkest:hover {\n    border-color: #3d4852;\n  }\n\n  .md\\:hover\\:tw-border-grey-darker:hover {\n    border-color: #606f7b;\n  }\n\n  .md\\:hover\\:tw-border-grey-dark:hover {\n    border-color: #8795a1;\n  }\n\n  .md\\:hover\\:tw-border-grey:hover {\n    border-color: #b8c2cc;\n  }\n\n  .md\\:hover\\:tw-border-grey-light:hover {\n    border-color: #dae1e7;\n  }\n\n  .md\\:hover\\:tw-border-grey-lighter:hover {\n    border-color: #f1f5f8;\n  }\n\n  .md\\:hover\\:tw-border-grey-lightest:hover {\n    border-color: #f8fafc;\n  }\n\n  .md\\:hover\\:tw-border-white:hover {\n    border-color: #fff;\n  }\n\n  .md\\:hover\\:tw-border-red-darkest:hover {\n    border-color: #3b0d0c;\n  }\n\n  .md\\:hover\\:tw-border-red-darker:hover {\n    border-color: #621b18;\n  }\n\n  .md\\:hover\\:tw-border-red-dark:hover {\n    border-color: #cc1f1a;\n  }\n\n  .md\\:hover\\:tw-border-red:hover {\n    border-color: #e3342f;\n  }\n\n  .md\\:hover\\:tw-border-red-light:hover {\n    border-color: #ef5753;\n  }\n\n  .md\\:hover\\:tw-border-red-lighter:hover {\n    border-color: #f9acaa;\n  }\n\n  .md\\:hover\\:tw-border-red-lightest:hover {\n    border-color: #fcebea;\n  }\n\n  .md\\:hover\\:tw-border-orange-darkest:hover {\n    border-color: #462a16;\n  }\n\n  .md\\:hover\\:tw-border-orange-darker:hover {\n    border-color: #613b1f;\n  }\n\n  .md\\:hover\\:tw-border-orange-dark:hover {\n    border-color: #de751f;\n  }\n\n  .md\\:hover\\:tw-border-orange:hover {\n    border-color: #f6993f;\n  }\n\n  .md\\:hover\\:tw-border-orange-light:hover {\n    border-color: #faad63;\n  }\n\n  .md\\:hover\\:tw-border-orange-lighter:hover {\n    border-color: #fcd9b6;\n  }\n\n  .md\\:hover\\:tw-border-orange-lightest:hover {\n    border-color: #fff5eb;\n  }\n\n  .md\\:hover\\:tw-border-yellow-darkest:hover {\n    border-color: #453411;\n  }\n\n  .md\\:hover\\:tw-border-yellow-darker:hover {\n    border-color: #684f1d;\n  }\n\n  .md\\:hover\\:tw-border-yellow-dark:hover {\n    border-color: #f2d024;\n  }\n\n  .md\\:hover\\:tw-border-yellow:hover {\n    border-color: #ffed4a;\n  }\n\n  .md\\:hover\\:tw-border-yellow-light:hover {\n    border-color: #fff382;\n  }\n\n  .md\\:hover\\:tw-border-yellow-lighter:hover {\n    border-color: #fff9c2;\n  }\n\n  .md\\:hover\\:tw-border-yellow-lightest:hover {\n    border-color: #fcfbeb;\n  }\n\n  .md\\:hover\\:tw-border-green-darkest:hover {\n    border-color: #0f2f21;\n  }\n\n  .md\\:hover\\:tw-border-green-darker:hover {\n    border-color: #1a4731;\n  }\n\n  .md\\:hover\\:tw-border-green-dark:hover {\n    border-color: #1f9d55;\n  }\n\n  .md\\:hover\\:tw-border-green:hover {\n    border-color: #38c172;\n  }\n\n  .md\\:hover\\:tw-border-green-light:hover {\n    border-color: #51d88a;\n  }\n\n  .md\\:hover\\:tw-border-green-lighter:hover {\n    border-color: #a2f5bf;\n  }\n\n  .md\\:hover\\:tw-border-green-lightest:hover {\n    border-color: #e3fcec;\n  }\n\n  .md\\:hover\\:tw-border-teal-darkest:hover {\n    border-color: #0d3331;\n  }\n\n  .md\\:hover\\:tw-border-teal-darker:hover {\n    border-color: #20504f;\n  }\n\n  .md\\:hover\\:tw-border-teal-dark:hover {\n    border-color: #38a89d;\n  }\n\n  .md\\:hover\\:tw-border-teal:hover {\n    border-color: #4dc0b5;\n  }\n\n  .md\\:hover\\:tw-border-teal-light:hover {\n    border-color: #64d5ca;\n  }\n\n  .md\\:hover\\:tw-border-teal-lighter:hover {\n    border-color: #a0f0ed;\n  }\n\n  .md\\:hover\\:tw-border-teal-lightest:hover {\n    border-color: #e8fffe;\n  }\n\n  .md\\:hover\\:tw-border-blue-darkest:hover {\n    border-color: #12283a;\n  }\n\n  .md\\:hover\\:tw-border-blue-darker:hover {\n    border-color: #1c3d5a;\n  }\n\n  .md\\:hover\\:tw-border-blue-dark:hover {\n    border-color: #2779bd;\n  }\n\n  .md\\:hover\\:tw-border-blue:hover {\n    border-color: #3490dc;\n  }\n\n  .md\\:hover\\:tw-border-blue-light:hover {\n    border-color: #6cb2eb;\n  }\n\n  .md\\:hover\\:tw-border-blue-lighter:hover {\n    border-color: #bcdefa;\n  }\n\n  .md\\:hover\\:tw-border-blue-lightest:hover {\n    border-color: #eff8ff;\n  }\n\n  .md\\:hover\\:tw-border-indigo-darkest:hover {\n    border-color: #191e38;\n  }\n\n  .md\\:hover\\:tw-border-indigo-darker:hover {\n    border-color: #2f365f;\n  }\n\n  .md\\:hover\\:tw-border-indigo-dark:hover {\n    border-color: #5661b3;\n  }\n\n  .md\\:hover\\:tw-border-indigo:hover {\n    border-color: #6574cd;\n  }\n\n  .md\\:hover\\:tw-border-indigo-light:hover {\n    border-color: #7886d7;\n  }\n\n  .md\\:hover\\:tw-border-indigo-lighter:hover {\n    border-color: #b2b7ff;\n  }\n\n  .md\\:hover\\:tw-border-indigo-lightest:hover {\n    border-color: #e6e8ff;\n  }\n\n  .md\\:hover\\:tw-border-purple-darkest:hover {\n    border-color: #21183c;\n  }\n\n  .md\\:hover\\:tw-border-purple-darker:hover {\n    border-color: #382b5f;\n  }\n\n  .md\\:hover\\:tw-border-purple-dark:hover {\n    border-color: #794acf;\n  }\n\n  .md\\:hover\\:tw-border-purple:hover {\n    border-color: #9561e2;\n  }\n\n  .md\\:hover\\:tw-border-purple-light:hover {\n    border-color: #a779e9;\n  }\n\n  .md\\:hover\\:tw-border-purple-lighter:hover {\n    border-color: #d6bbfc;\n  }\n\n  .md\\:hover\\:tw-border-purple-lightest:hover {\n    border-color: #f3ebff;\n  }\n\n  .md\\:hover\\:tw-border-pink-darkest:hover {\n    border-color: #451225;\n  }\n\n  .md\\:hover\\:tw-border-pink-darker:hover {\n    border-color: #6f213f;\n  }\n\n  .md\\:hover\\:tw-border-pink-dark:hover {\n    border-color: #eb5286;\n  }\n\n  .md\\:hover\\:tw-border-pink:hover {\n    border-color: #f66d9b;\n  }\n\n  .md\\:hover\\:tw-border-pink-light:hover {\n    border-color: #fa7ea8;\n  }\n\n  .md\\:hover\\:tw-border-pink-lighter:hover {\n    border-color: #ffbbca;\n  }\n\n  .md\\:hover\\:tw-border-pink-lightest:hover {\n    border-color: #ffebef;\n  }\n\n  .md\\:focus\\:tw-border-transparent:focus {\n    border-color: transparent;\n  }\n\n  .md\\:focus\\:tw-border-black:focus {\n    border-color: #22292f;\n  }\n\n  .md\\:focus\\:tw-border-grey-darkest:focus {\n    border-color: #3d4852;\n  }\n\n  .md\\:focus\\:tw-border-grey-darker:focus {\n    border-color: #606f7b;\n  }\n\n  .md\\:focus\\:tw-border-grey-dark:focus {\n    border-color: #8795a1;\n  }\n\n  .md\\:focus\\:tw-border-grey:focus {\n    border-color: #b8c2cc;\n  }\n\n  .md\\:focus\\:tw-border-grey-light:focus {\n    border-color: #dae1e7;\n  }\n\n  .md\\:focus\\:tw-border-grey-lighter:focus {\n    border-color: #f1f5f8;\n  }\n\n  .md\\:focus\\:tw-border-grey-lightest:focus {\n    border-color: #f8fafc;\n  }\n\n  .md\\:focus\\:tw-border-white:focus {\n    border-color: #fff;\n  }\n\n  .md\\:focus\\:tw-border-red-darkest:focus {\n    border-color: #3b0d0c;\n  }\n\n  .md\\:focus\\:tw-border-red-darker:focus {\n    border-color: #621b18;\n  }\n\n  .md\\:focus\\:tw-border-red-dark:focus {\n    border-color: #cc1f1a;\n  }\n\n  .md\\:focus\\:tw-border-red:focus {\n    border-color: #e3342f;\n  }\n\n  .md\\:focus\\:tw-border-red-light:focus {\n    border-color: #ef5753;\n  }\n\n  .md\\:focus\\:tw-border-red-lighter:focus {\n    border-color: #f9acaa;\n  }\n\n  .md\\:focus\\:tw-border-red-lightest:focus {\n    border-color: #fcebea;\n  }\n\n  .md\\:focus\\:tw-border-orange-darkest:focus {\n    border-color: #462a16;\n  }\n\n  .md\\:focus\\:tw-border-orange-darker:focus {\n    border-color: #613b1f;\n  }\n\n  .md\\:focus\\:tw-border-orange-dark:focus {\n    border-color: #de751f;\n  }\n\n  .md\\:focus\\:tw-border-orange:focus {\n    border-color: #f6993f;\n  }\n\n  .md\\:focus\\:tw-border-orange-light:focus {\n    border-color: #faad63;\n  }\n\n  .md\\:focus\\:tw-border-orange-lighter:focus {\n    border-color: #fcd9b6;\n  }\n\n  .md\\:focus\\:tw-border-orange-lightest:focus {\n    border-color: #fff5eb;\n  }\n\n  .md\\:focus\\:tw-border-yellow-darkest:focus {\n    border-color: #453411;\n  }\n\n  .md\\:focus\\:tw-border-yellow-darker:focus {\n    border-color: #684f1d;\n  }\n\n  .md\\:focus\\:tw-border-yellow-dark:focus {\n    border-color: #f2d024;\n  }\n\n  .md\\:focus\\:tw-border-yellow:focus {\n    border-color: #ffed4a;\n  }\n\n  .md\\:focus\\:tw-border-yellow-light:focus {\n    border-color: #fff382;\n  }\n\n  .md\\:focus\\:tw-border-yellow-lighter:focus {\n    border-color: #fff9c2;\n  }\n\n  .md\\:focus\\:tw-border-yellow-lightest:focus {\n    border-color: #fcfbeb;\n  }\n\n  .md\\:focus\\:tw-border-green-darkest:focus {\n    border-color: #0f2f21;\n  }\n\n  .md\\:focus\\:tw-border-green-darker:focus {\n    border-color: #1a4731;\n  }\n\n  .md\\:focus\\:tw-border-green-dark:focus {\n    border-color: #1f9d55;\n  }\n\n  .md\\:focus\\:tw-border-green:focus {\n    border-color: #38c172;\n  }\n\n  .md\\:focus\\:tw-border-green-light:focus {\n    border-color: #51d88a;\n  }\n\n  .md\\:focus\\:tw-border-green-lighter:focus {\n    border-color: #a2f5bf;\n  }\n\n  .md\\:focus\\:tw-border-green-lightest:focus {\n    border-color: #e3fcec;\n  }\n\n  .md\\:focus\\:tw-border-teal-darkest:focus {\n    border-color: #0d3331;\n  }\n\n  .md\\:focus\\:tw-border-teal-darker:focus {\n    border-color: #20504f;\n  }\n\n  .md\\:focus\\:tw-border-teal-dark:focus {\n    border-color: #38a89d;\n  }\n\n  .md\\:focus\\:tw-border-teal:focus {\n    border-color: #4dc0b5;\n  }\n\n  .md\\:focus\\:tw-border-teal-light:focus {\n    border-color: #64d5ca;\n  }\n\n  .md\\:focus\\:tw-border-teal-lighter:focus {\n    border-color: #a0f0ed;\n  }\n\n  .md\\:focus\\:tw-border-teal-lightest:focus {\n    border-color: #e8fffe;\n  }\n\n  .md\\:focus\\:tw-border-blue-darkest:focus {\n    border-color: #12283a;\n  }\n\n  .md\\:focus\\:tw-border-blue-darker:focus {\n    border-color: #1c3d5a;\n  }\n\n  .md\\:focus\\:tw-border-blue-dark:focus {\n    border-color: #2779bd;\n  }\n\n  .md\\:focus\\:tw-border-blue:focus {\n    border-color: #3490dc;\n  }\n\n  .md\\:focus\\:tw-border-blue-light:focus {\n    border-color: #6cb2eb;\n  }\n\n  .md\\:focus\\:tw-border-blue-lighter:focus {\n    border-color: #bcdefa;\n  }\n\n  .md\\:focus\\:tw-border-blue-lightest:focus {\n    border-color: #eff8ff;\n  }\n\n  .md\\:focus\\:tw-border-indigo-darkest:focus {\n    border-color: #191e38;\n  }\n\n  .md\\:focus\\:tw-border-indigo-darker:focus {\n    border-color: #2f365f;\n  }\n\n  .md\\:focus\\:tw-border-indigo-dark:focus {\n    border-color: #5661b3;\n  }\n\n  .md\\:focus\\:tw-border-indigo:focus {\n    border-color: #6574cd;\n  }\n\n  .md\\:focus\\:tw-border-indigo-light:focus {\n    border-color: #7886d7;\n  }\n\n  .md\\:focus\\:tw-border-indigo-lighter:focus {\n    border-color: #b2b7ff;\n  }\n\n  .md\\:focus\\:tw-border-indigo-lightest:focus {\n    border-color: #e6e8ff;\n  }\n\n  .md\\:focus\\:tw-border-purple-darkest:focus {\n    border-color: #21183c;\n  }\n\n  .md\\:focus\\:tw-border-purple-darker:focus {\n    border-color: #382b5f;\n  }\n\n  .md\\:focus\\:tw-border-purple-dark:focus {\n    border-color: #794acf;\n  }\n\n  .md\\:focus\\:tw-border-purple:focus {\n    border-color: #9561e2;\n  }\n\n  .md\\:focus\\:tw-border-purple-light:focus {\n    border-color: #a779e9;\n  }\n\n  .md\\:focus\\:tw-border-purple-lighter:focus {\n    border-color: #d6bbfc;\n  }\n\n  .md\\:focus\\:tw-border-purple-lightest:focus {\n    border-color: #f3ebff;\n  }\n\n  .md\\:focus\\:tw-border-pink-darkest:focus {\n    border-color: #451225;\n  }\n\n  .md\\:focus\\:tw-border-pink-darker:focus {\n    border-color: #6f213f;\n  }\n\n  .md\\:focus\\:tw-border-pink-dark:focus {\n    border-color: #eb5286;\n  }\n\n  .md\\:focus\\:tw-border-pink:focus {\n    border-color: #f66d9b;\n  }\n\n  .md\\:focus\\:tw-border-pink-light:focus {\n    border-color: #fa7ea8;\n  }\n\n  .md\\:focus\\:tw-border-pink-lighter:focus {\n    border-color: #ffbbca;\n  }\n\n  .md\\:focus\\:tw-border-pink-lightest:focus {\n    border-color: #ffebef;\n  }\n\n  .md\\:tw-rounded-none {\n    border-radius: 0;\n  }\n\n  .md\\:tw-rounded-sm {\n    border-radius: .125rem;\n  }\n\n  .md\\:tw-rounded {\n    border-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-lg {\n    border-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-full {\n    border-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-t-none {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0;\n  }\n\n  .md\\:tw-rounded-r-none {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n  }\n\n  .md\\:tw-rounded-b-none {\n    border-bottom-right-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .md\\:tw-rounded-l-none {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .md\\:tw-rounded-t-sm {\n    border-top-left-radius: .125rem;\n    border-top-right-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-r-sm {\n    border-top-right-radius: .125rem;\n    border-bottom-right-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-b-sm {\n    border-bottom-right-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-l-sm {\n    border-top-left-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-t {\n    border-top-left-radius: .25rem;\n    border-top-right-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-r {\n    border-top-right-radius: .25rem;\n    border-bottom-right-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-b {\n    border-bottom-right-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-l {\n    border-top-left-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-t-lg {\n    border-top-left-radius: .5rem;\n    border-top-right-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-r-lg {\n    border-top-right-radius: .5rem;\n    border-bottom-right-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-b-lg {\n    border-bottom-right-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-l-lg {\n    border-top-left-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-t-full {\n    border-top-left-radius: 9999px;\n    border-top-right-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-r-full {\n    border-top-right-radius: 9999px;\n    border-bottom-right-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-b-full {\n    border-bottom-right-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-l-full {\n    border-top-left-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-tl-none {\n    border-top-left-radius: 0;\n  }\n\n  .md\\:tw-rounded-tr-none {\n    border-top-right-radius: 0;\n  }\n\n  .md\\:tw-rounded-br-none {\n    border-bottom-right-radius: 0;\n  }\n\n  .md\\:tw-rounded-bl-none {\n    border-bottom-left-radius: 0;\n  }\n\n  .md\\:tw-rounded-tl-sm {\n    border-top-left-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-tr-sm {\n    border-top-right-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-br-sm {\n    border-bottom-right-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-bl-sm {\n    border-bottom-left-radius: .125rem;\n  }\n\n  .md\\:tw-rounded-tl {\n    border-top-left-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-tr {\n    border-top-right-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-br {\n    border-bottom-right-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-bl {\n    border-bottom-left-radius: .25rem;\n  }\n\n  .md\\:tw-rounded-tl-lg {\n    border-top-left-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-tr-lg {\n    border-top-right-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-br-lg {\n    border-bottom-right-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-bl-lg {\n    border-bottom-left-radius: .5rem;\n  }\n\n  .md\\:tw-rounded-tl-full {\n    border-top-left-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-tr-full {\n    border-top-right-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-br-full {\n    border-bottom-right-radius: 9999px;\n  }\n\n  .md\\:tw-rounded-bl-full {\n    border-bottom-left-radius: 9999px;\n  }\n\n  .md\\:tw-border-solid {\n    border-style: solid;\n  }\n\n  .md\\:tw-border-dashed {\n    border-style: dashed;\n  }\n\n  .md\\:tw-border-dotted {\n    border-style: dotted;\n  }\n\n  .md\\:tw-border-none {\n    border-style: none;\n  }\n\n  .md\\:tw-border-0 {\n    border-width: 0;\n  }\n\n  .md\\:tw-border-2 {\n    border-width: 2px;\n  }\n\n  .md\\:tw-border-4 {\n    border-width: 4px;\n  }\n\n  .md\\:tw-border-8 {\n    border-width: 8px;\n  }\n\n  .md\\:tw-border {\n    border-width: 1px;\n  }\n\n  .md\\:tw-border-t-0 {\n    border-top-width: 0;\n  }\n\n  .md\\:tw-border-r-0 {\n    border-right-width: 0;\n  }\n\n  .md\\:tw-border-b-0 {\n    border-bottom-width: 0;\n  }\n\n  .md\\:tw-border-l-0 {\n    border-left-width: 0;\n  }\n\n  .md\\:tw-border-t-2 {\n    border-top-width: 2px;\n  }\n\n  .md\\:tw-border-r-2 {\n    border-right-width: 2px;\n  }\n\n  .md\\:tw-border-b-2 {\n    border-bottom-width: 2px;\n  }\n\n  .md\\:tw-border-l-2 {\n    border-left-width: 2px;\n  }\n\n  .md\\:tw-border-t-4 {\n    border-top-width: 4px;\n  }\n\n  .md\\:tw-border-r-4 {\n    border-right-width: 4px;\n  }\n\n  .md\\:tw-border-b-4 {\n    border-bottom-width: 4px;\n  }\n\n  .md\\:tw-border-l-4 {\n    border-left-width: 4px;\n  }\n\n  .md\\:tw-border-t-8 {\n    border-top-width: 8px;\n  }\n\n  .md\\:tw-border-r-8 {\n    border-right-width: 8px;\n  }\n\n  .md\\:tw-border-b-8 {\n    border-bottom-width: 8px;\n  }\n\n  .md\\:tw-border-l-8 {\n    border-left-width: 8px;\n  }\n\n  .md\\:tw-border-t {\n    border-top-width: 1px;\n  }\n\n  .md\\:tw-border-r {\n    border-right-width: 1px;\n  }\n\n  .md\\:tw-border-b {\n    border-bottom-width: 1px;\n  }\n\n  .md\\:tw-border-l {\n    border-left-width: 1px;\n  }\n\n  .md\\:tw-cursor-auto {\n    cursor: auto;\n  }\n\n  .md\\:tw-cursor-default {\n    cursor: default;\n  }\n\n  .md\\:tw-cursor-pointer {\n    cursor: pointer;\n  }\n\n  .md\\:tw-cursor-wait {\n    cursor: wait;\n  }\n\n  .md\\:tw-cursor-move {\n    cursor: move;\n  }\n\n  .md\\:tw-cursor-not-allowed {\n    cursor: not-allowed;\n  }\n\n  .md\\:tw-block {\n    display: block;\n  }\n\n  .md\\:tw-inline-block {\n    display: inline-block;\n  }\n\n  .md\\:tw-inline {\n    display: inline;\n  }\n\n  .md\\:tw-table {\n    display: table;\n  }\n\n  .md\\:tw-table-row {\n    display: table-row;\n  }\n\n  .md\\:tw-table-cell {\n    display: table-cell;\n  }\n\n  .md\\:tw-hidden {\n    display: none;\n  }\n\n  .md\\:tw-flex {\n    display: flex;\n  }\n\n  .md\\:tw-inline-flex {\n    display: inline-flex;\n  }\n\n  .md\\:tw-flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:tw-flex-row-reverse {\n    flex-direction: row-reverse;\n  }\n\n  .md\\:tw-flex-col {\n    flex-direction: column;\n  }\n\n  .md\\:tw-flex-col-reverse {\n    flex-direction: column-reverse;\n  }\n\n  .md\\:tw-flex-wrap {\n    flex-wrap: wrap;\n  }\n\n  .md\\:tw-flex-wrap-reverse {\n    flex-wrap: wrap-reverse;\n  }\n\n  .md\\:tw-flex-no-wrap {\n    flex-wrap: nowrap;\n  }\n\n  .md\\:tw-items-start {\n    align-items: flex-start;\n  }\n\n  .md\\:tw-items-end {\n    align-items: flex-end;\n  }\n\n  .md\\:tw-items-center {\n    align-items: center;\n  }\n\n  .md\\:tw-items-baseline {\n    align-items: baseline;\n  }\n\n  .md\\:tw-items-stretch {\n    align-items: stretch;\n  }\n\n  .md\\:tw-self-auto {\n    align-self: auto;\n  }\n\n  .md\\:tw-self-start {\n    align-self: flex-start;\n  }\n\n  .md\\:tw-self-end {\n    align-self: flex-end;\n  }\n\n  .md\\:tw-self-center {\n    align-self: center;\n  }\n\n  .md\\:tw-self-stretch {\n    align-self: stretch;\n  }\n\n  .md\\:tw-justify-start {\n    justify-content: flex-start;\n  }\n\n  .md\\:tw-justify-end {\n    justify-content: flex-end;\n  }\n\n  .md\\:tw-justify-center {\n    justify-content: center;\n  }\n\n  .md\\:tw-justify-between {\n    justify-content: space-between;\n  }\n\n  .md\\:tw-justify-around {\n    justify-content: space-around;\n  }\n\n  .md\\:tw-content-center {\n    align-content: center;\n  }\n\n  .md\\:tw-content-start {\n    align-content: flex-start;\n  }\n\n  .md\\:tw-content-end {\n    align-content: flex-end;\n  }\n\n  .md\\:tw-content-between {\n    align-content: space-between;\n  }\n\n  .md\\:tw-content-around {\n    align-content: space-around;\n  }\n\n  .md\\:tw-flex-1 {\n    flex: 1 1 0%;\n  }\n\n  .md\\:tw-flex-auto {\n    flex: 1 1 auto;\n  }\n\n  .md\\:tw-flex-initial {\n    flex: 0 1 auto;\n  }\n\n  .md\\:tw-flex-none {\n    flex: none;\n  }\n\n  .md\\:tw-flex-grow {\n    flex-grow: 1;\n  }\n\n  .md\\:tw-flex-shrink {\n    flex-shrink: 1;\n  }\n\n  .md\\:tw-flex-no-grow {\n    flex-grow: 0;\n  }\n\n  .md\\:tw-flex-no-shrink {\n    flex-shrink: 0;\n  }\n\n  .md\\:tw-float-right {\n    float: right;\n  }\n\n  .md\\:tw-float-left {\n    float: left;\n  }\n\n  .md\\:tw-float-none {\n    float: none;\n  }\n\n  .md\\:tw-clearfix:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n  .md\\:tw-font-sans {\n    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  }\n\n  .md\\:tw-font-serif {\n    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;\n  }\n\n  .md\\:tw-font-mono {\n    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;\n  }\n\n  .md\\:tw-font-logo {\n    font-family: Crafty Girls, cursive;\n  }\n\n  .md\\:tw-font-hairline {\n    font-weight: 100;\n  }\n\n  .md\\:tw-font-thin {\n    font-weight: 200;\n  }\n\n  .md\\:tw-font-light {\n    font-weight: 300;\n  }\n\n  .md\\:tw-font-normal {\n    font-weight: 400;\n  }\n\n  .md\\:tw-font-medium {\n    font-weight: 500;\n  }\n\n  .md\\:tw-font-semibold {\n    font-weight: 600;\n  }\n\n  .md\\:tw-font-bold {\n    font-weight: 700;\n  }\n\n  .md\\:tw-font-extrabold {\n    font-weight: 800;\n  }\n\n  .md\\:tw-font-black {\n    font-weight: 900;\n  }\n\n  .md\\:hover\\:tw-font-hairline:hover {\n    font-weight: 100;\n  }\n\n  .md\\:hover\\:tw-font-thin:hover {\n    font-weight: 200;\n  }\n\n  .md\\:hover\\:tw-font-light:hover {\n    font-weight: 300;\n  }\n\n  .md\\:hover\\:tw-font-normal:hover {\n    font-weight: 400;\n  }\n\n  .md\\:hover\\:tw-font-medium:hover {\n    font-weight: 500;\n  }\n\n  .md\\:hover\\:tw-font-semibold:hover {\n    font-weight: 600;\n  }\n\n  .md\\:hover\\:tw-font-bold:hover {\n    font-weight: 700;\n  }\n\n  .md\\:hover\\:tw-font-extrabold:hover {\n    font-weight: 800;\n  }\n\n  .md\\:hover\\:tw-font-black:hover {\n    font-weight: 900;\n  }\n\n  .md\\:focus\\:tw-font-hairline:focus {\n    font-weight: 100;\n  }\n\n  .md\\:focus\\:tw-font-thin:focus {\n    font-weight: 200;\n  }\n\n  .md\\:focus\\:tw-font-light:focus {\n    font-weight: 300;\n  }\n\n  .md\\:focus\\:tw-font-normal:focus {\n    font-weight: 400;\n  }\n\n  .md\\:focus\\:tw-font-medium:focus {\n    font-weight: 500;\n  }\n\n  .md\\:focus\\:tw-font-semibold:focus {\n    font-weight: 600;\n  }\n\n  .md\\:focus\\:tw-font-bold:focus {\n    font-weight: 700;\n  }\n\n  .md\\:focus\\:tw-font-extrabold:focus {\n    font-weight: 800;\n  }\n\n  .md\\:focus\\:tw-font-black:focus {\n    font-weight: 900;\n  }\n\n  .md\\:tw-h-1 {\n    height: .25rem;\n  }\n\n  .md\\:tw-h-2 {\n    height: .5rem;\n  }\n\n  .md\\:tw-h-3 {\n    height: .75rem;\n  }\n\n  .md\\:tw-h-4 {\n    height: 1rem;\n  }\n\n  .md\\:tw-h-5 {\n    height: 1.25rem;\n  }\n\n  .md\\:tw-h-6 {\n    height: 1.5rem;\n  }\n\n  .md\\:tw-h-8 {\n    height: 2rem;\n  }\n\n  .md\\:tw-h-10 {\n    height: 2.5rem;\n  }\n\n  .md\\:tw-h-12 {\n    height: 3rem;\n  }\n\n  .md\\:tw-h-16 {\n    height: 4rem;\n  }\n\n  .md\\:tw-h-24 {\n    height: 6rem;\n  }\n\n  .md\\:tw-h-32 {\n    height: 8rem;\n  }\n\n  .md\\:tw-h-48 {\n    height: 12rem;\n  }\n\n  .md\\:tw-h-64 {\n    height: 16rem;\n  }\n\n  .md\\:tw-h-auto {\n    height: auto;\n  }\n\n  .md\\:tw-h-px {\n    height: 1px;\n  }\n\n  .md\\:tw-h-full {\n    height: 100%;\n  }\n\n  .md\\:tw-h-screen {\n    height: 100vh;\n  }\n\n  .md\\:tw-leading-none {\n    line-height: 1;\n  }\n\n  .md\\:tw-leading-tight {\n    line-height: 1.25;\n  }\n\n  .md\\:tw-leading-normal {\n    line-height: 1.5;\n  }\n\n  .md\\:tw-leading-loose {\n    line-height: 2;\n  }\n\n  .md\\:tw-m-0 {\n    margin: 0;\n  }\n\n  .md\\:tw-m-1 {\n    margin: .25rem;\n  }\n\n  .md\\:tw-m-2 {\n    margin: .5rem;\n  }\n\n  .md\\:tw-m-3 {\n    margin: .75rem;\n  }\n\n  .md\\:tw-m-4 {\n    margin: 1rem;\n  }\n\n  .md\\:tw-m-5 {\n    margin: 1.25rem;\n  }\n\n  .md\\:tw-m-6 {\n    margin: 1.5rem;\n  }\n\n  .md\\:tw-m-8 {\n    margin: 2rem;\n  }\n\n  .md\\:tw-m-10 {\n    margin: 2.5rem;\n  }\n\n  .md\\:tw-m-12 {\n    margin: 3rem;\n  }\n\n  .md\\:tw-m-16 {\n    margin: 4rem;\n  }\n\n  .md\\:tw-m-20 {\n    margin: 5rem;\n  }\n\n  .md\\:tw-m-24 {\n    margin: 6rem;\n  }\n\n  .md\\:tw-m-32 {\n    margin: 8rem;\n  }\n\n  .md\\:tw-m-auto {\n    margin: auto;\n  }\n\n  .md\\:tw-m-px {\n    margin: 1px;\n  }\n\n  .md\\:tw-my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .md\\:tw-mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .md\\:tw-my-1 {\n    margin-top: .25rem;\n    margin-bottom: .25rem;\n  }\n\n  .md\\:tw-mx-1 {\n    margin-left: .25rem;\n    margin-right: .25rem;\n  }\n\n  .md\\:tw-my-2 {\n    margin-top: .5rem;\n    margin-bottom: .5rem;\n  }\n\n  .md\\:tw-mx-2 {\n    margin-left: .5rem;\n    margin-right: .5rem;\n  }\n\n  .md\\:tw-my-3 {\n    margin-top: .75rem;\n    margin-bottom: .75rem;\n  }\n\n  .md\\:tw-mx-3 {\n    margin-left: .75rem;\n    margin-right: .75rem;\n  }\n\n  .md\\:tw-my-4 {\n    margin-top: 1rem;\n    margin-bottom: 1rem;\n  }\n\n  .md\\:tw-mx-4 {\n    margin-left: 1rem;\n    margin-right: 1rem;\n  }\n\n  .md\\:tw-my-5 {\n    margin-top: 1.25rem;\n    margin-bottom: 1.25rem;\n  }\n\n  .md\\:tw-mx-5 {\n    margin-left: 1.25rem;\n    margin-right: 1.25rem;\n  }\n\n  .md\\:tw-my-6 {\n    margin-top: 1.5rem;\n    margin-bottom: 1.5rem;\n  }\n\n  .md\\:tw-mx-6 {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n\n  .md\\:tw-my-8 {\n    margin-top: 2rem;\n    margin-bottom: 2rem;\n  }\n\n  .md\\:tw-mx-8 {\n    margin-left: 2rem;\n    margin-right: 2rem;\n  }\n\n  .md\\:tw-my-10 {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n  }\n\n  .md\\:tw-mx-10 {\n    margin-left: 2.5rem;\n    margin-right: 2.5rem;\n  }\n\n  .md\\:tw-my-12 {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n  }\n\n  .md\\:tw-mx-12 {\n    margin-left: 3rem;\n    margin-right: 3rem;\n  }\n\n  .md\\:tw-my-16 {\n    margin-top: 4rem;\n    margin-bottom: 4rem;\n  }\n\n  .md\\:tw-mx-16 {\n    margin-left: 4rem;\n    margin-right: 4rem;\n  }\n\n  .md\\:tw-my-20 {\n    margin-top: 5rem;\n    margin-bottom: 5rem;\n  }\n\n  .md\\:tw-mx-20 {\n    margin-left: 5rem;\n    margin-right: 5rem;\n  }\n\n  .md\\:tw-my-24 {\n    margin-top: 6rem;\n    margin-bottom: 6rem;\n  }\n\n  .md\\:tw-mx-24 {\n    margin-left: 6rem;\n    margin-right: 6rem;\n  }\n\n  .md\\:tw-my-32 {\n    margin-top: 8rem;\n    margin-bottom: 8rem;\n  }\n\n  .md\\:tw-mx-32 {\n    margin-left: 8rem;\n    margin-right: 8rem;\n  }\n\n  .md\\:tw-my-auto {\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n\n  .md\\:tw-mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .md\\:tw-my-px {\n    margin-top: 1px;\n    margin-bottom: 1px;\n  }\n\n  .md\\:tw-mx-px {\n    margin-left: 1px;\n    margin-right: 1px;\n  }\n\n  .md\\:tw-mt-0 {\n    margin-top: 0;\n  }\n\n  .md\\:tw-mr-0 {\n    margin-right: 0;\n  }\n\n  .md\\:tw-mb-0 {\n    margin-bottom: 0;\n  }\n\n  .md\\:tw-ml-0 {\n    margin-left: 0;\n  }\n\n  .md\\:tw-mt-1 {\n    margin-top: .25rem;\n  }\n\n  .md\\:tw-mr-1 {\n    margin-right: .25rem;\n  }\n\n  .md\\:tw-mb-1 {\n    margin-bottom: .25rem;\n  }\n\n  .md\\:tw-ml-1 {\n    margin-left: .25rem;\n  }\n\n  .md\\:tw-mt-2 {\n    margin-top: .5rem;\n  }\n\n  .md\\:tw-mr-2 {\n    margin-right: .5rem;\n  }\n\n  .md\\:tw-mb-2 {\n    margin-bottom: .5rem;\n  }\n\n  .md\\:tw-ml-2 {\n    margin-left: .5rem;\n  }\n\n  .md\\:tw-mt-3 {\n    margin-top: .75rem;\n  }\n\n  .md\\:tw-mr-3 {\n    margin-right: .75rem;\n  }\n\n  .md\\:tw-mb-3 {\n    margin-bottom: .75rem;\n  }\n\n  .md\\:tw-ml-3 {\n    margin-left: .75rem;\n  }\n\n  .md\\:tw-mt-4 {\n    margin-top: 1rem;\n  }\n\n  .md\\:tw-mr-4 {\n    margin-right: 1rem;\n  }\n\n  .md\\:tw-mb-4 {\n    margin-bottom: 1rem;\n  }\n\n  .md\\:tw-ml-4 {\n    margin-left: 1rem;\n  }\n\n  .md\\:tw-mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .md\\:tw-mr-5 {\n    margin-right: 1.25rem;\n  }\n\n  .md\\:tw-mb-5 {\n    margin-bottom: 1.25rem;\n  }\n\n  .md\\:tw-ml-5 {\n    margin-left: 1.25rem;\n  }\n\n  .md\\:tw-mt-6 {\n    margin-top: 1.5rem;\n  }\n\n  .md\\:tw-mr-6 {\n    margin-right: 1.5rem;\n  }\n\n  .md\\:tw-mb-6 {\n    margin-bottom: 1.5rem;\n  }\n\n  .md\\:tw-ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .md\\:tw-mt-8 {\n    margin-top: 2rem;\n  }\n\n  .md\\:tw-mr-8 {\n    margin-right: 2rem;\n  }\n\n  .md\\:tw-mb-8 {\n    margin-bottom: 2rem;\n  }\n\n  .md\\:tw-ml-8 {\n    margin-left: 2rem;\n  }\n\n  .md\\:tw-mt-10 {\n    margin-top: 2.5rem;\n  }\n\n  .md\\:tw-mr-10 {\n    margin-right: 2.5rem;\n  }\n\n  .md\\:tw-mb-10 {\n    margin-bottom: 2.5rem;\n  }\n\n  .md\\:tw-ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .md\\:tw-mt-12 {\n    margin-top: 3rem;\n  }\n\n  .md\\:tw-mr-12 {\n    margin-right: 3rem;\n  }\n\n  .md\\:tw-mb-12 {\n    margin-bottom: 3rem;\n  }\n\n  .md\\:tw-ml-12 {\n    margin-left: 3rem;\n  }\n\n  .md\\:tw-mt-16 {\n    margin-top: 4rem;\n  }\n\n  .md\\:tw-mr-16 {\n    margin-right: 4rem;\n  }\n\n  .md\\:tw-mb-16 {\n    margin-bottom: 4rem;\n  }\n\n  .md\\:tw-ml-16 {\n    margin-left: 4rem;\n  }\n\n  .md\\:tw-mt-20 {\n    margin-top: 5rem;\n  }\n\n  .md\\:tw-mr-20 {\n    margin-right: 5rem;\n  }\n\n  .md\\:tw-mb-20 {\n    margin-bottom: 5rem;\n  }\n\n  .md\\:tw-ml-20 {\n    margin-left: 5rem;\n  }\n\n  .md\\:tw-mt-24 {\n    margin-top: 6rem;\n  }\n\n  .md\\:tw-mr-24 {\n    margin-right: 6rem;\n  }\n\n  .md\\:tw-mb-24 {\n    margin-bottom: 6rem;\n  }\n\n  .md\\:tw-ml-24 {\n    margin-left: 6rem;\n  }\n\n  .md\\:tw-mt-32 {\n    margin-top: 8rem;\n  }\n\n  .md\\:tw-mr-32 {\n    margin-right: 8rem;\n  }\n\n  .md\\:tw-mb-32 {\n    margin-bottom: 8rem;\n  }\n\n  .md\\:tw-ml-32 {\n    margin-left: 8rem;\n  }\n\n  .md\\:tw-mt-auto {\n    margin-top: auto;\n  }\n\n  .md\\:tw-mr-auto {\n    margin-right: auto;\n  }\n\n  .md\\:tw-mb-auto {\n    margin-bottom: auto;\n  }\n\n  .md\\:tw-ml-auto {\n    margin-left: auto;\n  }\n\n  .md\\:tw-mt-px {\n    margin-top: 1px;\n  }\n\n  .md\\:tw-mr-px {\n    margin-right: 1px;\n  }\n\n  .md\\:tw-mb-px {\n    margin-bottom: 1px;\n  }\n\n  .md\\:tw-ml-px {\n    margin-left: 1px;\n  }\n\n  .md\\:tw-max-h-full {\n    max-height: 100%;\n  }\n\n  .md\\:tw-max-h-screen {\n    max-height: 100vh;\n  }\n\n  .md\\:tw-max-w-xs {\n    max-width: 20rem;\n  }\n\n  .md\\:tw-max-w-sm {\n    max-width: 30rem;\n  }\n\n  .md\\:tw-max-w-md {\n    max-width: 40rem;\n  }\n\n  .md\\:tw-max-w-lg {\n    max-width: 50rem;\n  }\n\n  .md\\:tw-max-w-xl {\n    max-width: 60rem;\n  }\n\n  .md\\:tw-max-w-2xl {\n    max-width: 70rem;\n  }\n\n  .md\\:tw-max-w-3xl {\n    max-width: 80rem;\n  }\n\n  .md\\:tw-max-w-4xl {\n    max-width: 90rem;\n  }\n\n  .md\\:tw-max-w-5xl {\n    max-width: 100rem;\n  }\n\n  .md\\:tw-max-w-full {\n    max-width: 100%;\n  }\n\n  .md\\:tw-min-h-0 {\n    min-height: 0;\n  }\n\n  .md\\:tw-min-h-full {\n    min-height: 100%;\n  }\n\n  .md\\:tw-min-h-screen {\n    min-height: 100vh;\n  }\n\n  .md\\:tw-min-w-0 {\n    min-width: 0;\n  }\n\n  .md\\:tw-min-w-full {\n    min-width: 100%;\n  }\n\n  .md\\:tw--m-0 {\n    margin: 0;\n  }\n\n  .md\\:tw--m-1 {\n    margin: -0.25rem;\n  }\n\n  .md\\:tw--m-2 {\n    margin: -0.5rem;\n  }\n\n  .md\\:tw--m-3 {\n    margin: -0.75rem;\n  }\n\n  .md\\:tw--m-4 {\n    margin: -1rem;\n  }\n\n  .md\\:tw--m-5 {\n    margin: -1.25rem;\n  }\n\n  .md\\:tw--m-6 {\n    margin: -1.5rem;\n  }\n\n  .md\\:tw--m-8 {\n    margin: -2rem;\n  }\n\n  .md\\:tw--m-10 {\n    margin: -2.5rem;\n  }\n\n  .md\\:tw--m-12 {\n    margin: -3rem;\n  }\n\n  .md\\:tw--m-16 {\n    margin: -4rem;\n  }\n\n  .md\\:tw--m-20 {\n    margin: -5rem;\n  }\n\n  .md\\:tw--m-24 {\n    margin: -6rem;\n  }\n\n  .md\\:tw--m-32 {\n    margin: -8rem;\n  }\n\n  .md\\:tw--m-px {\n    margin: -1px;\n  }\n\n  .md\\:tw--my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .md\\:tw--mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .md\\:tw--my-1 {\n    margin-top: -0.25rem;\n    margin-bottom: -0.25rem;\n  }\n\n  .md\\:tw--mx-1 {\n    margin-left: -0.25rem;\n    margin-right: -0.25rem;\n  }\n\n  .md\\:tw--my-2 {\n    margin-top: -0.5rem;\n    margin-bottom: -0.5rem;\n  }\n\n  .md\\:tw--mx-2 {\n    margin-left: -0.5rem;\n    margin-right: -0.5rem;\n  }\n\n  .md\\:tw--my-3 {\n    margin-top: -0.75rem;\n    margin-bottom: -0.75rem;\n  }\n\n  .md\\:tw--mx-3 {\n    margin-left: -0.75rem;\n    margin-right: -0.75rem;\n  }\n\n  .md\\:tw--my-4 {\n    margin-top: -1rem;\n    margin-bottom: -1rem;\n  }\n\n  .md\\:tw--mx-4 {\n    margin-left: -1rem;\n    margin-right: -1rem;\n  }\n\n  .md\\:tw--my-5 {\n    margin-top: -1.25rem;\n    margin-bottom: -1.25rem;\n  }\n\n  .md\\:tw--mx-5 {\n    margin-left: -1.25rem;\n    margin-right: -1.25rem;\n  }\n\n  .md\\:tw--my-6 {\n    margin-top: -1.5rem;\n    margin-bottom: -1.5rem;\n  }\n\n  .md\\:tw--mx-6 {\n    margin-left: -1.5rem;\n    margin-right: -1.5rem;\n  }\n\n  .md\\:tw--my-8 {\n    margin-top: -2rem;\n    margin-bottom: -2rem;\n  }\n\n  .md\\:tw--mx-8 {\n    margin-left: -2rem;\n    margin-right: -2rem;\n  }\n\n  .md\\:tw--my-10 {\n    margin-top: -2.5rem;\n    margin-bottom: -2.5rem;\n  }\n\n  .md\\:tw--mx-10 {\n    margin-left: -2.5rem;\n    margin-right: -2.5rem;\n  }\n\n  .md\\:tw--my-12 {\n    margin-top: -3rem;\n    margin-bottom: -3rem;\n  }\n\n  .md\\:tw--mx-12 {\n    margin-left: -3rem;\n    margin-right: -3rem;\n  }\n\n  .md\\:tw--my-16 {\n    margin-top: -4rem;\n    margin-bottom: -4rem;\n  }\n\n  .md\\:tw--mx-16 {\n    margin-left: -4rem;\n    margin-right: -4rem;\n  }\n\n  .md\\:tw--my-20 {\n    margin-top: -5rem;\n    margin-bottom: -5rem;\n  }\n\n  .md\\:tw--mx-20 {\n    margin-left: -5rem;\n    margin-right: -5rem;\n  }\n\n  .md\\:tw--my-24 {\n    margin-top: -6rem;\n    margin-bottom: -6rem;\n  }\n\n  .md\\:tw--mx-24 {\n    margin-left: -6rem;\n    margin-right: -6rem;\n  }\n\n  .md\\:tw--my-32 {\n    margin-top: -8rem;\n    margin-bottom: -8rem;\n  }\n\n  .md\\:tw--mx-32 {\n    margin-left: -8rem;\n    margin-right: -8rem;\n  }\n\n  .md\\:tw--my-px {\n    margin-top: -1px;\n    margin-bottom: -1px;\n  }\n\n  .md\\:tw--mx-px {\n    margin-left: -1px;\n    margin-right: -1px;\n  }\n\n  .md\\:tw--mt-0 {\n    margin-top: 0;\n  }\n\n  .md\\:tw--mr-0 {\n    margin-right: 0;\n  }\n\n  .md\\:tw--mb-0 {\n    margin-bottom: 0;\n  }\n\n  .md\\:tw--ml-0 {\n    margin-left: 0;\n  }\n\n  .md\\:tw--mt-1 {\n    margin-top: -0.25rem;\n  }\n\n  .md\\:tw--mr-1 {\n    margin-right: -0.25rem;\n  }\n\n  .md\\:tw--mb-1 {\n    margin-bottom: -0.25rem;\n  }\n\n  .md\\:tw--ml-1 {\n    margin-left: -0.25rem;\n  }\n\n  .md\\:tw--mt-2 {\n    margin-top: -0.5rem;\n  }\n\n  .md\\:tw--mr-2 {\n    margin-right: -0.5rem;\n  }\n\n  .md\\:tw--mb-2 {\n    margin-bottom: -0.5rem;\n  }\n\n  .md\\:tw--ml-2 {\n    margin-left: -0.5rem;\n  }\n\n  .md\\:tw--mt-3 {\n    margin-top: -0.75rem;\n  }\n\n  .md\\:tw--mr-3 {\n    margin-right: -0.75rem;\n  }\n\n  .md\\:tw--mb-3 {\n    margin-bottom: -0.75rem;\n  }\n\n  .md\\:tw--ml-3 {\n    margin-left: -0.75rem;\n  }\n\n  .md\\:tw--mt-4 {\n    margin-top: -1rem;\n  }\n\n  .md\\:tw--mr-4 {\n    margin-right: -1rem;\n  }\n\n  .md\\:tw--mb-4 {\n    margin-bottom: -1rem;\n  }\n\n  .md\\:tw--ml-4 {\n    margin-left: -1rem;\n  }\n\n  .md\\:tw--mt-5 {\n    margin-top: -1.25rem;\n  }\n\n  .md\\:tw--mr-5 {\n    margin-right: -1.25rem;\n  }\n\n  .md\\:tw--mb-5 {\n    margin-bottom: -1.25rem;\n  }\n\n  .md\\:tw--ml-5 {\n    margin-left: -1.25rem;\n  }\n\n  .md\\:tw--mt-6 {\n    margin-top: -1.5rem;\n  }\n\n  .md\\:tw--mr-6 {\n    margin-right: -1.5rem;\n  }\n\n  .md\\:tw--mb-6 {\n    margin-bottom: -1.5rem;\n  }\n\n  .md\\:tw--ml-6 {\n    margin-left: -1.5rem;\n  }\n\n  .md\\:tw--mt-8 {\n    margin-top: -2rem;\n  }\n\n  .md\\:tw--mr-8 {\n    margin-right: -2rem;\n  }\n\n  .md\\:tw--mb-8 {\n    margin-bottom: -2rem;\n  }\n\n  .md\\:tw--ml-8 {\n    margin-left: -2rem;\n  }\n\n  .md\\:tw--mt-10 {\n    margin-top: -2.5rem;\n  }\n\n  .md\\:tw--mr-10 {\n    margin-right: -2.5rem;\n  }\n\n  .md\\:tw--mb-10 {\n    margin-bottom: -2.5rem;\n  }\n\n  .md\\:tw--ml-10 {\n    margin-left: -2.5rem;\n  }\n\n  .md\\:tw--mt-12 {\n    margin-top: -3rem;\n  }\n\n  .md\\:tw--mr-12 {\n    margin-right: -3rem;\n  }\n\n  .md\\:tw--mb-12 {\n    margin-bottom: -3rem;\n  }\n\n  .md\\:tw--ml-12 {\n    margin-left: -3rem;\n  }\n\n  .md\\:tw--mt-16 {\n    margin-top: -4rem;\n  }\n\n  .md\\:tw--mr-16 {\n    margin-right: -4rem;\n  }\n\n  .md\\:tw--mb-16 {\n    margin-bottom: -4rem;\n  }\n\n  .md\\:tw--ml-16 {\n    margin-left: -4rem;\n  }\n\n  .md\\:tw--mt-20 {\n    margin-top: -5rem;\n  }\n\n  .md\\:tw--mr-20 {\n    margin-right: -5rem;\n  }\n\n  .md\\:tw--mb-20 {\n    margin-bottom: -5rem;\n  }\n\n  .md\\:tw--ml-20 {\n    margin-left: -5rem;\n  }\n\n  .md\\:tw--mt-24 {\n    margin-top: -6rem;\n  }\n\n  .md\\:tw--mr-24 {\n    margin-right: -6rem;\n  }\n\n  .md\\:tw--mb-24 {\n    margin-bottom: -6rem;\n  }\n\n  .md\\:tw--ml-24 {\n    margin-left: -6rem;\n  }\n\n  .md\\:tw--mt-32 {\n    margin-top: -8rem;\n  }\n\n  .md\\:tw--mr-32 {\n    margin-right: -8rem;\n  }\n\n  .md\\:tw--mb-32 {\n    margin-bottom: -8rem;\n  }\n\n  .md\\:tw--ml-32 {\n    margin-left: -8rem;\n  }\n\n  .md\\:tw--mt-px {\n    margin-top: -1px;\n  }\n\n  .md\\:tw--mr-px {\n    margin-right: -1px;\n  }\n\n  .md\\:tw--mb-px {\n    margin-bottom: -1px;\n  }\n\n  .md\\:tw--ml-px {\n    margin-left: -1px;\n  }\n\n  .md\\:tw-opacity-0 {\n    opacity: 0;\n  }\n\n  .md\\:tw-opacity-25 {\n    opacity: .25;\n  }\n\n  .md\\:tw-opacity-50 {\n    opacity: .5;\n  }\n\n  .md\\:tw-opacity-75 {\n    opacity: .75;\n  }\n\n  .md\\:tw-opacity-100 {\n    opacity: 1;\n  }\n\n  .md\\:tw-overflow-auto {\n    overflow: auto;\n  }\n\n  .md\\:tw-overflow-hidden {\n    overflow: hidden;\n  }\n\n  .md\\:tw-overflow-visible {\n    overflow: visible;\n  }\n\n  .md\\:tw-overflow-scroll {\n    overflow: scroll;\n  }\n\n  .md\\:tw-overflow-x-auto {\n    overflow-x: auto;\n  }\n\n  .md\\:tw-overflow-y-auto {\n    overflow-y: auto;\n  }\n\n  .md\\:tw-overflow-x-hidden {\n    overflow-x: hidden;\n  }\n\n  .md\\:tw-overflow-y-hidden {\n    overflow-y: hidden;\n  }\n\n  .md\\:tw-overflow-x-visible {\n    overflow-x: visible;\n  }\n\n  .md\\:tw-overflow-y-visible {\n    overflow-y: visible;\n  }\n\n  .md\\:tw-overflow-x-scroll {\n    overflow-x: scroll;\n  }\n\n  .md\\:tw-overflow-y-scroll {\n    overflow-y: scroll;\n  }\n\n  .md\\:tw-scrolling-touch {\n    -webkit-overflow-scrolling: touch;\n  }\n\n  .md\\:tw-scrolling-auto {\n    -webkit-overflow-scrolling: auto;\n  }\n\n  .md\\:tw-p-0 {\n    padding: 0;\n  }\n\n  .md\\:tw-p-1 {\n    padding: .25rem;\n  }\n\n  .md\\:tw-p-2 {\n    padding: .5rem;\n  }\n\n  .md\\:tw-p-3 {\n    padding: .75rem;\n  }\n\n  .md\\:tw-p-4 {\n    padding: 1rem;\n  }\n\n  .md\\:tw-p-5 {\n    padding: 1.25rem;\n  }\n\n  .md\\:tw-p-6 {\n    padding: 1.5rem;\n  }\n\n  .md\\:tw-p-8 {\n    padding: 2rem;\n  }\n\n  .md\\:tw-p-10 {\n    padding: 2.5rem;\n  }\n\n  .md\\:tw-p-12 {\n    padding: 3rem;\n  }\n\n  .md\\:tw-p-16 {\n    padding: 4rem;\n  }\n\n  .md\\:tw-p-20 {\n    padding: 5rem;\n  }\n\n  .md\\:tw-p-24 {\n    padding: 6rem;\n  }\n\n  .md\\:tw-p-32 {\n    padding: 8rem;\n  }\n\n  .md\\:tw-p-px {\n    padding: 1px;\n  }\n\n  .md\\:tw-py-0 {\n    padding-top: 0;\n    padding-bottom: 0;\n  }\n\n  .md\\:tw-px-0 {\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  .md\\:tw-py-1 {\n    padding-top: .25rem;\n    padding-bottom: .25rem;\n  }\n\n  .md\\:tw-px-1 {\n    padding-left: .25rem;\n    padding-right: .25rem;\n  }\n\n  .md\\:tw-py-2 {\n    padding-top: .5rem;\n    padding-bottom: .5rem;\n  }\n\n  .md\\:tw-px-2 {\n    padding-left: .5rem;\n    padding-right: .5rem;\n  }\n\n  .md\\:tw-py-3 {\n    padding-top: .75rem;\n    padding-bottom: .75rem;\n  }\n\n  .md\\:tw-px-3 {\n    padding-left: .75rem;\n    padding-right: .75rem;\n  }\n\n  .md\\:tw-py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .md\\:tw-px-4 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n\n  .md\\:tw-py-5 {\n    padding-top: 1.25rem;\n    padding-bottom: 1.25rem;\n  }\n\n  .md\\:tw-px-5 {\n    padding-left: 1.25rem;\n    padding-right: 1.25rem;\n  }\n\n  .md\\:tw-py-6 {\n    padding-top: 1.5rem;\n    padding-bottom: 1.5rem;\n  }\n\n  .md\\:tw-px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .md\\:tw-py-8 {\n    padding-top: 2rem;\n    padding-bottom: 2rem;\n  }\n\n  .md\\:tw-px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .md\\:tw-py-10 {\n    padding-top: 2.5rem;\n    padding-bottom: 2.5rem;\n  }\n\n  .md\\:tw-px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .md\\:tw-py-12 {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n  }\n\n  .md\\:tw-px-12 {\n    padding-left: 3rem;\n    padding-right: 3rem;\n  }\n\n  .md\\:tw-py-16 {\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n  }\n\n  .md\\:tw-px-16 {\n    padding-left: 4rem;\n    padding-right: 4rem;\n  }\n\n  .md\\:tw-py-20 {\n    padding-top: 5rem;\n    padding-bottom: 5rem;\n  }\n\n  .md\\:tw-px-20 {\n    padding-left: 5rem;\n    padding-right: 5rem;\n  }\n\n  .md\\:tw-py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .md\\:tw-px-24 {\n    padding-left: 6rem;\n    padding-right: 6rem;\n  }\n\n  .md\\:tw-py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .md\\:tw-px-32 {\n    padding-left: 8rem;\n    padding-right: 8rem;\n  }\n\n  .md\\:tw-py-px {\n    padding-top: 1px;\n    padding-bottom: 1px;\n  }\n\n  .md\\:tw-px-px {\n    padding-left: 1px;\n    padding-right: 1px;\n  }\n\n  .md\\:tw-pt-0 {\n    padding-top: 0;\n  }\n\n  .md\\:tw-pr-0 {\n    padding-right: 0;\n  }\n\n  .md\\:tw-pb-0 {\n    padding-bottom: 0;\n  }\n\n  .md\\:tw-pl-0 {\n    padding-left: 0;\n  }\n\n  .md\\:tw-pt-1 {\n    padding-top: .25rem;\n  }\n\n  .md\\:tw-pr-1 {\n    padding-right: .25rem;\n  }\n\n  .md\\:tw-pb-1 {\n    padding-bottom: .25rem;\n  }\n\n  .md\\:tw-pl-1 {\n    padding-left: .25rem;\n  }\n\n  .md\\:tw-pt-2 {\n    padding-top: .5rem;\n  }\n\n  .md\\:tw-pr-2 {\n    padding-right: .5rem;\n  }\n\n  .md\\:tw-pb-2 {\n    padding-bottom: .5rem;\n  }\n\n  .md\\:tw-pl-2 {\n    padding-left: .5rem;\n  }\n\n  .md\\:tw-pt-3 {\n    padding-top: .75rem;\n  }\n\n  .md\\:tw-pr-3 {\n    padding-right: .75rem;\n  }\n\n  .md\\:tw-pb-3 {\n    padding-bottom: .75rem;\n  }\n\n  .md\\:tw-pl-3 {\n    padding-left: .75rem;\n  }\n\n  .md\\:tw-pt-4 {\n    padding-top: 1rem;\n  }\n\n  .md\\:tw-pr-4 {\n    padding-right: 1rem;\n  }\n\n  .md\\:tw-pb-4 {\n    padding-bottom: 1rem;\n  }\n\n  .md\\:tw-pl-4 {\n    padding-left: 1rem;\n  }\n\n  .md\\:tw-pt-5 {\n    padding-top: 1.25rem;\n  }\n\n  .md\\:tw-pr-5 {\n    padding-right: 1.25rem;\n  }\n\n  .md\\:tw-pb-5 {\n    padding-bottom: 1.25rem;\n  }\n\n  .md\\:tw-pl-5 {\n    padding-left: 1.25rem;\n  }\n\n  .md\\:tw-pt-6 {\n    padding-top: 1.5rem;\n  }\n\n  .md\\:tw-pr-6 {\n    padding-right: 1.5rem;\n  }\n\n  .md\\:tw-pb-6 {\n    padding-bottom: 1.5rem;\n  }\n\n  .md\\:tw-pl-6 {\n    padding-left: 1.5rem;\n  }\n\n  .md\\:tw-pt-8 {\n    padding-top: 2rem;\n  }\n\n  .md\\:tw-pr-8 {\n    padding-right: 2rem;\n  }\n\n  .md\\:tw-pb-8 {\n    padding-bottom: 2rem;\n  }\n\n  .md\\:tw-pl-8 {\n    padding-left: 2rem;\n  }\n\n  .md\\:tw-pt-10 {\n    padding-top: 2.5rem;\n  }\n\n  .md\\:tw-pr-10 {\n    padding-right: 2.5rem;\n  }\n\n  .md\\:tw-pb-10 {\n    padding-bottom: 2.5rem;\n  }\n\n  .md\\:tw-pl-10 {\n    padding-left: 2.5rem;\n  }\n\n  .md\\:tw-pt-12 {\n    padding-top: 3rem;\n  }\n\n  .md\\:tw-pr-12 {\n    padding-right: 3rem;\n  }\n\n  .md\\:tw-pb-12 {\n    padding-bottom: 3rem;\n  }\n\n  .md\\:tw-pl-12 {\n    padding-left: 3rem;\n  }\n\n  .md\\:tw-pt-16 {\n    padding-top: 4rem;\n  }\n\n  .md\\:tw-pr-16 {\n    padding-right: 4rem;\n  }\n\n  .md\\:tw-pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .md\\:tw-pl-16 {\n    padding-left: 4rem;\n  }\n\n  .md\\:tw-pt-20 {\n    padding-top: 5rem;\n  }\n\n  .md\\:tw-pr-20 {\n    padding-right: 5rem;\n  }\n\n  .md\\:tw-pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .md\\:tw-pl-20 {\n    padding-left: 5rem;\n  }\n\n  .md\\:tw-pt-24 {\n    padding-top: 6rem;\n  }\n\n  .md\\:tw-pr-24 {\n    padding-right: 6rem;\n  }\n\n  .md\\:tw-pb-24 {\n    padding-bottom: 6rem;\n  }\n\n  .md\\:tw-pl-24 {\n    padding-left: 6rem;\n  }\n\n  .md\\:tw-pt-32 {\n    padding-top: 8rem;\n  }\n\n  .md\\:tw-pr-32 {\n    padding-right: 8rem;\n  }\n\n  .md\\:tw-pb-32 {\n    padding-bottom: 8rem;\n  }\n\n  .md\\:tw-pl-32 {\n    padding-left: 8rem;\n  }\n\n  .md\\:tw-pt-px {\n    padding-top: 1px;\n  }\n\n  .md\\:tw-pr-px {\n    padding-right: 1px;\n  }\n\n  .md\\:tw-pb-px {\n    padding-bottom: 1px;\n  }\n\n  .md\\:tw-pl-px {\n    padding-left: 1px;\n  }\n\n  .md\\:tw-pointer-events-none {\n    pointer-events: none;\n  }\n\n  .md\\:tw-pointer-events-auto {\n    pointer-events: auto;\n  }\n\n  .md\\:tw-static {\n    position: static;\n  }\n\n  .md\\:tw-fixed {\n    position: fixed;\n  }\n\n  .md\\:tw-absolute {\n    position: absolute;\n  }\n\n  .md\\:tw-relative {\n    position: relative;\n  }\n\n  .md\\:tw-sticky {\n    position: -webkit-sticky;\n    position: sticky;\n  }\n\n  .md\\:tw-pin-none {\n    top: auto;\n    right: auto;\n    bottom: auto;\n    left: auto;\n  }\n\n  .md\\:tw-pin {\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .md\\:tw-pin-y {\n    top: 0;\n    bottom: 0;\n  }\n\n  .md\\:tw-pin-x {\n    right: 0;\n    left: 0;\n  }\n\n  .md\\:tw-pin-t {\n    top: 0;\n  }\n\n  .md\\:tw-pin-r {\n    right: 0;\n  }\n\n  .md\\:tw-pin-b {\n    bottom: 0;\n  }\n\n  .md\\:tw-pin-l {\n    left: 0;\n  }\n\n  .md\\:tw-resize-none {\n    resize: none;\n  }\n\n  .md\\:tw-resize-y {\n    resize: vertical;\n  }\n\n  .md\\:tw-resize-x {\n    resize: horizontal;\n  }\n\n  .md\\:tw-resize {\n    resize: both;\n  }\n\n  .md\\:tw-shadow {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .md\\:tw-shadow-md {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .md\\:tw-shadow-lg {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .md\\:tw-shadow-inner {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .md\\:tw-shadow-outline {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .md\\:tw-shadow-none {\n    box-shadow: none;\n  }\n\n  .md\\:hover\\:tw-shadow:hover {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .md\\:hover\\:tw-shadow-md:hover {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .md\\:hover\\:tw-shadow-lg:hover {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .md\\:hover\\:tw-shadow-inner:hover {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .md\\:hover\\:tw-shadow-outline:hover {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .md\\:hover\\:tw-shadow-none:hover {\n    box-shadow: none;\n  }\n\n  .md\\:focus\\:tw-shadow:focus {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .md\\:focus\\:tw-shadow-md:focus {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .md\\:focus\\:tw-shadow-lg:focus {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .md\\:focus\\:tw-shadow-inner:focus {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .md\\:focus\\:tw-shadow-outline:focus {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .md\\:focus\\:tw-shadow-none:focus {\n    box-shadow: none;\n  }\n\n  .md\\:tw-table-auto {\n    table-layout: auto;\n  }\n\n  .md\\:tw-table-fixed {\n    table-layout: fixed;\n  }\n\n  .md\\:tw-text-left {\n    text-align: left;\n  }\n\n  .md\\:tw-text-center {\n    text-align: center;\n  }\n\n  .md\\:tw-text-right {\n    text-align: right;\n  }\n\n  .md\\:tw-text-justify {\n    text-align: justify;\n  }\n\n  .md\\:tw-text-transparent {\n    color: transparent;\n  }\n\n  .md\\:tw-text-black {\n    color: #22292f;\n  }\n\n  .md\\:tw-text-grey-darkest {\n    color: #3d4852;\n  }\n\n  .md\\:tw-text-grey-darker {\n    color: #606f7b;\n  }\n\n  .md\\:tw-text-grey-dark {\n    color: #8795a1;\n  }\n\n  .md\\:tw-text-grey {\n    color: #b8c2cc;\n  }\n\n  .md\\:tw-text-grey-light {\n    color: #dae1e7;\n  }\n\n  .md\\:tw-text-grey-lighter {\n    color: #f1f5f8;\n  }\n\n  .md\\:tw-text-grey-lightest {\n    color: #f8fafc;\n  }\n\n  .md\\:tw-text-white {\n    color: #fff;\n  }\n\n  .md\\:tw-text-red-darkest {\n    color: #3b0d0c;\n  }\n\n  .md\\:tw-text-red-darker {\n    color: #621b18;\n  }\n\n  .md\\:tw-text-red-dark {\n    color: #cc1f1a;\n  }\n\n  .md\\:tw-text-red {\n    color: #e3342f;\n  }\n\n  .md\\:tw-text-red-light {\n    color: #ef5753;\n  }\n\n  .md\\:tw-text-red-lighter {\n    color: #f9acaa;\n  }\n\n  .md\\:tw-text-red-lightest {\n    color: #fcebea;\n  }\n\n  .md\\:tw-text-orange-darkest {\n    color: #462a16;\n  }\n\n  .md\\:tw-text-orange-darker {\n    color: #613b1f;\n  }\n\n  .md\\:tw-text-orange-dark {\n    color: #de751f;\n  }\n\n  .md\\:tw-text-orange {\n    color: #f6993f;\n  }\n\n  .md\\:tw-text-orange-light {\n    color: #faad63;\n  }\n\n  .md\\:tw-text-orange-lighter {\n    color: #fcd9b6;\n  }\n\n  .md\\:tw-text-orange-lightest {\n    color: #fff5eb;\n  }\n\n  .md\\:tw-text-yellow-darkest {\n    color: #453411;\n  }\n\n  .md\\:tw-text-yellow-darker {\n    color: #684f1d;\n  }\n\n  .md\\:tw-text-yellow-dark {\n    color: #f2d024;\n  }\n\n  .md\\:tw-text-yellow {\n    color: #ffed4a;\n  }\n\n  .md\\:tw-text-yellow-light {\n    color: #fff382;\n  }\n\n  .md\\:tw-text-yellow-lighter {\n    color: #fff9c2;\n  }\n\n  .md\\:tw-text-yellow-lightest {\n    color: #fcfbeb;\n  }\n\n  .md\\:tw-text-green-darkest {\n    color: #0f2f21;\n  }\n\n  .md\\:tw-text-green-darker {\n    color: #1a4731;\n  }\n\n  .md\\:tw-text-green-dark {\n    color: #1f9d55;\n  }\n\n  .md\\:tw-text-green {\n    color: #38c172;\n  }\n\n  .md\\:tw-text-green-light {\n    color: #51d88a;\n  }\n\n  .md\\:tw-text-green-lighter {\n    color: #a2f5bf;\n  }\n\n  .md\\:tw-text-green-lightest {\n    color: #e3fcec;\n  }\n\n  .md\\:tw-text-teal-darkest {\n    color: #0d3331;\n  }\n\n  .md\\:tw-text-teal-darker {\n    color: #20504f;\n  }\n\n  .md\\:tw-text-teal-dark {\n    color: #38a89d;\n  }\n\n  .md\\:tw-text-teal {\n    color: #4dc0b5;\n  }\n\n  .md\\:tw-text-teal-light {\n    color: #64d5ca;\n  }\n\n  .md\\:tw-text-teal-lighter {\n    color: #a0f0ed;\n  }\n\n  .md\\:tw-text-teal-lightest {\n    color: #e8fffe;\n  }\n\n  .md\\:tw-text-blue-darkest {\n    color: #12283a;\n  }\n\n  .md\\:tw-text-blue-darker {\n    color: #1c3d5a;\n  }\n\n  .md\\:tw-text-blue-dark {\n    color: #2779bd;\n  }\n\n  .md\\:tw-text-blue {\n    color: #3490dc;\n  }\n\n  .md\\:tw-text-blue-light {\n    color: #6cb2eb;\n  }\n\n  .md\\:tw-text-blue-lighter {\n    color: #bcdefa;\n  }\n\n  .md\\:tw-text-blue-lightest {\n    color: #eff8ff;\n  }\n\n  .md\\:tw-text-indigo-darkest {\n    color: #191e38;\n  }\n\n  .md\\:tw-text-indigo-darker {\n    color: #2f365f;\n  }\n\n  .md\\:tw-text-indigo-dark {\n    color: #5661b3;\n  }\n\n  .md\\:tw-text-indigo {\n    color: #6574cd;\n  }\n\n  .md\\:tw-text-indigo-light {\n    color: #7886d7;\n  }\n\n  .md\\:tw-text-indigo-lighter {\n    color: #b2b7ff;\n  }\n\n  .md\\:tw-text-indigo-lightest {\n    color: #e6e8ff;\n  }\n\n  .md\\:tw-text-purple-darkest {\n    color: #21183c;\n  }\n\n  .md\\:tw-text-purple-darker {\n    color: #382b5f;\n  }\n\n  .md\\:tw-text-purple-dark {\n    color: #794acf;\n  }\n\n  .md\\:tw-text-purple {\n    color: #9561e2;\n  }\n\n  .md\\:tw-text-purple-light {\n    color: #a779e9;\n  }\n\n  .md\\:tw-text-purple-lighter {\n    color: #d6bbfc;\n  }\n\n  .md\\:tw-text-purple-lightest {\n    color: #f3ebff;\n  }\n\n  .md\\:tw-text-pink-darkest {\n    color: #451225;\n  }\n\n  .md\\:tw-text-pink-darker {\n    color: #6f213f;\n  }\n\n  .md\\:tw-text-pink-dark {\n    color: #eb5286;\n  }\n\n  .md\\:tw-text-pink {\n    color: #f66d9b;\n  }\n\n  .md\\:tw-text-pink-light {\n    color: #fa7ea8;\n  }\n\n  .md\\:tw-text-pink-lighter {\n    color: #ffbbca;\n  }\n\n  .md\\:tw-text-pink-lightest {\n    color: #ffebef;\n  }\n\n  .md\\:tw-text-linkColor {\n    color: royalblue;\n  }\n\n  .md\\:tw-text-linkHoverColor {\n    color: darkblue;\n  }\n\n  .md\\:hover\\:tw-text-transparent:hover {\n    color: transparent;\n  }\n\n  .md\\:hover\\:tw-text-black:hover {\n    color: #22292f;\n  }\n\n  .md\\:hover\\:tw-text-grey-darkest:hover {\n    color: #3d4852;\n  }\n\n  .md\\:hover\\:tw-text-grey-darker:hover {\n    color: #606f7b;\n  }\n\n  .md\\:hover\\:tw-text-grey-dark:hover {\n    color: #8795a1;\n  }\n\n  .md\\:hover\\:tw-text-grey:hover {\n    color: #b8c2cc;\n  }\n\n  .md\\:hover\\:tw-text-grey-light:hover {\n    color: #dae1e7;\n  }\n\n  .md\\:hover\\:tw-text-grey-lighter:hover {\n    color: #f1f5f8;\n  }\n\n  .md\\:hover\\:tw-text-grey-lightest:hover {\n    color: #f8fafc;\n  }\n\n  .md\\:hover\\:tw-text-white:hover {\n    color: #fff;\n  }\n\n  .md\\:hover\\:tw-text-red-darkest:hover {\n    color: #3b0d0c;\n  }\n\n  .md\\:hover\\:tw-text-red-darker:hover {\n    color: #621b18;\n  }\n\n  .md\\:hover\\:tw-text-red-dark:hover {\n    color: #cc1f1a;\n  }\n\n  .md\\:hover\\:tw-text-red:hover {\n    color: #e3342f;\n  }\n\n  .md\\:hover\\:tw-text-red-light:hover {\n    color: #ef5753;\n  }\n\n  .md\\:hover\\:tw-text-red-lighter:hover {\n    color: #f9acaa;\n  }\n\n  .md\\:hover\\:tw-text-red-lightest:hover {\n    color: #fcebea;\n  }\n\n  .md\\:hover\\:tw-text-orange-darkest:hover {\n    color: #462a16;\n  }\n\n  .md\\:hover\\:tw-text-orange-darker:hover {\n    color: #613b1f;\n  }\n\n  .md\\:hover\\:tw-text-orange-dark:hover {\n    color: #de751f;\n  }\n\n  .md\\:hover\\:tw-text-orange:hover {\n    color: #f6993f;\n  }\n\n  .md\\:hover\\:tw-text-orange-light:hover {\n    color: #faad63;\n  }\n\n  .md\\:hover\\:tw-text-orange-lighter:hover {\n    color: #fcd9b6;\n  }\n\n  .md\\:hover\\:tw-text-orange-lightest:hover {\n    color: #fff5eb;\n  }\n\n  .md\\:hover\\:tw-text-yellow-darkest:hover {\n    color: #453411;\n  }\n\n  .md\\:hover\\:tw-text-yellow-darker:hover {\n    color: #684f1d;\n  }\n\n  .md\\:hover\\:tw-text-yellow-dark:hover {\n    color: #f2d024;\n  }\n\n  .md\\:hover\\:tw-text-yellow:hover {\n    color: #ffed4a;\n  }\n\n  .md\\:hover\\:tw-text-yellow-light:hover {\n    color: #fff382;\n  }\n\n  .md\\:hover\\:tw-text-yellow-lighter:hover {\n    color: #fff9c2;\n  }\n\n  .md\\:hover\\:tw-text-yellow-lightest:hover {\n    color: #fcfbeb;\n  }\n\n  .md\\:hover\\:tw-text-green-darkest:hover {\n    color: #0f2f21;\n  }\n\n  .md\\:hover\\:tw-text-green-darker:hover {\n    color: #1a4731;\n  }\n\n  .md\\:hover\\:tw-text-green-dark:hover {\n    color: #1f9d55;\n  }\n\n  .md\\:hover\\:tw-text-green:hover {\n    color: #38c172;\n  }\n\n  .md\\:hover\\:tw-text-green-light:hover {\n    color: #51d88a;\n  }\n\n  .md\\:hover\\:tw-text-green-lighter:hover {\n    color: #a2f5bf;\n  }\n\n  .md\\:hover\\:tw-text-green-lightest:hover {\n    color: #e3fcec;\n  }\n\n  .md\\:hover\\:tw-text-teal-darkest:hover {\n    color: #0d3331;\n  }\n\n  .md\\:hover\\:tw-text-teal-darker:hover {\n    color: #20504f;\n  }\n\n  .md\\:hover\\:tw-text-teal-dark:hover {\n    color: #38a89d;\n  }\n\n  .md\\:hover\\:tw-text-teal:hover {\n    color: #4dc0b5;\n  }\n\n  .md\\:hover\\:tw-text-teal-light:hover {\n    color: #64d5ca;\n  }\n\n  .md\\:hover\\:tw-text-teal-lighter:hover {\n    color: #a0f0ed;\n  }\n\n  .md\\:hover\\:tw-text-teal-lightest:hover {\n    color: #e8fffe;\n  }\n\n  .md\\:hover\\:tw-text-blue-darkest:hover {\n    color: #12283a;\n  }\n\n  .md\\:hover\\:tw-text-blue-darker:hover {\n    color: #1c3d5a;\n  }\n\n  .md\\:hover\\:tw-text-blue-dark:hover {\n    color: #2779bd;\n  }\n\n  .md\\:hover\\:tw-text-blue:hover {\n    color: #3490dc;\n  }\n\n  .md\\:hover\\:tw-text-blue-light:hover {\n    color: #6cb2eb;\n  }\n\n  .md\\:hover\\:tw-text-blue-lighter:hover {\n    color: #bcdefa;\n  }\n\n  .md\\:hover\\:tw-text-blue-lightest:hover {\n    color: #eff8ff;\n  }\n\n  .md\\:hover\\:tw-text-indigo-darkest:hover {\n    color: #191e38;\n  }\n\n  .md\\:hover\\:tw-text-indigo-darker:hover {\n    color: #2f365f;\n  }\n\n  .md\\:hover\\:tw-text-indigo-dark:hover {\n    color: #5661b3;\n  }\n\n  .md\\:hover\\:tw-text-indigo:hover {\n    color: #6574cd;\n  }\n\n  .md\\:hover\\:tw-text-indigo-light:hover {\n    color: #7886d7;\n  }\n\n  .md\\:hover\\:tw-text-indigo-lighter:hover {\n    color: #b2b7ff;\n  }\n\n  .md\\:hover\\:tw-text-indigo-lightest:hover {\n    color: #e6e8ff;\n  }\n\n  .md\\:hover\\:tw-text-purple-darkest:hover {\n    color: #21183c;\n  }\n\n  .md\\:hover\\:tw-text-purple-darker:hover {\n    color: #382b5f;\n  }\n\n  .md\\:hover\\:tw-text-purple-dark:hover {\n    color: #794acf;\n  }\n\n  .md\\:hover\\:tw-text-purple:hover {\n    color: #9561e2;\n  }\n\n  .md\\:hover\\:tw-text-purple-light:hover {\n    color: #a779e9;\n  }\n\n  .md\\:hover\\:tw-text-purple-lighter:hover {\n    color: #d6bbfc;\n  }\n\n  .md\\:hover\\:tw-text-purple-lightest:hover {\n    color: #f3ebff;\n  }\n\n  .md\\:hover\\:tw-text-pink-darkest:hover {\n    color: #451225;\n  }\n\n  .md\\:hover\\:tw-text-pink-darker:hover {\n    color: #6f213f;\n  }\n\n  .md\\:hover\\:tw-text-pink-dark:hover {\n    color: #eb5286;\n  }\n\n  .md\\:hover\\:tw-text-pink:hover {\n    color: #f66d9b;\n  }\n\n  .md\\:hover\\:tw-text-pink-light:hover {\n    color: #fa7ea8;\n  }\n\n  .md\\:hover\\:tw-text-pink-lighter:hover {\n    color: #ffbbca;\n  }\n\n  .md\\:hover\\:tw-text-pink-lightest:hover {\n    color: #ffebef;\n  }\n\n  .md\\:hover\\:tw-text-linkColor:hover {\n    color: royalblue;\n  }\n\n  .md\\:hover\\:tw-text-linkHoverColor:hover {\n    color: darkblue;\n  }\n\n  .md\\:focus\\:tw-text-transparent:focus {\n    color: transparent;\n  }\n\n  .md\\:focus\\:tw-text-black:focus {\n    color: #22292f;\n  }\n\n  .md\\:focus\\:tw-text-grey-darkest:focus {\n    color: #3d4852;\n  }\n\n  .md\\:focus\\:tw-text-grey-darker:focus {\n    color: #606f7b;\n  }\n\n  .md\\:focus\\:tw-text-grey-dark:focus {\n    color: #8795a1;\n  }\n\n  .md\\:focus\\:tw-text-grey:focus {\n    color: #b8c2cc;\n  }\n\n  .md\\:focus\\:tw-text-grey-light:focus {\n    color: #dae1e7;\n  }\n\n  .md\\:focus\\:tw-text-grey-lighter:focus {\n    color: #f1f5f8;\n  }\n\n  .md\\:focus\\:tw-text-grey-lightest:focus {\n    color: #f8fafc;\n  }\n\n  .md\\:focus\\:tw-text-white:focus {\n    color: #fff;\n  }\n\n  .md\\:focus\\:tw-text-red-darkest:focus {\n    color: #3b0d0c;\n  }\n\n  .md\\:focus\\:tw-text-red-darker:focus {\n    color: #621b18;\n  }\n\n  .md\\:focus\\:tw-text-red-dark:focus {\n    color: #cc1f1a;\n  }\n\n  .md\\:focus\\:tw-text-red:focus {\n    color: #e3342f;\n  }\n\n  .md\\:focus\\:tw-text-red-light:focus {\n    color: #ef5753;\n  }\n\n  .md\\:focus\\:tw-text-red-lighter:focus {\n    color: #f9acaa;\n  }\n\n  .md\\:focus\\:tw-text-red-lightest:focus {\n    color: #fcebea;\n  }\n\n  .md\\:focus\\:tw-text-orange-darkest:focus {\n    color: #462a16;\n  }\n\n  .md\\:focus\\:tw-text-orange-darker:focus {\n    color: #613b1f;\n  }\n\n  .md\\:focus\\:tw-text-orange-dark:focus {\n    color: #de751f;\n  }\n\n  .md\\:focus\\:tw-text-orange:focus {\n    color: #f6993f;\n  }\n\n  .md\\:focus\\:tw-text-orange-light:focus {\n    color: #faad63;\n  }\n\n  .md\\:focus\\:tw-text-orange-lighter:focus {\n    color: #fcd9b6;\n  }\n\n  .md\\:focus\\:tw-text-orange-lightest:focus {\n    color: #fff5eb;\n  }\n\n  .md\\:focus\\:tw-text-yellow-darkest:focus {\n    color: #453411;\n  }\n\n  .md\\:focus\\:tw-text-yellow-darker:focus {\n    color: #684f1d;\n  }\n\n  .md\\:focus\\:tw-text-yellow-dark:focus {\n    color: #f2d024;\n  }\n\n  .md\\:focus\\:tw-text-yellow:focus {\n    color: #ffed4a;\n  }\n\n  .md\\:focus\\:tw-text-yellow-light:focus {\n    color: #fff382;\n  }\n\n  .md\\:focus\\:tw-text-yellow-lighter:focus {\n    color: #fff9c2;\n  }\n\n  .md\\:focus\\:tw-text-yellow-lightest:focus {\n    color: #fcfbeb;\n  }\n\n  .md\\:focus\\:tw-text-green-darkest:focus {\n    color: #0f2f21;\n  }\n\n  .md\\:focus\\:tw-text-green-darker:focus {\n    color: #1a4731;\n  }\n\n  .md\\:focus\\:tw-text-green-dark:focus {\n    color: #1f9d55;\n  }\n\n  .md\\:focus\\:tw-text-green:focus {\n    color: #38c172;\n  }\n\n  .md\\:focus\\:tw-text-green-light:focus {\n    color: #51d88a;\n  }\n\n  .md\\:focus\\:tw-text-green-lighter:focus {\n    color: #a2f5bf;\n  }\n\n  .md\\:focus\\:tw-text-green-lightest:focus {\n    color: #e3fcec;\n  }\n\n  .md\\:focus\\:tw-text-teal-darkest:focus {\n    color: #0d3331;\n  }\n\n  .md\\:focus\\:tw-text-teal-darker:focus {\n    color: #20504f;\n  }\n\n  .md\\:focus\\:tw-text-teal-dark:focus {\n    color: #38a89d;\n  }\n\n  .md\\:focus\\:tw-text-teal:focus {\n    color: #4dc0b5;\n  }\n\n  .md\\:focus\\:tw-text-teal-light:focus {\n    color: #64d5ca;\n  }\n\n  .md\\:focus\\:tw-text-teal-lighter:focus {\n    color: #a0f0ed;\n  }\n\n  .md\\:focus\\:tw-text-teal-lightest:focus {\n    color: #e8fffe;\n  }\n\n  .md\\:focus\\:tw-text-blue-darkest:focus {\n    color: #12283a;\n  }\n\n  .md\\:focus\\:tw-text-blue-darker:focus {\n    color: #1c3d5a;\n  }\n\n  .md\\:focus\\:tw-text-blue-dark:focus {\n    color: #2779bd;\n  }\n\n  .md\\:focus\\:tw-text-blue:focus {\n    color: #3490dc;\n  }\n\n  .md\\:focus\\:tw-text-blue-light:focus {\n    color: #6cb2eb;\n  }\n\n  .md\\:focus\\:tw-text-blue-lighter:focus {\n    color: #bcdefa;\n  }\n\n  .md\\:focus\\:tw-text-blue-lightest:focus {\n    color: #eff8ff;\n  }\n\n  .md\\:focus\\:tw-text-indigo-darkest:focus {\n    color: #191e38;\n  }\n\n  .md\\:focus\\:tw-text-indigo-darker:focus {\n    color: #2f365f;\n  }\n\n  .md\\:focus\\:tw-text-indigo-dark:focus {\n    color: #5661b3;\n  }\n\n  .md\\:focus\\:tw-text-indigo:focus {\n    color: #6574cd;\n  }\n\n  .md\\:focus\\:tw-text-indigo-light:focus {\n    color: #7886d7;\n  }\n\n  .md\\:focus\\:tw-text-indigo-lighter:focus {\n    color: #b2b7ff;\n  }\n\n  .md\\:focus\\:tw-text-indigo-lightest:focus {\n    color: #e6e8ff;\n  }\n\n  .md\\:focus\\:tw-text-purple-darkest:focus {\n    color: #21183c;\n  }\n\n  .md\\:focus\\:tw-text-purple-darker:focus {\n    color: #382b5f;\n  }\n\n  .md\\:focus\\:tw-text-purple-dark:focus {\n    color: #794acf;\n  }\n\n  .md\\:focus\\:tw-text-purple:focus {\n    color: #9561e2;\n  }\n\n  .md\\:focus\\:tw-text-purple-light:focus {\n    color: #a779e9;\n  }\n\n  .md\\:focus\\:tw-text-purple-lighter:focus {\n    color: #d6bbfc;\n  }\n\n  .md\\:focus\\:tw-text-purple-lightest:focus {\n    color: #f3ebff;\n  }\n\n  .md\\:focus\\:tw-text-pink-darkest:focus {\n    color: #451225;\n  }\n\n  .md\\:focus\\:tw-text-pink-darker:focus {\n    color: #6f213f;\n  }\n\n  .md\\:focus\\:tw-text-pink-dark:focus {\n    color: #eb5286;\n  }\n\n  .md\\:focus\\:tw-text-pink:focus {\n    color: #f66d9b;\n  }\n\n  .md\\:focus\\:tw-text-pink-light:focus {\n    color: #fa7ea8;\n  }\n\n  .md\\:focus\\:tw-text-pink-lighter:focus {\n    color: #ffbbca;\n  }\n\n  .md\\:focus\\:tw-text-pink-lightest:focus {\n    color: #ffebef;\n  }\n\n  .md\\:focus\\:tw-text-linkColor:focus {\n    color: royalblue;\n  }\n\n  .md\\:focus\\:tw-text-linkHoverColor:focus {\n    color: darkblue;\n  }\n\n  .md\\:tw-text-xs {\n    font-size: .75rem;\n  }\n\n  .md\\:tw-text-sm {\n    font-size: .875rem;\n  }\n\n  .md\\:tw-text-base {\n    font-size: 1rem;\n  }\n\n  .md\\:tw-text-lg {\n    font-size: 1.125rem;\n  }\n\n  .md\\:tw-text-xl {\n    font-size: 1.25rem;\n  }\n\n  .md\\:tw-text-2xl {\n    font-size: 1.5rem;\n  }\n\n  .md\\:tw-text-3xl {\n    font-size: 1.875rem;\n  }\n\n  .md\\:tw-text-4xl {\n    font-size: 2.25rem;\n  }\n\n  .md\\:tw-text-5xl {\n    font-size: 3rem;\n  }\n\n  .md\\:tw-italic {\n    font-style: italic;\n  }\n\n  .md\\:tw-roman {\n    font-style: normal;\n  }\n\n  .md\\:tw-uppercase {\n    text-transform: uppercase;\n  }\n\n  .md\\:tw-lowercase {\n    text-transform: lowercase;\n  }\n\n  .md\\:tw-capitalize {\n    text-transform: capitalize;\n  }\n\n  .md\\:tw-normal-case {\n    text-transform: none;\n  }\n\n  .md\\:tw-underline {\n    text-decoration: underline;\n  }\n\n  .md\\:tw-line-through {\n    text-decoration: line-through;\n  }\n\n  .md\\:tw-no-underline {\n    text-decoration: none;\n  }\n\n  .md\\:tw-antialiased {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .md\\:tw-subpixel-antialiased {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .md\\:hover\\:tw-italic:hover {\n    font-style: italic;\n  }\n\n  .md\\:hover\\:tw-roman:hover {\n    font-style: normal;\n  }\n\n  .md\\:hover\\:tw-uppercase:hover {\n    text-transform: uppercase;\n  }\n\n  .md\\:hover\\:tw-lowercase:hover {\n    text-transform: lowercase;\n  }\n\n  .md\\:hover\\:tw-capitalize:hover {\n    text-transform: capitalize;\n  }\n\n  .md\\:hover\\:tw-normal-case:hover {\n    text-transform: none;\n  }\n\n  .md\\:hover\\:tw-underline:hover {\n    text-decoration: underline;\n  }\n\n  .md\\:hover\\:tw-line-through:hover {\n    text-decoration: line-through;\n  }\n\n  .md\\:hover\\:tw-no-underline:hover {\n    text-decoration: none;\n  }\n\n  .md\\:hover\\:tw-antialiased:hover {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .md\\:hover\\:tw-subpixel-antialiased:hover {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .md\\:focus\\:tw-italic:focus {\n    font-style: italic;\n  }\n\n  .md\\:focus\\:tw-roman:focus {\n    font-style: normal;\n  }\n\n  .md\\:focus\\:tw-uppercase:focus {\n    text-transform: uppercase;\n  }\n\n  .md\\:focus\\:tw-lowercase:focus {\n    text-transform: lowercase;\n  }\n\n  .md\\:focus\\:tw-capitalize:focus {\n    text-transform: capitalize;\n  }\n\n  .md\\:focus\\:tw-normal-case:focus {\n    text-transform: none;\n  }\n\n  .md\\:focus\\:tw-underline:focus {\n    text-decoration: underline;\n  }\n\n  .md\\:focus\\:tw-line-through:focus {\n    text-decoration: line-through;\n  }\n\n  .md\\:focus\\:tw-no-underline:focus {\n    text-decoration: none;\n  }\n\n  .md\\:focus\\:tw-antialiased:focus {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .md\\:focus\\:tw-subpixel-antialiased:focus {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .md\\:tw-tracking-tight {\n    letter-spacing: -0.05em;\n  }\n\n  .md\\:tw-tracking-normal {\n    letter-spacing: 0;\n  }\n\n  .md\\:tw-tracking-wide {\n    letter-spacing: .05em;\n  }\n\n  .md\\:tw-select-none {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n  }\n\n  .md\\:tw-select-text {\n    -webkit-user-select: text;\n       -moz-user-select: text;\n        -ms-user-select: text;\n            user-select: text;\n  }\n\n  .md\\:tw-align-baseline {\n    vertical-align: baseline;\n  }\n\n  .md\\:tw-align-top {\n    vertical-align: top;\n  }\n\n  .md\\:tw-align-middle {\n    vertical-align: middle;\n  }\n\n  .md\\:tw-align-bottom {\n    vertical-align: bottom;\n  }\n\n  .md\\:tw-align-text-top {\n    vertical-align: text-top;\n  }\n\n  .md\\:tw-align-text-bottom {\n    vertical-align: text-bottom;\n  }\n\n  .md\\:tw-visible {\n    visibility: visible;\n  }\n\n  .md\\:tw-invisible {\n    visibility: hidden;\n  }\n\n  .md\\:tw-whitespace-normal {\n    white-space: normal;\n  }\n\n  .md\\:tw-whitespace-no-wrap {\n    white-space: nowrap;\n  }\n\n  .md\\:tw-whitespace-pre {\n    white-space: pre;\n  }\n\n  .md\\:tw-whitespace-pre-line {\n    white-space: pre-line;\n  }\n\n  .md\\:tw-whitespace-pre-wrap {\n    white-space: pre-wrap;\n  }\n\n  .md\\:tw-break-words {\n    word-wrap: break-word;\n  }\n\n  .md\\:tw-break-normal {\n    word-wrap: normal;\n  }\n\n  .md\\:tw-truncate {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n  }\n\n  .md\\:tw-w-1 {\n    width: .25rem;\n  }\n\n  .md\\:tw-w-2 {\n    width: .5rem;\n  }\n\n  .md\\:tw-w-3 {\n    width: .75rem;\n  }\n\n  .md\\:tw-w-4 {\n    width: 1rem;\n  }\n\n  .md\\:tw-w-5 {\n    width: 1.25rem;\n  }\n\n  .md\\:tw-w-6 {\n    width: 1.5rem;\n  }\n\n  .md\\:tw-w-8 {\n    width: 2rem;\n  }\n\n  .md\\:tw-w-10 {\n    width: 2.5rem;\n  }\n\n  .md\\:tw-w-12 {\n    width: 3rem;\n  }\n\n  .md\\:tw-w-16 {\n    width: 4rem;\n  }\n\n  .md\\:tw-w-24 {\n    width: 6rem;\n  }\n\n  .md\\:tw-w-32 {\n    width: 8rem;\n  }\n\n  .md\\:tw-w-48 {\n    width: 12rem;\n  }\n\n  .md\\:tw-w-64 {\n    width: 16rem;\n  }\n\n  .md\\:tw-w-auto {\n    width: auto;\n  }\n\n  .md\\:tw-w-px {\n    width: 1px;\n  }\n\n  .md\\:tw-w-1\\/2 {\n    width: 50%;\n  }\n\n  .md\\:tw-w-1\\/3 {\n    width: 33.33333%;\n  }\n\n  .md\\:tw-w-2\\/3 {\n    width: 66.66667%;\n  }\n\n  .md\\:tw-w-1\\/4 {\n    width: 25%;\n  }\n\n  .md\\:tw-w-3\\/4 {\n    width: 75%;\n  }\n\n  .md\\:tw-w-1\\/5 {\n    width: 20%;\n  }\n\n  .md\\:tw-w-2\\/5 {\n    width: 40%;\n  }\n\n  .md\\:tw-w-3\\/5 {\n    width: 60%;\n  }\n\n  .md\\:tw-w-4\\/5 {\n    width: 80%;\n  }\n\n  .md\\:tw-w-1\\/6 {\n    width: 16.66667%;\n  }\n\n  .md\\:tw-w-5\\/6 {\n    width: 83.33333%;\n  }\n\n  .md\\:tw-w-full {\n    width: 100%;\n  }\n\n  .md\\:tw-w-screen {\n    width: 100vw;\n  }\n\n  .md\\:tw-z-0 {\n    z-index: 0;\n  }\n\n  .md\\:tw-z-10 {\n    z-index: 10;\n  }\n\n  .md\\:tw-z-20 {\n    z-index: 20;\n  }\n\n  .md\\:tw-z-30 {\n    z-index: 30;\n  }\n\n  .md\\:tw-z-40 {\n    z-index: 40;\n  }\n\n  .md\\:tw-z-50 {\n    z-index: 50;\n  }\n\n  .md\\:tw-z-auto {\n    z-index: auto;\n  }\n}\n\n@media (min-width: 992px) {\n  .lg\\:tw-list-reset {\n    list-style: none;\n    padding: 0;\n  }\n\n  .lg\\:tw-appearance-none {\n    -webkit-appearance: none;\n       -moz-appearance: none;\n            appearance: none;\n  }\n\n  .lg\\:tw-bg-fixed {\n    background-attachment: fixed;\n  }\n\n  .lg\\:tw-bg-local {\n    background-attachment: local;\n  }\n\n  .lg\\:tw-bg-scroll {\n    background-attachment: scroll;\n  }\n\n  .lg\\:tw-bg-transparent {\n    background-color: transparent;\n  }\n\n  .lg\\:tw-bg-black {\n    background-color: #22292f;\n  }\n\n  .lg\\:tw-bg-grey-darkest {\n    background-color: #3d4852;\n  }\n\n  .lg\\:tw-bg-grey-darker {\n    background-color: #606f7b;\n  }\n\n  .lg\\:tw-bg-grey-dark {\n    background-color: #8795a1;\n  }\n\n  .lg\\:tw-bg-grey {\n    background-color: #b8c2cc;\n  }\n\n  .lg\\:tw-bg-grey-light {\n    background-color: #dae1e7;\n  }\n\n  .lg\\:tw-bg-grey-lighter {\n    background-color: #f1f5f8;\n  }\n\n  .lg\\:tw-bg-grey-lightest {\n    background-color: #f8fafc;\n  }\n\n  .lg\\:tw-bg-white {\n    background-color: #fff;\n  }\n\n  .lg\\:tw-bg-red-darkest {\n    background-color: #3b0d0c;\n  }\n\n  .lg\\:tw-bg-red-darker {\n    background-color: #621b18;\n  }\n\n  .lg\\:tw-bg-red-dark {\n    background-color: #cc1f1a;\n  }\n\n  .lg\\:tw-bg-red {\n    background-color: #e3342f;\n  }\n\n  .lg\\:tw-bg-red-light {\n    background-color: #ef5753;\n  }\n\n  .lg\\:tw-bg-red-lighter {\n    background-color: #f9acaa;\n  }\n\n  .lg\\:tw-bg-red-lightest {\n    background-color: #fcebea;\n  }\n\n  .lg\\:tw-bg-orange-darkest {\n    background-color: #462a16;\n  }\n\n  .lg\\:tw-bg-orange-darker {\n    background-color: #613b1f;\n  }\n\n  .lg\\:tw-bg-orange-dark {\n    background-color: #de751f;\n  }\n\n  .lg\\:tw-bg-orange {\n    background-color: #f6993f;\n  }\n\n  .lg\\:tw-bg-orange-light {\n    background-color: #faad63;\n  }\n\n  .lg\\:tw-bg-orange-lighter {\n    background-color: #fcd9b6;\n  }\n\n  .lg\\:tw-bg-orange-lightest {\n    background-color: #fff5eb;\n  }\n\n  .lg\\:tw-bg-yellow-darkest {\n    background-color: #453411;\n  }\n\n  .lg\\:tw-bg-yellow-darker {\n    background-color: #684f1d;\n  }\n\n  .lg\\:tw-bg-yellow-dark {\n    background-color: #f2d024;\n  }\n\n  .lg\\:tw-bg-yellow {\n    background-color: #ffed4a;\n  }\n\n  .lg\\:tw-bg-yellow-light {\n    background-color: #fff382;\n  }\n\n  .lg\\:tw-bg-yellow-lighter {\n    background-color: #fff9c2;\n  }\n\n  .lg\\:tw-bg-yellow-lightest {\n    background-color: #fcfbeb;\n  }\n\n  .lg\\:tw-bg-green-darkest {\n    background-color: #0f2f21;\n  }\n\n  .lg\\:tw-bg-green-darker {\n    background-color: #1a4731;\n  }\n\n  .lg\\:tw-bg-green-dark {\n    background-color: #1f9d55;\n  }\n\n  .lg\\:tw-bg-green {\n    background-color: #38c172;\n  }\n\n  .lg\\:tw-bg-green-light {\n    background-color: #51d88a;\n  }\n\n  .lg\\:tw-bg-green-lighter {\n    background-color: #a2f5bf;\n  }\n\n  .lg\\:tw-bg-green-lightest {\n    background-color: #e3fcec;\n  }\n\n  .lg\\:tw-bg-teal-darkest {\n    background-color: #0d3331;\n  }\n\n  .lg\\:tw-bg-teal-darker {\n    background-color: #20504f;\n  }\n\n  .lg\\:tw-bg-teal-dark {\n    background-color: #38a89d;\n  }\n\n  .lg\\:tw-bg-teal {\n    background-color: #4dc0b5;\n  }\n\n  .lg\\:tw-bg-teal-light {\n    background-color: #64d5ca;\n  }\n\n  .lg\\:tw-bg-teal-lighter {\n    background-color: #a0f0ed;\n  }\n\n  .lg\\:tw-bg-teal-lightest {\n    background-color: #e8fffe;\n  }\n\n  .lg\\:tw-bg-blue-darkest {\n    background-color: #12283a;\n  }\n\n  .lg\\:tw-bg-blue-darker {\n    background-color: #1c3d5a;\n  }\n\n  .lg\\:tw-bg-blue-dark {\n    background-color: #2779bd;\n  }\n\n  .lg\\:tw-bg-blue {\n    background-color: #3490dc;\n  }\n\n  .lg\\:tw-bg-blue-light {\n    background-color: #6cb2eb;\n  }\n\n  .lg\\:tw-bg-blue-lighter {\n    background-color: #bcdefa;\n  }\n\n  .lg\\:tw-bg-blue-lightest {\n    background-color: #eff8ff;\n  }\n\n  .lg\\:tw-bg-indigo-darkest {\n    background-color: #191e38;\n  }\n\n  .lg\\:tw-bg-indigo-darker {\n    background-color: #2f365f;\n  }\n\n  .lg\\:tw-bg-indigo-dark {\n    background-color: #5661b3;\n  }\n\n  .lg\\:tw-bg-indigo {\n    background-color: #6574cd;\n  }\n\n  .lg\\:tw-bg-indigo-light {\n    background-color: #7886d7;\n  }\n\n  .lg\\:tw-bg-indigo-lighter {\n    background-color: #b2b7ff;\n  }\n\n  .lg\\:tw-bg-indigo-lightest {\n    background-color: #e6e8ff;\n  }\n\n  .lg\\:tw-bg-purple-darkest {\n    background-color: #21183c;\n  }\n\n  .lg\\:tw-bg-purple-darker {\n    background-color: #382b5f;\n  }\n\n  .lg\\:tw-bg-purple-dark {\n    background-color: #794acf;\n  }\n\n  .lg\\:tw-bg-purple {\n    background-color: #9561e2;\n  }\n\n  .lg\\:tw-bg-purple-light {\n    background-color: #a779e9;\n  }\n\n  .lg\\:tw-bg-purple-lighter {\n    background-color: #d6bbfc;\n  }\n\n  .lg\\:tw-bg-purple-lightest {\n    background-color: #f3ebff;\n  }\n\n  .lg\\:tw-bg-pink-darkest {\n    background-color: #451225;\n  }\n\n  .lg\\:tw-bg-pink-darker {\n    background-color: #6f213f;\n  }\n\n  .lg\\:tw-bg-pink-dark {\n    background-color: #eb5286;\n  }\n\n  .lg\\:tw-bg-pink {\n    background-color: #f66d9b;\n  }\n\n  .lg\\:tw-bg-pink-light {\n    background-color: #fa7ea8;\n  }\n\n  .lg\\:tw-bg-pink-lighter {\n    background-color: #ffbbca;\n  }\n\n  .lg\\:tw-bg-pink-lightest {\n    background-color: #ffebef;\n  }\n\n  .lg\\:tw-bg-linkColor {\n    background-color: royalblue;\n  }\n\n  .lg\\:tw-bg-linkHoverColor {\n    background-color: darkblue;\n  }\n\n  .lg\\:hover\\:tw-bg-transparent:hover {\n    background-color: transparent;\n  }\n\n  .lg\\:hover\\:tw-bg-black:hover {\n    background-color: #22292f;\n  }\n\n  .lg\\:hover\\:tw-bg-grey-darkest:hover {\n    background-color: #3d4852;\n  }\n\n  .lg\\:hover\\:tw-bg-grey-darker:hover {\n    background-color: #606f7b;\n  }\n\n  .lg\\:hover\\:tw-bg-grey-dark:hover {\n    background-color: #8795a1;\n  }\n\n  .lg\\:hover\\:tw-bg-grey:hover {\n    background-color: #b8c2cc;\n  }\n\n  .lg\\:hover\\:tw-bg-grey-light:hover {\n    background-color: #dae1e7;\n  }\n\n  .lg\\:hover\\:tw-bg-grey-lighter:hover {\n    background-color: #f1f5f8;\n  }\n\n  .lg\\:hover\\:tw-bg-grey-lightest:hover {\n    background-color: #f8fafc;\n  }\n\n  .lg\\:hover\\:tw-bg-white:hover {\n    background-color: #fff;\n  }\n\n  .lg\\:hover\\:tw-bg-red-darkest:hover {\n    background-color: #3b0d0c;\n  }\n\n  .lg\\:hover\\:tw-bg-red-darker:hover {\n    background-color: #621b18;\n  }\n\n  .lg\\:hover\\:tw-bg-red-dark:hover {\n    background-color: #cc1f1a;\n  }\n\n  .lg\\:hover\\:tw-bg-red:hover {\n    background-color: #e3342f;\n  }\n\n  .lg\\:hover\\:tw-bg-red-light:hover {\n    background-color: #ef5753;\n  }\n\n  .lg\\:hover\\:tw-bg-red-lighter:hover {\n    background-color: #f9acaa;\n  }\n\n  .lg\\:hover\\:tw-bg-red-lightest:hover {\n    background-color: #fcebea;\n  }\n\n  .lg\\:hover\\:tw-bg-orange-darkest:hover {\n    background-color: #462a16;\n  }\n\n  .lg\\:hover\\:tw-bg-orange-darker:hover {\n    background-color: #613b1f;\n  }\n\n  .lg\\:hover\\:tw-bg-orange-dark:hover {\n    background-color: #de751f;\n  }\n\n  .lg\\:hover\\:tw-bg-orange:hover {\n    background-color: #f6993f;\n  }\n\n  .lg\\:hover\\:tw-bg-orange-light:hover {\n    background-color: #faad63;\n  }\n\n  .lg\\:hover\\:tw-bg-orange-lighter:hover {\n    background-color: #fcd9b6;\n  }\n\n  .lg\\:hover\\:tw-bg-orange-lightest:hover {\n    background-color: #fff5eb;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow-darkest:hover {\n    background-color: #453411;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow-darker:hover {\n    background-color: #684f1d;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow-dark:hover {\n    background-color: #f2d024;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow:hover {\n    background-color: #ffed4a;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow-light:hover {\n    background-color: #fff382;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow-lighter:hover {\n    background-color: #fff9c2;\n  }\n\n  .lg\\:hover\\:tw-bg-yellow-lightest:hover {\n    background-color: #fcfbeb;\n  }\n\n  .lg\\:hover\\:tw-bg-green-darkest:hover {\n    background-color: #0f2f21;\n  }\n\n  .lg\\:hover\\:tw-bg-green-darker:hover {\n    background-color: #1a4731;\n  }\n\n  .lg\\:hover\\:tw-bg-green-dark:hover {\n    background-color: #1f9d55;\n  }\n\n  .lg\\:hover\\:tw-bg-green:hover {\n    background-color: #38c172;\n  }\n\n  .lg\\:hover\\:tw-bg-green-light:hover {\n    background-color: #51d88a;\n  }\n\n  .lg\\:hover\\:tw-bg-green-lighter:hover {\n    background-color: #a2f5bf;\n  }\n\n  .lg\\:hover\\:tw-bg-green-lightest:hover {\n    background-color: #e3fcec;\n  }\n\n  .lg\\:hover\\:tw-bg-teal-darkest:hover {\n    background-color: #0d3331;\n  }\n\n  .lg\\:hover\\:tw-bg-teal-darker:hover {\n    background-color: #20504f;\n  }\n\n  .lg\\:hover\\:tw-bg-teal-dark:hover {\n    background-color: #38a89d;\n  }\n\n  .lg\\:hover\\:tw-bg-teal:hover {\n    background-color: #4dc0b5;\n  }\n\n  .lg\\:hover\\:tw-bg-teal-light:hover {\n    background-color: #64d5ca;\n  }\n\n  .lg\\:hover\\:tw-bg-teal-lighter:hover {\n    background-color: #a0f0ed;\n  }\n\n  .lg\\:hover\\:tw-bg-teal-lightest:hover {\n    background-color: #e8fffe;\n  }\n\n  .lg\\:hover\\:tw-bg-blue-darkest:hover {\n    background-color: #12283a;\n  }\n\n  .lg\\:hover\\:tw-bg-blue-darker:hover {\n    background-color: #1c3d5a;\n  }\n\n  .lg\\:hover\\:tw-bg-blue-dark:hover {\n    background-color: #2779bd;\n  }\n\n  .lg\\:hover\\:tw-bg-blue:hover {\n    background-color: #3490dc;\n  }\n\n  .lg\\:hover\\:tw-bg-blue-light:hover {\n    background-color: #6cb2eb;\n  }\n\n  .lg\\:hover\\:tw-bg-blue-lighter:hover {\n    background-color: #bcdefa;\n  }\n\n  .lg\\:hover\\:tw-bg-blue-lightest:hover {\n    background-color: #eff8ff;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo-darkest:hover {\n    background-color: #191e38;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo-darker:hover {\n    background-color: #2f365f;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo-dark:hover {\n    background-color: #5661b3;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo:hover {\n    background-color: #6574cd;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo-light:hover {\n    background-color: #7886d7;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo-lighter:hover {\n    background-color: #b2b7ff;\n  }\n\n  .lg\\:hover\\:tw-bg-indigo-lightest:hover {\n    background-color: #e6e8ff;\n  }\n\n  .lg\\:hover\\:tw-bg-purple-darkest:hover {\n    background-color: #21183c;\n  }\n\n  .lg\\:hover\\:tw-bg-purple-darker:hover {\n    background-color: #382b5f;\n  }\n\n  .lg\\:hover\\:tw-bg-purple-dark:hover {\n    background-color: #794acf;\n  }\n\n  .lg\\:hover\\:tw-bg-purple:hover {\n    background-color: #9561e2;\n  }\n\n  .lg\\:hover\\:tw-bg-purple-light:hover {\n    background-color: #a779e9;\n  }\n\n  .lg\\:hover\\:tw-bg-purple-lighter:hover {\n    background-color: #d6bbfc;\n  }\n\n  .lg\\:hover\\:tw-bg-purple-lightest:hover {\n    background-color: #f3ebff;\n  }\n\n  .lg\\:hover\\:tw-bg-pink-darkest:hover {\n    background-color: #451225;\n  }\n\n  .lg\\:hover\\:tw-bg-pink-darker:hover {\n    background-color: #6f213f;\n  }\n\n  .lg\\:hover\\:tw-bg-pink-dark:hover {\n    background-color: #eb5286;\n  }\n\n  .lg\\:hover\\:tw-bg-pink:hover {\n    background-color: #f66d9b;\n  }\n\n  .lg\\:hover\\:tw-bg-pink-light:hover {\n    background-color: #fa7ea8;\n  }\n\n  .lg\\:hover\\:tw-bg-pink-lighter:hover {\n    background-color: #ffbbca;\n  }\n\n  .lg\\:hover\\:tw-bg-pink-lightest:hover {\n    background-color: #ffebef;\n  }\n\n  .lg\\:hover\\:tw-bg-linkColor:hover {\n    background-color: royalblue;\n  }\n\n  .lg\\:hover\\:tw-bg-linkHoverColor:hover {\n    background-color: darkblue;\n  }\n\n  .lg\\:focus\\:tw-bg-transparent:focus {\n    background-color: transparent;\n  }\n\n  .lg\\:focus\\:tw-bg-black:focus {\n    background-color: #22292f;\n  }\n\n  .lg\\:focus\\:tw-bg-grey-darkest:focus {\n    background-color: #3d4852;\n  }\n\n  .lg\\:focus\\:tw-bg-grey-darker:focus {\n    background-color: #606f7b;\n  }\n\n  .lg\\:focus\\:tw-bg-grey-dark:focus {\n    background-color: #8795a1;\n  }\n\n  .lg\\:focus\\:tw-bg-grey:focus {\n    background-color: #b8c2cc;\n  }\n\n  .lg\\:focus\\:tw-bg-grey-light:focus {\n    background-color: #dae1e7;\n  }\n\n  .lg\\:focus\\:tw-bg-grey-lighter:focus {\n    background-color: #f1f5f8;\n  }\n\n  .lg\\:focus\\:tw-bg-grey-lightest:focus {\n    background-color: #f8fafc;\n  }\n\n  .lg\\:focus\\:tw-bg-white:focus {\n    background-color: #fff;\n  }\n\n  .lg\\:focus\\:tw-bg-red-darkest:focus {\n    background-color: #3b0d0c;\n  }\n\n  .lg\\:focus\\:tw-bg-red-darker:focus {\n    background-color: #621b18;\n  }\n\n  .lg\\:focus\\:tw-bg-red-dark:focus {\n    background-color: #cc1f1a;\n  }\n\n  .lg\\:focus\\:tw-bg-red:focus {\n    background-color: #e3342f;\n  }\n\n  .lg\\:focus\\:tw-bg-red-light:focus {\n    background-color: #ef5753;\n  }\n\n  .lg\\:focus\\:tw-bg-red-lighter:focus {\n    background-color: #f9acaa;\n  }\n\n  .lg\\:focus\\:tw-bg-red-lightest:focus {\n    background-color: #fcebea;\n  }\n\n  .lg\\:focus\\:tw-bg-orange-darkest:focus {\n    background-color: #462a16;\n  }\n\n  .lg\\:focus\\:tw-bg-orange-darker:focus {\n    background-color: #613b1f;\n  }\n\n  .lg\\:focus\\:tw-bg-orange-dark:focus {\n    background-color: #de751f;\n  }\n\n  .lg\\:focus\\:tw-bg-orange:focus {\n    background-color: #f6993f;\n  }\n\n  .lg\\:focus\\:tw-bg-orange-light:focus {\n    background-color: #faad63;\n  }\n\n  .lg\\:focus\\:tw-bg-orange-lighter:focus {\n    background-color: #fcd9b6;\n  }\n\n  .lg\\:focus\\:tw-bg-orange-lightest:focus {\n    background-color: #fff5eb;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow-darkest:focus {\n    background-color: #453411;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow-darker:focus {\n    background-color: #684f1d;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow-dark:focus {\n    background-color: #f2d024;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow:focus {\n    background-color: #ffed4a;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow-light:focus {\n    background-color: #fff382;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow-lighter:focus {\n    background-color: #fff9c2;\n  }\n\n  .lg\\:focus\\:tw-bg-yellow-lightest:focus {\n    background-color: #fcfbeb;\n  }\n\n  .lg\\:focus\\:tw-bg-green-darkest:focus {\n    background-color: #0f2f21;\n  }\n\n  .lg\\:focus\\:tw-bg-green-darker:focus {\n    background-color: #1a4731;\n  }\n\n  .lg\\:focus\\:tw-bg-green-dark:focus {\n    background-color: #1f9d55;\n  }\n\n  .lg\\:focus\\:tw-bg-green:focus {\n    background-color: #38c172;\n  }\n\n  .lg\\:focus\\:tw-bg-green-light:focus {\n    background-color: #51d88a;\n  }\n\n  .lg\\:focus\\:tw-bg-green-lighter:focus {\n    background-color: #a2f5bf;\n  }\n\n  .lg\\:focus\\:tw-bg-green-lightest:focus {\n    background-color: #e3fcec;\n  }\n\n  .lg\\:focus\\:tw-bg-teal-darkest:focus {\n    background-color: #0d3331;\n  }\n\n  .lg\\:focus\\:tw-bg-teal-darker:focus {\n    background-color: #20504f;\n  }\n\n  .lg\\:focus\\:tw-bg-teal-dark:focus {\n    background-color: #38a89d;\n  }\n\n  .lg\\:focus\\:tw-bg-teal:focus {\n    background-color: #4dc0b5;\n  }\n\n  .lg\\:focus\\:tw-bg-teal-light:focus {\n    background-color: #64d5ca;\n  }\n\n  .lg\\:focus\\:tw-bg-teal-lighter:focus {\n    background-color: #a0f0ed;\n  }\n\n  .lg\\:focus\\:tw-bg-teal-lightest:focus {\n    background-color: #e8fffe;\n  }\n\n  .lg\\:focus\\:tw-bg-blue-darkest:focus {\n    background-color: #12283a;\n  }\n\n  .lg\\:focus\\:tw-bg-blue-darker:focus {\n    background-color: #1c3d5a;\n  }\n\n  .lg\\:focus\\:tw-bg-blue-dark:focus {\n    background-color: #2779bd;\n  }\n\n  .lg\\:focus\\:tw-bg-blue:focus {\n    background-color: #3490dc;\n  }\n\n  .lg\\:focus\\:tw-bg-blue-light:focus {\n    background-color: #6cb2eb;\n  }\n\n  .lg\\:focus\\:tw-bg-blue-lighter:focus {\n    background-color: #bcdefa;\n  }\n\n  .lg\\:focus\\:tw-bg-blue-lightest:focus {\n    background-color: #eff8ff;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo-darkest:focus {\n    background-color: #191e38;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo-darker:focus {\n    background-color: #2f365f;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo-dark:focus {\n    background-color: #5661b3;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo:focus {\n    background-color: #6574cd;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo-light:focus {\n    background-color: #7886d7;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo-lighter:focus {\n    background-color: #b2b7ff;\n  }\n\n  .lg\\:focus\\:tw-bg-indigo-lightest:focus {\n    background-color: #e6e8ff;\n  }\n\n  .lg\\:focus\\:tw-bg-purple-darkest:focus {\n    background-color: #21183c;\n  }\n\n  .lg\\:focus\\:tw-bg-purple-darker:focus {\n    background-color: #382b5f;\n  }\n\n  .lg\\:focus\\:tw-bg-purple-dark:focus {\n    background-color: #794acf;\n  }\n\n  .lg\\:focus\\:tw-bg-purple:focus {\n    background-color: #9561e2;\n  }\n\n  .lg\\:focus\\:tw-bg-purple-light:focus {\n    background-color: #a779e9;\n  }\n\n  .lg\\:focus\\:tw-bg-purple-lighter:focus {\n    background-color: #d6bbfc;\n  }\n\n  .lg\\:focus\\:tw-bg-purple-lightest:focus {\n    background-color: #f3ebff;\n  }\n\n  .lg\\:focus\\:tw-bg-pink-darkest:focus {\n    background-color: #451225;\n  }\n\n  .lg\\:focus\\:tw-bg-pink-darker:focus {\n    background-color: #6f213f;\n  }\n\n  .lg\\:focus\\:tw-bg-pink-dark:focus {\n    background-color: #eb5286;\n  }\n\n  .lg\\:focus\\:tw-bg-pink:focus {\n    background-color: #f66d9b;\n  }\n\n  .lg\\:focus\\:tw-bg-pink-light:focus {\n    background-color: #fa7ea8;\n  }\n\n  .lg\\:focus\\:tw-bg-pink-lighter:focus {\n    background-color: #ffbbca;\n  }\n\n  .lg\\:focus\\:tw-bg-pink-lightest:focus {\n    background-color: #ffebef;\n  }\n\n  .lg\\:focus\\:tw-bg-linkColor:focus {\n    background-color: royalblue;\n  }\n\n  .lg\\:focus\\:tw-bg-linkHoverColor:focus {\n    background-color: darkblue;\n  }\n\n  .lg\\:tw-bg-bottom {\n    background-position: bottom;\n  }\n\n  .lg\\:tw-bg-center {\n    background-position: center;\n  }\n\n  .lg\\:tw-bg-left {\n    background-position: left;\n  }\n\n  .lg\\:tw-bg-left-bottom {\n    background-position: left bottom;\n  }\n\n  .lg\\:tw-bg-left-top {\n    background-position: left top;\n  }\n\n  .lg\\:tw-bg-right {\n    background-position: right;\n  }\n\n  .lg\\:tw-bg-right-bottom {\n    background-position: right bottom;\n  }\n\n  .lg\\:tw-bg-right-top {\n    background-position: right top;\n  }\n\n  .lg\\:tw-bg-top {\n    background-position: top;\n  }\n\n  .lg\\:tw-bg-repeat {\n    background-repeat: repeat;\n  }\n\n  .lg\\:tw-bg-no-repeat {\n    background-repeat: no-repeat;\n  }\n\n  .lg\\:tw-bg-repeat-x {\n    background-repeat: repeat-x;\n  }\n\n  .lg\\:tw-bg-repeat-y {\n    background-repeat: repeat-y;\n  }\n\n  .lg\\:tw-bg-auto {\n    background-size: auto;\n  }\n\n  .lg\\:tw-bg-cover {\n    background-size: cover;\n  }\n\n  .lg\\:tw-bg-contain {\n    background-size: contain;\n  }\n\n  .lg\\:tw-border-transparent {\n    border-color: transparent;\n  }\n\n  .lg\\:tw-border-black {\n    border-color: #22292f;\n  }\n\n  .lg\\:tw-border-grey-darkest {\n    border-color: #3d4852;\n  }\n\n  .lg\\:tw-border-grey-darker {\n    border-color: #606f7b;\n  }\n\n  .lg\\:tw-border-grey-dark {\n    border-color: #8795a1;\n  }\n\n  .lg\\:tw-border-grey {\n    border-color: #b8c2cc;\n  }\n\n  .lg\\:tw-border-grey-light {\n    border-color: #dae1e7;\n  }\n\n  .lg\\:tw-border-grey-lighter {\n    border-color: #f1f5f8;\n  }\n\n  .lg\\:tw-border-grey-lightest {\n    border-color: #f8fafc;\n  }\n\n  .lg\\:tw-border-white {\n    border-color: #fff;\n  }\n\n  .lg\\:tw-border-red-darkest {\n    border-color: #3b0d0c;\n  }\n\n  .lg\\:tw-border-red-darker {\n    border-color: #621b18;\n  }\n\n  .lg\\:tw-border-red-dark {\n    border-color: #cc1f1a;\n  }\n\n  .lg\\:tw-border-red {\n    border-color: #e3342f;\n  }\n\n  .lg\\:tw-border-red-light {\n    border-color: #ef5753;\n  }\n\n  .lg\\:tw-border-red-lighter {\n    border-color: #f9acaa;\n  }\n\n  .lg\\:tw-border-red-lightest {\n    border-color: #fcebea;\n  }\n\n  .lg\\:tw-border-orange-darkest {\n    border-color: #462a16;\n  }\n\n  .lg\\:tw-border-orange-darker {\n    border-color: #613b1f;\n  }\n\n  .lg\\:tw-border-orange-dark {\n    border-color: #de751f;\n  }\n\n  .lg\\:tw-border-orange {\n    border-color: #f6993f;\n  }\n\n  .lg\\:tw-border-orange-light {\n    border-color: #faad63;\n  }\n\n  .lg\\:tw-border-orange-lighter {\n    border-color: #fcd9b6;\n  }\n\n  .lg\\:tw-border-orange-lightest {\n    border-color: #fff5eb;\n  }\n\n  .lg\\:tw-border-yellow-darkest {\n    border-color: #453411;\n  }\n\n  .lg\\:tw-border-yellow-darker {\n    border-color: #684f1d;\n  }\n\n  .lg\\:tw-border-yellow-dark {\n    border-color: #f2d024;\n  }\n\n  .lg\\:tw-border-yellow {\n    border-color: #ffed4a;\n  }\n\n  .lg\\:tw-border-yellow-light {\n    border-color: #fff382;\n  }\n\n  .lg\\:tw-border-yellow-lighter {\n    border-color: #fff9c2;\n  }\n\n  .lg\\:tw-border-yellow-lightest {\n    border-color: #fcfbeb;\n  }\n\n  .lg\\:tw-border-green-darkest {\n    border-color: #0f2f21;\n  }\n\n  .lg\\:tw-border-green-darker {\n    border-color: #1a4731;\n  }\n\n  .lg\\:tw-border-green-dark {\n    border-color: #1f9d55;\n  }\n\n  .lg\\:tw-border-green {\n    border-color: #38c172;\n  }\n\n  .lg\\:tw-border-green-light {\n    border-color: #51d88a;\n  }\n\n  .lg\\:tw-border-green-lighter {\n    border-color: #a2f5bf;\n  }\n\n  .lg\\:tw-border-green-lightest {\n    border-color: #e3fcec;\n  }\n\n  .lg\\:tw-border-teal-darkest {\n    border-color: #0d3331;\n  }\n\n  .lg\\:tw-border-teal-darker {\n    border-color: #20504f;\n  }\n\n  .lg\\:tw-border-teal-dark {\n    border-color: #38a89d;\n  }\n\n  .lg\\:tw-border-teal {\n    border-color: #4dc0b5;\n  }\n\n  .lg\\:tw-border-teal-light {\n    border-color: #64d5ca;\n  }\n\n  .lg\\:tw-border-teal-lighter {\n    border-color: #a0f0ed;\n  }\n\n  .lg\\:tw-border-teal-lightest {\n    border-color: #e8fffe;\n  }\n\n  .lg\\:tw-border-blue-darkest {\n    border-color: #12283a;\n  }\n\n  .lg\\:tw-border-blue-darker {\n    border-color: #1c3d5a;\n  }\n\n  .lg\\:tw-border-blue-dark {\n    border-color: #2779bd;\n  }\n\n  .lg\\:tw-border-blue {\n    border-color: #3490dc;\n  }\n\n  .lg\\:tw-border-blue-light {\n    border-color: #6cb2eb;\n  }\n\n  .lg\\:tw-border-blue-lighter {\n    border-color: #bcdefa;\n  }\n\n  .lg\\:tw-border-blue-lightest {\n    border-color: #eff8ff;\n  }\n\n  .lg\\:tw-border-indigo-darkest {\n    border-color: #191e38;\n  }\n\n  .lg\\:tw-border-indigo-darker {\n    border-color: #2f365f;\n  }\n\n  .lg\\:tw-border-indigo-dark {\n    border-color: #5661b3;\n  }\n\n  .lg\\:tw-border-indigo {\n    border-color: #6574cd;\n  }\n\n  .lg\\:tw-border-indigo-light {\n    border-color: #7886d7;\n  }\n\n  .lg\\:tw-border-indigo-lighter {\n    border-color: #b2b7ff;\n  }\n\n  .lg\\:tw-border-indigo-lightest {\n    border-color: #e6e8ff;\n  }\n\n  .lg\\:tw-border-purple-darkest {\n    border-color: #21183c;\n  }\n\n  .lg\\:tw-border-purple-darker {\n    border-color: #382b5f;\n  }\n\n  .lg\\:tw-border-purple-dark {\n    border-color: #794acf;\n  }\n\n  .lg\\:tw-border-purple {\n    border-color: #9561e2;\n  }\n\n  .lg\\:tw-border-purple-light {\n    border-color: #a779e9;\n  }\n\n  .lg\\:tw-border-purple-lighter {\n    border-color: #d6bbfc;\n  }\n\n  .lg\\:tw-border-purple-lightest {\n    border-color: #f3ebff;\n  }\n\n  .lg\\:tw-border-pink-darkest {\n    border-color: #451225;\n  }\n\n  .lg\\:tw-border-pink-darker {\n    border-color: #6f213f;\n  }\n\n  .lg\\:tw-border-pink-dark {\n    border-color: #eb5286;\n  }\n\n  .lg\\:tw-border-pink {\n    border-color: #f66d9b;\n  }\n\n  .lg\\:tw-border-pink-light {\n    border-color: #fa7ea8;\n  }\n\n  .lg\\:tw-border-pink-lighter {\n    border-color: #ffbbca;\n  }\n\n  .lg\\:tw-border-pink-lightest {\n    border-color: #ffebef;\n  }\n\n  .lg\\:hover\\:tw-border-transparent:hover {\n    border-color: transparent;\n  }\n\n  .lg\\:hover\\:tw-border-black:hover {\n    border-color: #22292f;\n  }\n\n  .lg\\:hover\\:tw-border-grey-darkest:hover {\n    border-color: #3d4852;\n  }\n\n  .lg\\:hover\\:tw-border-grey-darker:hover {\n    border-color: #606f7b;\n  }\n\n  .lg\\:hover\\:tw-border-grey-dark:hover {\n    border-color: #8795a1;\n  }\n\n  .lg\\:hover\\:tw-border-grey:hover {\n    border-color: #b8c2cc;\n  }\n\n  .lg\\:hover\\:tw-border-grey-light:hover {\n    border-color: #dae1e7;\n  }\n\n  .lg\\:hover\\:tw-border-grey-lighter:hover {\n    border-color: #f1f5f8;\n  }\n\n  .lg\\:hover\\:tw-border-grey-lightest:hover {\n    border-color: #f8fafc;\n  }\n\n  .lg\\:hover\\:tw-border-white:hover {\n    border-color: #fff;\n  }\n\n  .lg\\:hover\\:tw-border-red-darkest:hover {\n    border-color: #3b0d0c;\n  }\n\n  .lg\\:hover\\:tw-border-red-darker:hover {\n    border-color: #621b18;\n  }\n\n  .lg\\:hover\\:tw-border-red-dark:hover {\n    border-color: #cc1f1a;\n  }\n\n  .lg\\:hover\\:tw-border-red:hover {\n    border-color: #e3342f;\n  }\n\n  .lg\\:hover\\:tw-border-red-light:hover {\n    border-color: #ef5753;\n  }\n\n  .lg\\:hover\\:tw-border-red-lighter:hover {\n    border-color: #f9acaa;\n  }\n\n  .lg\\:hover\\:tw-border-red-lightest:hover {\n    border-color: #fcebea;\n  }\n\n  .lg\\:hover\\:tw-border-orange-darkest:hover {\n    border-color: #462a16;\n  }\n\n  .lg\\:hover\\:tw-border-orange-darker:hover {\n    border-color: #613b1f;\n  }\n\n  .lg\\:hover\\:tw-border-orange-dark:hover {\n    border-color: #de751f;\n  }\n\n  .lg\\:hover\\:tw-border-orange:hover {\n    border-color: #f6993f;\n  }\n\n  .lg\\:hover\\:tw-border-orange-light:hover {\n    border-color: #faad63;\n  }\n\n  .lg\\:hover\\:tw-border-orange-lighter:hover {\n    border-color: #fcd9b6;\n  }\n\n  .lg\\:hover\\:tw-border-orange-lightest:hover {\n    border-color: #fff5eb;\n  }\n\n  .lg\\:hover\\:tw-border-yellow-darkest:hover {\n    border-color: #453411;\n  }\n\n  .lg\\:hover\\:tw-border-yellow-darker:hover {\n    border-color: #684f1d;\n  }\n\n  .lg\\:hover\\:tw-border-yellow-dark:hover {\n    border-color: #f2d024;\n  }\n\n  .lg\\:hover\\:tw-border-yellow:hover {\n    border-color: #ffed4a;\n  }\n\n  .lg\\:hover\\:tw-border-yellow-light:hover {\n    border-color: #fff382;\n  }\n\n  .lg\\:hover\\:tw-border-yellow-lighter:hover {\n    border-color: #fff9c2;\n  }\n\n  .lg\\:hover\\:tw-border-yellow-lightest:hover {\n    border-color: #fcfbeb;\n  }\n\n  .lg\\:hover\\:tw-border-green-darkest:hover {\n    border-color: #0f2f21;\n  }\n\n  .lg\\:hover\\:tw-border-green-darker:hover {\n    border-color: #1a4731;\n  }\n\n  .lg\\:hover\\:tw-border-green-dark:hover {\n    border-color: #1f9d55;\n  }\n\n  .lg\\:hover\\:tw-border-green:hover {\n    border-color: #38c172;\n  }\n\n  .lg\\:hover\\:tw-border-green-light:hover {\n    border-color: #51d88a;\n  }\n\n  .lg\\:hover\\:tw-border-green-lighter:hover {\n    border-color: #a2f5bf;\n  }\n\n  .lg\\:hover\\:tw-border-green-lightest:hover {\n    border-color: #e3fcec;\n  }\n\n  .lg\\:hover\\:tw-border-teal-darkest:hover {\n    border-color: #0d3331;\n  }\n\n  .lg\\:hover\\:tw-border-teal-darker:hover {\n    border-color: #20504f;\n  }\n\n  .lg\\:hover\\:tw-border-teal-dark:hover {\n    border-color: #38a89d;\n  }\n\n  .lg\\:hover\\:tw-border-teal:hover {\n    border-color: #4dc0b5;\n  }\n\n  .lg\\:hover\\:tw-border-teal-light:hover {\n    border-color: #64d5ca;\n  }\n\n  .lg\\:hover\\:tw-border-teal-lighter:hover {\n    border-color: #a0f0ed;\n  }\n\n  .lg\\:hover\\:tw-border-teal-lightest:hover {\n    border-color: #e8fffe;\n  }\n\n  .lg\\:hover\\:tw-border-blue-darkest:hover {\n    border-color: #12283a;\n  }\n\n  .lg\\:hover\\:tw-border-blue-darker:hover {\n    border-color: #1c3d5a;\n  }\n\n  .lg\\:hover\\:tw-border-blue-dark:hover {\n    border-color: #2779bd;\n  }\n\n  .lg\\:hover\\:tw-border-blue:hover {\n    border-color: #3490dc;\n  }\n\n  .lg\\:hover\\:tw-border-blue-light:hover {\n    border-color: #6cb2eb;\n  }\n\n  .lg\\:hover\\:tw-border-blue-lighter:hover {\n    border-color: #bcdefa;\n  }\n\n  .lg\\:hover\\:tw-border-blue-lightest:hover {\n    border-color: #eff8ff;\n  }\n\n  .lg\\:hover\\:tw-border-indigo-darkest:hover {\n    border-color: #191e38;\n  }\n\n  .lg\\:hover\\:tw-border-indigo-darker:hover {\n    border-color: #2f365f;\n  }\n\n  .lg\\:hover\\:tw-border-indigo-dark:hover {\n    border-color: #5661b3;\n  }\n\n  .lg\\:hover\\:tw-border-indigo:hover {\n    border-color: #6574cd;\n  }\n\n  .lg\\:hover\\:tw-border-indigo-light:hover {\n    border-color: #7886d7;\n  }\n\n  .lg\\:hover\\:tw-border-indigo-lighter:hover {\n    border-color: #b2b7ff;\n  }\n\n  .lg\\:hover\\:tw-border-indigo-lightest:hover {\n    border-color: #e6e8ff;\n  }\n\n  .lg\\:hover\\:tw-border-purple-darkest:hover {\n    border-color: #21183c;\n  }\n\n  .lg\\:hover\\:tw-border-purple-darker:hover {\n    border-color: #382b5f;\n  }\n\n  .lg\\:hover\\:tw-border-purple-dark:hover {\n    border-color: #794acf;\n  }\n\n  .lg\\:hover\\:tw-border-purple:hover {\n    border-color: #9561e2;\n  }\n\n  .lg\\:hover\\:tw-border-purple-light:hover {\n    border-color: #a779e9;\n  }\n\n  .lg\\:hover\\:tw-border-purple-lighter:hover {\n    border-color: #d6bbfc;\n  }\n\n  .lg\\:hover\\:tw-border-purple-lightest:hover {\n    border-color: #f3ebff;\n  }\n\n  .lg\\:hover\\:tw-border-pink-darkest:hover {\n    border-color: #451225;\n  }\n\n  .lg\\:hover\\:tw-border-pink-darker:hover {\n    border-color: #6f213f;\n  }\n\n  .lg\\:hover\\:tw-border-pink-dark:hover {\n    border-color: #eb5286;\n  }\n\n  .lg\\:hover\\:tw-border-pink:hover {\n    border-color: #f66d9b;\n  }\n\n  .lg\\:hover\\:tw-border-pink-light:hover {\n    border-color: #fa7ea8;\n  }\n\n  .lg\\:hover\\:tw-border-pink-lighter:hover {\n    border-color: #ffbbca;\n  }\n\n  .lg\\:hover\\:tw-border-pink-lightest:hover {\n    border-color: #ffebef;\n  }\n\n  .lg\\:focus\\:tw-border-transparent:focus {\n    border-color: transparent;\n  }\n\n  .lg\\:focus\\:tw-border-black:focus {\n    border-color: #22292f;\n  }\n\n  .lg\\:focus\\:tw-border-grey-darkest:focus {\n    border-color: #3d4852;\n  }\n\n  .lg\\:focus\\:tw-border-grey-darker:focus {\n    border-color: #606f7b;\n  }\n\n  .lg\\:focus\\:tw-border-grey-dark:focus {\n    border-color: #8795a1;\n  }\n\n  .lg\\:focus\\:tw-border-grey:focus {\n    border-color: #b8c2cc;\n  }\n\n  .lg\\:focus\\:tw-border-grey-light:focus {\n    border-color: #dae1e7;\n  }\n\n  .lg\\:focus\\:tw-border-grey-lighter:focus {\n    border-color: #f1f5f8;\n  }\n\n  .lg\\:focus\\:tw-border-grey-lightest:focus {\n    border-color: #f8fafc;\n  }\n\n  .lg\\:focus\\:tw-border-white:focus {\n    border-color: #fff;\n  }\n\n  .lg\\:focus\\:tw-border-red-darkest:focus {\n    border-color: #3b0d0c;\n  }\n\n  .lg\\:focus\\:tw-border-red-darker:focus {\n    border-color: #621b18;\n  }\n\n  .lg\\:focus\\:tw-border-red-dark:focus {\n    border-color: #cc1f1a;\n  }\n\n  .lg\\:focus\\:tw-border-red:focus {\n    border-color: #e3342f;\n  }\n\n  .lg\\:focus\\:tw-border-red-light:focus {\n    border-color: #ef5753;\n  }\n\n  .lg\\:focus\\:tw-border-red-lighter:focus {\n    border-color: #f9acaa;\n  }\n\n  .lg\\:focus\\:tw-border-red-lightest:focus {\n    border-color: #fcebea;\n  }\n\n  .lg\\:focus\\:tw-border-orange-darkest:focus {\n    border-color: #462a16;\n  }\n\n  .lg\\:focus\\:tw-border-orange-darker:focus {\n    border-color: #613b1f;\n  }\n\n  .lg\\:focus\\:tw-border-orange-dark:focus {\n    border-color: #de751f;\n  }\n\n  .lg\\:focus\\:tw-border-orange:focus {\n    border-color: #f6993f;\n  }\n\n  .lg\\:focus\\:tw-border-orange-light:focus {\n    border-color: #faad63;\n  }\n\n  .lg\\:focus\\:tw-border-orange-lighter:focus {\n    border-color: #fcd9b6;\n  }\n\n  .lg\\:focus\\:tw-border-orange-lightest:focus {\n    border-color: #fff5eb;\n  }\n\n  .lg\\:focus\\:tw-border-yellow-darkest:focus {\n    border-color: #453411;\n  }\n\n  .lg\\:focus\\:tw-border-yellow-darker:focus {\n    border-color: #684f1d;\n  }\n\n  .lg\\:focus\\:tw-border-yellow-dark:focus {\n    border-color: #f2d024;\n  }\n\n  .lg\\:focus\\:tw-border-yellow:focus {\n    border-color: #ffed4a;\n  }\n\n  .lg\\:focus\\:tw-border-yellow-light:focus {\n    border-color: #fff382;\n  }\n\n  .lg\\:focus\\:tw-border-yellow-lighter:focus {\n    border-color: #fff9c2;\n  }\n\n  .lg\\:focus\\:tw-border-yellow-lightest:focus {\n    border-color: #fcfbeb;\n  }\n\n  .lg\\:focus\\:tw-border-green-darkest:focus {\n    border-color: #0f2f21;\n  }\n\n  .lg\\:focus\\:tw-border-green-darker:focus {\n    border-color: #1a4731;\n  }\n\n  .lg\\:focus\\:tw-border-green-dark:focus {\n    border-color: #1f9d55;\n  }\n\n  .lg\\:focus\\:tw-border-green:focus {\n    border-color: #38c172;\n  }\n\n  .lg\\:focus\\:tw-border-green-light:focus {\n    border-color: #51d88a;\n  }\n\n  .lg\\:focus\\:tw-border-green-lighter:focus {\n    border-color: #a2f5bf;\n  }\n\n  .lg\\:focus\\:tw-border-green-lightest:focus {\n    border-color: #e3fcec;\n  }\n\n  .lg\\:focus\\:tw-border-teal-darkest:focus {\n    border-color: #0d3331;\n  }\n\n  .lg\\:focus\\:tw-border-teal-darker:focus {\n    border-color: #20504f;\n  }\n\n  .lg\\:focus\\:tw-border-teal-dark:focus {\n    border-color: #38a89d;\n  }\n\n  .lg\\:focus\\:tw-border-teal:focus {\n    border-color: #4dc0b5;\n  }\n\n  .lg\\:focus\\:tw-border-teal-light:focus {\n    border-color: #64d5ca;\n  }\n\n  .lg\\:focus\\:tw-border-teal-lighter:focus {\n    border-color: #a0f0ed;\n  }\n\n  .lg\\:focus\\:tw-border-teal-lightest:focus {\n    border-color: #e8fffe;\n  }\n\n  .lg\\:focus\\:tw-border-blue-darkest:focus {\n    border-color: #12283a;\n  }\n\n  .lg\\:focus\\:tw-border-blue-darker:focus {\n    border-color: #1c3d5a;\n  }\n\n  .lg\\:focus\\:tw-border-blue-dark:focus {\n    border-color: #2779bd;\n  }\n\n  .lg\\:focus\\:tw-border-blue:focus {\n    border-color: #3490dc;\n  }\n\n  .lg\\:focus\\:tw-border-blue-light:focus {\n    border-color: #6cb2eb;\n  }\n\n  .lg\\:focus\\:tw-border-blue-lighter:focus {\n    border-color: #bcdefa;\n  }\n\n  .lg\\:focus\\:tw-border-blue-lightest:focus {\n    border-color: #eff8ff;\n  }\n\n  .lg\\:focus\\:tw-border-indigo-darkest:focus {\n    border-color: #191e38;\n  }\n\n  .lg\\:focus\\:tw-border-indigo-darker:focus {\n    border-color: #2f365f;\n  }\n\n  .lg\\:focus\\:tw-border-indigo-dark:focus {\n    border-color: #5661b3;\n  }\n\n  .lg\\:focus\\:tw-border-indigo:focus {\n    border-color: #6574cd;\n  }\n\n  .lg\\:focus\\:tw-border-indigo-light:focus {\n    border-color: #7886d7;\n  }\n\n  .lg\\:focus\\:tw-border-indigo-lighter:focus {\n    border-color: #b2b7ff;\n  }\n\n  .lg\\:focus\\:tw-border-indigo-lightest:focus {\n    border-color: #e6e8ff;\n  }\n\n  .lg\\:focus\\:tw-border-purple-darkest:focus {\n    border-color: #21183c;\n  }\n\n  .lg\\:focus\\:tw-border-purple-darker:focus {\n    border-color: #382b5f;\n  }\n\n  .lg\\:focus\\:tw-border-purple-dark:focus {\n    border-color: #794acf;\n  }\n\n  .lg\\:focus\\:tw-border-purple:focus {\n    border-color: #9561e2;\n  }\n\n  .lg\\:focus\\:tw-border-purple-light:focus {\n    border-color: #a779e9;\n  }\n\n  .lg\\:focus\\:tw-border-purple-lighter:focus {\n    border-color: #d6bbfc;\n  }\n\n  .lg\\:focus\\:tw-border-purple-lightest:focus {\n    border-color: #f3ebff;\n  }\n\n  .lg\\:focus\\:tw-border-pink-darkest:focus {\n    border-color: #451225;\n  }\n\n  .lg\\:focus\\:tw-border-pink-darker:focus {\n    border-color: #6f213f;\n  }\n\n  .lg\\:focus\\:tw-border-pink-dark:focus {\n    border-color: #eb5286;\n  }\n\n  .lg\\:focus\\:tw-border-pink:focus {\n    border-color: #f66d9b;\n  }\n\n  .lg\\:focus\\:tw-border-pink-light:focus {\n    border-color: #fa7ea8;\n  }\n\n  .lg\\:focus\\:tw-border-pink-lighter:focus {\n    border-color: #ffbbca;\n  }\n\n  .lg\\:focus\\:tw-border-pink-lightest:focus {\n    border-color: #ffebef;\n  }\n\n  .lg\\:tw-rounded-none {\n    border-radius: 0;\n  }\n\n  .lg\\:tw-rounded-sm {\n    border-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded {\n    border-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-lg {\n    border-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-full {\n    border-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-t-none {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0;\n  }\n\n  .lg\\:tw-rounded-r-none {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n  }\n\n  .lg\\:tw-rounded-b-none {\n    border-bottom-right-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .lg\\:tw-rounded-l-none {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .lg\\:tw-rounded-t-sm {\n    border-top-left-radius: .125rem;\n    border-top-right-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-r-sm {\n    border-top-right-radius: .125rem;\n    border-bottom-right-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-b-sm {\n    border-bottom-right-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-l-sm {\n    border-top-left-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-t {\n    border-top-left-radius: .25rem;\n    border-top-right-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-r {\n    border-top-right-radius: .25rem;\n    border-bottom-right-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-b {\n    border-bottom-right-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-l {\n    border-top-left-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-t-lg {\n    border-top-left-radius: .5rem;\n    border-top-right-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-r-lg {\n    border-top-right-radius: .5rem;\n    border-bottom-right-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-b-lg {\n    border-bottom-right-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-l-lg {\n    border-top-left-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-t-full {\n    border-top-left-radius: 9999px;\n    border-top-right-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-r-full {\n    border-top-right-radius: 9999px;\n    border-bottom-right-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-b-full {\n    border-bottom-right-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-l-full {\n    border-top-left-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-tl-none {\n    border-top-left-radius: 0;\n  }\n\n  .lg\\:tw-rounded-tr-none {\n    border-top-right-radius: 0;\n  }\n\n  .lg\\:tw-rounded-br-none {\n    border-bottom-right-radius: 0;\n  }\n\n  .lg\\:tw-rounded-bl-none {\n    border-bottom-left-radius: 0;\n  }\n\n  .lg\\:tw-rounded-tl-sm {\n    border-top-left-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-tr-sm {\n    border-top-right-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-br-sm {\n    border-bottom-right-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-bl-sm {\n    border-bottom-left-radius: .125rem;\n  }\n\n  .lg\\:tw-rounded-tl {\n    border-top-left-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-tr {\n    border-top-right-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-br {\n    border-bottom-right-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-bl {\n    border-bottom-left-radius: .25rem;\n  }\n\n  .lg\\:tw-rounded-tl-lg {\n    border-top-left-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-tr-lg {\n    border-top-right-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-br-lg {\n    border-bottom-right-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-bl-lg {\n    border-bottom-left-radius: .5rem;\n  }\n\n  .lg\\:tw-rounded-tl-full {\n    border-top-left-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-tr-full {\n    border-top-right-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-br-full {\n    border-bottom-right-radius: 9999px;\n  }\n\n  .lg\\:tw-rounded-bl-full {\n    border-bottom-left-radius: 9999px;\n  }\n\n  .lg\\:tw-border-solid {\n    border-style: solid;\n  }\n\n  .lg\\:tw-border-dashed {\n    border-style: dashed;\n  }\n\n  .lg\\:tw-border-dotted {\n    border-style: dotted;\n  }\n\n  .lg\\:tw-border-none {\n    border-style: none;\n  }\n\n  .lg\\:tw-border-0 {\n    border-width: 0;\n  }\n\n  .lg\\:tw-border-2 {\n    border-width: 2px;\n  }\n\n  .lg\\:tw-border-4 {\n    border-width: 4px;\n  }\n\n  .lg\\:tw-border-8 {\n    border-width: 8px;\n  }\n\n  .lg\\:tw-border {\n    border-width: 1px;\n  }\n\n  .lg\\:tw-border-t-0 {\n    border-top-width: 0;\n  }\n\n  .lg\\:tw-border-r-0 {\n    border-right-width: 0;\n  }\n\n  .lg\\:tw-border-b-0 {\n    border-bottom-width: 0;\n  }\n\n  .lg\\:tw-border-l-0 {\n    border-left-width: 0;\n  }\n\n  .lg\\:tw-border-t-2 {\n    border-top-width: 2px;\n  }\n\n  .lg\\:tw-border-r-2 {\n    border-right-width: 2px;\n  }\n\n  .lg\\:tw-border-b-2 {\n    border-bottom-width: 2px;\n  }\n\n  .lg\\:tw-border-l-2 {\n    border-left-width: 2px;\n  }\n\n  .lg\\:tw-border-t-4 {\n    border-top-width: 4px;\n  }\n\n  .lg\\:tw-border-r-4 {\n    border-right-width: 4px;\n  }\n\n  .lg\\:tw-border-b-4 {\n    border-bottom-width: 4px;\n  }\n\n  .lg\\:tw-border-l-4 {\n    border-left-width: 4px;\n  }\n\n  .lg\\:tw-border-t-8 {\n    border-top-width: 8px;\n  }\n\n  .lg\\:tw-border-r-8 {\n    border-right-width: 8px;\n  }\n\n  .lg\\:tw-border-b-8 {\n    border-bottom-width: 8px;\n  }\n\n  .lg\\:tw-border-l-8 {\n    border-left-width: 8px;\n  }\n\n  .lg\\:tw-border-t {\n    border-top-width: 1px;\n  }\n\n  .lg\\:tw-border-r {\n    border-right-width: 1px;\n  }\n\n  .lg\\:tw-border-b {\n    border-bottom-width: 1px;\n  }\n\n  .lg\\:tw-border-l {\n    border-left-width: 1px;\n  }\n\n  .lg\\:tw-cursor-auto {\n    cursor: auto;\n  }\n\n  .lg\\:tw-cursor-default {\n    cursor: default;\n  }\n\n  .lg\\:tw-cursor-pointer {\n    cursor: pointer;\n  }\n\n  .lg\\:tw-cursor-wait {\n    cursor: wait;\n  }\n\n  .lg\\:tw-cursor-move {\n    cursor: move;\n  }\n\n  .lg\\:tw-cursor-not-allowed {\n    cursor: not-allowed;\n  }\n\n  .lg\\:tw-block {\n    display: block;\n  }\n\n  .lg\\:tw-inline-block {\n    display: inline-block;\n  }\n\n  .lg\\:tw-inline {\n    display: inline;\n  }\n\n  .lg\\:tw-table {\n    display: table;\n  }\n\n  .lg\\:tw-table-row {\n    display: table-row;\n  }\n\n  .lg\\:tw-table-cell {\n    display: table-cell;\n  }\n\n  .lg\\:tw-hidden {\n    display: none;\n  }\n\n  .lg\\:tw-flex {\n    display: flex;\n  }\n\n  .lg\\:tw-inline-flex {\n    display: inline-flex;\n  }\n\n  .lg\\:tw-flex-row {\n    flex-direction: row;\n  }\n\n  .lg\\:tw-flex-row-reverse {\n    flex-direction: row-reverse;\n  }\n\n  .lg\\:tw-flex-col {\n    flex-direction: column;\n  }\n\n  .lg\\:tw-flex-col-reverse {\n    flex-direction: column-reverse;\n  }\n\n  .lg\\:tw-flex-wrap {\n    flex-wrap: wrap;\n  }\n\n  .lg\\:tw-flex-wrap-reverse {\n    flex-wrap: wrap-reverse;\n  }\n\n  .lg\\:tw-flex-no-wrap {\n    flex-wrap: nowrap;\n  }\n\n  .lg\\:tw-items-start {\n    align-items: flex-start;\n  }\n\n  .lg\\:tw-items-end {\n    align-items: flex-end;\n  }\n\n  .lg\\:tw-items-center {\n    align-items: center;\n  }\n\n  .lg\\:tw-items-baseline {\n    align-items: baseline;\n  }\n\n  .lg\\:tw-items-stretch {\n    align-items: stretch;\n  }\n\n  .lg\\:tw-self-auto {\n    align-self: auto;\n  }\n\n  .lg\\:tw-self-start {\n    align-self: flex-start;\n  }\n\n  .lg\\:tw-self-end {\n    align-self: flex-end;\n  }\n\n  .lg\\:tw-self-center {\n    align-self: center;\n  }\n\n  .lg\\:tw-self-stretch {\n    align-self: stretch;\n  }\n\n  .lg\\:tw-justify-start {\n    justify-content: flex-start;\n  }\n\n  .lg\\:tw-justify-end {\n    justify-content: flex-end;\n  }\n\n  .lg\\:tw-justify-center {\n    justify-content: center;\n  }\n\n  .lg\\:tw-justify-between {\n    justify-content: space-between;\n  }\n\n  .lg\\:tw-justify-around {\n    justify-content: space-around;\n  }\n\n  .lg\\:tw-content-center {\n    align-content: center;\n  }\n\n  .lg\\:tw-content-start {\n    align-content: flex-start;\n  }\n\n  .lg\\:tw-content-end {\n    align-content: flex-end;\n  }\n\n  .lg\\:tw-content-between {\n    align-content: space-between;\n  }\n\n  .lg\\:tw-content-around {\n    align-content: space-around;\n  }\n\n  .lg\\:tw-flex-1 {\n    flex: 1 1 0%;\n  }\n\n  .lg\\:tw-flex-auto {\n    flex: 1 1 auto;\n  }\n\n  .lg\\:tw-flex-initial {\n    flex: 0 1 auto;\n  }\n\n  .lg\\:tw-flex-none {\n    flex: none;\n  }\n\n  .lg\\:tw-flex-grow {\n    flex-grow: 1;\n  }\n\n  .lg\\:tw-flex-shrink {\n    flex-shrink: 1;\n  }\n\n  .lg\\:tw-flex-no-grow {\n    flex-grow: 0;\n  }\n\n  .lg\\:tw-flex-no-shrink {\n    flex-shrink: 0;\n  }\n\n  .lg\\:tw-float-right {\n    float: right;\n  }\n\n  .lg\\:tw-float-left {\n    float: left;\n  }\n\n  .lg\\:tw-float-none {\n    float: none;\n  }\n\n  .lg\\:tw-clearfix:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n  .lg\\:tw-font-sans {\n    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  }\n\n  .lg\\:tw-font-serif {\n    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;\n  }\n\n  .lg\\:tw-font-mono {\n    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;\n  }\n\n  .lg\\:tw-font-logo {\n    font-family: Crafty Girls, cursive;\n  }\n\n  .lg\\:tw-font-hairline {\n    font-weight: 100;\n  }\n\n  .lg\\:tw-font-thin {\n    font-weight: 200;\n  }\n\n  .lg\\:tw-font-light {\n    font-weight: 300;\n  }\n\n  .lg\\:tw-font-normal {\n    font-weight: 400;\n  }\n\n  .lg\\:tw-font-medium {\n    font-weight: 500;\n  }\n\n  .lg\\:tw-font-semibold {\n    font-weight: 600;\n  }\n\n  .lg\\:tw-font-bold {\n    font-weight: 700;\n  }\n\n  .lg\\:tw-font-extrabold {\n    font-weight: 800;\n  }\n\n  .lg\\:tw-font-black {\n    font-weight: 900;\n  }\n\n  .lg\\:hover\\:tw-font-hairline:hover {\n    font-weight: 100;\n  }\n\n  .lg\\:hover\\:tw-font-thin:hover {\n    font-weight: 200;\n  }\n\n  .lg\\:hover\\:tw-font-light:hover {\n    font-weight: 300;\n  }\n\n  .lg\\:hover\\:tw-font-normal:hover {\n    font-weight: 400;\n  }\n\n  .lg\\:hover\\:tw-font-medium:hover {\n    font-weight: 500;\n  }\n\n  .lg\\:hover\\:tw-font-semibold:hover {\n    font-weight: 600;\n  }\n\n  .lg\\:hover\\:tw-font-bold:hover {\n    font-weight: 700;\n  }\n\n  .lg\\:hover\\:tw-font-extrabold:hover {\n    font-weight: 800;\n  }\n\n  .lg\\:hover\\:tw-font-black:hover {\n    font-weight: 900;\n  }\n\n  .lg\\:focus\\:tw-font-hairline:focus {\n    font-weight: 100;\n  }\n\n  .lg\\:focus\\:tw-font-thin:focus {\n    font-weight: 200;\n  }\n\n  .lg\\:focus\\:tw-font-light:focus {\n    font-weight: 300;\n  }\n\n  .lg\\:focus\\:tw-font-normal:focus {\n    font-weight: 400;\n  }\n\n  .lg\\:focus\\:tw-font-medium:focus {\n    font-weight: 500;\n  }\n\n  .lg\\:focus\\:tw-font-semibold:focus {\n    font-weight: 600;\n  }\n\n  .lg\\:focus\\:tw-font-bold:focus {\n    font-weight: 700;\n  }\n\n  .lg\\:focus\\:tw-font-extrabold:focus {\n    font-weight: 800;\n  }\n\n  .lg\\:focus\\:tw-font-black:focus {\n    font-weight: 900;\n  }\n\n  .lg\\:tw-h-1 {\n    height: .25rem;\n  }\n\n  .lg\\:tw-h-2 {\n    height: .5rem;\n  }\n\n  .lg\\:tw-h-3 {\n    height: .75rem;\n  }\n\n  .lg\\:tw-h-4 {\n    height: 1rem;\n  }\n\n  .lg\\:tw-h-5 {\n    height: 1.25rem;\n  }\n\n  .lg\\:tw-h-6 {\n    height: 1.5rem;\n  }\n\n  .lg\\:tw-h-8 {\n    height: 2rem;\n  }\n\n  .lg\\:tw-h-10 {\n    height: 2.5rem;\n  }\n\n  .lg\\:tw-h-12 {\n    height: 3rem;\n  }\n\n  .lg\\:tw-h-16 {\n    height: 4rem;\n  }\n\n  .lg\\:tw-h-24 {\n    height: 6rem;\n  }\n\n  .lg\\:tw-h-32 {\n    height: 8rem;\n  }\n\n  .lg\\:tw-h-48 {\n    height: 12rem;\n  }\n\n  .lg\\:tw-h-64 {\n    height: 16rem;\n  }\n\n  .lg\\:tw-h-auto {\n    height: auto;\n  }\n\n  .lg\\:tw-h-px {\n    height: 1px;\n  }\n\n  .lg\\:tw-h-full {\n    height: 100%;\n  }\n\n  .lg\\:tw-h-screen {\n    height: 100vh;\n  }\n\n  .lg\\:tw-leading-none {\n    line-height: 1;\n  }\n\n  .lg\\:tw-leading-tight {\n    line-height: 1.25;\n  }\n\n  .lg\\:tw-leading-normal {\n    line-height: 1.5;\n  }\n\n  .lg\\:tw-leading-loose {\n    line-height: 2;\n  }\n\n  .lg\\:tw-m-0 {\n    margin: 0;\n  }\n\n  .lg\\:tw-m-1 {\n    margin: .25rem;\n  }\n\n  .lg\\:tw-m-2 {\n    margin: .5rem;\n  }\n\n  .lg\\:tw-m-3 {\n    margin: .75rem;\n  }\n\n  .lg\\:tw-m-4 {\n    margin: 1rem;\n  }\n\n  .lg\\:tw-m-5 {\n    margin: 1.25rem;\n  }\n\n  .lg\\:tw-m-6 {\n    margin: 1.5rem;\n  }\n\n  .lg\\:tw-m-8 {\n    margin: 2rem;\n  }\n\n  .lg\\:tw-m-10 {\n    margin: 2.5rem;\n  }\n\n  .lg\\:tw-m-12 {\n    margin: 3rem;\n  }\n\n  .lg\\:tw-m-16 {\n    margin: 4rem;\n  }\n\n  .lg\\:tw-m-20 {\n    margin: 5rem;\n  }\n\n  .lg\\:tw-m-24 {\n    margin: 6rem;\n  }\n\n  .lg\\:tw-m-32 {\n    margin: 8rem;\n  }\n\n  .lg\\:tw-m-auto {\n    margin: auto;\n  }\n\n  .lg\\:tw-m-px {\n    margin: 1px;\n  }\n\n  .lg\\:tw-my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .lg\\:tw-mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .lg\\:tw-my-1 {\n    margin-top: .25rem;\n    margin-bottom: .25rem;\n  }\n\n  .lg\\:tw-mx-1 {\n    margin-left: .25rem;\n    margin-right: .25rem;\n  }\n\n  .lg\\:tw-my-2 {\n    margin-top: .5rem;\n    margin-bottom: .5rem;\n  }\n\n  .lg\\:tw-mx-2 {\n    margin-left: .5rem;\n    margin-right: .5rem;\n  }\n\n  .lg\\:tw-my-3 {\n    margin-top: .75rem;\n    margin-bottom: .75rem;\n  }\n\n  .lg\\:tw-mx-3 {\n    margin-left: .75rem;\n    margin-right: .75rem;\n  }\n\n  .lg\\:tw-my-4 {\n    margin-top: 1rem;\n    margin-bottom: 1rem;\n  }\n\n  .lg\\:tw-mx-4 {\n    margin-left: 1rem;\n    margin-right: 1rem;\n  }\n\n  .lg\\:tw-my-5 {\n    margin-top: 1.25rem;\n    margin-bottom: 1.25rem;\n  }\n\n  .lg\\:tw-mx-5 {\n    margin-left: 1.25rem;\n    margin-right: 1.25rem;\n  }\n\n  .lg\\:tw-my-6 {\n    margin-top: 1.5rem;\n    margin-bottom: 1.5rem;\n  }\n\n  .lg\\:tw-mx-6 {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n\n  .lg\\:tw-my-8 {\n    margin-top: 2rem;\n    margin-bottom: 2rem;\n  }\n\n  .lg\\:tw-mx-8 {\n    margin-left: 2rem;\n    margin-right: 2rem;\n  }\n\n  .lg\\:tw-my-10 {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n  }\n\n  .lg\\:tw-mx-10 {\n    margin-left: 2.5rem;\n    margin-right: 2.5rem;\n  }\n\n  .lg\\:tw-my-12 {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n  }\n\n  .lg\\:tw-mx-12 {\n    margin-left: 3rem;\n    margin-right: 3rem;\n  }\n\n  .lg\\:tw-my-16 {\n    margin-top: 4rem;\n    margin-bottom: 4rem;\n  }\n\n  .lg\\:tw-mx-16 {\n    margin-left: 4rem;\n    margin-right: 4rem;\n  }\n\n  .lg\\:tw-my-20 {\n    margin-top: 5rem;\n    margin-bottom: 5rem;\n  }\n\n  .lg\\:tw-mx-20 {\n    margin-left: 5rem;\n    margin-right: 5rem;\n  }\n\n  .lg\\:tw-my-24 {\n    margin-top: 6rem;\n    margin-bottom: 6rem;\n  }\n\n  .lg\\:tw-mx-24 {\n    margin-left: 6rem;\n    margin-right: 6rem;\n  }\n\n  .lg\\:tw-my-32 {\n    margin-top: 8rem;\n    margin-bottom: 8rem;\n  }\n\n  .lg\\:tw-mx-32 {\n    margin-left: 8rem;\n    margin-right: 8rem;\n  }\n\n  .lg\\:tw-my-auto {\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n\n  .lg\\:tw-mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:tw-my-px {\n    margin-top: 1px;\n    margin-bottom: 1px;\n  }\n\n  .lg\\:tw-mx-px {\n    margin-left: 1px;\n    margin-right: 1px;\n  }\n\n  .lg\\:tw-mt-0 {\n    margin-top: 0;\n  }\n\n  .lg\\:tw-mr-0 {\n    margin-right: 0;\n  }\n\n  .lg\\:tw-mb-0 {\n    margin-bottom: 0;\n  }\n\n  .lg\\:tw-ml-0 {\n    margin-left: 0;\n  }\n\n  .lg\\:tw-mt-1 {\n    margin-top: .25rem;\n  }\n\n  .lg\\:tw-mr-1 {\n    margin-right: .25rem;\n  }\n\n  .lg\\:tw-mb-1 {\n    margin-bottom: .25rem;\n  }\n\n  .lg\\:tw-ml-1 {\n    margin-left: .25rem;\n  }\n\n  .lg\\:tw-mt-2 {\n    margin-top: .5rem;\n  }\n\n  .lg\\:tw-mr-2 {\n    margin-right: .5rem;\n  }\n\n  .lg\\:tw-mb-2 {\n    margin-bottom: .5rem;\n  }\n\n  .lg\\:tw-ml-2 {\n    margin-left: .5rem;\n  }\n\n  .lg\\:tw-mt-3 {\n    margin-top: .75rem;\n  }\n\n  .lg\\:tw-mr-3 {\n    margin-right: .75rem;\n  }\n\n  .lg\\:tw-mb-3 {\n    margin-bottom: .75rem;\n  }\n\n  .lg\\:tw-ml-3 {\n    margin-left: .75rem;\n  }\n\n  .lg\\:tw-mt-4 {\n    margin-top: 1rem;\n  }\n\n  .lg\\:tw-mr-4 {\n    margin-right: 1rem;\n  }\n\n  .lg\\:tw-mb-4 {\n    margin-bottom: 1rem;\n  }\n\n  .lg\\:tw-ml-4 {\n    margin-left: 1rem;\n  }\n\n  .lg\\:tw-mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .lg\\:tw-mr-5 {\n    margin-right: 1.25rem;\n  }\n\n  .lg\\:tw-mb-5 {\n    margin-bottom: 1.25rem;\n  }\n\n  .lg\\:tw-ml-5 {\n    margin-left: 1.25rem;\n  }\n\n  .lg\\:tw-mt-6 {\n    margin-top: 1.5rem;\n  }\n\n  .lg\\:tw-mr-6 {\n    margin-right: 1.5rem;\n  }\n\n  .lg\\:tw-mb-6 {\n    margin-bottom: 1.5rem;\n  }\n\n  .lg\\:tw-ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .lg\\:tw-mt-8 {\n    margin-top: 2rem;\n  }\n\n  .lg\\:tw-mr-8 {\n    margin-right: 2rem;\n  }\n\n  .lg\\:tw-mb-8 {\n    margin-bottom: 2rem;\n  }\n\n  .lg\\:tw-ml-8 {\n    margin-left: 2rem;\n  }\n\n  .lg\\:tw-mt-10 {\n    margin-top: 2.5rem;\n  }\n\n  .lg\\:tw-mr-10 {\n    margin-right: 2.5rem;\n  }\n\n  .lg\\:tw-mb-10 {\n    margin-bottom: 2.5rem;\n  }\n\n  .lg\\:tw-ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .lg\\:tw-mt-12 {\n    margin-top: 3rem;\n  }\n\n  .lg\\:tw-mr-12 {\n    margin-right: 3rem;\n  }\n\n  .lg\\:tw-mb-12 {\n    margin-bottom: 3rem;\n  }\n\n  .lg\\:tw-ml-12 {\n    margin-left: 3rem;\n  }\n\n  .lg\\:tw-mt-16 {\n    margin-top: 4rem;\n  }\n\n  .lg\\:tw-mr-16 {\n    margin-right: 4rem;\n  }\n\n  .lg\\:tw-mb-16 {\n    margin-bottom: 4rem;\n  }\n\n  .lg\\:tw-ml-16 {\n    margin-left: 4rem;\n  }\n\n  .lg\\:tw-mt-20 {\n    margin-top: 5rem;\n  }\n\n  .lg\\:tw-mr-20 {\n    margin-right: 5rem;\n  }\n\n  .lg\\:tw-mb-20 {\n    margin-bottom: 5rem;\n  }\n\n  .lg\\:tw-ml-20 {\n    margin-left: 5rem;\n  }\n\n  .lg\\:tw-mt-24 {\n    margin-top: 6rem;\n  }\n\n  .lg\\:tw-mr-24 {\n    margin-right: 6rem;\n  }\n\n  .lg\\:tw-mb-24 {\n    margin-bottom: 6rem;\n  }\n\n  .lg\\:tw-ml-24 {\n    margin-left: 6rem;\n  }\n\n  .lg\\:tw-mt-32 {\n    margin-top: 8rem;\n  }\n\n  .lg\\:tw-mr-32 {\n    margin-right: 8rem;\n  }\n\n  .lg\\:tw-mb-32 {\n    margin-bottom: 8rem;\n  }\n\n  .lg\\:tw-ml-32 {\n    margin-left: 8rem;\n  }\n\n  .lg\\:tw-mt-auto {\n    margin-top: auto;\n  }\n\n  .lg\\:tw-mr-auto {\n    margin-right: auto;\n  }\n\n  .lg\\:tw-mb-auto {\n    margin-bottom: auto;\n  }\n\n  .lg\\:tw-ml-auto {\n    margin-left: auto;\n  }\n\n  .lg\\:tw-mt-px {\n    margin-top: 1px;\n  }\n\n  .lg\\:tw-mr-px {\n    margin-right: 1px;\n  }\n\n  .lg\\:tw-mb-px {\n    margin-bottom: 1px;\n  }\n\n  .lg\\:tw-ml-px {\n    margin-left: 1px;\n  }\n\n  .lg\\:tw-max-h-full {\n    max-height: 100%;\n  }\n\n  .lg\\:tw-max-h-screen {\n    max-height: 100vh;\n  }\n\n  .lg\\:tw-max-w-xs {\n    max-width: 20rem;\n  }\n\n  .lg\\:tw-max-w-sm {\n    max-width: 30rem;\n  }\n\n  .lg\\:tw-max-w-md {\n    max-width: 40rem;\n  }\n\n  .lg\\:tw-max-w-lg {\n    max-width: 50rem;\n  }\n\n  .lg\\:tw-max-w-xl {\n    max-width: 60rem;\n  }\n\n  .lg\\:tw-max-w-2xl {\n    max-width: 70rem;\n  }\n\n  .lg\\:tw-max-w-3xl {\n    max-width: 80rem;\n  }\n\n  .lg\\:tw-max-w-4xl {\n    max-width: 90rem;\n  }\n\n  .lg\\:tw-max-w-5xl {\n    max-width: 100rem;\n  }\n\n  .lg\\:tw-max-w-full {\n    max-width: 100%;\n  }\n\n  .lg\\:tw-min-h-0 {\n    min-height: 0;\n  }\n\n  .lg\\:tw-min-h-full {\n    min-height: 100%;\n  }\n\n  .lg\\:tw-min-h-screen {\n    min-height: 100vh;\n  }\n\n  .lg\\:tw-min-w-0 {\n    min-width: 0;\n  }\n\n  .lg\\:tw-min-w-full {\n    min-width: 100%;\n  }\n\n  .lg\\:tw--m-0 {\n    margin: 0;\n  }\n\n  .lg\\:tw--m-1 {\n    margin: -0.25rem;\n  }\n\n  .lg\\:tw--m-2 {\n    margin: -0.5rem;\n  }\n\n  .lg\\:tw--m-3 {\n    margin: -0.75rem;\n  }\n\n  .lg\\:tw--m-4 {\n    margin: -1rem;\n  }\n\n  .lg\\:tw--m-5 {\n    margin: -1.25rem;\n  }\n\n  .lg\\:tw--m-6 {\n    margin: -1.5rem;\n  }\n\n  .lg\\:tw--m-8 {\n    margin: -2rem;\n  }\n\n  .lg\\:tw--m-10 {\n    margin: -2.5rem;\n  }\n\n  .lg\\:tw--m-12 {\n    margin: -3rem;\n  }\n\n  .lg\\:tw--m-16 {\n    margin: -4rem;\n  }\n\n  .lg\\:tw--m-20 {\n    margin: -5rem;\n  }\n\n  .lg\\:tw--m-24 {\n    margin: -6rem;\n  }\n\n  .lg\\:tw--m-32 {\n    margin: -8rem;\n  }\n\n  .lg\\:tw--m-px {\n    margin: -1px;\n  }\n\n  .lg\\:tw--my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .lg\\:tw--mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .lg\\:tw--my-1 {\n    margin-top: -0.25rem;\n    margin-bottom: -0.25rem;\n  }\n\n  .lg\\:tw--mx-1 {\n    margin-left: -0.25rem;\n    margin-right: -0.25rem;\n  }\n\n  .lg\\:tw--my-2 {\n    margin-top: -0.5rem;\n    margin-bottom: -0.5rem;\n  }\n\n  .lg\\:tw--mx-2 {\n    margin-left: -0.5rem;\n    margin-right: -0.5rem;\n  }\n\n  .lg\\:tw--my-3 {\n    margin-top: -0.75rem;\n    margin-bottom: -0.75rem;\n  }\n\n  .lg\\:tw--mx-3 {\n    margin-left: -0.75rem;\n    margin-right: -0.75rem;\n  }\n\n  .lg\\:tw--my-4 {\n    margin-top: -1rem;\n    margin-bottom: -1rem;\n  }\n\n  .lg\\:tw--mx-4 {\n    margin-left: -1rem;\n    margin-right: -1rem;\n  }\n\n  .lg\\:tw--my-5 {\n    margin-top: -1.25rem;\n    margin-bottom: -1.25rem;\n  }\n\n  .lg\\:tw--mx-5 {\n    margin-left: -1.25rem;\n    margin-right: -1.25rem;\n  }\n\n  .lg\\:tw--my-6 {\n    margin-top: -1.5rem;\n    margin-bottom: -1.5rem;\n  }\n\n  .lg\\:tw--mx-6 {\n    margin-left: -1.5rem;\n    margin-right: -1.5rem;\n  }\n\n  .lg\\:tw--my-8 {\n    margin-top: -2rem;\n    margin-bottom: -2rem;\n  }\n\n  .lg\\:tw--mx-8 {\n    margin-left: -2rem;\n    margin-right: -2rem;\n  }\n\n  .lg\\:tw--my-10 {\n    margin-top: -2.5rem;\n    margin-bottom: -2.5rem;\n  }\n\n  .lg\\:tw--mx-10 {\n    margin-left: -2.5rem;\n    margin-right: -2.5rem;\n  }\n\n  .lg\\:tw--my-12 {\n    margin-top: -3rem;\n    margin-bottom: -3rem;\n  }\n\n  .lg\\:tw--mx-12 {\n    margin-left: -3rem;\n    margin-right: -3rem;\n  }\n\n  .lg\\:tw--my-16 {\n    margin-top: -4rem;\n    margin-bottom: -4rem;\n  }\n\n  .lg\\:tw--mx-16 {\n    margin-left: -4rem;\n    margin-right: -4rem;\n  }\n\n  .lg\\:tw--my-20 {\n    margin-top: -5rem;\n    margin-bottom: -5rem;\n  }\n\n  .lg\\:tw--mx-20 {\n    margin-left: -5rem;\n    margin-right: -5rem;\n  }\n\n  .lg\\:tw--my-24 {\n    margin-top: -6rem;\n    margin-bottom: -6rem;\n  }\n\n  .lg\\:tw--mx-24 {\n    margin-left: -6rem;\n    margin-right: -6rem;\n  }\n\n  .lg\\:tw--my-32 {\n    margin-top: -8rem;\n    margin-bottom: -8rem;\n  }\n\n  .lg\\:tw--mx-32 {\n    margin-left: -8rem;\n    margin-right: -8rem;\n  }\n\n  .lg\\:tw--my-px {\n    margin-top: -1px;\n    margin-bottom: -1px;\n  }\n\n  .lg\\:tw--mx-px {\n    margin-left: -1px;\n    margin-right: -1px;\n  }\n\n  .lg\\:tw--mt-0 {\n    margin-top: 0;\n  }\n\n  .lg\\:tw--mr-0 {\n    margin-right: 0;\n  }\n\n  .lg\\:tw--mb-0 {\n    margin-bottom: 0;\n  }\n\n  .lg\\:tw--ml-0 {\n    margin-left: 0;\n  }\n\n  .lg\\:tw--mt-1 {\n    margin-top: -0.25rem;\n  }\n\n  .lg\\:tw--mr-1 {\n    margin-right: -0.25rem;\n  }\n\n  .lg\\:tw--mb-1 {\n    margin-bottom: -0.25rem;\n  }\n\n  .lg\\:tw--ml-1 {\n    margin-left: -0.25rem;\n  }\n\n  .lg\\:tw--mt-2 {\n    margin-top: -0.5rem;\n  }\n\n  .lg\\:tw--mr-2 {\n    margin-right: -0.5rem;\n  }\n\n  .lg\\:tw--mb-2 {\n    margin-bottom: -0.5rem;\n  }\n\n  .lg\\:tw--ml-2 {\n    margin-left: -0.5rem;\n  }\n\n  .lg\\:tw--mt-3 {\n    margin-top: -0.75rem;\n  }\n\n  .lg\\:tw--mr-3 {\n    margin-right: -0.75rem;\n  }\n\n  .lg\\:tw--mb-3 {\n    margin-bottom: -0.75rem;\n  }\n\n  .lg\\:tw--ml-3 {\n    margin-left: -0.75rem;\n  }\n\n  .lg\\:tw--mt-4 {\n    margin-top: -1rem;\n  }\n\n  .lg\\:tw--mr-4 {\n    margin-right: -1rem;\n  }\n\n  .lg\\:tw--mb-4 {\n    margin-bottom: -1rem;\n  }\n\n  .lg\\:tw--ml-4 {\n    margin-left: -1rem;\n  }\n\n  .lg\\:tw--mt-5 {\n    margin-top: -1.25rem;\n  }\n\n  .lg\\:tw--mr-5 {\n    margin-right: -1.25rem;\n  }\n\n  .lg\\:tw--mb-5 {\n    margin-bottom: -1.25rem;\n  }\n\n  .lg\\:tw--ml-5 {\n    margin-left: -1.25rem;\n  }\n\n  .lg\\:tw--mt-6 {\n    margin-top: -1.5rem;\n  }\n\n  .lg\\:tw--mr-6 {\n    margin-right: -1.5rem;\n  }\n\n  .lg\\:tw--mb-6 {\n    margin-bottom: -1.5rem;\n  }\n\n  .lg\\:tw--ml-6 {\n    margin-left: -1.5rem;\n  }\n\n  .lg\\:tw--mt-8 {\n    margin-top: -2rem;\n  }\n\n  .lg\\:tw--mr-8 {\n    margin-right: -2rem;\n  }\n\n  .lg\\:tw--mb-8 {\n    margin-bottom: -2rem;\n  }\n\n  .lg\\:tw--ml-8 {\n    margin-left: -2rem;\n  }\n\n  .lg\\:tw--mt-10 {\n    margin-top: -2.5rem;\n  }\n\n  .lg\\:tw--mr-10 {\n    margin-right: -2.5rem;\n  }\n\n  .lg\\:tw--mb-10 {\n    margin-bottom: -2.5rem;\n  }\n\n  .lg\\:tw--ml-10 {\n    margin-left: -2.5rem;\n  }\n\n  .lg\\:tw--mt-12 {\n    margin-top: -3rem;\n  }\n\n  .lg\\:tw--mr-12 {\n    margin-right: -3rem;\n  }\n\n  .lg\\:tw--mb-12 {\n    margin-bottom: -3rem;\n  }\n\n  .lg\\:tw--ml-12 {\n    margin-left: -3rem;\n  }\n\n  .lg\\:tw--mt-16 {\n    margin-top: -4rem;\n  }\n\n  .lg\\:tw--mr-16 {\n    margin-right: -4rem;\n  }\n\n  .lg\\:tw--mb-16 {\n    margin-bottom: -4rem;\n  }\n\n  .lg\\:tw--ml-16 {\n    margin-left: -4rem;\n  }\n\n  .lg\\:tw--mt-20 {\n    margin-top: -5rem;\n  }\n\n  .lg\\:tw--mr-20 {\n    margin-right: -5rem;\n  }\n\n  .lg\\:tw--mb-20 {\n    margin-bottom: -5rem;\n  }\n\n  .lg\\:tw--ml-20 {\n    margin-left: -5rem;\n  }\n\n  .lg\\:tw--mt-24 {\n    margin-top: -6rem;\n  }\n\n  .lg\\:tw--mr-24 {\n    margin-right: -6rem;\n  }\n\n  .lg\\:tw--mb-24 {\n    margin-bottom: -6rem;\n  }\n\n  .lg\\:tw--ml-24 {\n    margin-left: -6rem;\n  }\n\n  .lg\\:tw--mt-32 {\n    margin-top: -8rem;\n  }\n\n  .lg\\:tw--mr-32 {\n    margin-right: -8rem;\n  }\n\n  .lg\\:tw--mb-32 {\n    margin-bottom: -8rem;\n  }\n\n  .lg\\:tw--ml-32 {\n    margin-left: -8rem;\n  }\n\n  .lg\\:tw--mt-px {\n    margin-top: -1px;\n  }\n\n  .lg\\:tw--mr-px {\n    margin-right: -1px;\n  }\n\n  .lg\\:tw--mb-px {\n    margin-bottom: -1px;\n  }\n\n  .lg\\:tw--ml-px {\n    margin-left: -1px;\n  }\n\n  .lg\\:tw-opacity-0 {\n    opacity: 0;\n  }\n\n  .lg\\:tw-opacity-25 {\n    opacity: .25;\n  }\n\n  .lg\\:tw-opacity-50 {\n    opacity: .5;\n  }\n\n  .lg\\:tw-opacity-75 {\n    opacity: .75;\n  }\n\n  .lg\\:tw-opacity-100 {\n    opacity: 1;\n  }\n\n  .lg\\:tw-overflow-auto {\n    overflow: auto;\n  }\n\n  .lg\\:tw-overflow-hidden {\n    overflow: hidden;\n  }\n\n  .lg\\:tw-overflow-visible {\n    overflow: visible;\n  }\n\n  .lg\\:tw-overflow-scroll {\n    overflow: scroll;\n  }\n\n  .lg\\:tw-overflow-x-auto {\n    overflow-x: auto;\n  }\n\n  .lg\\:tw-overflow-y-auto {\n    overflow-y: auto;\n  }\n\n  .lg\\:tw-overflow-x-hidden {\n    overflow-x: hidden;\n  }\n\n  .lg\\:tw-overflow-y-hidden {\n    overflow-y: hidden;\n  }\n\n  .lg\\:tw-overflow-x-visible {\n    overflow-x: visible;\n  }\n\n  .lg\\:tw-overflow-y-visible {\n    overflow-y: visible;\n  }\n\n  .lg\\:tw-overflow-x-scroll {\n    overflow-x: scroll;\n  }\n\n  .lg\\:tw-overflow-y-scroll {\n    overflow-y: scroll;\n  }\n\n  .lg\\:tw-scrolling-touch {\n    -webkit-overflow-scrolling: touch;\n  }\n\n  .lg\\:tw-scrolling-auto {\n    -webkit-overflow-scrolling: auto;\n  }\n\n  .lg\\:tw-p-0 {\n    padding: 0;\n  }\n\n  .lg\\:tw-p-1 {\n    padding: .25rem;\n  }\n\n  .lg\\:tw-p-2 {\n    padding: .5rem;\n  }\n\n  .lg\\:tw-p-3 {\n    padding: .75rem;\n  }\n\n  .lg\\:tw-p-4 {\n    padding: 1rem;\n  }\n\n  .lg\\:tw-p-5 {\n    padding: 1.25rem;\n  }\n\n  .lg\\:tw-p-6 {\n    padding: 1.5rem;\n  }\n\n  .lg\\:tw-p-8 {\n    padding: 2rem;\n  }\n\n  .lg\\:tw-p-10 {\n    padding: 2.5rem;\n  }\n\n  .lg\\:tw-p-12 {\n    padding: 3rem;\n  }\n\n  .lg\\:tw-p-16 {\n    padding: 4rem;\n  }\n\n  .lg\\:tw-p-20 {\n    padding: 5rem;\n  }\n\n  .lg\\:tw-p-24 {\n    padding: 6rem;\n  }\n\n  .lg\\:tw-p-32 {\n    padding: 8rem;\n  }\n\n  .lg\\:tw-p-px {\n    padding: 1px;\n  }\n\n  .lg\\:tw-py-0 {\n    padding-top: 0;\n    padding-bottom: 0;\n  }\n\n  .lg\\:tw-px-0 {\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  .lg\\:tw-py-1 {\n    padding-top: .25rem;\n    padding-bottom: .25rem;\n  }\n\n  .lg\\:tw-px-1 {\n    padding-left: .25rem;\n    padding-right: .25rem;\n  }\n\n  .lg\\:tw-py-2 {\n    padding-top: .5rem;\n    padding-bottom: .5rem;\n  }\n\n  .lg\\:tw-px-2 {\n    padding-left: .5rem;\n    padding-right: .5rem;\n  }\n\n  .lg\\:tw-py-3 {\n    padding-top: .75rem;\n    padding-bottom: .75rem;\n  }\n\n  .lg\\:tw-px-3 {\n    padding-left: .75rem;\n    padding-right: .75rem;\n  }\n\n  .lg\\:tw-py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .lg\\:tw-px-4 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n\n  .lg\\:tw-py-5 {\n    padding-top: 1.25rem;\n    padding-bottom: 1.25rem;\n  }\n\n  .lg\\:tw-px-5 {\n    padding-left: 1.25rem;\n    padding-right: 1.25rem;\n  }\n\n  .lg\\:tw-py-6 {\n    padding-top: 1.5rem;\n    padding-bottom: 1.5rem;\n  }\n\n  .lg\\:tw-px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .lg\\:tw-py-8 {\n    padding-top: 2rem;\n    padding-bottom: 2rem;\n  }\n\n  .lg\\:tw-px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:tw-py-10 {\n    padding-top: 2.5rem;\n    padding-bottom: 2.5rem;\n  }\n\n  .lg\\:tw-px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .lg\\:tw-py-12 {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n  }\n\n  .lg\\:tw-px-12 {\n    padding-left: 3rem;\n    padding-right: 3rem;\n  }\n\n  .lg\\:tw-py-16 {\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n  }\n\n  .lg\\:tw-px-16 {\n    padding-left: 4rem;\n    padding-right: 4rem;\n  }\n\n  .lg\\:tw-py-20 {\n    padding-top: 5rem;\n    padding-bottom: 5rem;\n  }\n\n  .lg\\:tw-px-20 {\n    padding-left: 5rem;\n    padding-right: 5rem;\n  }\n\n  .lg\\:tw-py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .lg\\:tw-px-24 {\n    padding-left: 6rem;\n    padding-right: 6rem;\n  }\n\n  .lg\\:tw-py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .lg\\:tw-px-32 {\n    padding-left: 8rem;\n    padding-right: 8rem;\n  }\n\n  .lg\\:tw-py-px {\n    padding-top: 1px;\n    padding-bottom: 1px;\n  }\n\n  .lg\\:tw-px-px {\n    padding-left: 1px;\n    padding-right: 1px;\n  }\n\n  .lg\\:tw-pt-0 {\n    padding-top: 0;\n  }\n\n  .lg\\:tw-pr-0 {\n    padding-right: 0;\n  }\n\n  .lg\\:tw-pb-0 {\n    padding-bottom: 0;\n  }\n\n  .lg\\:tw-pl-0 {\n    padding-left: 0;\n  }\n\n  .lg\\:tw-pt-1 {\n    padding-top: .25rem;\n  }\n\n  .lg\\:tw-pr-1 {\n    padding-right: .25rem;\n  }\n\n  .lg\\:tw-pb-1 {\n    padding-bottom: .25rem;\n  }\n\n  .lg\\:tw-pl-1 {\n    padding-left: .25rem;\n  }\n\n  .lg\\:tw-pt-2 {\n    padding-top: .5rem;\n  }\n\n  .lg\\:tw-pr-2 {\n    padding-right: .5rem;\n  }\n\n  .lg\\:tw-pb-2 {\n    padding-bottom: .5rem;\n  }\n\n  .lg\\:tw-pl-2 {\n    padding-left: .5rem;\n  }\n\n  .lg\\:tw-pt-3 {\n    padding-top: .75rem;\n  }\n\n  .lg\\:tw-pr-3 {\n    padding-right: .75rem;\n  }\n\n  .lg\\:tw-pb-3 {\n    padding-bottom: .75rem;\n  }\n\n  .lg\\:tw-pl-3 {\n    padding-left: .75rem;\n  }\n\n  .lg\\:tw-pt-4 {\n    padding-top: 1rem;\n  }\n\n  .lg\\:tw-pr-4 {\n    padding-right: 1rem;\n  }\n\n  .lg\\:tw-pb-4 {\n    padding-bottom: 1rem;\n  }\n\n  .lg\\:tw-pl-4 {\n    padding-left: 1rem;\n  }\n\n  .lg\\:tw-pt-5 {\n    padding-top: 1.25rem;\n  }\n\n  .lg\\:tw-pr-5 {\n    padding-right: 1.25rem;\n  }\n\n  .lg\\:tw-pb-5 {\n    padding-bottom: 1.25rem;\n  }\n\n  .lg\\:tw-pl-5 {\n    padding-left: 1.25rem;\n  }\n\n  .lg\\:tw-pt-6 {\n    padding-top: 1.5rem;\n  }\n\n  .lg\\:tw-pr-6 {\n    padding-right: 1.5rem;\n  }\n\n  .lg\\:tw-pb-6 {\n    padding-bottom: 1.5rem;\n  }\n\n  .lg\\:tw-pl-6 {\n    padding-left: 1.5rem;\n  }\n\n  .lg\\:tw-pt-8 {\n    padding-top: 2rem;\n  }\n\n  .lg\\:tw-pr-8 {\n    padding-right: 2rem;\n  }\n\n  .lg\\:tw-pb-8 {\n    padding-bottom: 2rem;\n  }\n\n  .lg\\:tw-pl-8 {\n    padding-left: 2rem;\n  }\n\n  .lg\\:tw-pt-10 {\n    padding-top: 2.5rem;\n  }\n\n  .lg\\:tw-pr-10 {\n    padding-right: 2.5rem;\n  }\n\n  .lg\\:tw-pb-10 {\n    padding-bottom: 2.5rem;\n  }\n\n  .lg\\:tw-pl-10 {\n    padding-left: 2.5rem;\n  }\n\n  .lg\\:tw-pt-12 {\n    padding-top: 3rem;\n  }\n\n  .lg\\:tw-pr-12 {\n    padding-right: 3rem;\n  }\n\n  .lg\\:tw-pb-12 {\n    padding-bottom: 3rem;\n  }\n\n  .lg\\:tw-pl-12 {\n    padding-left: 3rem;\n  }\n\n  .lg\\:tw-pt-16 {\n    padding-top: 4rem;\n  }\n\n  .lg\\:tw-pr-16 {\n    padding-right: 4rem;\n  }\n\n  .lg\\:tw-pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .lg\\:tw-pl-16 {\n    padding-left: 4rem;\n  }\n\n  .lg\\:tw-pt-20 {\n    padding-top: 5rem;\n  }\n\n  .lg\\:tw-pr-20 {\n    padding-right: 5rem;\n  }\n\n  .lg\\:tw-pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .lg\\:tw-pl-20 {\n    padding-left: 5rem;\n  }\n\n  .lg\\:tw-pt-24 {\n    padding-top: 6rem;\n  }\n\n  .lg\\:tw-pr-24 {\n    padding-right: 6rem;\n  }\n\n  .lg\\:tw-pb-24 {\n    padding-bottom: 6rem;\n  }\n\n  .lg\\:tw-pl-24 {\n    padding-left: 6rem;\n  }\n\n  .lg\\:tw-pt-32 {\n    padding-top: 8rem;\n  }\n\n  .lg\\:tw-pr-32 {\n    padding-right: 8rem;\n  }\n\n  .lg\\:tw-pb-32 {\n    padding-bottom: 8rem;\n  }\n\n  .lg\\:tw-pl-32 {\n    padding-left: 8rem;\n  }\n\n  .lg\\:tw-pt-px {\n    padding-top: 1px;\n  }\n\n  .lg\\:tw-pr-px {\n    padding-right: 1px;\n  }\n\n  .lg\\:tw-pb-px {\n    padding-bottom: 1px;\n  }\n\n  .lg\\:tw-pl-px {\n    padding-left: 1px;\n  }\n\n  .lg\\:tw-pointer-events-none {\n    pointer-events: none;\n  }\n\n  .lg\\:tw-pointer-events-auto {\n    pointer-events: auto;\n  }\n\n  .lg\\:tw-static {\n    position: static;\n  }\n\n  .lg\\:tw-fixed {\n    position: fixed;\n  }\n\n  .lg\\:tw-absolute {\n    position: absolute;\n  }\n\n  .lg\\:tw-relative {\n    position: relative;\n  }\n\n  .lg\\:tw-sticky {\n    position: -webkit-sticky;\n    position: sticky;\n  }\n\n  .lg\\:tw-pin-none {\n    top: auto;\n    right: auto;\n    bottom: auto;\n    left: auto;\n  }\n\n  .lg\\:tw-pin {\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .lg\\:tw-pin-y {\n    top: 0;\n    bottom: 0;\n  }\n\n  .lg\\:tw-pin-x {\n    right: 0;\n    left: 0;\n  }\n\n  .lg\\:tw-pin-t {\n    top: 0;\n  }\n\n  .lg\\:tw-pin-r {\n    right: 0;\n  }\n\n  .lg\\:tw-pin-b {\n    bottom: 0;\n  }\n\n  .lg\\:tw-pin-l {\n    left: 0;\n  }\n\n  .lg\\:tw-resize-none {\n    resize: none;\n  }\n\n  .lg\\:tw-resize-y {\n    resize: vertical;\n  }\n\n  .lg\\:tw-resize-x {\n    resize: horizontal;\n  }\n\n  .lg\\:tw-resize {\n    resize: both;\n  }\n\n  .lg\\:tw-shadow {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .lg\\:tw-shadow-md {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .lg\\:tw-shadow-lg {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .lg\\:tw-shadow-inner {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .lg\\:tw-shadow-outline {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .lg\\:tw-shadow-none {\n    box-shadow: none;\n  }\n\n  .lg\\:hover\\:tw-shadow:hover {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .lg\\:hover\\:tw-shadow-md:hover {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .lg\\:hover\\:tw-shadow-lg:hover {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .lg\\:hover\\:tw-shadow-inner:hover {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .lg\\:hover\\:tw-shadow-outline:hover {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .lg\\:hover\\:tw-shadow-none:hover {\n    box-shadow: none;\n  }\n\n  .lg\\:focus\\:tw-shadow:focus {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .lg\\:focus\\:tw-shadow-md:focus {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .lg\\:focus\\:tw-shadow-lg:focus {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .lg\\:focus\\:tw-shadow-inner:focus {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .lg\\:focus\\:tw-shadow-outline:focus {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .lg\\:focus\\:tw-shadow-none:focus {\n    box-shadow: none;\n  }\n\n  .lg\\:tw-table-auto {\n    table-layout: auto;\n  }\n\n  .lg\\:tw-table-fixed {\n    table-layout: fixed;\n  }\n\n  .lg\\:tw-text-left {\n    text-align: left;\n  }\n\n  .lg\\:tw-text-center {\n    text-align: center;\n  }\n\n  .lg\\:tw-text-right {\n    text-align: right;\n  }\n\n  .lg\\:tw-text-justify {\n    text-align: justify;\n  }\n\n  .lg\\:tw-text-transparent {\n    color: transparent;\n  }\n\n  .lg\\:tw-text-black {\n    color: #22292f;\n  }\n\n  .lg\\:tw-text-grey-darkest {\n    color: #3d4852;\n  }\n\n  .lg\\:tw-text-grey-darker {\n    color: #606f7b;\n  }\n\n  .lg\\:tw-text-grey-dark {\n    color: #8795a1;\n  }\n\n  .lg\\:tw-text-grey {\n    color: #b8c2cc;\n  }\n\n  .lg\\:tw-text-grey-light {\n    color: #dae1e7;\n  }\n\n  .lg\\:tw-text-grey-lighter {\n    color: #f1f5f8;\n  }\n\n  .lg\\:tw-text-grey-lightest {\n    color: #f8fafc;\n  }\n\n  .lg\\:tw-text-white {\n    color: #fff;\n  }\n\n  .lg\\:tw-text-red-darkest {\n    color: #3b0d0c;\n  }\n\n  .lg\\:tw-text-red-darker {\n    color: #621b18;\n  }\n\n  .lg\\:tw-text-red-dark {\n    color: #cc1f1a;\n  }\n\n  .lg\\:tw-text-red {\n    color: #e3342f;\n  }\n\n  .lg\\:tw-text-red-light {\n    color: #ef5753;\n  }\n\n  .lg\\:tw-text-red-lighter {\n    color: #f9acaa;\n  }\n\n  .lg\\:tw-text-red-lightest {\n    color: #fcebea;\n  }\n\n  .lg\\:tw-text-orange-darkest {\n    color: #462a16;\n  }\n\n  .lg\\:tw-text-orange-darker {\n    color: #613b1f;\n  }\n\n  .lg\\:tw-text-orange-dark {\n    color: #de751f;\n  }\n\n  .lg\\:tw-text-orange {\n    color: #f6993f;\n  }\n\n  .lg\\:tw-text-orange-light {\n    color: #faad63;\n  }\n\n  .lg\\:tw-text-orange-lighter {\n    color: #fcd9b6;\n  }\n\n  .lg\\:tw-text-orange-lightest {\n    color: #fff5eb;\n  }\n\n  .lg\\:tw-text-yellow-darkest {\n    color: #453411;\n  }\n\n  .lg\\:tw-text-yellow-darker {\n    color: #684f1d;\n  }\n\n  .lg\\:tw-text-yellow-dark {\n    color: #f2d024;\n  }\n\n  .lg\\:tw-text-yellow {\n    color: #ffed4a;\n  }\n\n  .lg\\:tw-text-yellow-light {\n    color: #fff382;\n  }\n\n  .lg\\:tw-text-yellow-lighter {\n    color: #fff9c2;\n  }\n\n  .lg\\:tw-text-yellow-lightest {\n    color: #fcfbeb;\n  }\n\n  .lg\\:tw-text-green-darkest {\n    color: #0f2f21;\n  }\n\n  .lg\\:tw-text-green-darker {\n    color: #1a4731;\n  }\n\n  .lg\\:tw-text-green-dark {\n    color: #1f9d55;\n  }\n\n  .lg\\:tw-text-green {\n    color: #38c172;\n  }\n\n  .lg\\:tw-text-green-light {\n    color: #51d88a;\n  }\n\n  .lg\\:tw-text-green-lighter {\n    color: #a2f5bf;\n  }\n\n  .lg\\:tw-text-green-lightest {\n    color: #e3fcec;\n  }\n\n  .lg\\:tw-text-teal-darkest {\n    color: #0d3331;\n  }\n\n  .lg\\:tw-text-teal-darker {\n    color: #20504f;\n  }\n\n  .lg\\:tw-text-teal-dark {\n    color: #38a89d;\n  }\n\n  .lg\\:tw-text-teal {\n    color: #4dc0b5;\n  }\n\n  .lg\\:tw-text-teal-light {\n    color: #64d5ca;\n  }\n\n  .lg\\:tw-text-teal-lighter {\n    color: #a0f0ed;\n  }\n\n  .lg\\:tw-text-teal-lightest {\n    color: #e8fffe;\n  }\n\n  .lg\\:tw-text-blue-darkest {\n    color: #12283a;\n  }\n\n  .lg\\:tw-text-blue-darker {\n    color: #1c3d5a;\n  }\n\n  .lg\\:tw-text-blue-dark {\n    color: #2779bd;\n  }\n\n  .lg\\:tw-text-blue {\n    color: #3490dc;\n  }\n\n  .lg\\:tw-text-blue-light {\n    color: #6cb2eb;\n  }\n\n  .lg\\:tw-text-blue-lighter {\n    color: #bcdefa;\n  }\n\n  .lg\\:tw-text-blue-lightest {\n    color: #eff8ff;\n  }\n\n  .lg\\:tw-text-indigo-darkest {\n    color: #191e38;\n  }\n\n  .lg\\:tw-text-indigo-darker {\n    color: #2f365f;\n  }\n\n  .lg\\:tw-text-indigo-dark {\n    color: #5661b3;\n  }\n\n  .lg\\:tw-text-indigo {\n    color: #6574cd;\n  }\n\n  .lg\\:tw-text-indigo-light {\n    color: #7886d7;\n  }\n\n  .lg\\:tw-text-indigo-lighter {\n    color: #b2b7ff;\n  }\n\n  .lg\\:tw-text-indigo-lightest {\n    color: #e6e8ff;\n  }\n\n  .lg\\:tw-text-purple-darkest {\n    color: #21183c;\n  }\n\n  .lg\\:tw-text-purple-darker {\n    color: #382b5f;\n  }\n\n  .lg\\:tw-text-purple-dark {\n    color: #794acf;\n  }\n\n  .lg\\:tw-text-purple {\n    color: #9561e2;\n  }\n\n  .lg\\:tw-text-purple-light {\n    color: #a779e9;\n  }\n\n  .lg\\:tw-text-purple-lighter {\n    color: #d6bbfc;\n  }\n\n  .lg\\:tw-text-purple-lightest {\n    color: #f3ebff;\n  }\n\n  .lg\\:tw-text-pink-darkest {\n    color: #451225;\n  }\n\n  .lg\\:tw-text-pink-darker {\n    color: #6f213f;\n  }\n\n  .lg\\:tw-text-pink-dark {\n    color: #eb5286;\n  }\n\n  .lg\\:tw-text-pink {\n    color: #f66d9b;\n  }\n\n  .lg\\:tw-text-pink-light {\n    color: #fa7ea8;\n  }\n\n  .lg\\:tw-text-pink-lighter {\n    color: #ffbbca;\n  }\n\n  .lg\\:tw-text-pink-lightest {\n    color: #ffebef;\n  }\n\n  .lg\\:tw-text-linkColor {\n    color: royalblue;\n  }\n\n  .lg\\:tw-text-linkHoverColor {\n    color: darkblue;\n  }\n\n  .lg\\:hover\\:tw-text-transparent:hover {\n    color: transparent;\n  }\n\n  .lg\\:hover\\:tw-text-black:hover {\n    color: #22292f;\n  }\n\n  .lg\\:hover\\:tw-text-grey-darkest:hover {\n    color: #3d4852;\n  }\n\n  .lg\\:hover\\:tw-text-grey-darker:hover {\n    color: #606f7b;\n  }\n\n  .lg\\:hover\\:tw-text-grey-dark:hover {\n    color: #8795a1;\n  }\n\n  .lg\\:hover\\:tw-text-grey:hover {\n    color: #b8c2cc;\n  }\n\n  .lg\\:hover\\:tw-text-grey-light:hover {\n    color: #dae1e7;\n  }\n\n  .lg\\:hover\\:tw-text-grey-lighter:hover {\n    color: #f1f5f8;\n  }\n\n  .lg\\:hover\\:tw-text-grey-lightest:hover {\n    color: #f8fafc;\n  }\n\n  .lg\\:hover\\:tw-text-white:hover {\n    color: #fff;\n  }\n\n  .lg\\:hover\\:tw-text-red-darkest:hover {\n    color: #3b0d0c;\n  }\n\n  .lg\\:hover\\:tw-text-red-darker:hover {\n    color: #621b18;\n  }\n\n  .lg\\:hover\\:tw-text-red-dark:hover {\n    color: #cc1f1a;\n  }\n\n  .lg\\:hover\\:tw-text-red:hover {\n    color: #e3342f;\n  }\n\n  .lg\\:hover\\:tw-text-red-light:hover {\n    color: #ef5753;\n  }\n\n  .lg\\:hover\\:tw-text-red-lighter:hover {\n    color: #f9acaa;\n  }\n\n  .lg\\:hover\\:tw-text-red-lightest:hover {\n    color: #fcebea;\n  }\n\n  .lg\\:hover\\:tw-text-orange-darkest:hover {\n    color: #462a16;\n  }\n\n  .lg\\:hover\\:tw-text-orange-darker:hover {\n    color: #613b1f;\n  }\n\n  .lg\\:hover\\:tw-text-orange-dark:hover {\n    color: #de751f;\n  }\n\n  .lg\\:hover\\:tw-text-orange:hover {\n    color: #f6993f;\n  }\n\n  .lg\\:hover\\:tw-text-orange-light:hover {\n    color: #faad63;\n  }\n\n  .lg\\:hover\\:tw-text-orange-lighter:hover {\n    color: #fcd9b6;\n  }\n\n  .lg\\:hover\\:tw-text-orange-lightest:hover {\n    color: #fff5eb;\n  }\n\n  .lg\\:hover\\:tw-text-yellow-darkest:hover {\n    color: #453411;\n  }\n\n  .lg\\:hover\\:tw-text-yellow-darker:hover {\n    color: #684f1d;\n  }\n\n  .lg\\:hover\\:tw-text-yellow-dark:hover {\n    color: #f2d024;\n  }\n\n  .lg\\:hover\\:tw-text-yellow:hover {\n    color: #ffed4a;\n  }\n\n  .lg\\:hover\\:tw-text-yellow-light:hover {\n    color: #fff382;\n  }\n\n  .lg\\:hover\\:tw-text-yellow-lighter:hover {\n    color: #fff9c2;\n  }\n\n  .lg\\:hover\\:tw-text-yellow-lightest:hover {\n    color: #fcfbeb;\n  }\n\n  .lg\\:hover\\:tw-text-green-darkest:hover {\n    color: #0f2f21;\n  }\n\n  .lg\\:hover\\:tw-text-green-darker:hover {\n    color: #1a4731;\n  }\n\n  .lg\\:hover\\:tw-text-green-dark:hover {\n    color: #1f9d55;\n  }\n\n  .lg\\:hover\\:tw-text-green:hover {\n    color: #38c172;\n  }\n\n  .lg\\:hover\\:tw-text-green-light:hover {\n    color: #51d88a;\n  }\n\n  .lg\\:hover\\:tw-text-green-lighter:hover {\n    color: #a2f5bf;\n  }\n\n  .lg\\:hover\\:tw-text-green-lightest:hover {\n    color: #e3fcec;\n  }\n\n  .lg\\:hover\\:tw-text-teal-darkest:hover {\n    color: #0d3331;\n  }\n\n  .lg\\:hover\\:tw-text-teal-darker:hover {\n    color: #20504f;\n  }\n\n  .lg\\:hover\\:tw-text-teal-dark:hover {\n    color: #38a89d;\n  }\n\n  .lg\\:hover\\:tw-text-teal:hover {\n    color: #4dc0b5;\n  }\n\n  .lg\\:hover\\:tw-text-teal-light:hover {\n    color: #64d5ca;\n  }\n\n  .lg\\:hover\\:tw-text-teal-lighter:hover {\n    color: #a0f0ed;\n  }\n\n  .lg\\:hover\\:tw-text-teal-lightest:hover {\n    color: #e8fffe;\n  }\n\n  .lg\\:hover\\:tw-text-blue-darkest:hover {\n    color: #12283a;\n  }\n\n  .lg\\:hover\\:tw-text-blue-darker:hover {\n    color: #1c3d5a;\n  }\n\n  .lg\\:hover\\:tw-text-blue-dark:hover {\n    color: #2779bd;\n  }\n\n  .lg\\:hover\\:tw-text-blue:hover {\n    color: #3490dc;\n  }\n\n  .lg\\:hover\\:tw-text-blue-light:hover {\n    color: #6cb2eb;\n  }\n\n  .lg\\:hover\\:tw-text-blue-lighter:hover {\n    color: #bcdefa;\n  }\n\n  .lg\\:hover\\:tw-text-blue-lightest:hover {\n    color: #eff8ff;\n  }\n\n  .lg\\:hover\\:tw-text-indigo-darkest:hover {\n    color: #191e38;\n  }\n\n  .lg\\:hover\\:tw-text-indigo-darker:hover {\n    color: #2f365f;\n  }\n\n  .lg\\:hover\\:tw-text-indigo-dark:hover {\n    color: #5661b3;\n  }\n\n  .lg\\:hover\\:tw-text-indigo:hover {\n    color: #6574cd;\n  }\n\n  .lg\\:hover\\:tw-text-indigo-light:hover {\n    color: #7886d7;\n  }\n\n  .lg\\:hover\\:tw-text-indigo-lighter:hover {\n    color: #b2b7ff;\n  }\n\n  .lg\\:hover\\:tw-text-indigo-lightest:hover {\n    color: #e6e8ff;\n  }\n\n  .lg\\:hover\\:tw-text-purple-darkest:hover {\n    color: #21183c;\n  }\n\n  .lg\\:hover\\:tw-text-purple-darker:hover {\n    color: #382b5f;\n  }\n\n  .lg\\:hover\\:tw-text-purple-dark:hover {\n    color: #794acf;\n  }\n\n  .lg\\:hover\\:tw-text-purple:hover {\n    color: #9561e2;\n  }\n\n  .lg\\:hover\\:tw-text-purple-light:hover {\n    color: #a779e9;\n  }\n\n  .lg\\:hover\\:tw-text-purple-lighter:hover {\n    color: #d6bbfc;\n  }\n\n  .lg\\:hover\\:tw-text-purple-lightest:hover {\n    color: #f3ebff;\n  }\n\n  .lg\\:hover\\:tw-text-pink-darkest:hover {\n    color: #451225;\n  }\n\n  .lg\\:hover\\:tw-text-pink-darker:hover {\n    color: #6f213f;\n  }\n\n  .lg\\:hover\\:tw-text-pink-dark:hover {\n    color: #eb5286;\n  }\n\n  .lg\\:hover\\:tw-text-pink:hover {\n    color: #f66d9b;\n  }\n\n  .lg\\:hover\\:tw-text-pink-light:hover {\n    color: #fa7ea8;\n  }\n\n  .lg\\:hover\\:tw-text-pink-lighter:hover {\n    color: #ffbbca;\n  }\n\n  .lg\\:hover\\:tw-text-pink-lightest:hover {\n    color: #ffebef;\n  }\n\n  .lg\\:hover\\:tw-text-linkColor:hover {\n    color: royalblue;\n  }\n\n  .lg\\:hover\\:tw-text-linkHoverColor:hover {\n    color: darkblue;\n  }\n\n  .lg\\:focus\\:tw-text-transparent:focus {\n    color: transparent;\n  }\n\n  .lg\\:focus\\:tw-text-black:focus {\n    color: #22292f;\n  }\n\n  .lg\\:focus\\:tw-text-grey-darkest:focus {\n    color: #3d4852;\n  }\n\n  .lg\\:focus\\:tw-text-grey-darker:focus {\n    color: #606f7b;\n  }\n\n  .lg\\:focus\\:tw-text-grey-dark:focus {\n    color: #8795a1;\n  }\n\n  .lg\\:focus\\:tw-text-grey:focus {\n    color: #b8c2cc;\n  }\n\n  .lg\\:focus\\:tw-text-grey-light:focus {\n    color: #dae1e7;\n  }\n\n  .lg\\:focus\\:tw-text-grey-lighter:focus {\n    color: #f1f5f8;\n  }\n\n  .lg\\:focus\\:tw-text-grey-lightest:focus {\n    color: #f8fafc;\n  }\n\n  .lg\\:focus\\:tw-text-white:focus {\n    color: #fff;\n  }\n\n  .lg\\:focus\\:tw-text-red-darkest:focus {\n    color: #3b0d0c;\n  }\n\n  .lg\\:focus\\:tw-text-red-darker:focus {\n    color: #621b18;\n  }\n\n  .lg\\:focus\\:tw-text-red-dark:focus {\n    color: #cc1f1a;\n  }\n\n  .lg\\:focus\\:tw-text-red:focus {\n    color: #e3342f;\n  }\n\n  .lg\\:focus\\:tw-text-red-light:focus {\n    color: #ef5753;\n  }\n\n  .lg\\:focus\\:tw-text-red-lighter:focus {\n    color: #f9acaa;\n  }\n\n  .lg\\:focus\\:tw-text-red-lightest:focus {\n    color: #fcebea;\n  }\n\n  .lg\\:focus\\:tw-text-orange-darkest:focus {\n    color: #462a16;\n  }\n\n  .lg\\:focus\\:tw-text-orange-darker:focus {\n    color: #613b1f;\n  }\n\n  .lg\\:focus\\:tw-text-orange-dark:focus {\n    color: #de751f;\n  }\n\n  .lg\\:focus\\:tw-text-orange:focus {\n    color: #f6993f;\n  }\n\n  .lg\\:focus\\:tw-text-orange-light:focus {\n    color: #faad63;\n  }\n\n  .lg\\:focus\\:tw-text-orange-lighter:focus {\n    color: #fcd9b6;\n  }\n\n  .lg\\:focus\\:tw-text-orange-lightest:focus {\n    color: #fff5eb;\n  }\n\n  .lg\\:focus\\:tw-text-yellow-darkest:focus {\n    color: #453411;\n  }\n\n  .lg\\:focus\\:tw-text-yellow-darker:focus {\n    color: #684f1d;\n  }\n\n  .lg\\:focus\\:tw-text-yellow-dark:focus {\n    color: #f2d024;\n  }\n\n  .lg\\:focus\\:tw-text-yellow:focus {\n    color: #ffed4a;\n  }\n\n  .lg\\:focus\\:tw-text-yellow-light:focus {\n    color: #fff382;\n  }\n\n  .lg\\:focus\\:tw-text-yellow-lighter:focus {\n    color: #fff9c2;\n  }\n\n  .lg\\:focus\\:tw-text-yellow-lightest:focus {\n    color: #fcfbeb;\n  }\n\n  .lg\\:focus\\:tw-text-green-darkest:focus {\n    color: #0f2f21;\n  }\n\n  .lg\\:focus\\:tw-text-green-darker:focus {\n    color: #1a4731;\n  }\n\n  .lg\\:focus\\:tw-text-green-dark:focus {\n    color: #1f9d55;\n  }\n\n  .lg\\:focus\\:tw-text-green:focus {\n    color: #38c172;\n  }\n\n  .lg\\:focus\\:tw-text-green-light:focus {\n    color: #51d88a;\n  }\n\n  .lg\\:focus\\:tw-text-green-lighter:focus {\n    color: #a2f5bf;\n  }\n\n  .lg\\:focus\\:tw-text-green-lightest:focus {\n    color: #e3fcec;\n  }\n\n  .lg\\:focus\\:tw-text-teal-darkest:focus {\n    color: #0d3331;\n  }\n\n  .lg\\:focus\\:tw-text-teal-darker:focus {\n    color: #20504f;\n  }\n\n  .lg\\:focus\\:tw-text-teal-dark:focus {\n    color: #38a89d;\n  }\n\n  .lg\\:focus\\:tw-text-teal:focus {\n    color: #4dc0b5;\n  }\n\n  .lg\\:focus\\:tw-text-teal-light:focus {\n    color: #64d5ca;\n  }\n\n  .lg\\:focus\\:tw-text-teal-lighter:focus {\n    color: #a0f0ed;\n  }\n\n  .lg\\:focus\\:tw-text-teal-lightest:focus {\n    color: #e8fffe;\n  }\n\n  .lg\\:focus\\:tw-text-blue-darkest:focus {\n    color: #12283a;\n  }\n\n  .lg\\:focus\\:tw-text-blue-darker:focus {\n    color: #1c3d5a;\n  }\n\n  .lg\\:focus\\:tw-text-blue-dark:focus {\n    color: #2779bd;\n  }\n\n  .lg\\:focus\\:tw-text-blue:focus {\n    color: #3490dc;\n  }\n\n  .lg\\:focus\\:tw-text-blue-light:focus {\n    color: #6cb2eb;\n  }\n\n  .lg\\:focus\\:tw-text-blue-lighter:focus {\n    color: #bcdefa;\n  }\n\n  .lg\\:focus\\:tw-text-blue-lightest:focus {\n    color: #eff8ff;\n  }\n\n  .lg\\:focus\\:tw-text-indigo-darkest:focus {\n    color: #191e38;\n  }\n\n  .lg\\:focus\\:tw-text-indigo-darker:focus {\n    color: #2f365f;\n  }\n\n  .lg\\:focus\\:tw-text-indigo-dark:focus {\n    color: #5661b3;\n  }\n\n  .lg\\:focus\\:tw-text-indigo:focus {\n    color: #6574cd;\n  }\n\n  .lg\\:focus\\:tw-text-indigo-light:focus {\n    color: #7886d7;\n  }\n\n  .lg\\:focus\\:tw-text-indigo-lighter:focus {\n    color: #b2b7ff;\n  }\n\n  .lg\\:focus\\:tw-text-indigo-lightest:focus {\n    color: #e6e8ff;\n  }\n\n  .lg\\:focus\\:tw-text-purple-darkest:focus {\n    color: #21183c;\n  }\n\n  .lg\\:focus\\:tw-text-purple-darker:focus {\n    color: #382b5f;\n  }\n\n  .lg\\:focus\\:tw-text-purple-dark:focus {\n    color: #794acf;\n  }\n\n  .lg\\:focus\\:tw-text-purple:focus {\n    color: #9561e2;\n  }\n\n  .lg\\:focus\\:tw-text-purple-light:focus {\n    color: #a779e9;\n  }\n\n  .lg\\:focus\\:tw-text-purple-lighter:focus {\n    color: #d6bbfc;\n  }\n\n  .lg\\:focus\\:tw-text-purple-lightest:focus {\n    color: #f3ebff;\n  }\n\n  .lg\\:focus\\:tw-text-pink-darkest:focus {\n    color: #451225;\n  }\n\n  .lg\\:focus\\:tw-text-pink-darker:focus {\n    color: #6f213f;\n  }\n\n  .lg\\:focus\\:tw-text-pink-dark:focus {\n    color: #eb5286;\n  }\n\n  .lg\\:focus\\:tw-text-pink:focus {\n    color: #f66d9b;\n  }\n\n  .lg\\:focus\\:tw-text-pink-light:focus {\n    color: #fa7ea8;\n  }\n\n  .lg\\:focus\\:tw-text-pink-lighter:focus {\n    color: #ffbbca;\n  }\n\n  .lg\\:focus\\:tw-text-pink-lightest:focus {\n    color: #ffebef;\n  }\n\n  .lg\\:focus\\:tw-text-linkColor:focus {\n    color: royalblue;\n  }\n\n  .lg\\:focus\\:tw-text-linkHoverColor:focus {\n    color: darkblue;\n  }\n\n  .lg\\:tw-text-xs {\n    font-size: .75rem;\n  }\n\n  .lg\\:tw-text-sm {\n    font-size: .875rem;\n  }\n\n  .lg\\:tw-text-base {\n    font-size: 1rem;\n  }\n\n  .lg\\:tw-text-lg {\n    font-size: 1.125rem;\n  }\n\n  .lg\\:tw-text-xl {\n    font-size: 1.25rem;\n  }\n\n  .lg\\:tw-text-2xl {\n    font-size: 1.5rem;\n  }\n\n  .lg\\:tw-text-3xl {\n    font-size: 1.875rem;\n  }\n\n  .lg\\:tw-text-4xl {\n    font-size: 2.25rem;\n  }\n\n  .lg\\:tw-text-5xl {\n    font-size: 3rem;\n  }\n\n  .lg\\:tw-italic {\n    font-style: italic;\n  }\n\n  .lg\\:tw-roman {\n    font-style: normal;\n  }\n\n  .lg\\:tw-uppercase {\n    text-transform: uppercase;\n  }\n\n  .lg\\:tw-lowercase {\n    text-transform: lowercase;\n  }\n\n  .lg\\:tw-capitalize {\n    text-transform: capitalize;\n  }\n\n  .lg\\:tw-normal-case {\n    text-transform: none;\n  }\n\n  .lg\\:tw-underline {\n    text-decoration: underline;\n  }\n\n  .lg\\:tw-line-through {\n    text-decoration: line-through;\n  }\n\n  .lg\\:tw-no-underline {\n    text-decoration: none;\n  }\n\n  .lg\\:tw-antialiased {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .lg\\:tw-subpixel-antialiased {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .lg\\:hover\\:tw-italic:hover {\n    font-style: italic;\n  }\n\n  .lg\\:hover\\:tw-roman:hover {\n    font-style: normal;\n  }\n\n  .lg\\:hover\\:tw-uppercase:hover {\n    text-transform: uppercase;\n  }\n\n  .lg\\:hover\\:tw-lowercase:hover {\n    text-transform: lowercase;\n  }\n\n  .lg\\:hover\\:tw-capitalize:hover {\n    text-transform: capitalize;\n  }\n\n  .lg\\:hover\\:tw-normal-case:hover {\n    text-transform: none;\n  }\n\n  .lg\\:hover\\:tw-underline:hover {\n    text-decoration: underline;\n  }\n\n  .lg\\:hover\\:tw-line-through:hover {\n    text-decoration: line-through;\n  }\n\n  .lg\\:hover\\:tw-no-underline:hover {\n    text-decoration: none;\n  }\n\n  .lg\\:hover\\:tw-antialiased:hover {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .lg\\:hover\\:tw-subpixel-antialiased:hover {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .lg\\:focus\\:tw-italic:focus {\n    font-style: italic;\n  }\n\n  .lg\\:focus\\:tw-roman:focus {\n    font-style: normal;\n  }\n\n  .lg\\:focus\\:tw-uppercase:focus {\n    text-transform: uppercase;\n  }\n\n  .lg\\:focus\\:tw-lowercase:focus {\n    text-transform: lowercase;\n  }\n\n  .lg\\:focus\\:tw-capitalize:focus {\n    text-transform: capitalize;\n  }\n\n  .lg\\:focus\\:tw-normal-case:focus {\n    text-transform: none;\n  }\n\n  .lg\\:focus\\:tw-underline:focus {\n    text-decoration: underline;\n  }\n\n  .lg\\:focus\\:tw-line-through:focus {\n    text-decoration: line-through;\n  }\n\n  .lg\\:focus\\:tw-no-underline:focus {\n    text-decoration: none;\n  }\n\n  .lg\\:focus\\:tw-antialiased:focus {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .lg\\:focus\\:tw-subpixel-antialiased:focus {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .lg\\:tw-tracking-tight {\n    letter-spacing: -0.05em;\n  }\n\n  .lg\\:tw-tracking-normal {\n    letter-spacing: 0;\n  }\n\n  .lg\\:tw-tracking-wide {\n    letter-spacing: .05em;\n  }\n\n  .lg\\:tw-select-none {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n  }\n\n  .lg\\:tw-select-text {\n    -webkit-user-select: text;\n       -moz-user-select: text;\n        -ms-user-select: text;\n            user-select: text;\n  }\n\n  .lg\\:tw-align-baseline {\n    vertical-align: baseline;\n  }\n\n  .lg\\:tw-align-top {\n    vertical-align: top;\n  }\n\n  .lg\\:tw-align-middle {\n    vertical-align: middle;\n  }\n\n  .lg\\:tw-align-bottom {\n    vertical-align: bottom;\n  }\n\n  .lg\\:tw-align-text-top {\n    vertical-align: text-top;\n  }\n\n  .lg\\:tw-align-text-bottom {\n    vertical-align: text-bottom;\n  }\n\n  .lg\\:tw-visible {\n    visibility: visible;\n  }\n\n  .lg\\:tw-invisible {\n    visibility: hidden;\n  }\n\n  .lg\\:tw-whitespace-normal {\n    white-space: normal;\n  }\n\n  .lg\\:tw-whitespace-no-wrap {\n    white-space: nowrap;\n  }\n\n  .lg\\:tw-whitespace-pre {\n    white-space: pre;\n  }\n\n  .lg\\:tw-whitespace-pre-line {\n    white-space: pre-line;\n  }\n\n  .lg\\:tw-whitespace-pre-wrap {\n    white-space: pre-wrap;\n  }\n\n  .lg\\:tw-break-words {\n    word-wrap: break-word;\n  }\n\n  .lg\\:tw-break-normal {\n    word-wrap: normal;\n  }\n\n  .lg\\:tw-truncate {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n  }\n\n  .lg\\:tw-w-1 {\n    width: .25rem;\n  }\n\n  .lg\\:tw-w-2 {\n    width: .5rem;\n  }\n\n  .lg\\:tw-w-3 {\n    width: .75rem;\n  }\n\n  .lg\\:tw-w-4 {\n    width: 1rem;\n  }\n\n  .lg\\:tw-w-5 {\n    width: 1.25rem;\n  }\n\n  .lg\\:tw-w-6 {\n    width: 1.5rem;\n  }\n\n  .lg\\:tw-w-8 {\n    width: 2rem;\n  }\n\n  .lg\\:tw-w-10 {\n    width: 2.5rem;\n  }\n\n  .lg\\:tw-w-12 {\n    width: 3rem;\n  }\n\n  .lg\\:tw-w-16 {\n    width: 4rem;\n  }\n\n  .lg\\:tw-w-24 {\n    width: 6rem;\n  }\n\n  .lg\\:tw-w-32 {\n    width: 8rem;\n  }\n\n  .lg\\:tw-w-48 {\n    width: 12rem;\n  }\n\n  .lg\\:tw-w-64 {\n    width: 16rem;\n  }\n\n  .lg\\:tw-w-auto {\n    width: auto;\n  }\n\n  .lg\\:tw-w-px {\n    width: 1px;\n  }\n\n  .lg\\:tw-w-1\\/2 {\n    width: 50%;\n  }\n\n  .lg\\:tw-w-1\\/3 {\n    width: 33.33333%;\n  }\n\n  .lg\\:tw-w-2\\/3 {\n    width: 66.66667%;\n  }\n\n  .lg\\:tw-w-1\\/4 {\n    width: 25%;\n  }\n\n  .lg\\:tw-w-3\\/4 {\n    width: 75%;\n  }\n\n  .lg\\:tw-w-1\\/5 {\n    width: 20%;\n  }\n\n  .lg\\:tw-w-2\\/5 {\n    width: 40%;\n  }\n\n  .lg\\:tw-w-3\\/5 {\n    width: 60%;\n  }\n\n  .lg\\:tw-w-4\\/5 {\n    width: 80%;\n  }\n\n  .lg\\:tw-w-1\\/6 {\n    width: 16.66667%;\n  }\n\n  .lg\\:tw-w-5\\/6 {\n    width: 83.33333%;\n  }\n\n  .lg\\:tw-w-full {\n    width: 100%;\n  }\n\n  .lg\\:tw-w-screen {\n    width: 100vw;\n  }\n\n  .lg\\:tw-z-0 {\n    z-index: 0;\n  }\n\n  .lg\\:tw-z-10 {\n    z-index: 10;\n  }\n\n  .lg\\:tw-z-20 {\n    z-index: 20;\n  }\n\n  .lg\\:tw-z-30 {\n    z-index: 30;\n  }\n\n  .lg\\:tw-z-40 {\n    z-index: 40;\n  }\n\n  .lg\\:tw-z-50 {\n    z-index: 50;\n  }\n\n  .lg\\:tw-z-auto {\n    z-index: auto;\n  }\n}\n\n@media (min-width: 1200px) {\n  .xl\\:tw-list-reset {\n    list-style: none;\n    padding: 0;\n  }\n\n  .xl\\:tw-appearance-none {\n    -webkit-appearance: none;\n       -moz-appearance: none;\n            appearance: none;\n  }\n\n  .xl\\:tw-bg-fixed {\n    background-attachment: fixed;\n  }\n\n  .xl\\:tw-bg-local {\n    background-attachment: local;\n  }\n\n  .xl\\:tw-bg-scroll {\n    background-attachment: scroll;\n  }\n\n  .xl\\:tw-bg-transparent {\n    background-color: transparent;\n  }\n\n  .xl\\:tw-bg-black {\n    background-color: #22292f;\n  }\n\n  .xl\\:tw-bg-grey-darkest {\n    background-color: #3d4852;\n  }\n\n  .xl\\:tw-bg-grey-darker {\n    background-color: #606f7b;\n  }\n\n  .xl\\:tw-bg-grey-dark {\n    background-color: #8795a1;\n  }\n\n  .xl\\:tw-bg-grey {\n    background-color: #b8c2cc;\n  }\n\n  .xl\\:tw-bg-grey-light {\n    background-color: #dae1e7;\n  }\n\n  .xl\\:tw-bg-grey-lighter {\n    background-color: #f1f5f8;\n  }\n\n  .xl\\:tw-bg-grey-lightest {\n    background-color: #f8fafc;\n  }\n\n  .xl\\:tw-bg-white {\n    background-color: #fff;\n  }\n\n  .xl\\:tw-bg-red-darkest {\n    background-color: #3b0d0c;\n  }\n\n  .xl\\:tw-bg-red-darker {\n    background-color: #621b18;\n  }\n\n  .xl\\:tw-bg-red-dark {\n    background-color: #cc1f1a;\n  }\n\n  .xl\\:tw-bg-red {\n    background-color: #e3342f;\n  }\n\n  .xl\\:tw-bg-red-light {\n    background-color: #ef5753;\n  }\n\n  .xl\\:tw-bg-red-lighter {\n    background-color: #f9acaa;\n  }\n\n  .xl\\:tw-bg-red-lightest {\n    background-color: #fcebea;\n  }\n\n  .xl\\:tw-bg-orange-darkest {\n    background-color: #462a16;\n  }\n\n  .xl\\:tw-bg-orange-darker {\n    background-color: #613b1f;\n  }\n\n  .xl\\:tw-bg-orange-dark {\n    background-color: #de751f;\n  }\n\n  .xl\\:tw-bg-orange {\n    background-color: #f6993f;\n  }\n\n  .xl\\:tw-bg-orange-light {\n    background-color: #faad63;\n  }\n\n  .xl\\:tw-bg-orange-lighter {\n    background-color: #fcd9b6;\n  }\n\n  .xl\\:tw-bg-orange-lightest {\n    background-color: #fff5eb;\n  }\n\n  .xl\\:tw-bg-yellow-darkest {\n    background-color: #453411;\n  }\n\n  .xl\\:tw-bg-yellow-darker {\n    background-color: #684f1d;\n  }\n\n  .xl\\:tw-bg-yellow-dark {\n    background-color: #f2d024;\n  }\n\n  .xl\\:tw-bg-yellow {\n    background-color: #ffed4a;\n  }\n\n  .xl\\:tw-bg-yellow-light {\n    background-color: #fff382;\n  }\n\n  .xl\\:tw-bg-yellow-lighter {\n    background-color: #fff9c2;\n  }\n\n  .xl\\:tw-bg-yellow-lightest {\n    background-color: #fcfbeb;\n  }\n\n  .xl\\:tw-bg-green-darkest {\n    background-color: #0f2f21;\n  }\n\n  .xl\\:tw-bg-green-darker {\n    background-color: #1a4731;\n  }\n\n  .xl\\:tw-bg-green-dark {\n    background-color: #1f9d55;\n  }\n\n  .xl\\:tw-bg-green {\n    background-color: #38c172;\n  }\n\n  .xl\\:tw-bg-green-light {\n    background-color: #51d88a;\n  }\n\n  .xl\\:tw-bg-green-lighter {\n    background-color: #a2f5bf;\n  }\n\n  .xl\\:tw-bg-green-lightest {\n    background-color: #e3fcec;\n  }\n\n  .xl\\:tw-bg-teal-darkest {\n    background-color: #0d3331;\n  }\n\n  .xl\\:tw-bg-teal-darker {\n    background-color: #20504f;\n  }\n\n  .xl\\:tw-bg-teal-dark {\n    background-color: #38a89d;\n  }\n\n  .xl\\:tw-bg-teal {\n    background-color: #4dc0b5;\n  }\n\n  .xl\\:tw-bg-teal-light {\n    background-color: #64d5ca;\n  }\n\n  .xl\\:tw-bg-teal-lighter {\n    background-color: #a0f0ed;\n  }\n\n  .xl\\:tw-bg-teal-lightest {\n    background-color: #e8fffe;\n  }\n\n  .xl\\:tw-bg-blue-darkest {\n    background-color: #12283a;\n  }\n\n  .xl\\:tw-bg-blue-darker {\n    background-color: #1c3d5a;\n  }\n\n  .xl\\:tw-bg-blue-dark {\n    background-color: #2779bd;\n  }\n\n  .xl\\:tw-bg-blue {\n    background-color: #3490dc;\n  }\n\n  .xl\\:tw-bg-blue-light {\n    background-color: #6cb2eb;\n  }\n\n  .xl\\:tw-bg-blue-lighter {\n    background-color: #bcdefa;\n  }\n\n  .xl\\:tw-bg-blue-lightest {\n    background-color: #eff8ff;\n  }\n\n  .xl\\:tw-bg-indigo-darkest {\n    background-color: #191e38;\n  }\n\n  .xl\\:tw-bg-indigo-darker {\n    background-color: #2f365f;\n  }\n\n  .xl\\:tw-bg-indigo-dark {\n    background-color: #5661b3;\n  }\n\n  .xl\\:tw-bg-indigo {\n    background-color: #6574cd;\n  }\n\n  .xl\\:tw-bg-indigo-light {\n    background-color: #7886d7;\n  }\n\n  .xl\\:tw-bg-indigo-lighter {\n    background-color: #b2b7ff;\n  }\n\n  .xl\\:tw-bg-indigo-lightest {\n    background-color: #e6e8ff;\n  }\n\n  .xl\\:tw-bg-purple-darkest {\n    background-color: #21183c;\n  }\n\n  .xl\\:tw-bg-purple-darker {\n    background-color: #382b5f;\n  }\n\n  .xl\\:tw-bg-purple-dark {\n    background-color: #794acf;\n  }\n\n  .xl\\:tw-bg-purple {\n    background-color: #9561e2;\n  }\n\n  .xl\\:tw-bg-purple-light {\n    background-color: #a779e9;\n  }\n\n  .xl\\:tw-bg-purple-lighter {\n    background-color: #d6bbfc;\n  }\n\n  .xl\\:tw-bg-purple-lightest {\n    background-color: #f3ebff;\n  }\n\n  .xl\\:tw-bg-pink-darkest {\n    background-color: #451225;\n  }\n\n  .xl\\:tw-bg-pink-darker {\n    background-color: #6f213f;\n  }\n\n  .xl\\:tw-bg-pink-dark {\n    background-color: #eb5286;\n  }\n\n  .xl\\:tw-bg-pink {\n    background-color: #f66d9b;\n  }\n\n  .xl\\:tw-bg-pink-light {\n    background-color: #fa7ea8;\n  }\n\n  .xl\\:tw-bg-pink-lighter {\n    background-color: #ffbbca;\n  }\n\n  .xl\\:tw-bg-pink-lightest {\n    background-color: #ffebef;\n  }\n\n  .xl\\:tw-bg-linkColor {\n    background-color: royalblue;\n  }\n\n  .xl\\:tw-bg-linkHoverColor {\n    background-color: darkblue;\n  }\n\n  .xl\\:hover\\:tw-bg-transparent:hover {\n    background-color: transparent;\n  }\n\n  .xl\\:hover\\:tw-bg-black:hover {\n    background-color: #22292f;\n  }\n\n  .xl\\:hover\\:tw-bg-grey-darkest:hover {\n    background-color: #3d4852;\n  }\n\n  .xl\\:hover\\:tw-bg-grey-darker:hover {\n    background-color: #606f7b;\n  }\n\n  .xl\\:hover\\:tw-bg-grey-dark:hover {\n    background-color: #8795a1;\n  }\n\n  .xl\\:hover\\:tw-bg-grey:hover {\n    background-color: #b8c2cc;\n  }\n\n  .xl\\:hover\\:tw-bg-grey-light:hover {\n    background-color: #dae1e7;\n  }\n\n  .xl\\:hover\\:tw-bg-grey-lighter:hover {\n    background-color: #f1f5f8;\n  }\n\n  .xl\\:hover\\:tw-bg-grey-lightest:hover {\n    background-color: #f8fafc;\n  }\n\n  .xl\\:hover\\:tw-bg-white:hover {\n    background-color: #fff;\n  }\n\n  .xl\\:hover\\:tw-bg-red-darkest:hover {\n    background-color: #3b0d0c;\n  }\n\n  .xl\\:hover\\:tw-bg-red-darker:hover {\n    background-color: #621b18;\n  }\n\n  .xl\\:hover\\:tw-bg-red-dark:hover {\n    background-color: #cc1f1a;\n  }\n\n  .xl\\:hover\\:tw-bg-red:hover {\n    background-color: #e3342f;\n  }\n\n  .xl\\:hover\\:tw-bg-red-light:hover {\n    background-color: #ef5753;\n  }\n\n  .xl\\:hover\\:tw-bg-red-lighter:hover {\n    background-color: #f9acaa;\n  }\n\n  .xl\\:hover\\:tw-bg-red-lightest:hover {\n    background-color: #fcebea;\n  }\n\n  .xl\\:hover\\:tw-bg-orange-darkest:hover {\n    background-color: #462a16;\n  }\n\n  .xl\\:hover\\:tw-bg-orange-darker:hover {\n    background-color: #613b1f;\n  }\n\n  .xl\\:hover\\:tw-bg-orange-dark:hover {\n    background-color: #de751f;\n  }\n\n  .xl\\:hover\\:tw-bg-orange:hover {\n    background-color: #f6993f;\n  }\n\n  .xl\\:hover\\:tw-bg-orange-light:hover {\n    background-color: #faad63;\n  }\n\n  .xl\\:hover\\:tw-bg-orange-lighter:hover {\n    background-color: #fcd9b6;\n  }\n\n  .xl\\:hover\\:tw-bg-orange-lightest:hover {\n    background-color: #fff5eb;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow-darkest:hover {\n    background-color: #453411;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow-darker:hover {\n    background-color: #684f1d;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow-dark:hover {\n    background-color: #f2d024;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow:hover {\n    background-color: #ffed4a;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow-light:hover {\n    background-color: #fff382;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow-lighter:hover {\n    background-color: #fff9c2;\n  }\n\n  .xl\\:hover\\:tw-bg-yellow-lightest:hover {\n    background-color: #fcfbeb;\n  }\n\n  .xl\\:hover\\:tw-bg-green-darkest:hover {\n    background-color: #0f2f21;\n  }\n\n  .xl\\:hover\\:tw-bg-green-darker:hover {\n    background-color: #1a4731;\n  }\n\n  .xl\\:hover\\:tw-bg-green-dark:hover {\n    background-color: #1f9d55;\n  }\n\n  .xl\\:hover\\:tw-bg-green:hover {\n    background-color: #38c172;\n  }\n\n  .xl\\:hover\\:tw-bg-green-light:hover {\n    background-color: #51d88a;\n  }\n\n  .xl\\:hover\\:tw-bg-green-lighter:hover {\n    background-color: #a2f5bf;\n  }\n\n  .xl\\:hover\\:tw-bg-green-lightest:hover {\n    background-color: #e3fcec;\n  }\n\n  .xl\\:hover\\:tw-bg-teal-darkest:hover {\n    background-color: #0d3331;\n  }\n\n  .xl\\:hover\\:tw-bg-teal-darker:hover {\n    background-color: #20504f;\n  }\n\n  .xl\\:hover\\:tw-bg-teal-dark:hover {\n    background-color: #38a89d;\n  }\n\n  .xl\\:hover\\:tw-bg-teal:hover {\n    background-color: #4dc0b5;\n  }\n\n  .xl\\:hover\\:tw-bg-teal-light:hover {\n    background-color: #64d5ca;\n  }\n\n  .xl\\:hover\\:tw-bg-teal-lighter:hover {\n    background-color: #a0f0ed;\n  }\n\n  .xl\\:hover\\:tw-bg-teal-lightest:hover {\n    background-color: #e8fffe;\n  }\n\n  .xl\\:hover\\:tw-bg-blue-darkest:hover {\n    background-color: #12283a;\n  }\n\n  .xl\\:hover\\:tw-bg-blue-darker:hover {\n    background-color: #1c3d5a;\n  }\n\n  .xl\\:hover\\:tw-bg-blue-dark:hover {\n    background-color: #2779bd;\n  }\n\n  .xl\\:hover\\:tw-bg-blue:hover {\n    background-color: #3490dc;\n  }\n\n  .xl\\:hover\\:tw-bg-blue-light:hover {\n    background-color: #6cb2eb;\n  }\n\n  .xl\\:hover\\:tw-bg-blue-lighter:hover {\n    background-color: #bcdefa;\n  }\n\n  .xl\\:hover\\:tw-bg-blue-lightest:hover {\n    background-color: #eff8ff;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo-darkest:hover {\n    background-color: #191e38;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo-darker:hover {\n    background-color: #2f365f;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo-dark:hover {\n    background-color: #5661b3;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo:hover {\n    background-color: #6574cd;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo-light:hover {\n    background-color: #7886d7;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo-lighter:hover {\n    background-color: #b2b7ff;\n  }\n\n  .xl\\:hover\\:tw-bg-indigo-lightest:hover {\n    background-color: #e6e8ff;\n  }\n\n  .xl\\:hover\\:tw-bg-purple-darkest:hover {\n    background-color: #21183c;\n  }\n\n  .xl\\:hover\\:tw-bg-purple-darker:hover {\n    background-color: #382b5f;\n  }\n\n  .xl\\:hover\\:tw-bg-purple-dark:hover {\n    background-color: #794acf;\n  }\n\n  .xl\\:hover\\:tw-bg-purple:hover {\n    background-color: #9561e2;\n  }\n\n  .xl\\:hover\\:tw-bg-purple-light:hover {\n    background-color: #a779e9;\n  }\n\n  .xl\\:hover\\:tw-bg-purple-lighter:hover {\n    background-color: #d6bbfc;\n  }\n\n  .xl\\:hover\\:tw-bg-purple-lightest:hover {\n    background-color: #f3ebff;\n  }\n\n  .xl\\:hover\\:tw-bg-pink-darkest:hover {\n    background-color: #451225;\n  }\n\n  .xl\\:hover\\:tw-bg-pink-darker:hover {\n    background-color: #6f213f;\n  }\n\n  .xl\\:hover\\:tw-bg-pink-dark:hover {\n    background-color: #eb5286;\n  }\n\n  .xl\\:hover\\:tw-bg-pink:hover {\n    background-color: #f66d9b;\n  }\n\n  .xl\\:hover\\:tw-bg-pink-light:hover {\n    background-color: #fa7ea8;\n  }\n\n  .xl\\:hover\\:tw-bg-pink-lighter:hover {\n    background-color: #ffbbca;\n  }\n\n  .xl\\:hover\\:tw-bg-pink-lightest:hover {\n    background-color: #ffebef;\n  }\n\n  .xl\\:hover\\:tw-bg-linkColor:hover {\n    background-color: royalblue;\n  }\n\n  .xl\\:hover\\:tw-bg-linkHoverColor:hover {\n    background-color: darkblue;\n  }\n\n  .xl\\:focus\\:tw-bg-transparent:focus {\n    background-color: transparent;\n  }\n\n  .xl\\:focus\\:tw-bg-black:focus {\n    background-color: #22292f;\n  }\n\n  .xl\\:focus\\:tw-bg-grey-darkest:focus {\n    background-color: #3d4852;\n  }\n\n  .xl\\:focus\\:tw-bg-grey-darker:focus {\n    background-color: #606f7b;\n  }\n\n  .xl\\:focus\\:tw-bg-grey-dark:focus {\n    background-color: #8795a1;\n  }\n\n  .xl\\:focus\\:tw-bg-grey:focus {\n    background-color: #b8c2cc;\n  }\n\n  .xl\\:focus\\:tw-bg-grey-light:focus {\n    background-color: #dae1e7;\n  }\n\n  .xl\\:focus\\:tw-bg-grey-lighter:focus {\n    background-color: #f1f5f8;\n  }\n\n  .xl\\:focus\\:tw-bg-grey-lightest:focus {\n    background-color: #f8fafc;\n  }\n\n  .xl\\:focus\\:tw-bg-white:focus {\n    background-color: #fff;\n  }\n\n  .xl\\:focus\\:tw-bg-red-darkest:focus {\n    background-color: #3b0d0c;\n  }\n\n  .xl\\:focus\\:tw-bg-red-darker:focus {\n    background-color: #621b18;\n  }\n\n  .xl\\:focus\\:tw-bg-red-dark:focus {\n    background-color: #cc1f1a;\n  }\n\n  .xl\\:focus\\:tw-bg-red:focus {\n    background-color: #e3342f;\n  }\n\n  .xl\\:focus\\:tw-bg-red-light:focus {\n    background-color: #ef5753;\n  }\n\n  .xl\\:focus\\:tw-bg-red-lighter:focus {\n    background-color: #f9acaa;\n  }\n\n  .xl\\:focus\\:tw-bg-red-lightest:focus {\n    background-color: #fcebea;\n  }\n\n  .xl\\:focus\\:tw-bg-orange-darkest:focus {\n    background-color: #462a16;\n  }\n\n  .xl\\:focus\\:tw-bg-orange-darker:focus {\n    background-color: #613b1f;\n  }\n\n  .xl\\:focus\\:tw-bg-orange-dark:focus {\n    background-color: #de751f;\n  }\n\n  .xl\\:focus\\:tw-bg-orange:focus {\n    background-color: #f6993f;\n  }\n\n  .xl\\:focus\\:tw-bg-orange-light:focus {\n    background-color: #faad63;\n  }\n\n  .xl\\:focus\\:tw-bg-orange-lighter:focus {\n    background-color: #fcd9b6;\n  }\n\n  .xl\\:focus\\:tw-bg-orange-lightest:focus {\n    background-color: #fff5eb;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow-darkest:focus {\n    background-color: #453411;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow-darker:focus {\n    background-color: #684f1d;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow-dark:focus {\n    background-color: #f2d024;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow:focus {\n    background-color: #ffed4a;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow-light:focus {\n    background-color: #fff382;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow-lighter:focus {\n    background-color: #fff9c2;\n  }\n\n  .xl\\:focus\\:tw-bg-yellow-lightest:focus {\n    background-color: #fcfbeb;\n  }\n\n  .xl\\:focus\\:tw-bg-green-darkest:focus {\n    background-color: #0f2f21;\n  }\n\n  .xl\\:focus\\:tw-bg-green-darker:focus {\n    background-color: #1a4731;\n  }\n\n  .xl\\:focus\\:tw-bg-green-dark:focus {\n    background-color: #1f9d55;\n  }\n\n  .xl\\:focus\\:tw-bg-green:focus {\n    background-color: #38c172;\n  }\n\n  .xl\\:focus\\:tw-bg-green-light:focus {\n    background-color: #51d88a;\n  }\n\n  .xl\\:focus\\:tw-bg-green-lighter:focus {\n    background-color: #a2f5bf;\n  }\n\n  .xl\\:focus\\:tw-bg-green-lightest:focus {\n    background-color: #e3fcec;\n  }\n\n  .xl\\:focus\\:tw-bg-teal-darkest:focus {\n    background-color: #0d3331;\n  }\n\n  .xl\\:focus\\:tw-bg-teal-darker:focus {\n    background-color: #20504f;\n  }\n\n  .xl\\:focus\\:tw-bg-teal-dark:focus {\n    background-color: #38a89d;\n  }\n\n  .xl\\:focus\\:tw-bg-teal:focus {\n    background-color: #4dc0b5;\n  }\n\n  .xl\\:focus\\:tw-bg-teal-light:focus {\n    background-color: #64d5ca;\n  }\n\n  .xl\\:focus\\:tw-bg-teal-lighter:focus {\n    background-color: #a0f0ed;\n  }\n\n  .xl\\:focus\\:tw-bg-teal-lightest:focus {\n    background-color: #e8fffe;\n  }\n\n  .xl\\:focus\\:tw-bg-blue-darkest:focus {\n    background-color: #12283a;\n  }\n\n  .xl\\:focus\\:tw-bg-blue-darker:focus {\n    background-color: #1c3d5a;\n  }\n\n  .xl\\:focus\\:tw-bg-blue-dark:focus {\n    background-color: #2779bd;\n  }\n\n  .xl\\:focus\\:tw-bg-blue:focus {\n    background-color: #3490dc;\n  }\n\n  .xl\\:focus\\:tw-bg-blue-light:focus {\n    background-color: #6cb2eb;\n  }\n\n  .xl\\:focus\\:tw-bg-blue-lighter:focus {\n    background-color: #bcdefa;\n  }\n\n  .xl\\:focus\\:tw-bg-blue-lightest:focus {\n    background-color: #eff8ff;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo-darkest:focus {\n    background-color: #191e38;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo-darker:focus {\n    background-color: #2f365f;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo-dark:focus {\n    background-color: #5661b3;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo:focus {\n    background-color: #6574cd;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo-light:focus {\n    background-color: #7886d7;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo-lighter:focus {\n    background-color: #b2b7ff;\n  }\n\n  .xl\\:focus\\:tw-bg-indigo-lightest:focus {\n    background-color: #e6e8ff;\n  }\n\n  .xl\\:focus\\:tw-bg-purple-darkest:focus {\n    background-color: #21183c;\n  }\n\n  .xl\\:focus\\:tw-bg-purple-darker:focus {\n    background-color: #382b5f;\n  }\n\n  .xl\\:focus\\:tw-bg-purple-dark:focus {\n    background-color: #794acf;\n  }\n\n  .xl\\:focus\\:tw-bg-purple:focus {\n    background-color: #9561e2;\n  }\n\n  .xl\\:focus\\:tw-bg-purple-light:focus {\n    background-color: #a779e9;\n  }\n\n  .xl\\:focus\\:tw-bg-purple-lighter:focus {\n    background-color: #d6bbfc;\n  }\n\n  .xl\\:focus\\:tw-bg-purple-lightest:focus {\n    background-color: #f3ebff;\n  }\n\n  .xl\\:focus\\:tw-bg-pink-darkest:focus {\n    background-color: #451225;\n  }\n\n  .xl\\:focus\\:tw-bg-pink-darker:focus {\n    background-color: #6f213f;\n  }\n\n  .xl\\:focus\\:tw-bg-pink-dark:focus {\n    background-color: #eb5286;\n  }\n\n  .xl\\:focus\\:tw-bg-pink:focus {\n    background-color: #f66d9b;\n  }\n\n  .xl\\:focus\\:tw-bg-pink-light:focus {\n    background-color: #fa7ea8;\n  }\n\n  .xl\\:focus\\:tw-bg-pink-lighter:focus {\n    background-color: #ffbbca;\n  }\n\n  .xl\\:focus\\:tw-bg-pink-lightest:focus {\n    background-color: #ffebef;\n  }\n\n  .xl\\:focus\\:tw-bg-linkColor:focus {\n    background-color: royalblue;\n  }\n\n  .xl\\:focus\\:tw-bg-linkHoverColor:focus {\n    background-color: darkblue;\n  }\n\n  .xl\\:tw-bg-bottom {\n    background-position: bottom;\n  }\n\n  .xl\\:tw-bg-center {\n    background-position: center;\n  }\n\n  .xl\\:tw-bg-left {\n    background-position: left;\n  }\n\n  .xl\\:tw-bg-left-bottom {\n    background-position: left bottom;\n  }\n\n  .xl\\:tw-bg-left-top {\n    background-position: left top;\n  }\n\n  .xl\\:tw-bg-right {\n    background-position: right;\n  }\n\n  .xl\\:tw-bg-right-bottom {\n    background-position: right bottom;\n  }\n\n  .xl\\:tw-bg-right-top {\n    background-position: right top;\n  }\n\n  .xl\\:tw-bg-top {\n    background-position: top;\n  }\n\n  .xl\\:tw-bg-repeat {\n    background-repeat: repeat;\n  }\n\n  .xl\\:tw-bg-no-repeat {\n    background-repeat: no-repeat;\n  }\n\n  .xl\\:tw-bg-repeat-x {\n    background-repeat: repeat-x;\n  }\n\n  .xl\\:tw-bg-repeat-y {\n    background-repeat: repeat-y;\n  }\n\n  .xl\\:tw-bg-auto {\n    background-size: auto;\n  }\n\n  .xl\\:tw-bg-cover {\n    background-size: cover;\n  }\n\n  .xl\\:tw-bg-contain {\n    background-size: contain;\n  }\n\n  .xl\\:tw-border-transparent {\n    border-color: transparent;\n  }\n\n  .xl\\:tw-border-black {\n    border-color: #22292f;\n  }\n\n  .xl\\:tw-border-grey-darkest {\n    border-color: #3d4852;\n  }\n\n  .xl\\:tw-border-grey-darker {\n    border-color: #606f7b;\n  }\n\n  .xl\\:tw-border-grey-dark {\n    border-color: #8795a1;\n  }\n\n  .xl\\:tw-border-grey {\n    border-color: #b8c2cc;\n  }\n\n  .xl\\:tw-border-grey-light {\n    border-color: #dae1e7;\n  }\n\n  .xl\\:tw-border-grey-lighter {\n    border-color: #f1f5f8;\n  }\n\n  .xl\\:tw-border-grey-lightest {\n    border-color: #f8fafc;\n  }\n\n  .xl\\:tw-border-white {\n    border-color: #fff;\n  }\n\n  .xl\\:tw-border-red-darkest {\n    border-color: #3b0d0c;\n  }\n\n  .xl\\:tw-border-red-darker {\n    border-color: #621b18;\n  }\n\n  .xl\\:tw-border-red-dark {\n    border-color: #cc1f1a;\n  }\n\n  .xl\\:tw-border-red {\n    border-color: #e3342f;\n  }\n\n  .xl\\:tw-border-red-light {\n    border-color: #ef5753;\n  }\n\n  .xl\\:tw-border-red-lighter {\n    border-color: #f9acaa;\n  }\n\n  .xl\\:tw-border-red-lightest {\n    border-color: #fcebea;\n  }\n\n  .xl\\:tw-border-orange-darkest {\n    border-color: #462a16;\n  }\n\n  .xl\\:tw-border-orange-darker {\n    border-color: #613b1f;\n  }\n\n  .xl\\:tw-border-orange-dark {\n    border-color: #de751f;\n  }\n\n  .xl\\:tw-border-orange {\n    border-color: #f6993f;\n  }\n\n  .xl\\:tw-border-orange-light {\n    border-color: #faad63;\n  }\n\n  .xl\\:tw-border-orange-lighter {\n    border-color: #fcd9b6;\n  }\n\n  .xl\\:tw-border-orange-lightest {\n    border-color: #fff5eb;\n  }\n\n  .xl\\:tw-border-yellow-darkest {\n    border-color: #453411;\n  }\n\n  .xl\\:tw-border-yellow-darker {\n    border-color: #684f1d;\n  }\n\n  .xl\\:tw-border-yellow-dark {\n    border-color: #f2d024;\n  }\n\n  .xl\\:tw-border-yellow {\n    border-color: #ffed4a;\n  }\n\n  .xl\\:tw-border-yellow-light {\n    border-color: #fff382;\n  }\n\n  .xl\\:tw-border-yellow-lighter {\n    border-color: #fff9c2;\n  }\n\n  .xl\\:tw-border-yellow-lightest {\n    border-color: #fcfbeb;\n  }\n\n  .xl\\:tw-border-green-darkest {\n    border-color: #0f2f21;\n  }\n\n  .xl\\:tw-border-green-darker {\n    border-color: #1a4731;\n  }\n\n  .xl\\:tw-border-green-dark {\n    border-color: #1f9d55;\n  }\n\n  .xl\\:tw-border-green {\n    border-color: #38c172;\n  }\n\n  .xl\\:tw-border-green-light {\n    border-color: #51d88a;\n  }\n\n  .xl\\:tw-border-green-lighter {\n    border-color: #a2f5bf;\n  }\n\n  .xl\\:tw-border-green-lightest {\n    border-color: #e3fcec;\n  }\n\n  .xl\\:tw-border-teal-darkest {\n    border-color: #0d3331;\n  }\n\n  .xl\\:tw-border-teal-darker {\n    border-color: #20504f;\n  }\n\n  .xl\\:tw-border-teal-dark {\n    border-color: #38a89d;\n  }\n\n  .xl\\:tw-border-teal {\n    border-color: #4dc0b5;\n  }\n\n  .xl\\:tw-border-teal-light {\n    border-color: #64d5ca;\n  }\n\n  .xl\\:tw-border-teal-lighter {\n    border-color: #a0f0ed;\n  }\n\n  .xl\\:tw-border-teal-lightest {\n    border-color: #e8fffe;\n  }\n\n  .xl\\:tw-border-blue-darkest {\n    border-color: #12283a;\n  }\n\n  .xl\\:tw-border-blue-darker {\n    border-color: #1c3d5a;\n  }\n\n  .xl\\:tw-border-blue-dark {\n    border-color: #2779bd;\n  }\n\n  .xl\\:tw-border-blue {\n    border-color: #3490dc;\n  }\n\n  .xl\\:tw-border-blue-light {\n    border-color: #6cb2eb;\n  }\n\n  .xl\\:tw-border-blue-lighter {\n    border-color: #bcdefa;\n  }\n\n  .xl\\:tw-border-blue-lightest {\n    border-color: #eff8ff;\n  }\n\n  .xl\\:tw-border-indigo-darkest {\n    border-color: #191e38;\n  }\n\n  .xl\\:tw-border-indigo-darker {\n    border-color: #2f365f;\n  }\n\n  .xl\\:tw-border-indigo-dark {\n    border-color: #5661b3;\n  }\n\n  .xl\\:tw-border-indigo {\n    border-color: #6574cd;\n  }\n\n  .xl\\:tw-border-indigo-light {\n    border-color: #7886d7;\n  }\n\n  .xl\\:tw-border-indigo-lighter {\n    border-color: #b2b7ff;\n  }\n\n  .xl\\:tw-border-indigo-lightest {\n    border-color: #e6e8ff;\n  }\n\n  .xl\\:tw-border-purple-darkest {\n    border-color: #21183c;\n  }\n\n  .xl\\:tw-border-purple-darker {\n    border-color: #382b5f;\n  }\n\n  .xl\\:tw-border-purple-dark {\n    border-color: #794acf;\n  }\n\n  .xl\\:tw-border-purple {\n    border-color: #9561e2;\n  }\n\n  .xl\\:tw-border-purple-light {\n    border-color: #a779e9;\n  }\n\n  .xl\\:tw-border-purple-lighter {\n    border-color: #d6bbfc;\n  }\n\n  .xl\\:tw-border-purple-lightest {\n    border-color: #f3ebff;\n  }\n\n  .xl\\:tw-border-pink-darkest {\n    border-color: #451225;\n  }\n\n  .xl\\:tw-border-pink-darker {\n    border-color: #6f213f;\n  }\n\n  .xl\\:tw-border-pink-dark {\n    border-color: #eb5286;\n  }\n\n  .xl\\:tw-border-pink {\n    border-color: #f66d9b;\n  }\n\n  .xl\\:tw-border-pink-light {\n    border-color: #fa7ea8;\n  }\n\n  .xl\\:tw-border-pink-lighter {\n    border-color: #ffbbca;\n  }\n\n  .xl\\:tw-border-pink-lightest {\n    border-color: #ffebef;\n  }\n\n  .xl\\:hover\\:tw-border-transparent:hover {\n    border-color: transparent;\n  }\n\n  .xl\\:hover\\:tw-border-black:hover {\n    border-color: #22292f;\n  }\n\n  .xl\\:hover\\:tw-border-grey-darkest:hover {\n    border-color: #3d4852;\n  }\n\n  .xl\\:hover\\:tw-border-grey-darker:hover {\n    border-color: #606f7b;\n  }\n\n  .xl\\:hover\\:tw-border-grey-dark:hover {\n    border-color: #8795a1;\n  }\n\n  .xl\\:hover\\:tw-border-grey:hover {\n    border-color: #b8c2cc;\n  }\n\n  .xl\\:hover\\:tw-border-grey-light:hover {\n    border-color: #dae1e7;\n  }\n\n  .xl\\:hover\\:tw-border-grey-lighter:hover {\n    border-color: #f1f5f8;\n  }\n\n  .xl\\:hover\\:tw-border-grey-lightest:hover {\n    border-color: #f8fafc;\n  }\n\n  .xl\\:hover\\:tw-border-white:hover {\n    border-color: #fff;\n  }\n\n  .xl\\:hover\\:tw-border-red-darkest:hover {\n    border-color: #3b0d0c;\n  }\n\n  .xl\\:hover\\:tw-border-red-darker:hover {\n    border-color: #621b18;\n  }\n\n  .xl\\:hover\\:tw-border-red-dark:hover {\n    border-color: #cc1f1a;\n  }\n\n  .xl\\:hover\\:tw-border-red:hover {\n    border-color: #e3342f;\n  }\n\n  .xl\\:hover\\:tw-border-red-light:hover {\n    border-color: #ef5753;\n  }\n\n  .xl\\:hover\\:tw-border-red-lighter:hover {\n    border-color: #f9acaa;\n  }\n\n  .xl\\:hover\\:tw-border-red-lightest:hover {\n    border-color: #fcebea;\n  }\n\n  .xl\\:hover\\:tw-border-orange-darkest:hover {\n    border-color: #462a16;\n  }\n\n  .xl\\:hover\\:tw-border-orange-darker:hover {\n    border-color: #613b1f;\n  }\n\n  .xl\\:hover\\:tw-border-orange-dark:hover {\n    border-color: #de751f;\n  }\n\n  .xl\\:hover\\:tw-border-orange:hover {\n    border-color: #f6993f;\n  }\n\n  .xl\\:hover\\:tw-border-orange-light:hover {\n    border-color: #faad63;\n  }\n\n  .xl\\:hover\\:tw-border-orange-lighter:hover {\n    border-color: #fcd9b6;\n  }\n\n  .xl\\:hover\\:tw-border-orange-lightest:hover {\n    border-color: #fff5eb;\n  }\n\n  .xl\\:hover\\:tw-border-yellow-darkest:hover {\n    border-color: #453411;\n  }\n\n  .xl\\:hover\\:tw-border-yellow-darker:hover {\n    border-color: #684f1d;\n  }\n\n  .xl\\:hover\\:tw-border-yellow-dark:hover {\n    border-color: #f2d024;\n  }\n\n  .xl\\:hover\\:tw-border-yellow:hover {\n    border-color: #ffed4a;\n  }\n\n  .xl\\:hover\\:tw-border-yellow-light:hover {\n    border-color: #fff382;\n  }\n\n  .xl\\:hover\\:tw-border-yellow-lighter:hover {\n    border-color: #fff9c2;\n  }\n\n  .xl\\:hover\\:tw-border-yellow-lightest:hover {\n    border-color: #fcfbeb;\n  }\n\n  .xl\\:hover\\:tw-border-green-darkest:hover {\n    border-color: #0f2f21;\n  }\n\n  .xl\\:hover\\:tw-border-green-darker:hover {\n    border-color: #1a4731;\n  }\n\n  .xl\\:hover\\:tw-border-green-dark:hover {\n    border-color: #1f9d55;\n  }\n\n  .xl\\:hover\\:tw-border-green:hover {\n    border-color: #38c172;\n  }\n\n  .xl\\:hover\\:tw-border-green-light:hover {\n    border-color: #51d88a;\n  }\n\n  .xl\\:hover\\:tw-border-green-lighter:hover {\n    border-color: #a2f5bf;\n  }\n\n  .xl\\:hover\\:tw-border-green-lightest:hover {\n    border-color: #e3fcec;\n  }\n\n  .xl\\:hover\\:tw-border-teal-darkest:hover {\n    border-color: #0d3331;\n  }\n\n  .xl\\:hover\\:tw-border-teal-darker:hover {\n    border-color: #20504f;\n  }\n\n  .xl\\:hover\\:tw-border-teal-dark:hover {\n    border-color: #38a89d;\n  }\n\n  .xl\\:hover\\:tw-border-teal:hover {\n    border-color: #4dc0b5;\n  }\n\n  .xl\\:hover\\:tw-border-teal-light:hover {\n    border-color: #64d5ca;\n  }\n\n  .xl\\:hover\\:tw-border-teal-lighter:hover {\n    border-color: #a0f0ed;\n  }\n\n  .xl\\:hover\\:tw-border-teal-lightest:hover {\n    border-color: #e8fffe;\n  }\n\n  .xl\\:hover\\:tw-border-blue-darkest:hover {\n    border-color: #12283a;\n  }\n\n  .xl\\:hover\\:tw-border-blue-darker:hover {\n    border-color: #1c3d5a;\n  }\n\n  .xl\\:hover\\:tw-border-blue-dark:hover {\n    border-color: #2779bd;\n  }\n\n  .xl\\:hover\\:tw-border-blue:hover {\n    border-color: #3490dc;\n  }\n\n  .xl\\:hover\\:tw-border-blue-light:hover {\n    border-color: #6cb2eb;\n  }\n\n  .xl\\:hover\\:tw-border-blue-lighter:hover {\n    border-color: #bcdefa;\n  }\n\n  .xl\\:hover\\:tw-border-blue-lightest:hover {\n    border-color: #eff8ff;\n  }\n\n  .xl\\:hover\\:tw-border-indigo-darkest:hover {\n    border-color: #191e38;\n  }\n\n  .xl\\:hover\\:tw-border-indigo-darker:hover {\n    border-color: #2f365f;\n  }\n\n  .xl\\:hover\\:tw-border-indigo-dark:hover {\n    border-color: #5661b3;\n  }\n\n  .xl\\:hover\\:tw-border-indigo:hover {\n    border-color: #6574cd;\n  }\n\n  .xl\\:hover\\:tw-border-indigo-light:hover {\n    border-color: #7886d7;\n  }\n\n  .xl\\:hover\\:tw-border-indigo-lighter:hover {\n    border-color: #b2b7ff;\n  }\n\n  .xl\\:hover\\:tw-border-indigo-lightest:hover {\n    border-color: #e6e8ff;\n  }\n\n  .xl\\:hover\\:tw-border-purple-darkest:hover {\n    border-color: #21183c;\n  }\n\n  .xl\\:hover\\:tw-border-purple-darker:hover {\n    border-color: #382b5f;\n  }\n\n  .xl\\:hover\\:tw-border-purple-dark:hover {\n    border-color: #794acf;\n  }\n\n  .xl\\:hover\\:tw-border-purple:hover {\n    border-color: #9561e2;\n  }\n\n  .xl\\:hover\\:tw-border-purple-light:hover {\n    border-color: #a779e9;\n  }\n\n  .xl\\:hover\\:tw-border-purple-lighter:hover {\n    border-color: #d6bbfc;\n  }\n\n  .xl\\:hover\\:tw-border-purple-lightest:hover {\n    border-color: #f3ebff;\n  }\n\n  .xl\\:hover\\:tw-border-pink-darkest:hover {\n    border-color: #451225;\n  }\n\n  .xl\\:hover\\:tw-border-pink-darker:hover {\n    border-color: #6f213f;\n  }\n\n  .xl\\:hover\\:tw-border-pink-dark:hover {\n    border-color: #eb5286;\n  }\n\n  .xl\\:hover\\:tw-border-pink:hover {\n    border-color: #f66d9b;\n  }\n\n  .xl\\:hover\\:tw-border-pink-light:hover {\n    border-color: #fa7ea8;\n  }\n\n  .xl\\:hover\\:tw-border-pink-lighter:hover {\n    border-color: #ffbbca;\n  }\n\n  .xl\\:hover\\:tw-border-pink-lightest:hover {\n    border-color: #ffebef;\n  }\n\n  .xl\\:focus\\:tw-border-transparent:focus {\n    border-color: transparent;\n  }\n\n  .xl\\:focus\\:tw-border-black:focus {\n    border-color: #22292f;\n  }\n\n  .xl\\:focus\\:tw-border-grey-darkest:focus {\n    border-color: #3d4852;\n  }\n\n  .xl\\:focus\\:tw-border-grey-darker:focus {\n    border-color: #606f7b;\n  }\n\n  .xl\\:focus\\:tw-border-grey-dark:focus {\n    border-color: #8795a1;\n  }\n\n  .xl\\:focus\\:tw-border-grey:focus {\n    border-color: #b8c2cc;\n  }\n\n  .xl\\:focus\\:tw-border-grey-light:focus {\n    border-color: #dae1e7;\n  }\n\n  .xl\\:focus\\:tw-border-grey-lighter:focus {\n    border-color: #f1f5f8;\n  }\n\n  .xl\\:focus\\:tw-border-grey-lightest:focus {\n    border-color: #f8fafc;\n  }\n\n  .xl\\:focus\\:tw-border-white:focus {\n    border-color: #fff;\n  }\n\n  .xl\\:focus\\:tw-border-red-darkest:focus {\n    border-color: #3b0d0c;\n  }\n\n  .xl\\:focus\\:tw-border-red-darker:focus {\n    border-color: #621b18;\n  }\n\n  .xl\\:focus\\:tw-border-red-dark:focus {\n    border-color: #cc1f1a;\n  }\n\n  .xl\\:focus\\:tw-border-red:focus {\n    border-color: #e3342f;\n  }\n\n  .xl\\:focus\\:tw-border-red-light:focus {\n    border-color: #ef5753;\n  }\n\n  .xl\\:focus\\:tw-border-red-lighter:focus {\n    border-color: #f9acaa;\n  }\n\n  .xl\\:focus\\:tw-border-red-lightest:focus {\n    border-color: #fcebea;\n  }\n\n  .xl\\:focus\\:tw-border-orange-darkest:focus {\n    border-color: #462a16;\n  }\n\n  .xl\\:focus\\:tw-border-orange-darker:focus {\n    border-color: #613b1f;\n  }\n\n  .xl\\:focus\\:tw-border-orange-dark:focus {\n    border-color: #de751f;\n  }\n\n  .xl\\:focus\\:tw-border-orange:focus {\n    border-color: #f6993f;\n  }\n\n  .xl\\:focus\\:tw-border-orange-light:focus {\n    border-color: #faad63;\n  }\n\n  .xl\\:focus\\:tw-border-orange-lighter:focus {\n    border-color: #fcd9b6;\n  }\n\n  .xl\\:focus\\:tw-border-orange-lightest:focus {\n    border-color: #fff5eb;\n  }\n\n  .xl\\:focus\\:tw-border-yellow-darkest:focus {\n    border-color: #453411;\n  }\n\n  .xl\\:focus\\:tw-border-yellow-darker:focus {\n    border-color: #684f1d;\n  }\n\n  .xl\\:focus\\:tw-border-yellow-dark:focus {\n    border-color: #f2d024;\n  }\n\n  .xl\\:focus\\:tw-border-yellow:focus {\n    border-color: #ffed4a;\n  }\n\n  .xl\\:focus\\:tw-border-yellow-light:focus {\n    border-color: #fff382;\n  }\n\n  .xl\\:focus\\:tw-border-yellow-lighter:focus {\n    border-color: #fff9c2;\n  }\n\n  .xl\\:focus\\:tw-border-yellow-lightest:focus {\n    border-color: #fcfbeb;\n  }\n\n  .xl\\:focus\\:tw-border-green-darkest:focus {\n    border-color: #0f2f21;\n  }\n\n  .xl\\:focus\\:tw-border-green-darker:focus {\n    border-color: #1a4731;\n  }\n\n  .xl\\:focus\\:tw-border-green-dark:focus {\n    border-color: #1f9d55;\n  }\n\n  .xl\\:focus\\:tw-border-green:focus {\n    border-color: #38c172;\n  }\n\n  .xl\\:focus\\:tw-border-green-light:focus {\n    border-color: #51d88a;\n  }\n\n  .xl\\:focus\\:tw-border-green-lighter:focus {\n    border-color: #a2f5bf;\n  }\n\n  .xl\\:focus\\:tw-border-green-lightest:focus {\n    border-color: #e3fcec;\n  }\n\n  .xl\\:focus\\:tw-border-teal-darkest:focus {\n    border-color: #0d3331;\n  }\n\n  .xl\\:focus\\:tw-border-teal-darker:focus {\n    border-color: #20504f;\n  }\n\n  .xl\\:focus\\:tw-border-teal-dark:focus {\n    border-color: #38a89d;\n  }\n\n  .xl\\:focus\\:tw-border-teal:focus {\n    border-color: #4dc0b5;\n  }\n\n  .xl\\:focus\\:tw-border-teal-light:focus {\n    border-color: #64d5ca;\n  }\n\n  .xl\\:focus\\:tw-border-teal-lighter:focus {\n    border-color: #a0f0ed;\n  }\n\n  .xl\\:focus\\:tw-border-teal-lightest:focus {\n    border-color: #e8fffe;\n  }\n\n  .xl\\:focus\\:tw-border-blue-darkest:focus {\n    border-color: #12283a;\n  }\n\n  .xl\\:focus\\:tw-border-blue-darker:focus {\n    border-color: #1c3d5a;\n  }\n\n  .xl\\:focus\\:tw-border-blue-dark:focus {\n    border-color: #2779bd;\n  }\n\n  .xl\\:focus\\:tw-border-blue:focus {\n    border-color: #3490dc;\n  }\n\n  .xl\\:focus\\:tw-border-blue-light:focus {\n    border-color: #6cb2eb;\n  }\n\n  .xl\\:focus\\:tw-border-blue-lighter:focus {\n    border-color: #bcdefa;\n  }\n\n  .xl\\:focus\\:tw-border-blue-lightest:focus {\n    border-color: #eff8ff;\n  }\n\n  .xl\\:focus\\:tw-border-indigo-darkest:focus {\n    border-color: #191e38;\n  }\n\n  .xl\\:focus\\:tw-border-indigo-darker:focus {\n    border-color: #2f365f;\n  }\n\n  .xl\\:focus\\:tw-border-indigo-dark:focus {\n    border-color: #5661b3;\n  }\n\n  .xl\\:focus\\:tw-border-indigo:focus {\n    border-color: #6574cd;\n  }\n\n  .xl\\:focus\\:tw-border-indigo-light:focus {\n    border-color: #7886d7;\n  }\n\n  .xl\\:focus\\:tw-border-indigo-lighter:focus {\n    border-color: #b2b7ff;\n  }\n\n  .xl\\:focus\\:tw-border-indigo-lightest:focus {\n    border-color: #e6e8ff;\n  }\n\n  .xl\\:focus\\:tw-border-purple-darkest:focus {\n    border-color: #21183c;\n  }\n\n  .xl\\:focus\\:tw-border-purple-darker:focus {\n    border-color: #382b5f;\n  }\n\n  .xl\\:focus\\:tw-border-purple-dark:focus {\n    border-color: #794acf;\n  }\n\n  .xl\\:focus\\:tw-border-purple:focus {\n    border-color: #9561e2;\n  }\n\n  .xl\\:focus\\:tw-border-purple-light:focus {\n    border-color: #a779e9;\n  }\n\n  .xl\\:focus\\:tw-border-purple-lighter:focus {\n    border-color: #d6bbfc;\n  }\n\n  .xl\\:focus\\:tw-border-purple-lightest:focus {\n    border-color: #f3ebff;\n  }\n\n  .xl\\:focus\\:tw-border-pink-darkest:focus {\n    border-color: #451225;\n  }\n\n  .xl\\:focus\\:tw-border-pink-darker:focus {\n    border-color: #6f213f;\n  }\n\n  .xl\\:focus\\:tw-border-pink-dark:focus {\n    border-color: #eb5286;\n  }\n\n  .xl\\:focus\\:tw-border-pink:focus {\n    border-color: #f66d9b;\n  }\n\n  .xl\\:focus\\:tw-border-pink-light:focus {\n    border-color: #fa7ea8;\n  }\n\n  .xl\\:focus\\:tw-border-pink-lighter:focus {\n    border-color: #ffbbca;\n  }\n\n  .xl\\:focus\\:tw-border-pink-lightest:focus {\n    border-color: #ffebef;\n  }\n\n  .xl\\:tw-rounded-none {\n    border-radius: 0;\n  }\n\n  .xl\\:tw-rounded-sm {\n    border-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded {\n    border-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-lg {\n    border-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-full {\n    border-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-t-none {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0;\n  }\n\n  .xl\\:tw-rounded-r-none {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n  }\n\n  .xl\\:tw-rounded-b-none {\n    border-bottom-right-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .xl\\:tw-rounded-l-none {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n  }\n\n  .xl\\:tw-rounded-t-sm {\n    border-top-left-radius: .125rem;\n    border-top-right-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-r-sm {\n    border-top-right-radius: .125rem;\n    border-bottom-right-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-b-sm {\n    border-bottom-right-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-l-sm {\n    border-top-left-radius: .125rem;\n    border-bottom-left-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-t {\n    border-top-left-radius: .25rem;\n    border-top-right-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-r {\n    border-top-right-radius: .25rem;\n    border-bottom-right-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-b {\n    border-bottom-right-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-l {\n    border-top-left-radius: .25rem;\n    border-bottom-left-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-t-lg {\n    border-top-left-radius: .5rem;\n    border-top-right-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-r-lg {\n    border-top-right-radius: .5rem;\n    border-bottom-right-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-b-lg {\n    border-bottom-right-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-l-lg {\n    border-top-left-radius: .5rem;\n    border-bottom-left-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-t-full {\n    border-top-left-radius: 9999px;\n    border-top-right-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-r-full {\n    border-top-right-radius: 9999px;\n    border-bottom-right-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-b-full {\n    border-bottom-right-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-l-full {\n    border-top-left-radius: 9999px;\n    border-bottom-left-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-tl-none {\n    border-top-left-radius: 0;\n  }\n\n  .xl\\:tw-rounded-tr-none {\n    border-top-right-radius: 0;\n  }\n\n  .xl\\:tw-rounded-br-none {\n    border-bottom-right-radius: 0;\n  }\n\n  .xl\\:tw-rounded-bl-none {\n    border-bottom-left-radius: 0;\n  }\n\n  .xl\\:tw-rounded-tl-sm {\n    border-top-left-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-tr-sm {\n    border-top-right-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-br-sm {\n    border-bottom-right-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-bl-sm {\n    border-bottom-left-radius: .125rem;\n  }\n\n  .xl\\:tw-rounded-tl {\n    border-top-left-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-tr {\n    border-top-right-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-br {\n    border-bottom-right-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-bl {\n    border-bottom-left-radius: .25rem;\n  }\n\n  .xl\\:tw-rounded-tl-lg {\n    border-top-left-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-tr-lg {\n    border-top-right-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-br-lg {\n    border-bottom-right-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-bl-lg {\n    border-bottom-left-radius: .5rem;\n  }\n\n  .xl\\:tw-rounded-tl-full {\n    border-top-left-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-tr-full {\n    border-top-right-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-br-full {\n    border-bottom-right-radius: 9999px;\n  }\n\n  .xl\\:tw-rounded-bl-full {\n    border-bottom-left-radius: 9999px;\n  }\n\n  .xl\\:tw-border-solid {\n    border-style: solid;\n  }\n\n  .xl\\:tw-border-dashed {\n    border-style: dashed;\n  }\n\n  .xl\\:tw-border-dotted {\n    border-style: dotted;\n  }\n\n  .xl\\:tw-border-none {\n    border-style: none;\n  }\n\n  .xl\\:tw-border-0 {\n    border-width: 0;\n  }\n\n  .xl\\:tw-border-2 {\n    border-width: 2px;\n  }\n\n  .xl\\:tw-border-4 {\n    border-width: 4px;\n  }\n\n  .xl\\:tw-border-8 {\n    border-width: 8px;\n  }\n\n  .xl\\:tw-border {\n    border-width: 1px;\n  }\n\n  .xl\\:tw-border-t-0 {\n    border-top-width: 0;\n  }\n\n  .xl\\:tw-border-r-0 {\n    border-right-width: 0;\n  }\n\n  .xl\\:tw-border-b-0 {\n    border-bottom-width: 0;\n  }\n\n  .xl\\:tw-border-l-0 {\n    border-left-width: 0;\n  }\n\n  .xl\\:tw-border-t-2 {\n    border-top-width: 2px;\n  }\n\n  .xl\\:tw-border-r-2 {\n    border-right-width: 2px;\n  }\n\n  .xl\\:tw-border-b-2 {\n    border-bottom-width: 2px;\n  }\n\n  .xl\\:tw-border-l-2 {\n    border-left-width: 2px;\n  }\n\n  .xl\\:tw-border-t-4 {\n    border-top-width: 4px;\n  }\n\n  .xl\\:tw-border-r-4 {\n    border-right-width: 4px;\n  }\n\n  .xl\\:tw-border-b-4 {\n    border-bottom-width: 4px;\n  }\n\n  .xl\\:tw-border-l-4 {\n    border-left-width: 4px;\n  }\n\n  .xl\\:tw-border-t-8 {\n    border-top-width: 8px;\n  }\n\n  .xl\\:tw-border-r-8 {\n    border-right-width: 8px;\n  }\n\n  .xl\\:tw-border-b-8 {\n    border-bottom-width: 8px;\n  }\n\n  .xl\\:tw-border-l-8 {\n    border-left-width: 8px;\n  }\n\n  .xl\\:tw-border-t {\n    border-top-width: 1px;\n  }\n\n  .xl\\:tw-border-r {\n    border-right-width: 1px;\n  }\n\n  .xl\\:tw-border-b {\n    border-bottom-width: 1px;\n  }\n\n  .xl\\:tw-border-l {\n    border-left-width: 1px;\n  }\n\n  .xl\\:tw-cursor-auto {\n    cursor: auto;\n  }\n\n  .xl\\:tw-cursor-default {\n    cursor: default;\n  }\n\n  .xl\\:tw-cursor-pointer {\n    cursor: pointer;\n  }\n\n  .xl\\:tw-cursor-wait {\n    cursor: wait;\n  }\n\n  .xl\\:tw-cursor-move {\n    cursor: move;\n  }\n\n  .xl\\:tw-cursor-not-allowed {\n    cursor: not-allowed;\n  }\n\n  .xl\\:tw-block {\n    display: block;\n  }\n\n  .xl\\:tw-inline-block {\n    display: inline-block;\n  }\n\n  .xl\\:tw-inline {\n    display: inline;\n  }\n\n  .xl\\:tw-table {\n    display: table;\n  }\n\n  .xl\\:tw-table-row {\n    display: table-row;\n  }\n\n  .xl\\:tw-table-cell {\n    display: table-cell;\n  }\n\n  .xl\\:tw-hidden {\n    display: none;\n  }\n\n  .xl\\:tw-flex {\n    display: flex;\n  }\n\n  .xl\\:tw-inline-flex {\n    display: inline-flex;\n  }\n\n  .xl\\:tw-flex-row {\n    flex-direction: row;\n  }\n\n  .xl\\:tw-flex-row-reverse {\n    flex-direction: row-reverse;\n  }\n\n  .xl\\:tw-flex-col {\n    flex-direction: column;\n  }\n\n  .xl\\:tw-flex-col-reverse {\n    flex-direction: column-reverse;\n  }\n\n  .xl\\:tw-flex-wrap {\n    flex-wrap: wrap;\n  }\n\n  .xl\\:tw-flex-wrap-reverse {\n    flex-wrap: wrap-reverse;\n  }\n\n  .xl\\:tw-flex-no-wrap {\n    flex-wrap: nowrap;\n  }\n\n  .xl\\:tw-items-start {\n    align-items: flex-start;\n  }\n\n  .xl\\:tw-items-end {\n    align-items: flex-end;\n  }\n\n  .xl\\:tw-items-center {\n    align-items: center;\n  }\n\n  .xl\\:tw-items-baseline {\n    align-items: baseline;\n  }\n\n  .xl\\:tw-items-stretch {\n    align-items: stretch;\n  }\n\n  .xl\\:tw-self-auto {\n    align-self: auto;\n  }\n\n  .xl\\:tw-self-start {\n    align-self: flex-start;\n  }\n\n  .xl\\:tw-self-end {\n    align-self: flex-end;\n  }\n\n  .xl\\:tw-self-center {\n    align-self: center;\n  }\n\n  .xl\\:tw-self-stretch {\n    align-self: stretch;\n  }\n\n  .xl\\:tw-justify-start {\n    justify-content: flex-start;\n  }\n\n  .xl\\:tw-justify-end {\n    justify-content: flex-end;\n  }\n\n  .xl\\:tw-justify-center {\n    justify-content: center;\n  }\n\n  .xl\\:tw-justify-between {\n    justify-content: space-between;\n  }\n\n  .xl\\:tw-justify-around {\n    justify-content: space-around;\n  }\n\n  .xl\\:tw-content-center {\n    align-content: center;\n  }\n\n  .xl\\:tw-content-start {\n    align-content: flex-start;\n  }\n\n  .xl\\:tw-content-end {\n    align-content: flex-end;\n  }\n\n  .xl\\:tw-content-between {\n    align-content: space-between;\n  }\n\n  .xl\\:tw-content-around {\n    align-content: space-around;\n  }\n\n  .xl\\:tw-flex-1 {\n    flex: 1 1 0%;\n  }\n\n  .xl\\:tw-flex-auto {\n    flex: 1 1 auto;\n  }\n\n  .xl\\:tw-flex-initial {\n    flex: 0 1 auto;\n  }\n\n  .xl\\:tw-flex-none {\n    flex: none;\n  }\n\n  .xl\\:tw-flex-grow {\n    flex-grow: 1;\n  }\n\n  .xl\\:tw-flex-shrink {\n    flex-shrink: 1;\n  }\n\n  .xl\\:tw-flex-no-grow {\n    flex-grow: 0;\n  }\n\n  .xl\\:tw-flex-no-shrink {\n    flex-shrink: 0;\n  }\n\n  .xl\\:tw-float-right {\n    float: right;\n  }\n\n  .xl\\:tw-float-left {\n    float: left;\n  }\n\n  .xl\\:tw-float-none {\n    float: none;\n  }\n\n  .xl\\:tw-clearfix:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n  .xl\\:tw-font-sans {\n    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  }\n\n  .xl\\:tw-font-serif {\n    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;\n  }\n\n  .xl\\:tw-font-mono {\n    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;\n  }\n\n  .xl\\:tw-font-logo {\n    font-family: Crafty Girls, cursive;\n  }\n\n  .xl\\:tw-font-hairline {\n    font-weight: 100;\n  }\n\n  .xl\\:tw-font-thin {\n    font-weight: 200;\n  }\n\n  .xl\\:tw-font-light {\n    font-weight: 300;\n  }\n\n  .xl\\:tw-font-normal {\n    font-weight: 400;\n  }\n\n  .xl\\:tw-font-medium {\n    font-weight: 500;\n  }\n\n  .xl\\:tw-font-semibold {\n    font-weight: 600;\n  }\n\n  .xl\\:tw-font-bold {\n    font-weight: 700;\n  }\n\n  .xl\\:tw-font-extrabold {\n    font-weight: 800;\n  }\n\n  .xl\\:tw-font-black {\n    font-weight: 900;\n  }\n\n  .xl\\:hover\\:tw-font-hairline:hover {\n    font-weight: 100;\n  }\n\n  .xl\\:hover\\:tw-font-thin:hover {\n    font-weight: 200;\n  }\n\n  .xl\\:hover\\:tw-font-light:hover {\n    font-weight: 300;\n  }\n\n  .xl\\:hover\\:tw-font-normal:hover {\n    font-weight: 400;\n  }\n\n  .xl\\:hover\\:tw-font-medium:hover {\n    font-weight: 500;\n  }\n\n  .xl\\:hover\\:tw-font-semibold:hover {\n    font-weight: 600;\n  }\n\n  .xl\\:hover\\:tw-font-bold:hover {\n    font-weight: 700;\n  }\n\n  .xl\\:hover\\:tw-font-extrabold:hover {\n    font-weight: 800;\n  }\n\n  .xl\\:hover\\:tw-font-black:hover {\n    font-weight: 900;\n  }\n\n  .xl\\:focus\\:tw-font-hairline:focus {\n    font-weight: 100;\n  }\n\n  .xl\\:focus\\:tw-font-thin:focus {\n    font-weight: 200;\n  }\n\n  .xl\\:focus\\:tw-font-light:focus {\n    font-weight: 300;\n  }\n\n  .xl\\:focus\\:tw-font-normal:focus {\n    font-weight: 400;\n  }\n\n  .xl\\:focus\\:tw-font-medium:focus {\n    font-weight: 500;\n  }\n\n  .xl\\:focus\\:tw-font-semibold:focus {\n    font-weight: 600;\n  }\n\n  .xl\\:focus\\:tw-font-bold:focus {\n    font-weight: 700;\n  }\n\n  .xl\\:focus\\:tw-font-extrabold:focus {\n    font-weight: 800;\n  }\n\n  .xl\\:focus\\:tw-font-black:focus {\n    font-weight: 900;\n  }\n\n  .xl\\:tw-h-1 {\n    height: .25rem;\n  }\n\n  .xl\\:tw-h-2 {\n    height: .5rem;\n  }\n\n  .xl\\:tw-h-3 {\n    height: .75rem;\n  }\n\n  .xl\\:tw-h-4 {\n    height: 1rem;\n  }\n\n  .xl\\:tw-h-5 {\n    height: 1.25rem;\n  }\n\n  .xl\\:tw-h-6 {\n    height: 1.5rem;\n  }\n\n  .xl\\:tw-h-8 {\n    height: 2rem;\n  }\n\n  .xl\\:tw-h-10 {\n    height: 2.5rem;\n  }\n\n  .xl\\:tw-h-12 {\n    height: 3rem;\n  }\n\n  .xl\\:tw-h-16 {\n    height: 4rem;\n  }\n\n  .xl\\:tw-h-24 {\n    height: 6rem;\n  }\n\n  .xl\\:tw-h-32 {\n    height: 8rem;\n  }\n\n  .xl\\:tw-h-48 {\n    height: 12rem;\n  }\n\n  .xl\\:tw-h-64 {\n    height: 16rem;\n  }\n\n  .xl\\:tw-h-auto {\n    height: auto;\n  }\n\n  .xl\\:tw-h-px {\n    height: 1px;\n  }\n\n  .xl\\:tw-h-full {\n    height: 100%;\n  }\n\n  .xl\\:tw-h-screen {\n    height: 100vh;\n  }\n\n  .xl\\:tw-leading-none {\n    line-height: 1;\n  }\n\n  .xl\\:tw-leading-tight {\n    line-height: 1.25;\n  }\n\n  .xl\\:tw-leading-normal {\n    line-height: 1.5;\n  }\n\n  .xl\\:tw-leading-loose {\n    line-height: 2;\n  }\n\n  .xl\\:tw-m-0 {\n    margin: 0;\n  }\n\n  .xl\\:tw-m-1 {\n    margin: .25rem;\n  }\n\n  .xl\\:tw-m-2 {\n    margin: .5rem;\n  }\n\n  .xl\\:tw-m-3 {\n    margin: .75rem;\n  }\n\n  .xl\\:tw-m-4 {\n    margin: 1rem;\n  }\n\n  .xl\\:tw-m-5 {\n    margin: 1.25rem;\n  }\n\n  .xl\\:tw-m-6 {\n    margin: 1.5rem;\n  }\n\n  .xl\\:tw-m-8 {\n    margin: 2rem;\n  }\n\n  .xl\\:tw-m-10 {\n    margin: 2.5rem;\n  }\n\n  .xl\\:tw-m-12 {\n    margin: 3rem;\n  }\n\n  .xl\\:tw-m-16 {\n    margin: 4rem;\n  }\n\n  .xl\\:tw-m-20 {\n    margin: 5rem;\n  }\n\n  .xl\\:tw-m-24 {\n    margin: 6rem;\n  }\n\n  .xl\\:tw-m-32 {\n    margin: 8rem;\n  }\n\n  .xl\\:tw-m-auto {\n    margin: auto;\n  }\n\n  .xl\\:tw-m-px {\n    margin: 1px;\n  }\n\n  .xl\\:tw-my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .xl\\:tw-mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .xl\\:tw-my-1 {\n    margin-top: .25rem;\n    margin-bottom: .25rem;\n  }\n\n  .xl\\:tw-mx-1 {\n    margin-left: .25rem;\n    margin-right: .25rem;\n  }\n\n  .xl\\:tw-my-2 {\n    margin-top: .5rem;\n    margin-bottom: .5rem;\n  }\n\n  .xl\\:tw-mx-2 {\n    margin-left: .5rem;\n    margin-right: .5rem;\n  }\n\n  .xl\\:tw-my-3 {\n    margin-top: .75rem;\n    margin-bottom: .75rem;\n  }\n\n  .xl\\:tw-mx-3 {\n    margin-left: .75rem;\n    margin-right: .75rem;\n  }\n\n  .xl\\:tw-my-4 {\n    margin-top: 1rem;\n    margin-bottom: 1rem;\n  }\n\n  .xl\\:tw-mx-4 {\n    margin-left: 1rem;\n    margin-right: 1rem;\n  }\n\n  .xl\\:tw-my-5 {\n    margin-top: 1.25rem;\n    margin-bottom: 1.25rem;\n  }\n\n  .xl\\:tw-mx-5 {\n    margin-left: 1.25rem;\n    margin-right: 1.25rem;\n  }\n\n  .xl\\:tw-my-6 {\n    margin-top: 1.5rem;\n    margin-bottom: 1.5rem;\n  }\n\n  .xl\\:tw-mx-6 {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n\n  .xl\\:tw-my-8 {\n    margin-top: 2rem;\n    margin-bottom: 2rem;\n  }\n\n  .xl\\:tw-mx-8 {\n    margin-left: 2rem;\n    margin-right: 2rem;\n  }\n\n  .xl\\:tw-my-10 {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n  }\n\n  .xl\\:tw-mx-10 {\n    margin-left: 2.5rem;\n    margin-right: 2.5rem;\n  }\n\n  .xl\\:tw-my-12 {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n  }\n\n  .xl\\:tw-mx-12 {\n    margin-left: 3rem;\n    margin-right: 3rem;\n  }\n\n  .xl\\:tw-my-16 {\n    margin-top: 4rem;\n    margin-bottom: 4rem;\n  }\n\n  .xl\\:tw-mx-16 {\n    margin-left: 4rem;\n    margin-right: 4rem;\n  }\n\n  .xl\\:tw-my-20 {\n    margin-top: 5rem;\n    margin-bottom: 5rem;\n  }\n\n  .xl\\:tw-mx-20 {\n    margin-left: 5rem;\n    margin-right: 5rem;\n  }\n\n  .xl\\:tw-my-24 {\n    margin-top: 6rem;\n    margin-bottom: 6rem;\n  }\n\n  .xl\\:tw-mx-24 {\n    margin-left: 6rem;\n    margin-right: 6rem;\n  }\n\n  .xl\\:tw-my-32 {\n    margin-top: 8rem;\n    margin-bottom: 8rem;\n  }\n\n  .xl\\:tw-mx-32 {\n    margin-left: 8rem;\n    margin-right: 8rem;\n  }\n\n  .xl\\:tw-my-auto {\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n\n  .xl\\:tw-mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .xl\\:tw-my-px {\n    margin-top: 1px;\n    margin-bottom: 1px;\n  }\n\n  .xl\\:tw-mx-px {\n    margin-left: 1px;\n    margin-right: 1px;\n  }\n\n  .xl\\:tw-mt-0 {\n    margin-top: 0;\n  }\n\n  .xl\\:tw-mr-0 {\n    margin-right: 0;\n  }\n\n  .xl\\:tw-mb-0 {\n    margin-bottom: 0;\n  }\n\n  .xl\\:tw-ml-0 {\n    margin-left: 0;\n  }\n\n  .xl\\:tw-mt-1 {\n    margin-top: .25rem;\n  }\n\n  .xl\\:tw-mr-1 {\n    margin-right: .25rem;\n  }\n\n  .xl\\:tw-mb-1 {\n    margin-bottom: .25rem;\n  }\n\n  .xl\\:tw-ml-1 {\n    margin-left: .25rem;\n  }\n\n  .xl\\:tw-mt-2 {\n    margin-top: .5rem;\n  }\n\n  .xl\\:tw-mr-2 {\n    margin-right: .5rem;\n  }\n\n  .xl\\:tw-mb-2 {\n    margin-bottom: .5rem;\n  }\n\n  .xl\\:tw-ml-2 {\n    margin-left: .5rem;\n  }\n\n  .xl\\:tw-mt-3 {\n    margin-top: .75rem;\n  }\n\n  .xl\\:tw-mr-3 {\n    margin-right: .75rem;\n  }\n\n  .xl\\:tw-mb-3 {\n    margin-bottom: .75rem;\n  }\n\n  .xl\\:tw-ml-3 {\n    margin-left: .75rem;\n  }\n\n  .xl\\:tw-mt-4 {\n    margin-top: 1rem;\n  }\n\n  .xl\\:tw-mr-4 {\n    margin-right: 1rem;\n  }\n\n  .xl\\:tw-mb-4 {\n    margin-bottom: 1rem;\n  }\n\n  .xl\\:tw-ml-4 {\n    margin-left: 1rem;\n  }\n\n  .xl\\:tw-mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .xl\\:tw-mr-5 {\n    margin-right: 1.25rem;\n  }\n\n  .xl\\:tw-mb-5 {\n    margin-bottom: 1.25rem;\n  }\n\n  .xl\\:tw-ml-5 {\n    margin-left: 1.25rem;\n  }\n\n  .xl\\:tw-mt-6 {\n    margin-top: 1.5rem;\n  }\n\n  .xl\\:tw-mr-6 {\n    margin-right: 1.5rem;\n  }\n\n  .xl\\:tw-mb-6 {\n    margin-bottom: 1.5rem;\n  }\n\n  .xl\\:tw-ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .xl\\:tw-mt-8 {\n    margin-top: 2rem;\n  }\n\n  .xl\\:tw-mr-8 {\n    margin-right: 2rem;\n  }\n\n  .xl\\:tw-mb-8 {\n    margin-bottom: 2rem;\n  }\n\n  .xl\\:tw-ml-8 {\n    margin-left: 2rem;\n  }\n\n  .xl\\:tw-mt-10 {\n    margin-top: 2.5rem;\n  }\n\n  .xl\\:tw-mr-10 {\n    margin-right: 2.5rem;\n  }\n\n  .xl\\:tw-mb-10 {\n    margin-bottom: 2.5rem;\n  }\n\n  .xl\\:tw-ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .xl\\:tw-mt-12 {\n    margin-top: 3rem;\n  }\n\n  .xl\\:tw-mr-12 {\n    margin-right: 3rem;\n  }\n\n  .xl\\:tw-mb-12 {\n    margin-bottom: 3rem;\n  }\n\n  .xl\\:tw-ml-12 {\n    margin-left: 3rem;\n  }\n\n  .xl\\:tw-mt-16 {\n    margin-top: 4rem;\n  }\n\n  .xl\\:tw-mr-16 {\n    margin-right: 4rem;\n  }\n\n  .xl\\:tw-mb-16 {\n    margin-bottom: 4rem;\n  }\n\n  .xl\\:tw-ml-16 {\n    margin-left: 4rem;\n  }\n\n  .xl\\:tw-mt-20 {\n    margin-top: 5rem;\n  }\n\n  .xl\\:tw-mr-20 {\n    margin-right: 5rem;\n  }\n\n  .xl\\:tw-mb-20 {\n    margin-bottom: 5rem;\n  }\n\n  .xl\\:tw-ml-20 {\n    margin-left: 5rem;\n  }\n\n  .xl\\:tw-mt-24 {\n    margin-top: 6rem;\n  }\n\n  .xl\\:tw-mr-24 {\n    margin-right: 6rem;\n  }\n\n  .xl\\:tw-mb-24 {\n    margin-bottom: 6rem;\n  }\n\n  .xl\\:tw-ml-24 {\n    margin-left: 6rem;\n  }\n\n  .xl\\:tw-mt-32 {\n    margin-top: 8rem;\n  }\n\n  .xl\\:tw-mr-32 {\n    margin-right: 8rem;\n  }\n\n  .xl\\:tw-mb-32 {\n    margin-bottom: 8rem;\n  }\n\n  .xl\\:tw-ml-32 {\n    margin-left: 8rem;\n  }\n\n  .xl\\:tw-mt-auto {\n    margin-top: auto;\n  }\n\n  .xl\\:tw-mr-auto {\n    margin-right: auto;\n  }\n\n  .xl\\:tw-mb-auto {\n    margin-bottom: auto;\n  }\n\n  .xl\\:tw-ml-auto {\n    margin-left: auto;\n  }\n\n  .xl\\:tw-mt-px {\n    margin-top: 1px;\n  }\n\n  .xl\\:tw-mr-px {\n    margin-right: 1px;\n  }\n\n  .xl\\:tw-mb-px {\n    margin-bottom: 1px;\n  }\n\n  .xl\\:tw-ml-px {\n    margin-left: 1px;\n  }\n\n  .xl\\:tw-max-h-full {\n    max-height: 100%;\n  }\n\n  .xl\\:tw-max-h-screen {\n    max-height: 100vh;\n  }\n\n  .xl\\:tw-max-w-xs {\n    max-width: 20rem;\n  }\n\n  .xl\\:tw-max-w-sm {\n    max-width: 30rem;\n  }\n\n  .xl\\:tw-max-w-md {\n    max-width: 40rem;\n  }\n\n  .xl\\:tw-max-w-lg {\n    max-width: 50rem;\n  }\n\n  .xl\\:tw-max-w-xl {\n    max-width: 60rem;\n  }\n\n  .xl\\:tw-max-w-2xl {\n    max-width: 70rem;\n  }\n\n  .xl\\:tw-max-w-3xl {\n    max-width: 80rem;\n  }\n\n  .xl\\:tw-max-w-4xl {\n    max-width: 90rem;\n  }\n\n  .xl\\:tw-max-w-5xl {\n    max-width: 100rem;\n  }\n\n  .xl\\:tw-max-w-full {\n    max-width: 100%;\n  }\n\n  .xl\\:tw-min-h-0 {\n    min-height: 0;\n  }\n\n  .xl\\:tw-min-h-full {\n    min-height: 100%;\n  }\n\n  .xl\\:tw-min-h-screen {\n    min-height: 100vh;\n  }\n\n  .xl\\:tw-min-w-0 {\n    min-width: 0;\n  }\n\n  .xl\\:tw-min-w-full {\n    min-width: 100%;\n  }\n\n  .xl\\:tw--m-0 {\n    margin: 0;\n  }\n\n  .xl\\:tw--m-1 {\n    margin: -0.25rem;\n  }\n\n  .xl\\:tw--m-2 {\n    margin: -0.5rem;\n  }\n\n  .xl\\:tw--m-3 {\n    margin: -0.75rem;\n  }\n\n  .xl\\:tw--m-4 {\n    margin: -1rem;\n  }\n\n  .xl\\:tw--m-5 {\n    margin: -1.25rem;\n  }\n\n  .xl\\:tw--m-6 {\n    margin: -1.5rem;\n  }\n\n  .xl\\:tw--m-8 {\n    margin: -2rem;\n  }\n\n  .xl\\:tw--m-10 {\n    margin: -2.5rem;\n  }\n\n  .xl\\:tw--m-12 {\n    margin: -3rem;\n  }\n\n  .xl\\:tw--m-16 {\n    margin: -4rem;\n  }\n\n  .xl\\:tw--m-20 {\n    margin: -5rem;\n  }\n\n  .xl\\:tw--m-24 {\n    margin: -6rem;\n  }\n\n  .xl\\:tw--m-32 {\n    margin: -8rem;\n  }\n\n  .xl\\:tw--m-px {\n    margin: -1px;\n  }\n\n  .xl\\:tw--my-0 {\n    margin-top: 0;\n    margin-bottom: 0;\n  }\n\n  .xl\\:tw--mx-0 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  .xl\\:tw--my-1 {\n    margin-top: -0.25rem;\n    margin-bottom: -0.25rem;\n  }\n\n  .xl\\:tw--mx-1 {\n    margin-left: -0.25rem;\n    margin-right: -0.25rem;\n  }\n\n  .xl\\:tw--my-2 {\n    margin-top: -0.5rem;\n    margin-bottom: -0.5rem;\n  }\n\n  .xl\\:tw--mx-2 {\n    margin-left: -0.5rem;\n    margin-right: -0.5rem;\n  }\n\n  .xl\\:tw--my-3 {\n    margin-top: -0.75rem;\n    margin-bottom: -0.75rem;\n  }\n\n  .xl\\:tw--mx-3 {\n    margin-left: -0.75rem;\n    margin-right: -0.75rem;\n  }\n\n  .xl\\:tw--my-4 {\n    margin-top: -1rem;\n    margin-bottom: -1rem;\n  }\n\n  .xl\\:tw--mx-4 {\n    margin-left: -1rem;\n    margin-right: -1rem;\n  }\n\n  .xl\\:tw--my-5 {\n    margin-top: -1.25rem;\n    margin-bottom: -1.25rem;\n  }\n\n  .xl\\:tw--mx-5 {\n    margin-left: -1.25rem;\n    margin-right: -1.25rem;\n  }\n\n  .xl\\:tw--my-6 {\n    margin-top: -1.5rem;\n    margin-bottom: -1.5rem;\n  }\n\n  .xl\\:tw--mx-6 {\n    margin-left: -1.5rem;\n    margin-right: -1.5rem;\n  }\n\n  .xl\\:tw--my-8 {\n    margin-top: -2rem;\n    margin-bottom: -2rem;\n  }\n\n  .xl\\:tw--mx-8 {\n    margin-left: -2rem;\n    margin-right: -2rem;\n  }\n\n  .xl\\:tw--my-10 {\n    margin-top: -2.5rem;\n    margin-bottom: -2.5rem;\n  }\n\n  .xl\\:tw--mx-10 {\n    margin-left: -2.5rem;\n    margin-right: -2.5rem;\n  }\n\n  .xl\\:tw--my-12 {\n    margin-top: -3rem;\n    margin-bottom: -3rem;\n  }\n\n  .xl\\:tw--mx-12 {\n    margin-left: -3rem;\n    margin-right: -3rem;\n  }\n\n  .xl\\:tw--my-16 {\n    margin-top: -4rem;\n    margin-bottom: -4rem;\n  }\n\n  .xl\\:tw--mx-16 {\n    margin-left: -4rem;\n    margin-right: -4rem;\n  }\n\n  .xl\\:tw--my-20 {\n    margin-top: -5rem;\n    margin-bottom: -5rem;\n  }\n\n  .xl\\:tw--mx-20 {\n    margin-left: -5rem;\n    margin-right: -5rem;\n  }\n\n  .xl\\:tw--my-24 {\n    margin-top: -6rem;\n    margin-bottom: -6rem;\n  }\n\n  .xl\\:tw--mx-24 {\n    margin-left: -6rem;\n    margin-right: -6rem;\n  }\n\n  .xl\\:tw--my-32 {\n    margin-top: -8rem;\n    margin-bottom: -8rem;\n  }\n\n  .xl\\:tw--mx-32 {\n    margin-left: -8rem;\n    margin-right: -8rem;\n  }\n\n  .xl\\:tw--my-px {\n    margin-top: -1px;\n    margin-bottom: -1px;\n  }\n\n  .xl\\:tw--mx-px {\n    margin-left: -1px;\n    margin-right: -1px;\n  }\n\n  .xl\\:tw--mt-0 {\n    margin-top: 0;\n  }\n\n  .xl\\:tw--mr-0 {\n    margin-right: 0;\n  }\n\n  .xl\\:tw--mb-0 {\n    margin-bottom: 0;\n  }\n\n  .xl\\:tw--ml-0 {\n    margin-left: 0;\n  }\n\n  .xl\\:tw--mt-1 {\n    margin-top: -0.25rem;\n  }\n\n  .xl\\:tw--mr-1 {\n    margin-right: -0.25rem;\n  }\n\n  .xl\\:tw--mb-1 {\n    margin-bottom: -0.25rem;\n  }\n\n  .xl\\:tw--ml-1 {\n    margin-left: -0.25rem;\n  }\n\n  .xl\\:tw--mt-2 {\n    margin-top: -0.5rem;\n  }\n\n  .xl\\:tw--mr-2 {\n    margin-right: -0.5rem;\n  }\n\n  .xl\\:tw--mb-2 {\n    margin-bottom: -0.5rem;\n  }\n\n  .xl\\:tw--ml-2 {\n    margin-left: -0.5rem;\n  }\n\n  .xl\\:tw--mt-3 {\n    margin-top: -0.75rem;\n  }\n\n  .xl\\:tw--mr-3 {\n    margin-right: -0.75rem;\n  }\n\n  .xl\\:tw--mb-3 {\n    margin-bottom: -0.75rem;\n  }\n\n  .xl\\:tw--ml-3 {\n    margin-left: -0.75rem;\n  }\n\n  .xl\\:tw--mt-4 {\n    margin-top: -1rem;\n  }\n\n  .xl\\:tw--mr-4 {\n    margin-right: -1rem;\n  }\n\n  .xl\\:tw--mb-4 {\n    margin-bottom: -1rem;\n  }\n\n  .xl\\:tw--ml-4 {\n    margin-left: -1rem;\n  }\n\n  .xl\\:tw--mt-5 {\n    margin-top: -1.25rem;\n  }\n\n  .xl\\:tw--mr-5 {\n    margin-right: -1.25rem;\n  }\n\n  .xl\\:tw--mb-5 {\n    margin-bottom: -1.25rem;\n  }\n\n  .xl\\:tw--ml-5 {\n    margin-left: -1.25rem;\n  }\n\n  .xl\\:tw--mt-6 {\n    margin-top: -1.5rem;\n  }\n\n  .xl\\:tw--mr-6 {\n    margin-right: -1.5rem;\n  }\n\n  .xl\\:tw--mb-6 {\n    margin-bottom: -1.5rem;\n  }\n\n  .xl\\:tw--ml-6 {\n    margin-left: -1.5rem;\n  }\n\n  .xl\\:tw--mt-8 {\n    margin-top: -2rem;\n  }\n\n  .xl\\:tw--mr-8 {\n    margin-right: -2rem;\n  }\n\n  .xl\\:tw--mb-8 {\n    margin-bottom: -2rem;\n  }\n\n  .xl\\:tw--ml-8 {\n    margin-left: -2rem;\n  }\n\n  .xl\\:tw--mt-10 {\n    margin-top: -2.5rem;\n  }\n\n  .xl\\:tw--mr-10 {\n    margin-right: -2.5rem;\n  }\n\n  .xl\\:tw--mb-10 {\n    margin-bottom: -2.5rem;\n  }\n\n  .xl\\:tw--ml-10 {\n    margin-left: -2.5rem;\n  }\n\n  .xl\\:tw--mt-12 {\n    margin-top: -3rem;\n  }\n\n  .xl\\:tw--mr-12 {\n    margin-right: -3rem;\n  }\n\n  .xl\\:tw--mb-12 {\n    margin-bottom: -3rem;\n  }\n\n  .xl\\:tw--ml-12 {\n    margin-left: -3rem;\n  }\n\n  .xl\\:tw--mt-16 {\n    margin-top: -4rem;\n  }\n\n  .xl\\:tw--mr-16 {\n    margin-right: -4rem;\n  }\n\n  .xl\\:tw--mb-16 {\n    margin-bottom: -4rem;\n  }\n\n  .xl\\:tw--ml-16 {\n    margin-left: -4rem;\n  }\n\n  .xl\\:tw--mt-20 {\n    margin-top: -5rem;\n  }\n\n  .xl\\:tw--mr-20 {\n    margin-right: -5rem;\n  }\n\n  .xl\\:tw--mb-20 {\n    margin-bottom: -5rem;\n  }\n\n  .xl\\:tw--ml-20 {\n    margin-left: -5rem;\n  }\n\n  .xl\\:tw--mt-24 {\n    margin-top: -6rem;\n  }\n\n  .xl\\:tw--mr-24 {\n    margin-right: -6rem;\n  }\n\n  .xl\\:tw--mb-24 {\n    margin-bottom: -6rem;\n  }\n\n  .xl\\:tw--ml-24 {\n    margin-left: -6rem;\n  }\n\n  .xl\\:tw--mt-32 {\n    margin-top: -8rem;\n  }\n\n  .xl\\:tw--mr-32 {\n    margin-right: -8rem;\n  }\n\n  .xl\\:tw--mb-32 {\n    margin-bottom: -8rem;\n  }\n\n  .xl\\:tw--ml-32 {\n    margin-left: -8rem;\n  }\n\n  .xl\\:tw--mt-px {\n    margin-top: -1px;\n  }\n\n  .xl\\:tw--mr-px {\n    margin-right: -1px;\n  }\n\n  .xl\\:tw--mb-px {\n    margin-bottom: -1px;\n  }\n\n  .xl\\:tw--ml-px {\n    margin-left: -1px;\n  }\n\n  .xl\\:tw-opacity-0 {\n    opacity: 0;\n  }\n\n  .xl\\:tw-opacity-25 {\n    opacity: .25;\n  }\n\n  .xl\\:tw-opacity-50 {\n    opacity: .5;\n  }\n\n  .xl\\:tw-opacity-75 {\n    opacity: .75;\n  }\n\n  .xl\\:tw-opacity-100 {\n    opacity: 1;\n  }\n\n  .xl\\:tw-overflow-auto {\n    overflow: auto;\n  }\n\n  .xl\\:tw-overflow-hidden {\n    overflow: hidden;\n  }\n\n  .xl\\:tw-overflow-visible {\n    overflow: visible;\n  }\n\n  .xl\\:tw-overflow-scroll {\n    overflow: scroll;\n  }\n\n  .xl\\:tw-overflow-x-auto {\n    overflow-x: auto;\n  }\n\n  .xl\\:tw-overflow-y-auto {\n    overflow-y: auto;\n  }\n\n  .xl\\:tw-overflow-x-hidden {\n    overflow-x: hidden;\n  }\n\n  .xl\\:tw-overflow-y-hidden {\n    overflow-y: hidden;\n  }\n\n  .xl\\:tw-overflow-x-visible {\n    overflow-x: visible;\n  }\n\n  .xl\\:tw-overflow-y-visible {\n    overflow-y: visible;\n  }\n\n  .xl\\:tw-overflow-x-scroll {\n    overflow-x: scroll;\n  }\n\n  .xl\\:tw-overflow-y-scroll {\n    overflow-y: scroll;\n  }\n\n  .xl\\:tw-scrolling-touch {\n    -webkit-overflow-scrolling: touch;\n  }\n\n  .xl\\:tw-scrolling-auto {\n    -webkit-overflow-scrolling: auto;\n  }\n\n  .xl\\:tw-p-0 {\n    padding: 0;\n  }\n\n  .xl\\:tw-p-1 {\n    padding: .25rem;\n  }\n\n  .xl\\:tw-p-2 {\n    padding: .5rem;\n  }\n\n  .xl\\:tw-p-3 {\n    padding: .75rem;\n  }\n\n  .xl\\:tw-p-4 {\n    padding: 1rem;\n  }\n\n  .xl\\:tw-p-5 {\n    padding: 1.25rem;\n  }\n\n  .xl\\:tw-p-6 {\n    padding: 1.5rem;\n  }\n\n  .xl\\:tw-p-8 {\n    padding: 2rem;\n  }\n\n  .xl\\:tw-p-10 {\n    padding: 2.5rem;\n  }\n\n  .xl\\:tw-p-12 {\n    padding: 3rem;\n  }\n\n  .xl\\:tw-p-16 {\n    padding: 4rem;\n  }\n\n  .xl\\:tw-p-20 {\n    padding: 5rem;\n  }\n\n  .xl\\:tw-p-24 {\n    padding: 6rem;\n  }\n\n  .xl\\:tw-p-32 {\n    padding: 8rem;\n  }\n\n  .xl\\:tw-p-px {\n    padding: 1px;\n  }\n\n  .xl\\:tw-py-0 {\n    padding-top: 0;\n    padding-bottom: 0;\n  }\n\n  .xl\\:tw-px-0 {\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  .xl\\:tw-py-1 {\n    padding-top: .25rem;\n    padding-bottom: .25rem;\n  }\n\n  .xl\\:tw-px-1 {\n    padding-left: .25rem;\n    padding-right: .25rem;\n  }\n\n  .xl\\:tw-py-2 {\n    padding-top: .5rem;\n    padding-bottom: .5rem;\n  }\n\n  .xl\\:tw-px-2 {\n    padding-left: .5rem;\n    padding-right: .5rem;\n  }\n\n  .xl\\:tw-py-3 {\n    padding-top: .75rem;\n    padding-bottom: .75rem;\n  }\n\n  .xl\\:tw-px-3 {\n    padding-left: .75rem;\n    padding-right: .75rem;\n  }\n\n  .xl\\:tw-py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .xl\\:tw-px-4 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n\n  .xl\\:tw-py-5 {\n    padding-top: 1.25rem;\n    padding-bottom: 1.25rem;\n  }\n\n  .xl\\:tw-px-5 {\n    padding-left: 1.25rem;\n    padding-right: 1.25rem;\n  }\n\n  .xl\\:tw-py-6 {\n    padding-top: 1.5rem;\n    padding-bottom: 1.5rem;\n  }\n\n  .xl\\:tw-px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .xl\\:tw-py-8 {\n    padding-top: 2rem;\n    padding-bottom: 2rem;\n  }\n\n  .xl\\:tw-px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .xl\\:tw-py-10 {\n    padding-top: 2.5rem;\n    padding-bottom: 2.5rem;\n  }\n\n  .xl\\:tw-px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .xl\\:tw-py-12 {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n  }\n\n  .xl\\:tw-px-12 {\n    padding-left: 3rem;\n    padding-right: 3rem;\n  }\n\n  .xl\\:tw-py-16 {\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n  }\n\n  .xl\\:tw-px-16 {\n    padding-left: 4rem;\n    padding-right: 4rem;\n  }\n\n  .xl\\:tw-py-20 {\n    padding-top: 5rem;\n    padding-bottom: 5rem;\n  }\n\n  .xl\\:tw-px-20 {\n    padding-left: 5rem;\n    padding-right: 5rem;\n  }\n\n  .xl\\:tw-py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .xl\\:tw-px-24 {\n    padding-left: 6rem;\n    padding-right: 6rem;\n  }\n\n  .xl\\:tw-py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .xl\\:tw-px-32 {\n    padding-left: 8rem;\n    padding-right: 8rem;\n  }\n\n  .xl\\:tw-py-px {\n    padding-top: 1px;\n    padding-bottom: 1px;\n  }\n\n  .xl\\:tw-px-px {\n    padding-left: 1px;\n    padding-right: 1px;\n  }\n\n  .xl\\:tw-pt-0 {\n    padding-top: 0;\n  }\n\n  .xl\\:tw-pr-0 {\n    padding-right: 0;\n  }\n\n  .xl\\:tw-pb-0 {\n    padding-bottom: 0;\n  }\n\n  .xl\\:tw-pl-0 {\n    padding-left: 0;\n  }\n\n  .xl\\:tw-pt-1 {\n    padding-top: .25rem;\n  }\n\n  .xl\\:tw-pr-1 {\n    padding-right: .25rem;\n  }\n\n  .xl\\:tw-pb-1 {\n    padding-bottom: .25rem;\n  }\n\n  .xl\\:tw-pl-1 {\n    padding-left: .25rem;\n  }\n\n  .xl\\:tw-pt-2 {\n    padding-top: .5rem;\n  }\n\n  .xl\\:tw-pr-2 {\n    padding-right: .5rem;\n  }\n\n  .xl\\:tw-pb-2 {\n    padding-bottom: .5rem;\n  }\n\n  .xl\\:tw-pl-2 {\n    padding-left: .5rem;\n  }\n\n  .xl\\:tw-pt-3 {\n    padding-top: .75rem;\n  }\n\n  .xl\\:tw-pr-3 {\n    padding-right: .75rem;\n  }\n\n  .xl\\:tw-pb-3 {\n    padding-bottom: .75rem;\n  }\n\n  .xl\\:tw-pl-3 {\n    padding-left: .75rem;\n  }\n\n  .xl\\:tw-pt-4 {\n    padding-top: 1rem;\n  }\n\n  .xl\\:tw-pr-4 {\n    padding-right: 1rem;\n  }\n\n  .xl\\:tw-pb-4 {\n    padding-bottom: 1rem;\n  }\n\n  .xl\\:tw-pl-4 {\n    padding-left: 1rem;\n  }\n\n  .xl\\:tw-pt-5 {\n    padding-top: 1.25rem;\n  }\n\n  .xl\\:tw-pr-5 {\n    padding-right: 1.25rem;\n  }\n\n  .xl\\:tw-pb-5 {\n    padding-bottom: 1.25rem;\n  }\n\n  .xl\\:tw-pl-5 {\n    padding-left: 1.25rem;\n  }\n\n  .xl\\:tw-pt-6 {\n    padding-top: 1.5rem;\n  }\n\n  .xl\\:tw-pr-6 {\n    padding-right: 1.5rem;\n  }\n\n  .xl\\:tw-pb-6 {\n    padding-bottom: 1.5rem;\n  }\n\n  .xl\\:tw-pl-6 {\n    padding-left: 1.5rem;\n  }\n\n  .xl\\:tw-pt-8 {\n    padding-top: 2rem;\n  }\n\n  .xl\\:tw-pr-8 {\n    padding-right: 2rem;\n  }\n\n  .xl\\:tw-pb-8 {\n    padding-bottom: 2rem;\n  }\n\n  .xl\\:tw-pl-8 {\n    padding-left: 2rem;\n  }\n\n  .xl\\:tw-pt-10 {\n    padding-top: 2.5rem;\n  }\n\n  .xl\\:tw-pr-10 {\n    padding-right: 2.5rem;\n  }\n\n  .xl\\:tw-pb-10 {\n    padding-bottom: 2.5rem;\n  }\n\n  .xl\\:tw-pl-10 {\n    padding-left: 2.5rem;\n  }\n\n  .xl\\:tw-pt-12 {\n    padding-top: 3rem;\n  }\n\n  .xl\\:tw-pr-12 {\n    padding-right: 3rem;\n  }\n\n  .xl\\:tw-pb-12 {\n    padding-bottom: 3rem;\n  }\n\n  .xl\\:tw-pl-12 {\n    padding-left: 3rem;\n  }\n\n  .xl\\:tw-pt-16 {\n    padding-top: 4rem;\n  }\n\n  .xl\\:tw-pr-16 {\n    padding-right: 4rem;\n  }\n\n  .xl\\:tw-pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .xl\\:tw-pl-16 {\n    padding-left: 4rem;\n  }\n\n  .xl\\:tw-pt-20 {\n    padding-top: 5rem;\n  }\n\n  .xl\\:tw-pr-20 {\n    padding-right: 5rem;\n  }\n\n  .xl\\:tw-pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .xl\\:tw-pl-20 {\n    padding-left: 5rem;\n  }\n\n  .xl\\:tw-pt-24 {\n    padding-top: 6rem;\n  }\n\n  .xl\\:tw-pr-24 {\n    padding-right: 6rem;\n  }\n\n  .xl\\:tw-pb-24 {\n    padding-bottom: 6rem;\n  }\n\n  .xl\\:tw-pl-24 {\n    padding-left: 6rem;\n  }\n\n  .xl\\:tw-pt-32 {\n    padding-top: 8rem;\n  }\n\n  .xl\\:tw-pr-32 {\n    padding-right: 8rem;\n  }\n\n  .xl\\:tw-pb-32 {\n    padding-bottom: 8rem;\n  }\n\n  .xl\\:tw-pl-32 {\n    padding-left: 8rem;\n  }\n\n  .xl\\:tw-pt-px {\n    padding-top: 1px;\n  }\n\n  .xl\\:tw-pr-px {\n    padding-right: 1px;\n  }\n\n  .xl\\:tw-pb-px {\n    padding-bottom: 1px;\n  }\n\n  .xl\\:tw-pl-px {\n    padding-left: 1px;\n  }\n\n  .xl\\:tw-pointer-events-none {\n    pointer-events: none;\n  }\n\n  .xl\\:tw-pointer-events-auto {\n    pointer-events: auto;\n  }\n\n  .xl\\:tw-static {\n    position: static;\n  }\n\n  .xl\\:tw-fixed {\n    position: fixed;\n  }\n\n  .xl\\:tw-absolute {\n    position: absolute;\n  }\n\n  .xl\\:tw-relative {\n    position: relative;\n  }\n\n  .xl\\:tw-sticky {\n    position: -webkit-sticky;\n    position: sticky;\n  }\n\n  .xl\\:tw-pin-none {\n    top: auto;\n    right: auto;\n    bottom: auto;\n    left: auto;\n  }\n\n  .xl\\:tw-pin {\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .xl\\:tw-pin-y {\n    top: 0;\n    bottom: 0;\n  }\n\n  .xl\\:tw-pin-x {\n    right: 0;\n    left: 0;\n  }\n\n  .xl\\:tw-pin-t {\n    top: 0;\n  }\n\n  .xl\\:tw-pin-r {\n    right: 0;\n  }\n\n  .xl\\:tw-pin-b {\n    bottom: 0;\n  }\n\n  .xl\\:tw-pin-l {\n    left: 0;\n  }\n\n  .xl\\:tw-resize-none {\n    resize: none;\n  }\n\n  .xl\\:tw-resize-y {\n    resize: vertical;\n  }\n\n  .xl\\:tw-resize-x {\n    resize: horizontal;\n  }\n\n  .xl\\:tw-resize {\n    resize: both;\n  }\n\n  .xl\\:tw-shadow {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .xl\\:tw-shadow-md {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .xl\\:tw-shadow-lg {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .xl\\:tw-shadow-inner {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .xl\\:tw-shadow-outline {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .xl\\:tw-shadow-none {\n    box-shadow: none;\n  }\n\n  .xl\\:hover\\:tw-shadow:hover {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .xl\\:hover\\:tw-shadow-md:hover {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .xl\\:hover\\:tw-shadow-lg:hover {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .xl\\:hover\\:tw-shadow-inner:hover {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .xl\\:hover\\:tw-shadow-outline:hover {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .xl\\:hover\\:tw-shadow-none:hover {\n    box-shadow: none;\n  }\n\n  .xl\\:focus\\:tw-shadow:focus {\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);\n  }\n\n  .xl\\:focus\\:tw-shadow-md:focus {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);\n  }\n\n  .xl\\:focus\\:tw-shadow-lg:focus {\n    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);\n  }\n\n  .xl\\:focus\\:tw-shadow-inner:focus {\n    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);\n  }\n\n  .xl\\:focus\\:tw-shadow-outline:focus {\n    box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);\n  }\n\n  .xl\\:focus\\:tw-shadow-none:focus {\n    box-shadow: none;\n  }\n\n  .xl\\:tw-table-auto {\n    table-layout: auto;\n  }\n\n  .xl\\:tw-table-fixed {\n    table-layout: fixed;\n  }\n\n  .xl\\:tw-text-left {\n    text-align: left;\n  }\n\n  .xl\\:tw-text-center {\n    text-align: center;\n  }\n\n  .xl\\:tw-text-right {\n    text-align: right;\n  }\n\n  .xl\\:tw-text-justify {\n    text-align: justify;\n  }\n\n  .xl\\:tw-text-transparent {\n    color: transparent;\n  }\n\n  .xl\\:tw-text-black {\n    color: #22292f;\n  }\n\n  .xl\\:tw-text-grey-darkest {\n    color: #3d4852;\n  }\n\n  .xl\\:tw-text-grey-darker {\n    color: #606f7b;\n  }\n\n  .xl\\:tw-text-grey-dark {\n    color: #8795a1;\n  }\n\n  .xl\\:tw-text-grey {\n    color: #b8c2cc;\n  }\n\n  .xl\\:tw-text-grey-light {\n    color: #dae1e7;\n  }\n\n  .xl\\:tw-text-grey-lighter {\n    color: #f1f5f8;\n  }\n\n  .xl\\:tw-text-grey-lightest {\n    color: #f8fafc;\n  }\n\n  .xl\\:tw-text-white {\n    color: #fff;\n  }\n\n  .xl\\:tw-text-red-darkest {\n    color: #3b0d0c;\n  }\n\n  .xl\\:tw-text-red-darker {\n    color: #621b18;\n  }\n\n  .xl\\:tw-text-red-dark {\n    color: #cc1f1a;\n  }\n\n  .xl\\:tw-text-red {\n    color: #e3342f;\n  }\n\n  .xl\\:tw-text-red-light {\n    color: #ef5753;\n  }\n\n  .xl\\:tw-text-red-lighter {\n    color: #f9acaa;\n  }\n\n  .xl\\:tw-text-red-lightest {\n    color: #fcebea;\n  }\n\n  .xl\\:tw-text-orange-darkest {\n    color: #462a16;\n  }\n\n  .xl\\:tw-text-orange-darker {\n    color: #613b1f;\n  }\n\n  .xl\\:tw-text-orange-dark {\n    color: #de751f;\n  }\n\n  .xl\\:tw-text-orange {\n    color: #f6993f;\n  }\n\n  .xl\\:tw-text-orange-light {\n    color: #faad63;\n  }\n\n  .xl\\:tw-text-orange-lighter {\n    color: #fcd9b6;\n  }\n\n  .xl\\:tw-text-orange-lightest {\n    color: #fff5eb;\n  }\n\n  .xl\\:tw-text-yellow-darkest {\n    color: #453411;\n  }\n\n  .xl\\:tw-text-yellow-darker {\n    color: #684f1d;\n  }\n\n  .xl\\:tw-text-yellow-dark {\n    color: #f2d024;\n  }\n\n  .xl\\:tw-text-yellow {\n    color: #ffed4a;\n  }\n\n  .xl\\:tw-text-yellow-light {\n    color: #fff382;\n  }\n\n  .xl\\:tw-text-yellow-lighter {\n    color: #fff9c2;\n  }\n\n  .xl\\:tw-text-yellow-lightest {\n    color: #fcfbeb;\n  }\n\n  .xl\\:tw-text-green-darkest {\n    color: #0f2f21;\n  }\n\n  .xl\\:tw-text-green-darker {\n    color: #1a4731;\n  }\n\n  .xl\\:tw-text-green-dark {\n    color: #1f9d55;\n  }\n\n  .xl\\:tw-text-green {\n    color: #38c172;\n  }\n\n  .xl\\:tw-text-green-light {\n    color: #51d88a;\n  }\n\n  .xl\\:tw-text-green-lighter {\n    color: #a2f5bf;\n  }\n\n  .xl\\:tw-text-green-lightest {\n    color: #e3fcec;\n  }\n\n  .xl\\:tw-text-teal-darkest {\n    color: #0d3331;\n  }\n\n  .xl\\:tw-text-teal-darker {\n    color: #20504f;\n  }\n\n  .xl\\:tw-text-teal-dark {\n    color: #38a89d;\n  }\n\n  .xl\\:tw-text-teal {\n    color: #4dc0b5;\n  }\n\n  .xl\\:tw-text-teal-light {\n    color: #64d5ca;\n  }\n\n  .xl\\:tw-text-teal-lighter {\n    color: #a0f0ed;\n  }\n\n  .xl\\:tw-text-teal-lightest {\n    color: #e8fffe;\n  }\n\n  .xl\\:tw-text-blue-darkest {\n    color: #12283a;\n  }\n\n  .xl\\:tw-text-blue-darker {\n    color: #1c3d5a;\n  }\n\n  .xl\\:tw-text-blue-dark {\n    color: #2779bd;\n  }\n\n  .xl\\:tw-text-blue {\n    color: #3490dc;\n  }\n\n  .xl\\:tw-text-blue-light {\n    color: #6cb2eb;\n  }\n\n  .xl\\:tw-text-blue-lighter {\n    color: #bcdefa;\n  }\n\n  .xl\\:tw-text-blue-lightest {\n    color: #eff8ff;\n  }\n\n  .xl\\:tw-text-indigo-darkest {\n    color: #191e38;\n  }\n\n  .xl\\:tw-text-indigo-darker {\n    color: #2f365f;\n  }\n\n  .xl\\:tw-text-indigo-dark {\n    color: #5661b3;\n  }\n\n  .xl\\:tw-text-indigo {\n    color: #6574cd;\n  }\n\n  .xl\\:tw-text-indigo-light {\n    color: #7886d7;\n  }\n\n  .xl\\:tw-text-indigo-lighter {\n    color: #b2b7ff;\n  }\n\n  .xl\\:tw-text-indigo-lightest {\n    color: #e6e8ff;\n  }\n\n  .xl\\:tw-text-purple-darkest {\n    color: #21183c;\n  }\n\n  .xl\\:tw-text-purple-darker {\n    color: #382b5f;\n  }\n\n  .xl\\:tw-text-purple-dark {\n    color: #794acf;\n  }\n\n  .xl\\:tw-text-purple {\n    color: #9561e2;\n  }\n\n  .xl\\:tw-text-purple-light {\n    color: #a779e9;\n  }\n\n  .xl\\:tw-text-purple-lighter {\n    color: #d6bbfc;\n  }\n\n  .xl\\:tw-text-purple-lightest {\n    color: #f3ebff;\n  }\n\n  .xl\\:tw-text-pink-darkest {\n    color: #451225;\n  }\n\n  .xl\\:tw-text-pink-darker {\n    color: #6f213f;\n  }\n\n  .xl\\:tw-text-pink-dark {\n    color: #eb5286;\n  }\n\n  .xl\\:tw-text-pink {\n    color: #f66d9b;\n  }\n\n  .xl\\:tw-text-pink-light {\n    color: #fa7ea8;\n  }\n\n  .xl\\:tw-text-pink-lighter {\n    color: #ffbbca;\n  }\n\n  .xl\\:tw-text-pink-lightest {\n    color: #ffebef;\n  }\n\n  .xl\\:tw-text-linkColor {\n    color: royalblue;\n  }\n\n  .xl\\:tw-text-linkHoverColor {\n    color: darkblue;\n  }\n\n  .xl\\:hover\\:tw-text-transparent:hover {\n    color: transparent;\n  }\n\n  .xl\\:hover\\:tw-text-black:hover {\n    color: #22292f;\n  }\n\n  .xl\\:hover\\:tw-text-grey-darkest:hover {\n    color: #3d4852;\n  }\n\n  .xl\\:hover\\:tw-text-grey-darker:hover {\n    color: #606f7b;\n  }\n\n  .xl\\:hover\\:tw-text-grey-dark:hover {\n    color: #8795a1;\n  }\n\n  .xl\\:hover\\:tw-text-grey:hover {\n    color: #b8c2cc;\n  }\n\n  .xl\\:hover\\:tw-text-grey-light:hover {\n    color: #dae1e7;\n  }\n\n  .xl\\:hover\\:tw-text-grey-lighter:hover {\n    color: #f1f5f8;\n  }\n\n  .xl\\:hover\\:tw-text-grey-lightest:hover {\n    color: #f8fafc;\n  }\n\n  .xl\\:hover\\:tw-text-white:hover {\n    color: #fff;\n  }\n\n  .xl\\:hover\\:tw-text-red-darkest:hover {\n    color: #3b0d0c;\n  }\n\n  .xl\\:hover\\:tw-text-red-darker:hover {\n    color: #621b18;\n  }\n\n  .xl\\:hover\\:tw-text-red-dark:hover {\n    color: #cc1f1a;\n  }\n\n  .xl\\:hover\\:tw-text-red:hover {\n    color: #e3342f;\n  }\n\n  .xl\\:hover\\:tw-text-red-light:hover {\n    color: #ef5753;\n  }\n\n  .xl\\:hover\\:tw-text-red-lighter:hover {\n    color: #f9acaa;\n  }\n\n  .xl\\:hover\\:tw-text-red-lightest:hover {\n    color: #fcebea;\n  }\n\n  .xl\\:hover\\:tw-text-orange-darkest:hover {\n    color: #462a16;\n  }\n\n  .xl\\:hover\\:tw-text-orange-darker:hover {\n    color: #613b1f;\n  }\n\n  .xl\\:hover\\:tw-text-orange-dark:hover {\n    color: #de751f;\n  }\n\n  .xl\\:hover\\:tw-text-orange:hover {\n    color: #f6993f;\n  }\n\n  .xl\\:hover\\:tw-text-orange-light:hover {\n    color: #faad63;\n  }\n\n  .xl\\:hover\\:tw-text-orange-lighter:hover {\n    color: #fcd9b6;\n  }\n\n  .xl\\:hover\\:tw-text-orange-lightest:hover {\n    color: #fff5eb;\n  }\n\n  .xl\\:hover\\:tw-text-yellow-darkest:hover {\n    color: #453411;\n  }\n\n  .xl\\:hover\\:tw-text-yellow-darker:hover {\n    color: #684f1d;\n  }\n\n  .xl\\:hover\\:tw-text-yellow-dark:hover {\n    color: #f2d024;\n  }\n\n  .xl\\:hover\\:tw-text-yellow:hover {\n    color: #ffed4a;\n  }\n\n  .xl\\:hover\\:tw-text-yellow-light:hover {\n    color: #fff382;\n  }\n\n  .xl\\:hover\\:tw-text-yellow-lighter:hover {\n    color: #fff9c2;\n  }\n\n  .xl\\:hover\\:tw-text-yellow-lightest:hover {\n    color: #fcfbeb;\n  }\n\n  .xl\\:hover\\:tw-text-green-darkest:hover {\n    color: #0f2f21;\n  }\n\n  .xl\\:hover\\:tw-text-green-darker:hover {\n    color: #1a4731;\n  }\n\n  .xl\\:hover\\:tw-text-green-dark:hover {\n    color: #1f9d55;\n  }\n\n  .xl\\:hover\\:tw-text-green:hover {\n    color: #38c172;\n  }\n\n  .xl\\:hover\\:tw-text-green-light:hover {\n    color: #51d88a;\n  }\n\n  .xl\\:hover\\:tw-text-green-lighter:hover {\n    color: #a2f5bf;\n  }\n\n  .xl\\:hover\\:tw-text-green-lightest:hover {\n    color: #e3fcec;\n  }\n\n  .xl\\:hover\\:tw-text-teal-darkest:hover {\n    color: #0d3331;\n  }\n\n  .xl\\:hover\\:tw-text-teal-darker:hover {\n    color: #20504f;\n  }\n\n  .xl\\:hover\\:tw-text-teal-dark:hover {\n    color: #38a89d;\n  }\n\n  .xl\\:hover\\:tw-text-teal:hover {\n    color: #4dc0b5;\n  }\n\n  .xl\\:hover\\:tw-text-teal-light:hover {\n    color: #64d5ca;\n  }\n\n  .xl\\:hover\\:tw-text-teal-lighter:hover {\n    color: #a0f0ed;\n  }\n\n  .xl\\:hover\\:tw-text-teal-lightest:hover {\n    color: #e8fffe;\n  }\n\n  .xl\\:hover\\:tw-text-blue-darkest:hover {\n    color: #12283a;\n  }\n\n  .xl\\:hover\\:tw-text-blue-darker:hover {\n    color: #1c3d5a;\n  }\n\n  .xl\\:hover\\:tw-text-blue-dark:hover {\n    color: #2779bd;\n  }\n\n  .xl\\:hover\\:tw-text-blue:hover {\n    color: #3490dc;\n  }\n\n  .xl\\:hover\\:tw-text-blue-light:hover {\n    color: #6cb2eb;\n  }\n\n  .xl\\:hover\\:tw-text-blue-lighter:hover {\n    color: #bcdefa;\n  }\n\n  .xl\\:hover\\:tw-text-blue-lightest:hover {\n    color: #eff8ff;\n  }\n\n  .xl\\:hover\\:tw-text-indigo-darkest:hover {\n    color: #191e38;\n  }\n\n  .xl\\:hover\\:tw-text-indigo-darker:hover {\n    color: #2f365f;\n  }\n\n  .xl\\:hover\\:tw-text-indigo-dark:hover {\n    color: #5661b3;\n  }\n\n  .xl\\:hover\\:tw-text-indigo:hover {\n    color: #6574cd;\n  }\n\n  .xl\\:hover\\:tw-text-indigo-light:hover {\n    color: #7886d7;\n  }\n\n  .xl\\:hover\\:tw-text-indigo-lighter:hover {\n    color: #b2b7ff;\n  }\n\n  .xl\\:hover\\:tw-text-indigo-lightest:hover {\n    color: #e6e8ff;\n  }\n\n  .xl\\:hover\\:tw-text-purple-darkest:hover {\n    color: #21183c;\n  }\n\n  .xl\\:hover\\:tw-text-purple-darker:hover {\n    color: #382b5f;\n  }\n\n  .xl\\:hover\\:tw-text-purple-dark:hover {\n    color: #794acf;\n  }\n\n  .xl\\:hover\\:tw-text-purple:hover {\n    color: #9561e2;\n  }\n\n  .xl\\:hover\\:tw-text-purple-light:hover {\n    color: #a779e9;\n  }\n\n  .xl\\:hover\\:tw-text-purple-lighter:hover {\n    color: #d6bbfc;\n  }\n\n  .xl\\:hover\\:tw-text-purple-lightest:hover {\n    color: #f3ebff;\n  }\n\n  .xl\\:hover\\:tw-text-pink-darkest:hover {\n    color: #451225;\n  }\n\n  .xl\\:hover\\:tw-text-pink-darker:hover {\n    color: #6f213f;\n  }\n\n  .xl\\:hover\\:tw-text-pink-dark:hover {\n    color: #eb5286;\n  }\n\n  .xl\\:hover\\:tw-text-pink:hover {\n    color: #f66d9b;\n  }\n\n  .xl\\:hover\\:tw-text-pink-light:hover {\n    color: #fa7ea8;\n  }\n\n  .xl\\:hover\\:tw-text-pink-lighter:hover {\n    color: #ffbbca;\n  }\n\n  .xl\\:hover\\:tw-text-pink-lightest:hover {\n    color: #ffebef;\n  }\n\n  .xl\\:hover\\:tw-text-linkColor:hover {\n    color: royalblue;\n  }\n\n  .xl\\:hover\\:tw-text-linkHoverColor:hover {\n    color: darkblue;\n  }\n\n  .xl\\:focus\\:tw-text-transparent:focus {\n    color: transparent;\n  }\n\n  .xl\\:focus\\:tw-text-black:focus {\n    color: #22292f;\n  }\n\n  .xl\\:focus\\:tw-text-grey-darkest:focus {\n    color: #3d4852;\n  }\n\n  .xl\\:focus\\:tw-text-grey-darker:focus {\n    color: #606f7b;\n  }\n\n  .xl\\:focus\\:tw-text-grey-dark:focus {\n    color: #8795a1;\n  }\n\n  .xl\\:focus\\:tw-text-grey:focus {\n    color: #b8c2cc;\n  }\n\n  .xl\\:focus\\:tw-text-grey-light:focus {\n    color: #dae1e7;\n  }\n\n  .xl\\:focus\\:tw-text-grey-lighter:focus {\n    color: #f1f5f8;\n  }\n\n  .xl\\:focus\\:tw-text-grey-lightest:focus {\n    color: #f8fafc;\n  }\n\n  .xl\\:focus\\:tw-text-white:focus {\n    color: #fff;\n  }\n\n  .xl\\:focus\\:tw-text-red-darkest:focus {\n    color: #3b0d0c;\n  }\n\n  .xl\\:focus\\:tw-text-red-darker:focus {\n    color: #621b18;\n  }\n\n  .xl\\:focus\\:tw-text-red-dark:focus {\n    color: #cc1f1a;\n  }\n\n  .xl\\:focus\\:tw-text-red:focus {\n    color: #e3342f;\n  }\n\n  .xl\\:focus\\:tw-text-red-light:focus {\n    color: #ef5753;\n  }\n\n  .xl\\:focus\\:tw-text-red-lighter:focus {\n    color: #f9acaa;\n  }\n\n  .xl\\:focus\\:tw-text-red-lightest:focus {\n    color: #fcebea;\n  }\n\n  .xl\\:focus\\:tw-text-orange-darkest:focus {\n    color: #462a16;\n  }\n\n  .xl\\:focus\\:tw-text-orange-darker:focus {\n    color: #613b1f;\n  }\n\n  .xl\\:focus\\:tw-text-orange-dark:focus {\n    color: #de751f;\n  }\n\n  .xl\\:focus\\:tw-text-orange:focus {\n    color: #f6993f;\n  }\n\n  .xl\\:focus\\:tw-text-orange-light:focus {\n    color: #faad63;\n  }\n\n  .xl\\:focus\\:tw-text-orange-lighter:focus {\n    color: #fcd9b6;\n  }\n\n  .xl\\:focus\\:tw-text-orange-lightest:focus {\n    color: #fff5eb;\n  }\n\n  .xl\\:focus\\:tw-text-yellow-darkest:focus {\n    color: #453411;\n  }\n\n  .xl\\:focus\\:tw-text-yellow-darker:focus {\n    color: #684f1d;\n  }\n\n  .xl\\:focus\\:tw-text-yellow-dark:focus {\n    color: #f2d024;\n  }\n\n  .xl\\:focus\\:tw-text-yellow:focus {\n    color: #ffed4a;\n  }\n\n  .xl\\:focus\\:tw-text-yellow-light:focus {\n    color: #fff382;\n  }\n\n  .xl\\:focus\\:tw-text-yellow-lighter:focus {\n    color: #fff9c2;\n  }\n\n  .xl\\:focus\\:tw-text-yellow-lightest:focus {\n    color: #fcfbeb;\n  }\n\n  .xl\\:focus\\:tw-text-green-darkest:focus {\n    color: #0f2f21;\n  }\n\n  .xl\\:focus\\:tw-text-green-darker:focus {\n    color: #1a4731;\n  }\n\n  .xl\\:focus\\:tw-text-green-dark:focus {\n    color: #1f9d55;\n  }\n\n  .xl\\:focus\\:tw-text-green:focus {\n    color: #38c172;\n  }\n\n  .xl\\:focus\\:tw-text-green-light:focus {\n    color: #51d88a;\n  }\n\n  .xl\\:focus\\:tw-text-green-lighter:focus {\n    color: #a2f5bf;\n  }\n\n  .xl\\:focus\\:tw-text-green-lightest:focus {\n    color: #e3fcec;\n  }\n\n  .xl\\:focus\\:tw-text-teal-darkest:focus {\n    color: #0d3331;\n  }\n\n  .xl\\:focus\\:tw-text-teal-darker:focus {\n    color: #20504f;\n  }\n\n  .xl\\:focus\\:tw-text-teal-dark:focus {\n    color: #38a89d;\n  }\n\n  .xl\\:focus\\:tw-text-teal:focus {\n    color: #4dc0b5;\n  }\n\n  .xl\\:focus\\:tw-text-teal-light:focus {\n    color: #64d5ca;\n  }\n\n  .xl\\:focus\\:tw-text-teal-lighter:focus {\n    color: #a0f0ed;\n  }\n\n  .xl\\:focus\\:tw-text-teal-lightest:focus {\n    color: #e8fffe;\n  }\n\n  .xl\\:focus\\:tw-text-blue-darkest:focus {\n    color: #12283a;\n  }\n\n  .xl\\:focus\\:tw-text-blue-darker:focus {\n    color: #1c3d5a;\n  }\n\n  .xl\\:focus\\:tw-text-blue-dark:focus {\n    color: #2779bd;\n  }\n\n  .xl\\:focus\\:tw-text-blue:focus {\n    color: #3490dc;\n  }\n\n  .xl\\:focus\\:tw-text-blue-light:focus {\n    color: #6cb2eb;\n  }\n\n  .xl\\:focus\\:tw-text-blue-lighter:focus {\n    color: #bcdefa;\n  }\n\n  .xl\\:focus\\:tw-text-blue-lightest:focus {\n    color: #eff8ff;\n  }\n\n  .xl\\:focus\\:tw-text-indigo-darkest:focus {\n    color: #191e38;\n  }\n\n  .xl\\:focus\\:tw-text-indigo-darker:focus {\n    color: #2f365f;\n  }\n\n  .xl\\:focus\\:tw-text-indigo-dark:focus {\n    color: #5661b3;\n  }\n\n  .xl\\:focus\\:tw-text-indigo:focus {\n    color: #6574cd;\n  }\n\n  .xl\\:focus\\:tw-text-indigo-light:focus {\n    color: #7886d7;\n  }\n\n  .xl\\:focus\\:tw-text-indigo-lighter:focus {\n    color: #b2b7ff;\n  }\n\n  .xl\\:focus\\:tw-text-indigo-lightest:focus {\n    color: #e6e8ff;\n  }\n\n  .xl\\:focus\\:tw-text-purple-darkest:focus {\n    color: #21183c;\n  }\n\n  .xl\\:focus\\:tw-text-purple-darker:focus {\n    color: #382b5f;\n  }\n\n  .xl\\:focus\\:tw-text-purple-dark:focus {\n    color: #794acf;\n  }\n\n  .xl\\:focus\\:tw-text-purple:focus {\n    color: #9561e2;\n  }\n\n  .xl\\:focus\\:tw-text-purple-light:focus {\n    color: #a779e9;\n  }\n\n  .xl\\:focus\\:tw-text-purple-lighter:focus {\n    color: #d6bbfc;\n  }\n\n  .xl\\:focus\\:tw-text-purple-lightest:focus {\n    color: #f3ebff;\n  }\n\n  .xl\\:focus\\:tw-text-pink-darkest:focus {\n    color: #451225;\n  }\n\n  .xl\\:focus\\:tw-text-pink-darker:focus {\n    color: #6f213f;\n  }\n\n  .xl\\:focus\\:tw-text-pink-dark:focus {\n    color: #eb5286;\n  }\n\n  .xl\\:focus\\:tw-text-pink:focus {\n    color: #f66d9b;\n  }\n\n  .xl\\:focus\\:tw-text-pink-light:focus {\n    color: #fa7ea8;\n  }\n\n  .xl\\:focus\\:tw-text-pink-lighter:focus {\n    color: #ffbbca;\n  }\n\n  .xl\\:focus\\:tw-text-pink-lightest:focus {\n    color: #ffebef;\n  }\n\n  .xl\\:focus\\:tw-text-linkColor:focus {\n    color: royalblue;\n  }\n\n  .xl\\:focus\\:tw-text-linkHoverColor:focus {\n    color: darkblue;\n  }\n\n  .xl\\:tw-text-xs {\n    font-size: .75rem;\n  }\n\n  .xl\\:tw-text-sm {\n    font-size: .875rem;\n  }\n\n  .xl\\:tw-text-base {\n    font-size: 1rem;\n  }\n\n  .xl\\:tw-text-lg {\n    font-size: 1.125rem;\n  }\n\n  .xl\\:tw-text-xl {\n    font-size: 1.25rem;\n  }\n\n  .xl\\:tw-text-2xl {\n    font-size: 1.5rem;\n  }\n\n  .xl\\:tw-text-3xl {\n    font-size: 1.875rem;\n  }\n\n  .xl\\:tw-text-4xl {\n    font-size: 2.25rem;\n  }\n\n  .xl\\:tw-text-5xl {\n    font-size: 3rem;\n  }\n\n  .xl\\:tw-italic {\n    font-style: italic;\n  }\n\n  .xl\\:tw-roman {\n    font-style: normal;\n  }\n\n  .xl\\:tw-uppercase {\n    text-transform: uppercase;\n  }\n\n  .xl\\:tw-lowercase {\n    text-transform: lowercase;\n  }\n\n  .xl\\:tw-capitalize {\n    text-transform: capitalize;\n  }\n\n  .xl\\:tw-normal-case {\n    text-transform: none;\n  }\n\n  .xl\\:tw-underline {\n    text-decoration: underline;\n  }\n\n  .xl\\:tw-line-through {\n    text-decoration: line-through;\n  }\n\n  .xl\\:tw-no-underline {\n    text-decoration: none;\n  }\n\n  .xl\\:tw-antialiased {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .xl\\:tw-subpixel-antialiased {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .xl\\:hover\\:tw-italic:hover {\n    font-style: italic;\n  }\n\n  .xl\\:hover\\:tw-roman:hover {\n    font-style: normal;\n  }\n\n  .xl\\:hover\\:tw-uppercase:hover {\n    text-transform: uppercase;\n  }\n\n  .xl\\:hover\\:tw-lowercase:hover {\n    text-transform: lowercase;\n  }\n\n  .xl\\:hover\\:tw-capitalize:hover {\n    text-transform: capitalize;\n  }\n\n  .xl\\:hover\\:tw-normal-case:hover {\n    text-transform: none;\n  }\n\n  .xl\\:hover\\:tw-underline:hover {\n    text-decoration: underline;\n  }\n\n  .xl\\:hover\\:tw-line-through:hover {\n    text-decoration: line-through;\n  }\n\n  .xl\\:hover\\:tw-no-underline:hover {\n    text-decoration: none;\n  }\n\n  .xl\\:hover\\:tw-antialiased:hover {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .xl\\:hover\\:tw-subpixel-antialiased:hover {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .xl\\:focus\\:tw-italic:focus {\n    font-style: italic;\n  }\n\n  .xl\\:focus\\:tw-roman:focus {\n    font-style: normal;\n  }\n\n  .xl\\:focus\\:tw-uppercase:focus {\n    text-transform: uppercase;\n  }\n\n  .xl\\:focus\\:tw-lowercase:focus {\n    text-transform: lowercase;\n  }\n\n  .xl\\:focus\\:tw-capitalize:focus {\n    text-transform: capitalize;\n  }\n\n  .xl\\:focus\\:tw-normal-case:focus {\n    text-transform: none;\n  }\n\n  .xl\\:focus\\:tw-underline:focus {\n    text-decoration: underline;\n  }\n\n  .xl\\:focus\\:tw-line-through:focus {\n    text-decoration: line-through;\n  }\n\n  .xl\\:focus\\:tw-no-underline:focus {\n    text-decoration: none;\n  }\n\n  .xl\\:focus\\:tw-antialiased:focus {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  .xl\\:focus\\:tw-subpixel-antialiased:focus {\n    -webkit-font-smoothing: auto;\n    -moz-osx-font-smoothing: auto;\n  }\n\n  .xl\\:tw-tracking-tight {\n    letter-spacing: -0.05em;\n  }\n\n  .xl\\:tw-tracking-normal {\n    letter-spacing: 0;\n  }\n\n  .xl\\:tw-tracking-wide {\n    letter-spacing: .05em;\n  }\n\n  .xl\\:tw-select-none {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n  }\n\n  .xl\\:tw-select-text {\n    -webkit-user-select: text;\n       -moz-user-select: text;\n        -ms-user-select: text;\n            user-select: text;\n  }\n\n  .xl\\:tw-align-baseline {\n    vertical-align: baseline;\n  }\n\n  .xl\\:tw-align-top {\n    vertical-align: top;\n  }\n\n  .xl\\:tw-align-middle {\n    vertical-align: middle;\n  }\n\n  .xl\\:tw-align-bottom {\n    vertical-align: bottom;\n  }\n\n  .xl\\:tw-align-text-top {\n    vertical-align: text-top;\n  }\n\n  .xl\\:tw-align-text-bottom {\n    vertical-align: text-bottom;\n  }\n\n  .xl\\:tw-visible {\n    visibility: visible;\n  }\n\n  .xl\\:tw-invisible {\n    visibility: hidden;\n  }\n\n  .xl\\:tw-whitespace-normal {\n    white-space: normal;\n  }\n\n  .xl\\:tw-whitespace-no-wrap {\n    white-space: nowrap;\n  }\n\n  .xl\\:tw-whitespace-pre {\n    white-space: pre;\n  }\n\n  .xl\\:tw-whitespace-pre-line {\n    white-space: pre-line;\n  }\n\n  .xl\\:tw-whitespace-pre-wrap {\n    white-space: pre-wrap;\n  }\n\n  .xl\\:tw-break-words {\n    word-wrap: break-word;\n  }\n\n  .xl\\:tw-break-normal {\n    word-wrap: normal;\n  }\n\n  .xl\\:tw-truncate {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n  }\n\n  .xl\\:tw-w-1 {\n    width: .25rem;\n  }\n\n  .xl\\:tw-w-2 {\n    width: .5rem;\n  }\n\n  .xl\\:tw-w-3 {\n    width: .75rem;\n  }\n\n  .xl\\:tw-w-4 {\n    width: 1rem;\n  }\n\n  .xl\\:tw-w-5 {\n    width: 1.25rem;\n  }\n\n  .xl\\:tw-w-6 {\n    width: 1.5rem;\n  }\n\n  .xl\\:tw-w-8 {\n    width: 2rem;\n  }\n\n  .xl\\:tw-w-10 {\n    width: 2.5rem;\n  }\n\n  .xl\\:tw-w-12 {\n    width: 3rem;\n  }\n\n  .xl\\:tw-w-16 {\n    width: 4rem;\n  }\n\n  .xl\\:tw-w-24 {\n    width: 6rem;\n  }\n\n  .xl\\:tw-w-32 {\n    width: 8rem;\n  }\n\n  .xl\\:tw-w-48 {\n    width: 12rem;\n  }\n\n  .xl\\:tw-w-64 {\n    width: 16rem;\n  }\n\n  .xl\\:tw-w-auto {\n    width: auto;\n  }\n\n  .xl\\:tw-w-px {\n    width: 1px;\n  }\n\n  .xl\\:tw-w-1\\/2 {\n    width: 50%;\n  }\n\n  .xl\\:tw-w-1\\/3 {\n    width: 33.33333%;\n  }\n\n  .xl\\:tw-w-2\\/3 {\n    width: 66.66667%;\n  }\n\n  .xl\\:tw-w-1\\/4 {\n    width: 25%;\n  }\n\n  .xl\\:tw-w-3\\/4 {\n    width: 75%;\n  }\n\n  .xl\\:tw-w-1\\/5 {\n    width: 20%;\n  }\n\n  .xl\\:tw-w-2\\/5 {\n    width: 40%;\n  }\n\n  .xl\\:tw-w-3\\/5 {\n    width: 60%;\n  }\n\n  .xl\\:tw-w-4\\/5 {\n    width: 80%;\n  }\n\n  .xl\\:tw-w-1\\/6 {\n    width: 16.66667%;\n  }\n\n  .xl\\:tw-w-5\\/6 {\n    width: 83.33333%;\n  }\n\n  .xl\\:tw-w-full {\n    width: 100%;\n  }\n\n  .xl\\:tw-w-screen {\n    width: 100vw;\n  }\n\n  .xl\\:tw-z-0 {\n    z-index: 0;\n  }\n\n  .xl\\:tw-z-10 {\n    z-index: 10;\n  }\n\n  .xl\\:tw-z-20 {\n    z-index: 20;\n  }\n\n  .xl\\:tw-z-30 {\n    z-index: 30;\n  }\n\n  .xl\\:tw-z-40 {\n    z-index: 40;\n  }\n\n  .xl\\:tw-z-50 {\n    z-index: 50;\n  }\n\n  .xl\\:tw-z-auto {\n    z-index: auto;\n  }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--8-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*! Flickity v2.1.2\nhttps://flickity.metafizzy.co\n---------------------------------------------- */\n.flickity-enabled {\n  position: relative;\n}\n.flickity-enabled:focus {\n  outline: none;\n}\n.flickity-viewport {\n  overflow: hidden;\n  position: relative;\n  height: 100%;\n}\n.flickity-slider {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n/* draggable */\n.flickity-enabled.is-draggable {\n  -webkit-tap-highlight-color: transparent;\n          tap-highlight-color: transparent;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n.flickity-enabled.is-draggable .flickity-viewport {\n  cursor: move;\n  cursor: -webkit-grab;\n  cursor: grab;\n}\n.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {\n  cursor: -webkit-grabbing;\n  cursor: grabbing;\n}\n\n/* ---- flickity-button ---- */\n.flickity-button {\n  position: absolute;\n  background: hsla(0, 0%, 100%, .75);\n  border: none;\n  color: #333;\n}\n.flickity-button:hover {\n  background: white;\n  cursor: pointer;\n}\n.flickity-button:focus {\n  outline: none;\n  box-shadow: 0 0 0 5px #19f;\n}\n.flickity-button:active {\n  opacity: .6;\n}\n.flickity-button:disabled {\n  opacity: .3;\n  cursor: auto;\n  /* prevent disabled button from capturing pointer up event. #716 */\n  pointer-events: none;\n}\n.flickity-button-icon {\n  fill: #333;\n}\n\n/* ---- previous/next buttons ---- */\n.flickity-prev-next-button {\n  top: 50%;\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  /* vertically center */\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n}\n.flickity-prev-next-button.previous {\n  left: 10px;\n}\n.flickity-prev-next-button.next {\n  right: 10px;\n}\n\n/* right to left */\n.flickity-rtl .flickity-prev-next-button.previous {\n  left: auto;\n  right: 10px;\n}\n.flickity-rtl .flickity-prev-next-button.next {\n  right: auto;\n  left: 10px;\n}\n.flickity-prev-next-button .flickity-button-icon {\n  position: absolute;\n  left: 20%;\n  top: 20%;\n  width: 60%;\n  height: 60%;\n}\n\n/* ---- page dots ---- */\n.flickity-page-dots {\n  position: absolute;\n  width: 100%;\n  bottom: -25px;\n  padding: 0;\n  margin: 0;\n  list-style: none;\n  text-align: center;\n  line-height: 1;\n}\n.flickity-rtl .flickity-page-dots {\n  direction: rtl;\n}\n.flickity-page-dots .dot {\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  margin: 0 8px;\n  background: #333;\n  border-radius: 50%;\n  opacity: .25;\n  cursor: pointer;\n}\n.flickity-page-dots .dot.is-selected {\n  opacity: 1;\n}\n", ""]);
 
 // exports
 
@@ -1520,6 +1860,25 @@ exports.push([module.i, ".plan-option[data-v-50b40e0f] {\n  box-shadow: 0 6px 15
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--8-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".skill-box[data-v-49478526] {\n  transition: 200ms linear;\n  box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, .08);\n  height: 245px;\n}\n.skill-container.shift[data-v-49478526] {\n  -webkit-transform: translateX(-250px);\n          transform: translateX(-250px);\n}\n.skill-box .shade[data-v-49478526] {\n  width: 130px;\n  z-index: -1;\n  transition: 200ms ease-in-out;\n}\n.skill-box.show .shade[data-v-49478526] {\n  width: 100%;\n  transition: 200ms ease-in-out;\n}\n.skill-box[data-v-49478526],\n.skill-box-inner[data-v-49478526],\n.shade[data-v-49478526] {\n  border-radius: 10px;\n}\n.height[data-v-49478526] {\n  height: 50px;\n}\n.skill-box .color *[data-v-49478526] {\n  color: #4f4f4f;\n  transition: 300ms ease-in-out;\n}\n.skill-box.show .color *[data-v-49478526] {\n  color: white;\n  transition: 300ms ease-in-out;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css&":
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--8-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css& ***!
@@ -1533,7 +1892,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".light-text img[data-v-b3c5cf30] {\n  color: pink;\n}\n.banner[data-v-b3c5cf30] {\n  background-image: url(" + escape(__webpack_require__(/*! ../assets/img/banner-mobile.svg */ "./resources/js/assets/img/banner-mobile.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n@media (min-width: 768px) {\n.banner[data-v-b3c5cf30] {\n    background: #2b55b6;\n}\n}\n@media (min-width: 992px) {\n.banner[data-v-b3c5cf30] {\n    background: 0;\n}\n}\n@media (min-width: 1200px) {\n.banner[data-v-b3c5cf30] {\n    background-image: url(" + escape(__webpack_require__(/*! ../assets/img/banner-bg.svg */ "./resources/js/assets/img/banner-bg.svg")) + ");\n    background-position: 100% top;\n    background-repeat: no-repeat;\n    background-size: 58%;\n}\n}\n.concise-data[data-v-b3c5cf30] {\n  border: 1px dashed rgba(0, 0, 0, .15);\n  width: 150px;\n}\n.scroll-down[data-v-b3c5cf30] {\n  bottom: 50px;\n  -webkit-animation: bounce-data-v-b3c5cf30 5000ms linear 1000ms infinite;\n          animation: bounce-data-v-b3c5cf30 5000ms linear 1000ms infinite;\n}\n@media (min-width: 992px) {\n.course[data-v-b3c5cf30] {\n    height: 250px;\n}\n}\n@-webkit-keyframes bounce-data-v-b3c5cf30 {\n0% {\n    bottom: 50px;\n}\n73% {\n    bottom: 50px;\n}\n75% {\n    bottom: 55px;\n}\n83% {\n    bottom: 10px;\n}\n85% {\n    bottom: 20px;\n}\n90% {\n    bottom: 50px;\n}\n100% {\n    bottom: 50px;\n}\n}\n@keyframes bounce-data-v-b3c5cf30 {\n0% {\n    bottom: 50px;\n}\n73% {\n    bottom: 50px;\n}\n75% {\n    bottom: 55px;\n}\n83% {\n    bottom: 10px;\n}\n85% {\n    bottom: 20px;\n}\n90% {\n    bottom: 50px;\n}\n100% {\n    bottom: 50px;\n}\n}\n", ""]);
+exports.push([module.i, ".light-text img[data-v-b3c5cf30] {\n  color: pink;\n}\n.banner[data-v-b3c5cf30] {\n  background-image: url(" + escape(__webpack_require__(/*! ../assets/img/banner-mobile.svg */ "./resources/js/assets/img/banner-mobile.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n@media (min-width: 768px) {\n.banner[data-v-b3c5cf30] {\n    background: #2b55b6;\n}\n}\n@media (min-width: 992px) {\n.banner[data-v-b3c5cf30] {\n    background: 0;\n}\n}\n@media (min-width: 1200px) {\n.banner[data-v-b3c5cf30] {\n    background-image: url(" + escape(__webpack_require__(/*! ../assets/img/banner-bg.svg */ "./resources/js/assets/img/banner-bg.svg")) + ");\n    background-position: 100% top;\n    background-repeat: no-repeat;\n    background-size: 58%;\n}\n}\n.concise-data[data-v-b3c5cf30] {\n  border: 1px dashed rgba(0, 0, 0, .15);\n  width: 150px;\n}\n.scroll-down[data-v-b3c5cf30] {\n  bottom: 50px;\n  -webkit-animation: bounce-data-v-b3c5cf30 5000ms linear 1000ms infinite;\n          animation: bounce-data-v-b3c5cf30 5000ms linear 1000ms infinite;\n}\n@media (min-width: 992px) {\n.course[data-v-b3c5cf30] {\n    height: 250px;\n}\n}\n.carousel-cell[data-v-b3c5cf30] {\n  width: 45%;\n  margin-right: 20px;\n}\n@-webkit-keyframes bounce-data-v-b3c5cf30 {\n0% {\n    bottom: 50px;\n}\n73% {\n    bottom: 50px;\n}\n75% {\n    bottom: 55px;\n}\n83% {\n    bottom: 10px;\n}\n85% {\n    bottom: 20px;\n}\n90% {\n    bottom: 50px;\n}\n100% {\n    bottom: 50px;\n}\n}\n@keyframes bounce-data-v-b3c5cf30 {\n0% {\n    bottom: 50px;\n}\n73% {\n    bottom: 50px;\n}\n75% {\n    bottom: 55px;\n}\n83% {\n    bottom: 10px;\n}\n85% {\n    bottom: 20px;\n}\n90% {\n    bottom: 50px;\n}\n100% {\n    bottom: 50px;\n}\n}\n", ""]);
 
 // exports
 
@@ -1650,6 +2009,3239 @@ module.exports = function escape(url) {
 
     return url
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/desandro-matches-selector/matches-selector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/desandro-matches-selector/matches-selector.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * matchesSelector v2.0.2
+ * matchesSelector( element, '.selector' )
+ * MIT license
+ */
+
+/*jshint browser: true, strict: true, undef: true, unused: true */
+
+( function( window, factory ) {
+  /*global define: false, module: false */
+  'use strict';
+  // universal module definition
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory() {
+  'use strict';
+
+  var matchesMethod = ( function() {
+    var ElemProto = window.Element.prototype;
+    // check for the standard method name first
+    if ( ElemProto.matches ) {
+      return 'matches';
+    }
+    // check un-prefixed
+    if ( ElemProto.matchesSelector ) {
+      return 'matchesSelector';
+    }
+    // check vendor prefixes
+    var prefixes = [ 'webkit', 'moz', 'ms', 'o' ];
+
+    for ( var i=0; i < prefixes.length; i++ ) {
+      var prefix = prefixes[i];
+      var method = prefix + 'MatchesSelector';
+      if ( ElemProto[ method ] ) {
+        return method;
+      }
+    }
+  })();
+
+  return function matchesSelector( elem, selector ) {
+    return elem[ matchesMethod ]( selector );
+  };
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/ev-emitter/ev-emitter.js":
+/*!***********************************************!*\
+  !*** ./node_modules/ev-emitter/ev-emitter.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * EvEmitter v1.1.0
+ * Lil' event emitter
+ * MIT License
+ */
+
+/* jshint unused: true, undef: true, strict: true */
+
+( function( global, factory ) {
+  // universal module definition
+  /* jshint strict: false */ /* globals define, module, window */
+  if ( true ) {
+    // AMD - RequireJS
+    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( typeof window != 'undefined' ? window : this, function() {
+
+"use strict";
+
+function EvEmitter() {}
+
+var proto = EvEmitter.prototype;
+
+proto.on = function( eventName, listener ) {
+  if ( !eventName || !listener ) {
+    return;
+  }
+  // set events hash
+  var events = this._events = this._events || {};
+  // set listeners array
+  var listeners = events[ eventName ] = events[ eventName ] || [];
+  // only add once
+  if ( listeners.indexOf( listener ) == -1 ) {
+    listeners.push( listener );
+  }
+
+  return this;
+};
+
+proto.once = function( eventName, listener ) {
+  if ( !eventName || !listener ) {
+    return;
+  }
+  // add event
+  this.on( eventName, listener );
+  // set once flag
+  // set onceEvents hash
+  var onceEvents = this._onceEvents = this._onceEvents || {};
+  // set onceListeners object
+  var onceListeners = onceEvents[ eventName ] = onceEvents[ eventName ] || {};
+  // set flag
+  onceListeners[ listener ] = true;
+
+  return this;
+};
+
+proto.off = function( eventName, listener ) {
+  var listeners = this._events && this._events[ eventName ];
+  if ( !listeners || !listeners.length ) {
+    return;
+  }
+  var index = listeners.indexOf( listener );
+  if ( index != -1 ) {
+    listeners.splice( index, 1 );
+  }
+
+  return this;
+};
+
+proto.emitEvent = function( eventName, args ) {
+  var listeners = this._events && this._events[ eventName ];
+  if ( !listeners || !listeners.length ) {
+    return;
+  }
+  // copy over to avoid interference if .off() in listener
+  listeners = listeners.slice(0);
+  args = args || [];
+  // once stuff
+  var onceListeners = this._onceEvents && this._onceEvents[ eventName ];
+
+  for ( var i=0; i < listeners.length; i++ ) {
+    var listener = listeners[i]
+    var isOnce = onceListeners && onceListeners[ listener ];
+    if ( isOnce ) {
+      // remove listener
+      // remove before trigger to prevent recursion
+      this.off( eventName, listener );
+      // unset once flag
+      delete onceListeners[ listener ];
+    }
+    // trigger listener
+    listener.apply( this, args );
+  }
+
+  return this;
+};
+
+proto.allOff = function() {
+  delete this._events;
+  delete this._onceEvents;
+};
+
+return EvEmitter;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/fizzy-ui-utils/utils.js":
+/*!**********************************************!*\
+  !*** ./node_modules/fizzy-ui-utils/utils.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * Fizzy UI utils v2.0.7
+ * MIT license
+ */
+
+/*jshint browser: true, undef: true, unused: true, strict: true */
+
+( function( window, factory ) {
+  // universal module definition
+  /*jshint strict: false */ /*globals define, module, require */
+
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! desandro-matches-selector/matches-selector */ "./node_modules/desandro-matches-selector/matches-selector.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( matchesSelector ) {
+      return factory( window, matchesSelector );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, matchesSelector ) {
+
+'use strict';
+
+var utils = {};
+
+// ----- extend ----- //
+
+// extends objects
+utils.extend = function( a, b ) {
+  for ( var prop in b ) {
+    a[ prop ] = b[ prop ];
+  }
+  return a;
+};
+
+// ----- modulo ----- //
+
+utils.modulo = function( num, div ) {
+  return ( ( num % div ) + div ) % div;
+};
+
+// ----- makeArray ----- //
+
+var arraySlice = Array.prototype.slice;
+
+// turn element or nodeList into an array
+utils.makeArray = function( obj ) {
+  if ( Array.isArray( obj ) ) {
+    // use object if already an array
+    return obj;
+  }
+  // return empty array if undefined or null. #6
+  if ( obj === null || obj === undefined ) {
+    return [];
+  }
+
+  var isArrayLike = typeof obj == 'object' && typeof obj.length == 'number';
+  if ( isArrayLike ) {
+    // convert nodeList to array
+    return arraySlice.call( obj );
+  }
+
+  // array of single index
+  return [ obj ];
+};
+
+// ----- removeFrom ----- //
+
+utils.removeFrom = function( ary, obj ) {
+  var index = ary.indexOf( obj );
+  if ( index != -1 ) {
+    ary.splice( index, 1 );
+  }
+};
+
+// ----- getParent ----- //
+
+utils.getParent = function( elem, selector ) {
+  while ( elem.parentNode && elem != document.body ) {
+    elem = elem.parentNode;
+    if ( matchesSelector( elem, selector ) ) {
+      return elem;
+    }
+  }
+};
+
+// ----- getQueryElement ----- //
+
+// use element as selector string
+utils.getQueryElement = function( elem ) {
+  if ( typeof elem == 'string' ) {
+    return document.querySelector( elem );
+  }
+  return elem;
+};
+
+// ----- handleEvent ----- //
+
+// enable .ontype to trigger from .addEventListener( elem, 'type' )
+utils.handleEvent = function( event ) {
+  var method = 'on' + event.type;
+  if ( this[ method ] ) {
+    this[ method ]( event );
+  }
+};
+
+// ----- filterFindElements ----- //
+
+utils.filterFindElements = function( elems, selector ) {
+  // make array of elems
+  elems = utils.makeArray( elems );
+  var ffElems = [];
+
+  elems.forEach( function( elem ) {
+    // check that elem is an actual element
+    if ( !( elem instanceof HTMLElement ) ) {
+      return;
+    }
+    // add elem if no selector
+    if ( !selector ) {
+      ffElems.push( elem );
+      return;
+    }
+    // filter & find items if we have a selector
+    // filter
+    if ( matchesSelector( elem, selector ) ) {
+      ffElems.push( elem );
+    }
+    // find children
+    var childElems = elem.querySelectorAll( selector );
+    // concat childElems to filterFound array
+    for ( var i=0; i < childElems.length; i++ ) {
+      ffElems.push( childElems[i] );
+    }
+  });
+
+  return ffElems;
+};
+
+// ----- debounceMethod ----- //
+
+utils.debounceMethod = function( _class, methodName, threshold ) {
+  threshold = threshold || 100;
+  // original method
+  var method = _class.prototype[ methodName ];
+  var timeoutName = methodName + 'Timeout';
+
+  _class.prototype[ methodName ] = function() {
+    var timeout = this[ timeoutName ];
+    clearTimeout( timeout );
+
+    var args = arguments;
+    var _this = this;
+    this[ timeoutName ] = setTimeout( function() {
+      method.apply( _this, args );
+      delete _this[ timeoutName ];
+    }, threshold );
+  };
+};
+
+// ----- docReady ----- //
+
+utils.docReady = function( callback ) {
+  var readyState = document.readyState;
+  if ( readyState == 'complete' || readyState == 'interactive' ) {
+    // do async to allow for other scripts to run. metafizzy/flickity#441
+    setTimeout( callback );
+  } else {
+    document.addEventListener( 'DOMContentLoaded', callback );
+  }
+};
+
+// ----- htmlInit ----- //
+
+// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+utils.toDashed = function( str ) {
+  return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
+    return $1 + '-' + $2;
+  }).toLowerCase();
+};
+
+var console = window.console;
+/**
+ * allow user to initialize classes via [data-namespace] or .js-namespace class
+ * htmlInit( Widget, 'widgetName' )
+ * options are parsed from data-namespace-options
+ */
+utils.htmlInit = function( WidgetClass, namespace ) {
+  utils.docReady( function() {
+    var dashedNamespace = utils.toDashed( namespace );
+    var dataAttr = 'data-' + dashedNamespace;
+    var dataAttrElems = document.querySelectorAll( '[' + dataAttr + ']' );
+    var jsDashElems = document.querySelectorAll( '.js-' + dashedNamespace );
+    var elems = utils.makeArray( dataAttrElems )
+      .concat( utils.makeArray( jsDashElems ) );
+    var dataOptionsAttr = dataAttr + '-options';
+    var jQuery = window.jQuery;
+
+    elems.forEach( function( elem ) {
+      var attr = elem.getAttribute( dataAttr ) ||
+        elem.getAttribute( dataOptionsAttr );
+      var options;
+      try {
+        options = attr && JSON.parse( attr );
+      } catch ( error ) {
+        // log error, do not initialize
+        if ( console ) {
+          console.error( 'Error parsing ' + dataAttr + ' on ' + elem.className +
+          ': ' + error );
+        }
+        return;
+      }
+      // initialize
+      var instance = new WidgetClass( elem, options );
+      // make available via $().data('namespace')
+      if ( jQuery ) {
+        jQuery.data( elem, namespace, instance );
+      }
+    });
+
+  });
+};
+
+// -----  ----- //
+
+return utils;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_loader_index_js_css_loader_index_js_ref_8_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_8_2_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../style-loader!../../css-loader??ref--8-1!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/src??ref--8-2!./flickity.css?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _style_loader_index_js_css_loader_index_js_ref_8_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_8_2_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_index_js_css_loader_index_js_ref_8_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_8_2_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _style_loader_index_js_css_loader_index_js_ref_8_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_8_2_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _style_loader_index_js_css_loader_index_js_ref_8_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_8_2_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_style_loader_index_js_css_loader_index_js_ref_8_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_8_2_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/add-remove-cell.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/flickity/js/add-remove-cell.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// add, remove cell
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Flickity, utils ) {
+      return factory( window, Flickity, utils );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Flickity, utils ) {
+
+'use strict';
+
+// append cells to a document fragment
+function getCellsFragment( cells ) {
+  var fragment = document.createDocumentFragment();
+  cells.forEach( function( cell ) {
+    fragment.appendChild( cell.element );
+  });
+  return fragment;
+}
+
+// -------------------------- add/remove cell prototype -------------------------- //
+
+var proto = Flickity.prototype;
+
+/**
+ * Insert, prepend, or append cells
+ * @param {Element, Array, NodeList} elems
+ * @param {Integer} index
+ */
+proto.insert = function( elems, index ) {
+  var cells = this._makeCells( elems );
+  if ( !cells || !cells.length ) {
+    return;
+  }
+  var len = this.cells.length;
+  // default to append
+  index = index === undefined ? len : index;
+  // add cells with document fragment
+  var fragment = getCellsFragment( cells );
+  // append to slider
+  var isAppend = index == len;
+  if ( isAppend ) {
+    this.slider.appendChild( fragment );
+  } else {
+    var insertCellElement = this.cells[ index ].element;
+    this.slider.insertBefore( fragment, insertCellElement );
+  }
+  // add to this.cells
+  if ( index === 0 ) {
+    // prepend, add to start
+    this.cells = cells.concat( this.cells );
+  } else if ( isAppend ) {
+    // append, add to end
+    this.cells = this.cells.concat( cells );
+  } else {
+    // insert in this.cells
+    var endCells = this.cells.splice( index, len - index );
+    this.cells = this.cells.concat( cells ).concat( endCells );
+  }
+
+  this._sizeCells( cells );
+  this.cellChange( index, true );
+};
+
+proto.append = function( elems ) {
+  this.insert( elems, this.cells.length );
+};
+
+proto.prepend = function( elems ) {
+  this.insert( elems, 0 );
+};
+
+/**
+ * Remove cells
+ * @param {Element, Array, NodeList} elems
+ */
+proto.remove = function( elems ) {
+  var cells = this.getCells( elems );
+  if ( !cells || !cells.length ) {
+    return;
+  }
+
+  var minCellIndex = this.cells.length - 1;
+  // remove cells from collection & DOM
+  cells.forEach( function( cell ) {
+    cell.remove();
+    var index = this.cells.indexOf( cell );
+    minCellIndex = Math.min( index, minCellIndex );
+    utils.removeFrom( this.cells, cell );
+  }, this );
+
+  this.cellChange( minCellIndex, true );
+};
+
+/**
+ * logic to be run after a cell's size changes
+ * @param {Element} elem - cell's element
+ */
+proto.cellSizeChange = function( elem ) {
+  var cell = this.getCell( elem );
+  if ( !cell ) {
+    return;
+  }
+  cell.getSize();
+
+  var index = this.cells.indexOf( cell );
+  this.cellChange( index );
+};
+
+/**
+ * logic any time a cell is changed: added, removed, or size changed
+ * @param {Integer} changedCellIndex - index of the changed cell, optional
+ */
+proto.cellChange = function( changedCellIndex, isPositioningSlider ) {
+  var prevSelectedElem = this.selectedElement;
+  this._positionCells( changedCellIndex );
+  this._getWrapShiftCells();
+  this.setGallerySize();
+  // update selectedIndex
+  // try to maintain position & select previous selected element
+  var cell = this.getCell( prevSelectedElem );
+  if ( cell ) {
+    this.selectedIndex = this.getCellSlideIndex( cell );
+  }
+  this.selectedIndex = Math.min( this.slides.length - 1, this.selectedIndex );
+
+  this.emitEvent( 'cellChange', [ changedCellIndex ] );
+  // position slider
+  this.select( this.selectedIndex );
+  // do not position slider after lazy load
+  if ( isPositioningSlider ) {
+    this.positionSliderAtSelected();
+  }
+};
+
+// -----  ----- //
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/animate.js":
+/*!*********************************************!*\
+  !*** ./node_modules/flickity/js/animate.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// animate
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( utils ) {
+      return factory( window, utils );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, utils ) {
+
+'use strict';
+
+// -------------------------- animate -------------------------- //
+
+var proto = {};
+
+proto.startAnimation = function() {
+  if ( this.isAnimating ) {
+    return;
+  }
+
+  this.isAnimating = true;
+  this.restingFrames = 0;
+  this.animate();
+};
+
+proto.animate = function() {
+  this.applyDragForce();
+  this.applySelectedAttraction();
+
+  var previousX = this.x;
+
+  this.integratePhysics();
+  this.positionSlider();
+  this.settle( previousX );
+  // animate next frame
+  if ( this.isAnimating ) {
+    var _this = this;
+    requestAnimationFrame( function animateFrame() {
+      _this.animate();
+    });
+  }
+};
+
+proto.positionSlider = function() {
+  var x = this.x;
+  // wrap position around
+  if ( this.options.wrapAround && this.cells.length > 1 ) {
+    x = utils.modulo( x, this.slideableWidth );
+    x = x - this.slideableWidth;
+    this.shiftWrapCells( x );
+  }
+
+  x = x + this.cursorPosition;
+  // reverse if right-to-left and using transform
+  x = this.options.rightToLeft ? -x : x;
+  var value = this.getPositionValue( x );
+  // use 3D tranforms for hardware acceleration on iOS
+  // but use 2D when settled, for better font-rendering
+  this.slider.style.transform = this.isAnimating ?
+    'translate3d(' + value + ',0,0)' : 'translateX(' + value + ')';
+
+  // scroll event
+  var firstSlide = this.slides[0];
+  if ( firstSlide ) {
+    var positionX = -this.x - firstSlide.target;
+    var progress = positionX / this.slidesWidth;
+    this.dispatchEvent( 'scroll', null, [ progress, positionX ] );
+  }
+};
+
+proto.positionSliderAtSelected = function() {
+  if ( !this.cells.length ) {
+    return;
+  }
+  this.x = -this.selectedSlide.target;
+  this.velocity = 0; // stop wobble
+  this.positionSlider();
+};
+
+proto.getPositionValue = function( position ) {
+  if ( this.options.percentPosition ) {
+    // percent position, round to 2 digits, like 12.34%
+    return ( Math.round( ( position / this.size.innerWidth ) * 10000 ) * 0.01 )+ '%';
+  } else {
+    // pixel positioning
+    return Math.round( position ) + 'px';
+  }
+};
+
+proto.settle = function( previousX ) {
+  // keep track of frames where x hasn't moved
+  if ( !this.isPointerDown && Math.round( this.x * 100 ) == Math.round( previousX * 100 ) ) {
+    this.restingFrames++;
+  }
+  // stop animating if resting for 3 or more frames
+  if ( this.restingFrames > 2 ) {
+    this.isAnimating = false;
+    delete this.isFreeScrolling;
+    // render position with translateX when settled
+    this.positionSlider();
+    this.dispatchEvent( 'settle', null, [ this.selectedIndex ] );
+  }
+};
+
+proto.shiftWrapCells = function( x ) {
+  // shift before cells
+  var beforeGap = this.cursorPosition + x;
+  this._shiftCells( this.beforeShiftCells, beforeGap, -1 );
+  // shift after cells
+  var afterGap = this.size.innerWidth - ( x + this.slideableWidth + this.cursorPosition );
+  this._shiftCells( this.afterShiftCells, afterGap, 1 );
+};
+
+proto._shiftCells = function( cells, gap, shift ) {
+  for ( var i=0; i < cells.length; i++ ) {
+    var cell = cells[i];
+    var cellShift = gap > 0 ? shift : 0;
+    cell.wrapShift( cellShift );
+    gap -= cell.size.outerWidth;
+  }
+};
+
+proto._unshiftCells = function( cells ) {
+  if ( !cells || !cells.length ) {
+    return;
+  }
+  for ( var i=0; i < cells.length; i++ ) {
+    cells[i].wrapShift( 0 );
+  }
+};
+
+// -------------------------- physics -------------------------- //
+
+proto.integratePhysics = function() {
+  this.x += this.velocity;
+  this.velocity *= this.getFrictionFactor();
+};
+
+proto.applyForce = function( force ) {
+  this.velocity += force;
+};
+
+proto.getFrictionFactor = function() {
+  return 1 - this.options[ this.isFreeScrolling ? 'freeScrollFriction' : 'friction' ];
+};
+
+proto.getRestingPosition = function() {
+  // my thanks to Steven Wittens, who simplified this math greatly
+  return this.x + this.velocity / ( 1 - this.getFrictionFactor() );
+};
+
+proto.applyDragForce = function() {
+  if ( !this.isDraggable || !this.isPointerDown ) {
+    return;
+  }
+  // change the position to drag position by applying force
+  var dragVelocity = this.dragX - this.x;
+  var dragForce = dragVelocity - this.velocity;
+  this.applyForce( dragForce );
+};
+
+proto.applySelectedAttraction = function() {
+  // do not attract if pointer down or no slides
+  var dragDown = this.isDraggable && this.isPointerDown;
+  if ( dragDown || this.isFreeScrolling || !this.slides.length ) {
+    return;
+  }
+  var distance = this.selectedSlide.target * -1 - this.x;
+  var force = distance * this.options.selectedAttraction;
+  this.applyForce( force );
+};
+
+return proto;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/cell.js":
+/*!******************************************!*\
+  !*** ./node_modules/flickity/js/cell.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity.Cell
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! get-size/get-size */ "./node_modules/get-size/get-size.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( getSize ) {
+      return factory( window, getSize );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, getSize ) {
+
+'use strict';
+
+function Cell( elem, parent ) {
+  this.element = elem;
+  this.parent = parent;
+
+  this.create();
+}
+
+var proto = Cell.prototype;
+
+proto.create = function() {
+  this.element.style.position = 'absolute';
+  this.element.setAttribute( 'aria-selected', 'false' );
+  this.x = 0;
+  this.shift = 0;
+};
+
+proto.destroy = function() {
+  // reset style
+  this.element.style.position = '';
+  var side = this.parent.originSide;
+  this.element.removeAttribute('aria-selected');
+  this.element.style[ side ] = '';
+};
+
+proto.getSize = function() {
+  this.size = getSize( this.element );
+};
+
+proto.setPosition = function( x ) {
+  this.x = x;
+  this.updateTarget();
+  this.renderPosition( x );
+};
+
+// setDefaultTarget v1 method, backwards compatibility, remove in v3
+proto.updateTarget = proto.setDefaultTarget = function() {
+  var marginProperty = this.parent.originSide == 'left' ? 'marginLeft' : 'marginRight';
+  this.target = this.x + this.size[ marginProperty ] +
+    this.size.width * this.parent.cellAlign;
+};
+
+proto.renderPosition = function( x ) {
+  // render position of cell with in slider
+  var side = this.parent.originSide;
+  this.element.style[ side ] = this.parent.getPositionValue( x );
+};
+
+/**
+ * @param {Integer} factor - 0, 1, or -1
+**/
+proto.wrapShift = function( shift ) {
+  this.shift = shift;
+  this.renderPosition( this.x + this.parent.slideableWidth * shift );
+};
+
+proto.remove = function() {
+  this.element.parentNode.removeChild( this.element );
+};
+
+return Cell;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/drag.js":
+/*!******************************************!*\
+  !*** ./node_modules/flickity/js/drag.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// drag
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js"),
+      __webpack_require__(/*! unidragger/unidragger */ "./node_modules/unidragger/unidragger.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Flickity, Unidragger, utils ) {
+      return factory( window, Flickity, Unidragger, utils );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Flickity, Unidragger, utils ) {
+
+'use strict';
+
+// ----- defaults ----- //
+
+utils.extend( Flickity.defaults, {
+  draggable: '>1',
+  dragThreshold: 3,
+});
+
+// ----- create ----- //
+
+Flickity.createMethods.push('_createDrag');
+
+// -------------------------- drag prototype -------------------------- //
+
+var proto = Flickity.prototype;
+utils.extend( proto, Unidragger.prototype );
+proto._touchActionValue = 'pan-y';
+
+// --------------------------  -------------------------- //
+
+var isTouch = 'createTouch' in document;
+var isTouchmoveScrollCanceled = false;
+
+proto._createDrag = function() {
+  this.on( 'activate', this.onActivateDrag );
+  this.on( 'uiChange', this._uiChangeDrag );
+  this.on( 'childUIPointerDown', this._childUIPointerDownDrag );
+  this.on( 'deactivate', this.onDeactivateDrag );
+  this.on( 'cellChange', this.updateDraggable );
+  // TODO updateDraggable on resize? if groupCells & slides change
+  // HACK - add seemingly innocuous handler to fix iOS 10 scroll behavior
+  // #457, RubaXa/Sortable#973
+  if ( isTouch && !isTouchmoveScrollCanceled ) {
+    window.addEventListener( 'touchmove', function() {});
+    isTouchmoveScrollCanceled = true;
+  }
+};
+
+proto.onActivateDrag = function() {
+  this.handles = [ this.viewport ];
+  this.bindHandles();
+  this.updateDraggable();
+};
+
+proto.onDeactivateDrag = function() {
+  this.unbindHandles();
+  this.element.classList.remove('is-draggable');
+};
+
+proto.updateDraggable = function() {
+  // disable dragging if less than 2 slides. #278
+  if ( this.options.draggable == '>1' ) {
+    this.isDraggable = this.slides.length > 1;
+  } else {
+    this.isDraggable = this.options.draggable;
+  }
+  if ( this.isDraggable ) {
+    this.element.classList.add('is-draggable');
+  } else {
+    this.element.classList.remove('is-draggable');
+  }
+};
+
+// backwards compatibility
+proto.bindDrag = function() {
+  this.options.draggable = true;
+  this.updateDraggable();
+};
+
+proto.unbindDrag = function() {
+  this.options.draggable = false;
+  this.updateDraggable();
+};
+
+proto._uiChangeDrag = function() {
+  delete this.isFreeScrolling;
+};
+
+proto._childUIPointerDownDrag = function( event ) {
+  // allow focus & preventDefault even when not draggable
+  // so child UI elements keep focus on carousel. #721
+  event.preventDefault();
+  this.pointerDownFocus( event );
+};
+
+// -------------------------- pointer events -------------------------- //
+
+proto.pointerDown = function( event, pointer ) {
+  if ( !this.isDraggable ) {
+    this._pointerDownDefault( event, pointer );
+    return;
+  }
+  var isOkay = this.okayPointerDown( event );
+  if ( !isOkay ) {
+    return;
+  }
+
+  this._pointerDownPreventDefault( event );
+  this.pointerDownFocus( event );
+  // blur
+  if ( document.activeElement != this.element ) {
+    // do not blur if already focused
+    this.pointerDownBlur();
+  }
+
+  // stop if it was moving
+  this.dragX = this.x;
+  this.viewport.classList.add('is-pointer-down');
+  // track scrolling
+  this.pointerDownScroll = getScrollPosition();
+  window.addEventListener( 'scroll', this );
+
+  this._pointerDownDefault( event, pointer );
+};
+
+// default pointerDown logic, used for staticClick
+proto._pointerDownDefault = function( event, pointer ) {
+  // track start event position
+  this.pointerDownPointer = pointer;
+  // bind move and end events
+  this._bindPostStartEvents( event );
+  this.dispatchEvent( 'pointerDown', event, [ pointer ] );
+};
+
+var focusNodes = {
+  INPUT: true,
+  TEXTAREA: true,
+  SELECT: true,
+};
+
+proto.pointerDownFocus = function( event ) {
+  var isFocusNode = focusNodes[ event.target.nodeName ];
+  if ( !isFocusNode ) {
+    this.focus();
+  }
+};
+
+proto._pointerDownPreventDefault = function( event ) {
+  var isTouchStart = event.type == 'touchstart';
+  var isTouchPointer = event.pointerType == 'touch';
+  var isFocusNode = focusNodes[ event.target.nodeName ];
+  if ( !isTouchStart && !isTouchPointer && !isFocusNode ) {
+    event.preventDefault();
+  }
+};
+
+// ----- move ----- //
+
+proto.hasDragStarted = function( moveVector ) {
+  return Math.abs( moveVector.x ) > this.options.dragThreshold;
+};
+
+// ----- up ----- //
+
+proto.pointerUp = function( event, pointer ) {
+  delete this.isTouchScrolling;
+  this.viewport.classList.remove('is-pointer-down');
+  this.dispatchEvent( 'pointerUp', event, [ pointer ] );
+  this._dragPointerUp( event, pointer );
+};
+
+proto.pointerDone = function() {
+  window.removeEventListener( 'scroll', this );
+  delete this.pointerDownScroll;
+};
+
+// -------------------------- dragging -------------------------- //
+
+proto.dragStart = function( event, pointer ) {
+  if ( !this.isDraggable ) {
+    return;
+  }
+  this.dragStartPosition = this.x;
+  this.startAnimation();
+  window.removeEventListener( 'scroll', this );
+  this.dispatchEvent( 'dragStart', event, [ pointer ] );
+};
+
+proto.pointerMove = function( event, pointer ) {
+  var moveVector = this._dragPointerMove( event, pointer );
+  this.dispatchEvent( 'pointerMove', event, [ pointer, moveVector ] );
+  this._dragMove( event, pointer, moveVector );
+};
+
+proto.dragMove = function( event, pointer, moveVector ) {
+  if ( !this.isDraggable ) {
+    return;
+  }
+  event.preventDefault();
+
+  this.previousDragX = this.dragX;
+  // reverse if right-to-left
+  var direction = this.options.rightToLeft ? -1 : 1;
+  if ( this.options.wrapAround ) {
+    // wrap around move. #589
+    moveVector.x = moveVector.x % this.slideableWidth;
+  }
+  var dragX = this.dragStartPosition + moveVector.x * direction;
+
+  if ( !this.options.wrapAround && this.slides.length ) {
+    // slow drag
+    var originBound = Math.max( -this.slides[0].target, this.dragStartPosition );
+    dragX = dragX > originBound ? ( dragX + originBound ) * 0.5 : dragX;
+    var endBound = Math.min( -this.getLastSlide().target, this.dragStartPosition );
+    dragX = dragX < endBound ? ( dragX + endBound ) * 0.5 : dragX;
+  }
+
+  this.dragX = dragX;
+
+  this.dragMoveTime = new Date();
+  this.dispatchEvent( 'dragMove', event, [ pointer, moveVector ] );
+};
+
+proto.dragEnd = function( event, pointer ) {
+  if ( !this.isDraggable ) {
+    return;
+  }
+  if ( this.options.freeScroll ) {
+    this.isFreeScrolling = true;
+  }
+  // set selectedIndex based on where flick will end up
+  var index = this.dragEndRestingSelect();
+
+  if ( this.options.freeScroll && !this.options.wrapAround ) {
+    // if free-scroll & not wrap around
+    // do not free-scroll if going outside of bounding slides
+    // so bounding slides can attract slider, and keep it in bounds
+    var restingX = this.getRestingPosition();
+    this.isFreeScrolling = -restingX > this.slides[0].target &&
+      -restingX < this.getLastSlide().target;
+  } else if ( !this.options.freeScroll && index == this.selectedIndex ) {
+    // boost selection if selected index has not changed
+    index += this.dragEndBoostSelect();
+  }
+  delete this.previousDragX;
+  // apply selection
+  // TODO refactor this, selecting here feels weird
+  // HACK, set flag so dragging stays in correct direction
+  this.isDragSelect = this.options.wrapAround;
+  this.select( index );
+  delete this.isDragSelect;
+  this.dispatchEvent( 'dragEnd', event, [ pointer ] );
+};
+
+proto.dragEndRestingSelect = function() {
+  var restingX = this.getRestingPosition();
+  // how far away from selected slide
+  var distance = Math.abs( this.getSlideDistance( -restingX, this.selectedIndex ) );
+  // get closet resting going up and going down
+  var positiveResting = this._getClosestResting( restingX, distance, 1 );
+  var negativeResting = this._getClosestResting( restingX, distance, -1 );
+  // use closer resting for wrap-around
+  var index = positiveResting.distance < negativeResting.distance ?
+    positiveResting.index : negativeResting.index;
+  return index;
+};
+
+/**
+ * given resting X and distance to selected cell
+ * get the distance and index of the closest cell
+ * @param {Number} restingX - estimated post-flick resting position
+ * @param {Number} distance - distance to selected cell
+ * @param {Integer} increment - +1 or -1, going up or down
+ * @returns {Object} - { distance: {Number}, index: {Integer} }
+ */
+proto._getClosestResting = function( restingX, distance, increment ) {
+  var index = this.selectedIndex;
+  var minDistance = Infinity;
+  var condition = this.options.contain && !this.options.wrapAround ?
+    // if contain, keep going if distance is equal to minDistance
+    function( d, md ) { return d <= md; } : function( d, md ) { return d < md; };
+  while ( condition( distance, minDistance ) ) {
+    // measure distance to next cell
+    index += increment;
+    minDistance = distance;
+    distance = this.getSlideDistance( -restingX, index );
+    if ( distance === null ) {
+      break;
+    }
+    distance = Math.abs( distance );
+  }
+  return {
+    distance: minDistance,
+    // selected was previous index
+    index: index - increment
+  };
+};
+
+/**
+ * measure distance between x and a slide target
+ * @param {Number} x
+ * @param {Integer} index - slide index
+ */
+proto.getSlideDistance = function( x, index ) {
+  var len = this.slides.length;
+  // wrap around if at least 2 slides
+  var isWrapAround = this.options.wrapAround && len > 1;
+  var slideIndex = isWrapAround ? utils.modulo( index, len ) : index;
+  var slide = this.slides[ slideIndex ];
+  if ( !slide ) {
+    return null;
+  }
+  // add distance for wrap-around slides
+  var wrap = isWrapAround ? this.slideableWidth * Math.floor( index / len ) : 0;
+  return x - ( slide.target + wrap );
+};
+
+proto.dragEndBoostSelect = function() {
+  // do not boost if no previousDragX or dragMoveTime
+  if ( this.previousDragX === undefined || !this.dragMoveTime ||
+    // or if drag was held for 100 ms
+    new Date() - this.dragMoveTime > 100 ) {
+    return 0;
+  }
+
+  var distance = this.getSlideDistance( -this.dragX, this.selectedIndex );
+  var delta = this.previousDragX - this.dragX;
+  if ( distance > 0 && delta > 0 ) {
+    // boost to next if moving towards the right, and positive velocity
+    return 1;
+  } else if ( distance < 0 && delta < 0 ) {
+    // boost to previous if moving towards the left, and negative velocity
+    return -1;
+  }
+  return 0;
+};
+
+// ----- staticClick ----- //
+
+proto.staticClick = function( event, pointer ) {
+  // get clickedCell, if cell was clicked
+  var clickedCell = this.getParentCell( event.target );
+  var cellElem = clickedCell && clickedCell.element;
+  var cellIndex = clickedCell && this.cells.indexOf( clickedCell );
+  this.dispatchEvent( 'staticClick', event, [ pointer, cellElem, cellIndex ] );
+};
+
+// ----- scroll ----- //
+
+proto.onscroll = function() {
+  var scroll = getScrollPosition();
+  var scrollMoveX = this.pointerDownScroll.x - scroll.x;
+  var scrollMoveY = this.pointerDownScroll.y - scroll.y;
+  // cancel click/tap if scroll is too much
+  if ( Math.abs( scrollMoveX ) > 3 || Math.abs( scrollMoveY ) > 3 ) {
+    this._pointerDone();
+  }
+};
+
+// ----- utils ----- //
+
+function getScrollPosition() {
+  return {
+    x: window.pageXOffset,
+    y: window.pageYOffset
+  };
+}
+
+// -----  ----- //
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/flickity.js":
+/*!**********************************************!*\
+  !*** ./node_modules/flickity/js/flickity.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity main
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ev-emitter/ev-emitter */ "./node_modules/ev-emitter/ev-emitter.js"),
+      __webpack_require__(/*! get-size/get-size */ "./node_modules/get-size/get-size.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js"),
+      __webpack_require__(/*! ./cell */ "./node_modules/flickity/js/cell.js"),
+      __webpack_require__(/*! ./slide */ "./node_modules/flickity/js/slide.js"),
+      __webpack_require__(/*! ./animate */ "./node_modules/flickity/js/animate.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( EvEmitter, getSize, utils, Cell, Slide, animatePrototype ) {
+      return factory( window, EvEmitter, getSize, utils, Cell, Slide, animatePrototype );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var _Flickity; }
+
+}( window, function factory( window, EvEmitter, getSize,
+  utils, Cell, Slide, animatePrototype ) {
+
+'use strict';
+
+// vars
+var jQuery = window.jQuery;
+var getComputedStyle = window.getComputedStyle;
+var console = window.console;
+
+function moveElements( elems, toElem ) {
+  elems = utils.makeArray( elems );
+  while ( elems.length ) {
+    toElem.appendChild( elems.shift() );
+  }
+}
+
+// -------------------------- Flickity -------------------------- //
+
+// globally unique identifiers
+var GUID = 0;
+// internal store of all Flickity intances
+var instances = {};
+
+function Flickity( element, options ) {
+  var queryElement = utils.getQueryElement( element );
+  if ( !queryElement ) {
+    if ( console ) {
+      console.error( 'Bad element for Flickity: ' + ( queryElement || element ) );
+    }
+    return;
+  }
+  this.element = queryElement;
+  // do not initialize twice on same element
+  if ( this.element.flickityGUID ) {
+    var instance = instances[ this.element.flickityGUID ];
+    instance.option( options );
+    return instance;
+  }
+
+  // add jQuery
+  if ( jQuery ) {
+    this.$element = jQuery( this.element );
+  }
+  // options
+  this.options = utils.extend( {}, this.constructor.defaults );
+  this.option( options );
+
+  // kick things off
+  this._create();
+}
+
+Flickity.defaults = {
+  accessibility: true,
+  // adaptiveHeight: false,
+  cellAlign: 'center',
+  // cellSelector: undefined,
+  // contain: false,
+  freeScrollFriction: 0.075, // friction when free-scrolling
+  friction: 0.28, // friction when selecting
+  namespaceJQueryEvents: true,
+  // initialIndex: 0,
+  percentPosition: true,
+  resize: true,
+  selectedAttraction: 0.025,
+  setGallerySize: true
+  // watchCSS: false,
+  // wrapAround: false
+};
+
+// hash of methods triggered on _create()
+Flickity.createMethods = [];
+
+var proto = Flickity.prototype;
+// inherit EventEmitter
+utils.extend( proto, EvEmitter.prototype );
+
+proto._create = function() {
+  // add id for Flickity.data
+  var id = this.guid = ++GUID;
+  this.element.flickityGUID = id; // expando
+  instances[ id ] = this; // associate via id
+  // initial properties
+  this.selectedIndex = 0;
+  // how many frames slider has been in same position
+  this.restingFrames = 0;
+  // initial physics properties
+  this.x = 0;
+  this.velocity = 0;
+  this.originSide = this.options.rightToLeft ? 'right' : 'left';
+  // create viewport & slider
+  this.viewport = document.createElement('div');
+  this.viewport.className = 'flickity-viewport';
+  this._createSlider();
+
+  if ( this.options.resize || this.options.watchCSS ) {
+    window.addEventListener( 'resize', this );
+  }
+
+  // add listeners from on option
+  for ( var eventName in this.options.on ) {
+    var listener = this.options.on[ eventName ];
+    this.on( eventName, listener );
+  }
+
+  Flickity.createMethods.forEach( function( method ) {
+    this[ method ]();
+  }, this );
+
+  if ( this.options.watchCSS ) {
+    this.watchCSS();
+  } else {
+    this.activate();
+  }
+
+};
+
+/**
+ * set options
+ * @param {Object} opts
+ */
+proto.option = function( opts ) {
+  utils.extend( this.options, opts );
+};
+
+proto.activate = function() {
+  if ( this.isActive ) {
+    return;
+  }
+  this.isActive = true;
+  this.element.classList.add('flickity-enabled');
+  if ( this.options.rightToLeft ) {
+    this.element.classList.add('flickity-rtl');
+  }
+
+  this.getSize();
+  // move initial cell elements so they can be loaded as cells
+  var cellElems = this._filterFindCellElements( this.element.children );
+  moveElements( cellElems, this.slider );
+  this.viewport.appendChild( this.slider );
+  this.element.appendChild( this.viewport );
+  // get cells from children
+  this.reloadCells();
+
+  if ( this.options.accessibility ) {
+    // allow element to focusable
+    this.element.tabIndex = 0;
+    // listen for key presses
+    this.element.addEventListener( 'keydown', this );
+  }
+
+  this.emitEvent('activate');
+
+  var index;
+  var initialIndex = this.options.initialIndex;
+  if ( this.isInitActivated ) {
+    index = this.selectedIndex;
+  } else if ( initialIndex !== undefined ) {
+    index = this.cells[ initialIndex ] ? initialIndex : 0;
+  } else {
+    index = 0;
+  }
+  // select instantly
+  this.select( index, false, true );
+  // flag for initial activation, for using initialIndex
+  this.isInitActivated = true;
+  // ready event. #493
+  this.dispatchEvent('ready');
+};
+
+// slider positions the cells
+proto._createSlider = function() {
+  // slider element does all the positioning
+  var slider = document.createElement('div');
+  slider.className = 'flickity-slider';
+  slider.style[ this.originSide ] = 0;
+  this.slider = slider;
+};
+
+proto._filterFindCellElements = function( elems ) {
+  return utils.filterFindElements( elems, this.options.cellSelector );
+};
+
+// goes through all children
+proto.reloadCells = function() {
+  // collection of item elements
+  this.cells = this._makeCells( this.slider.children );
+  this.positionCells();
+  this._getWrapShiftCells();
+  this.setGallerySize();
+};
+
+/**
+ * turn elements into Flickity.Cells
+ * @param {Array or NodeList or HTMLElement} elems
+ * @returns {Array} items - collection of new Flickity Cells
+ */
+proto._makeCells = function( elems ) {
+  var cellElems = this._filterFindCellElements( elems );
+
+  // create new Flickity for collection
+  var cells = cellElems.map( function( cellElem ) {
+    return new Cell( cellElem, this );
+  }, this );
+
+  return cells;
+};
+
+proto.getLastCell = function() {
+  return this.cells[ this.cells.length - 1 ];
+};
+
+proto.getLastSlide = function() {
+  return this.slides[ this.slides.length - 1 ];
+};
+
+// positions all cells
+proto.positionCells = function() {
+  // size all cells
+  this._sizeCells( this.cells );
+  // position all cells
+  this._positionCells( 0 );
+};
+
+/**
+ * position certain cells
+ * @param {Integer} index - which cell to start with
+ */
+proto._positionCells = function( index ) {
+  index = index || 0;
+  // also measure maxCellHeight
+  // start 0 if positioning all cells
+  this.maxCellHeight = index ? this.maxCellHeight || 0 : 0;
+  var cellX = 0;
+  // get cellX
+  if ( index > 0 ) {
+    var startCell = this.cells[ index - 1 ];
+    cellX = startCell.x + startCell.size.outerWidth;
+  }
+  var len = this.cells.length;
+  for ( var i=index; i < len; i++ ) {
+    var cell = this.cells[i];
+    cell.setPosition( cellX );
+    cellX += cell.size.outerWidth;
+    this.maxCellHeight = Math.max( cell.size.outerHeight, this.maxCellHeight );
+  }
+  // keep track of cellX for wrap-around
+  this.slideableWidth = cellX;
+  // slides
+  this.updateSlides();
+  // contain slides target
+  this._containSlides();
+  // update slidesWidth
+  this.slidesWidth = len ? this.getLastSlide().target - this.slides[0].target : 0;
+};
+
+/**
+ * cell.getSize() on multiple cells
+ * @param {Array} cells
+ */
+proto._sizeCells = function( cells ) {
+  cells.forEach( function( cell ) {
+    cell.getSize();
+  });
+};
+
+// --------------------------  -------------------------- //
+
+proto.updateSlides = function() {
+  this.slides = [];
+  if ( !this.cells.length ) {
+    return;
+  }
+
+  var slide = new Slide( this );
+  this.slides.push( slide );
+  var isOriginLeft = this.originSide == 'left';
+  var nextMargin = isOriginLeft ? 'marginRight' : 'marginLeft';
+
+  var canCellFit = this._getCanCellFit();
+
+  this.cells.forEach( function( cell, i ) {
+    // just add cell if first cell in slide
+    if ( !slide.cells.length ) {
+      slide.addCell( cell );
+      return;
+    }
+
+    var slideWidth = ( slide.outerWidth - slide.firstMargin ) +
+      ( cell.size.outerWidth - cell.size[ nextMargin ] );
+
+    if ( canCellFit.call( this, i, slideWidth ) ) {
+      slide.addCell( cell );
+    } else {
+      // doesn't fit, new slide
+      slide.updateTarget();
+
+      slide = new Slide( this );
+      this.slides.push( slide );
+      slide.addCell( cell );
+    }
+  }, this );
+  // last slide
+  slide.updateTarget();
+  // update .selectedSlide
+  this.updateSelectedSlide();
+};
+
+proto._getCanCellFit = function() {
+  var groupCells = this.options.groupCells;
+  if ( !groupCells ) {
+    return function() {
+      return false;
+    };
+  } else if ( typeof groupCells == 'number' ) {
+    // group by number. 3 -> [0,1,2], [3,4,5], ...
+    var number = parseInt( groupCells, 10 );
+    return function( i ) {
+      return ( i % number ) !== 0;
+    };
+  }
+  // default, group by width of slide
+  // parse '75%
+  var percentMatch = typeof groupCells == 'string' &&
+    groupCells.match(/^(\d+)%$/);
+  var percent = percentMatch ? parseInt( percentMatch[1], 10 ) / 100 : 1;
+  return function( i, slideWidth ) {
+    return slideWidth <= ( this.size.innerWidth + 1 ) * percent;
+  };
+};
+
+// alias _init for jQuery plugin .flickity()
+proto._init =
+proto.reposition = function() {
+  this.positionCells();
+  this.positionSliderAtSelected();
+};
+
+proto.getSize = function() {
+  this.size = getSize( this.element );
+  this.setCellAlign();
+  this.cursorPosition = this.size.innerWidth * this.cellAlign;
+};
+
+var cellAlignShorthands = {
+  // cell align, then based on origin side
+  center: {
+    left: 0.5,
+    right: 0.5
+  },
+  left: {
+    left: 0,
+    right: 1
+  },
+  right: {
+    right: 0,
+    left: 1
+  }
+};
+
+proto.setCellAlign = function() {
+  var shorthand = cellAlignShorthands[ this.options.cellAlign ];
+  this.cellAlign = shorthand ? shorthand[ this.originSide ] : this.options.cellAlign;
+};
+
+proto.setGallerySize = function() {
+  if ( this.options.setGallerySize ) {
+    var height = this.options.adaptiveHeight && this.selectedSlide ?
+      this.selectedSlide.height : this.maxCellHeight;
+    this.viewport.style.height = height + 'px';
+  }
+};
+
+proto._getWrapShiftCells = function() {
+  // only for wrap-around
+  if ( !this.options.wrapAround ) {
+    return;
+  }
+  // unshift previous cells
+  this._unshiftCells( this.beforeShiftCells );
+  this._unshiftCells( this.afterShiftCells );
+  // get before cells
+  // initial gap
+  var gapX = this.cursorPosition;
+  var cellIndex = this.cells.length - 1;
+  this.beforeShiftCells = this._getGapCells( gapX, cellIndex, -1 );
+  // get after cells
+  // ending gap between last cell and end of gallery viewport
+  gapX = this.size.innerWidth - this.cursorPosition;
+  // start cloning at first cell, working forwards
+  this.afterShiftCells = this._getGapCells( gapX, 0, 1 );
+};
+
+proto._getGapCells = function( gapX, cellIndex, increment ) {
+  // keep adding cells until the cover the initial gap
+  var cells = [];
+  while ( gapX > 0 ) {
+    var cell = this.cells[ cellIndex ];
+    if ( !cell ) {
+      break;
+    }
+    cells.push( cell );
+    cellIndex += increment;
+    gapX -= cell.size.outerWidth;
+  }
+  return cells;
+};
+
+// ----- contain ----- //
+
+// contain cell targets so no excess sliding
+proto._containSlides = function() {
+  if ( !this.options.contain || this.options.wrapAround || !this.cells.length ) {
+    return;
+  }
+  var isRightToLeft = this.options.rightToLeft;
+  var beginMargin = isRightToLeft ? 'marginRight' : 'marginLeft';
+  var endMargin = isRightToLeft ? 'marginLeft' : 'marginRight';
+  var contentWidth = this.slideableWidth - this.getLastCell().size[ endMargin ];
+  // content is less than gallery size
+  var isContentSmaller = contentWidth < this.size.innerWidth;
+  // bounds
+  var beginBound = this.cursorPosition + this.cells[0].size[ beginMargin ];
+  var endBound = contentWidth - this.size.innerWidth * ( 1 - this.cellAlign );
+  // contain each cell target
+  this.slides.forEach( function( slide ) {
+    if ( isContentSmaller ) {
+      // all cells fit inside gallery
+      slide.target = contentWidth * this.cellAlign;
+    } else {
+      // contain to bounds
+      slide.target = Math.max( slide.target, beginBound );
+      slide.target = Math.min( slide.target, endBound );
+    }
+  }, this );
+};
+
+// -----  ----- //
+
+/**
+ * emits events via eventEmitter and jQuery events
+ * @param {String} type - name of event
+ * @param {Event} event - original event
+ * @param {Array} args - extra arguments
+ */
+proto.dispatchEvent = function( type, event, args ) {
+  var emitArgs = event ? [ event ].concat( args ) : args;
+  this.emitEvent( type, emitArgs );
+
+  if ( jQuery && this.$element ) {
+    // default trigger with type if no event
+    type += this.options.namespaceJQueryEvents ? '.flickity' : '';
+    var $event = type;
+    if ( event ) {
+      // create jQuery event
+      var jQEvent = jQuery.Event( event );
+      jQEvent.type = type;
+      $event = jQEvent;
+    }
+    this.$element.trigger( $event, args );
+  }
+};
+
+// -------------------------- select -------------------------- //
+
+/**
+ * @param {Integer} index - index of the slide
+ * @param {Boolean} isWrap - will wrap-around to last/first if at the end
+ * @param {Boolean} isInstant - will immediately set position at selected cell
+ */
+proto.select = function( index, isWrap, isInstant ) {
+  if ( !this.isActive ) {
+    return;
+  }
+  index = parseInt( index, 10 );
+  this._wrapSelect( index );
+
+  if ( this.options.wrapAround || isWrap ) {
+    index = utils.modulo( index, this.slides.length );
+  }
+  // bail if invalid index
+  if ( !this.slides[ index ] ) {
+    return;
+  }
+  var prevIndex = this.selectedIndex;
+  this.selectedIndex = index;
+  this.updateSelectedSlide();
+  if ( isInstant ) {
+    this.positionSliderAtSelected();
+  } else {
+    this.startAnimation();
+  }
+  if ( this.options.adaptiveHeight ) {
+    this.setGallerySize();
+  }
+  // events
+  this.dispatchEvent( 'select', null, [ index ] );
+  // change event if new index
+  if ( index != prevIndex ) {
+    this.dispatchEvent( 'change', null, [ index ] );
+  }
+  // old v1 event name, remove in v3
+  this.dispatchEvent('cellSelect');
+};
+
+// wraps position for wrapAround, to move to closest slide. #113
+proto._wrapSelect = function( index ) {
+  var len = this.slides.length;
+  var isWrapping = this.options.wrapAround && len > 1;
+  if ( !isWrapping ) {
+    return index;
+  }
+  var wrapIndex = utils.modulo( index, len );
+  // go to shortest
+  var delta = Math.abs( wrapIndex - this.selectedIndex );
+  var backWrapDelta = Math.abs( ( wrapIndex + len ) - this.selectedIndex );
+  var forewardWrapDelta = Math.abs( ( wrapIndex - len ) - this.selectedIndex );
+  if ( !this.isDragSelect && backWrapDelta < delta ) {
+    index += len;
+  } else if ( !this.isDragSelect && forewardWrapDelta < delta ) {
+    index -= len;
+  }
+  // wrap position so slider is within normal area
+  if ( index < 0 ) {
+    this.x -= this.slideableWidth;
+  } else if ( index >= len ) {
+    this.x += this.slideableWidth;
+  }
+};
+
+proto.previous = function( isWrap, isInstant ) {
+  this.select( this.selectedIndex - 1, isWrap, isInstant );
+};
+
+proto.next = function( isWrap, isInstant ) {
+  this.select( this.selectedIndex + 1, isWrap, isInstant );
+};
+
+proto.updateSelectedSlide = function() {
+  var slide = this.slides[ this.selectedIndex ];
+  // selectedIndex could be outside of slides, if triggered before resize()
+  if ( !slide ) {
+    return;
+  }
+  // unselect previous selected slide
+  this.unselectSelectedSlide();
+  // update new selected slide
+  this.selectedSlide = slide;
+  slide.select();
+  this.selectedCells = slide.cells;
+  this.selectedElements = slide.getCellElements();
+  // HACK: selectedCell & selectedElement is first cell in slide, backwards compatibility
+  // Remove in v3?
+  this.selectedCell = slide.cells[0];
+  this.selectedElement = this.selectedElements[0];
+};
+
+proto.unselectSelectedSlide = function() {
+  if ( this.selectedSlide ) {
+    this.selectedSlide.unselect();
+  }
+};
+
+/**
+ * select slide from number or cell element
+ * @param {Element or Number} elem
+ */
+proto.selectCell = function( value, isWrap, isInstant ) {
+  // get cell
+  var cell = this.queryCell( value );
+  if ( !cell ) {
+    return;
+  }
+
+  var index = this.getCellSlideIndex( cell );
+  this.select( index, isWrap, isInstant );
+};
+
+proto.getCellSlideIndex = function( cell ) {
+  // get index of slides that has cell
+  for ( var i=0; i < this.slides.length; i++ ) {
+    var slide = this.slides[i];
+    var index = slide.cells.indexOf( cell );
+    if ( index != -1 ) {
+      return i;
+    }
+  }
+};
+
+// -------------------------- get cells -------------------------- //
+
+/**
+ * get Flickity.Cell, given an Element
+ * @param {Element} elem
+ * @returns {Flickity.Cell} item
+ */
+proto.getCell = function( elem ) {
+  // loop through cells to get the one that matches
+  for ( var i=0; i < this.cells.length; i++ ) {
+    var cell = this.cells[i];
+    if ( cell.element == elem ) {
+      return cell;
+    }
+  }
+};
+
+/**
+ * get collection of Flickity.Cells, given Elements
+ * @param {Element, Array, NodeList} elems
+ * @returns {Array} cells - Flickity.Cells
+ */
+proto.getCells = function( elems ) {
+  elems = utils.makeArray( elems );
+  var cells = [];
+  elems.forEach( function( elem ) {
+    var cell = this.getCell( elem );
+    if ( cell ) {
+      cells.push( cell );
+    }
+  }, this );
+  return cells;
+};
+
+/**
+ * get cell elements
+ * @returns {Array} cellElems
+ */
+proto.getCellElements = function() {
+  return this.cells.map( function( cell ) {
+    return cell.element;
+  });
+};
+
+/**
+ * get parent cell from an element
+ * @param {Element} elem
+ * @returns {Flickit.Cell} cell
+ */
+proto.getParentCell = function( elem ) {
+  // first check if elem is cell
+  var cell = this.getCell( elem );
+  if ( cell ) {
+    return cell;
+  }
+  // try to get parent cell elem
+  elem = utils.getParent( elem, '.flickity-slider > *' );
+  return this.getCell( elem );
+};
+
+/**
+ * get cells adjacent to a slide
+ * @param {Integer} adjCount - number of adjacent slides
+ * @param {Integer} index - index of slide to start
+ * @returns {Array} cells - array of Flickity.Cells
+ */
+proto.getAdjacentCellElements = function( adjCount, index ) {
+  if ( !adjCount ) {
+    return this.selectedSlide.getCellElements();
+  }
+  index = index === undefined ? this.selectedIndex : index;
+
+  var len = this.slides.length;
+  if ( 1 + ( adjCount * 2 ) >= len ) {
+    return this.getCellElements();
+  }
+
+  var cellElems = [];
+  for ( var i = index - adjCount; i <= index + adjCount ; i++ ) {
+    var slideIndex = this.options.wrapAround ? utils.modulo( i, len ) : i;
+    var slide = this.slides[ slideIndex ];
+    if ( slide ) {
+      cellElems = cellElems.concat( slide.getCellElements() );
+    }
+  }
+  return cellElems;
+};
+
+/**
+ * select slide from number or cell element
+ * @param {Element, Selector String, or Number} selector
+ */
+proto.queryCell = function( selector ) {
+  if ( typeof selector == 'number' ) {
+    // use number as index
+    return this.cells[ selector ];
+  }
+  if ( typeof selector == 'string' ) {
+    // use string as selector, get element
+    selector = this.element.querySelector( selector );
+  }
+  // get cell from element
+  return this.getCell( selector );
+};
+
+// -------------------------- events -------------------------- //
+
+proto.uiChange = function() {
+  this.emitEvent('uiChange');
+};
+
+proto.childUIPointerDown = function( event ) {
+  this.emitEvent( 'childUIPointerDown', [ event ] );
+};
+
+// ----- resize ----- //
+
+proto.onresize = function() {
+  this.watchCSS();
+  this.resize();
+};
+
+utils.debounceMethod( Flickity, 'onresize', 150 );
+
+proto.resize = function() {
+  if ( !this.isActive ) {
+    return;
+  }
+  this.getSize();
+  // wrap values
+  if ( this.options.wrapAround ) {
+    this.x = utils.modulo( this.x, this.slideableWidth );
+  }
+  this.positionCells();
+  this._getWrapShiftCells();
+  this.setGallerySize();
+  this.emitEvent('resize');
+  // update selected index for group slides, instant
+  // TODO: position can be lost between groups of various numbers
+  var selectedElement = this.selectedElements && this.selectedElements[0];
+  this.selectCell( selectedElement, false, true );
+};
+
+// watches the :after property, activates/deactivates
+proto.watchCSS = function() {
+  var watchOption = this.options.watchCSS;
+  if ( !watchOption ) {
+    return;
+  }
+
+  var afterContent = getComputedStyle( this.element, ':after' ).content;
+  // activate if :after { content: 'flickity' }
+  if ( afterContent.indexOf('flickity') != -1 ) {
+    this.activate();
+  } else {
+    this.deactivate();
+  }
+};
+
+// ----- keydown ----- //
+
+// go previous/next if left/right keys pressed
+proto.onkeydown = function( event ) {
+  // only work if element is in focus
+  var isNotFocused = document.activeElement && document.activeElement != this.element;
+  if ( !this.options.accessibility ||isNotFocused ) {
+    return;
+  }
+
+  var handler = Flickity.keyboardHandlers[ event.keyCode ];
+  if ( handler ) {
+    handler.call( this );
+  }
+};
+
+Flickity.keyboardHandlers = {
+  // left arrow
+  37: function() {
+    var leftMethod = this.options.rightToLeft ? 'next' : 'previous';
+    this.uiChange();
+    this[ leftMethod ]();
+  },
+  // right arrow
+  39: function() {
+    var rightMethod = this.options.rightToLeft ? 'previous' : 'next';
+    this.uiChange();
+    this[ rightMethod ]();
+  },
+};
+
+// ----- focus ----- //
+
+proto.focus = function() {
+  // TODO remove scrollTo once focus options gets more support
+  // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus#Browser_compatibility
+  var prevScrollY = window.pageYOffset;
+  this.element.focus({ preventScroll: true });
+  // hack to fix scroll jump after focus, #76
+  if ( window.pageYOffset != prevScrollY ) {
+    window.scrollTo( window.pageXOffset, prevScrollY );
+  }
+};
+
+// -------------------------- destroy -------------------------- //
+
+// deactivate all Flickity functionality, but keep stuff available
+proto.deactivate = function() {
+  if ( !this.isActive ) {
+    return;
+  }
+  this.element.classList.remove('flickity-enabled');
+  this.element.classList.remove('flickity-rtl');
+  this.unselectSelectedSlide();
+  // destroy cells
+  this.cells.forEach( function( cell ) {
+    cell.destroy();
+  });
+  this.element.removeChild( this.viewport );
+  // move child elements back into element
+  moveElements( this.slider.children, this.element );
+  if ( this.options.accessibility ) {
+    this.element.removeAttribute('tabIndex');
+    this.element.removeEventListener( 'keydown', this );
+  }
+  // set flags
+  this.isActive = false;
+  this.emitEvent('deactivate');
+};
+
+proto.destroy = function() {
+  this.deactivate();
+  window.removeEventListener( 'resize', this );
+  this.emitEvent('destroy');
+  if ( jQuery && this.$element ) {
+    jQuery.removeData( this.element, 'flickity' );
+  }
+  delete this.element.flickityGUID;
+  delete instances[ this.guid ];
+};
+
+// -------------------------- prototype -------------------------- //
+
+utils.extend( proto, animatePrototype );
+
+// -------------------------- extras -------------------------- //
+
+/**
+ * get Flickity instance from element
+ * @param {Element} elem
+ * @returns {Flickity}
+ */
+Flickity.data = function( elem ) {
+  elem = utils.getQueryElement( elem );
+  var id = elem && elem.flickityGUID;
+  return id && instances[ id ];
+};
+
+utils.htmlInit( Flickity, 'flickity' );
+
+if ( jQuery && jQuery.bridget ) {
+  jQuery.bridget( 'flickity', Flickity );
+}
+
+// set internal jQuery, for Webpack + jQuery v3, #478
+Flickity.setJQuery = function( jq ) {
+  jQuery = jq;
+};
+
+Flickity.Cell = Cell;
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/flickity/js/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * Flickity v2.1.2
+ * Touch, responsive, flickable carousels
+ *
+ * Licensed GPLv3 for open source use
+ * or Flickity Commercial License for commercial use
+ *
+ * https://flickity.metafizzy.co
+ * Copyright 2015-2018 Metafizzy
+ */
+
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js"),
+      __webpack_require__(/*! ./drag */ "./node_modules/flickity/js/drag.js"),
+      __webpack_require__(/*! ./prev-next-button */ "./node_modules/flickity/js/prev-next-button.js"),
+      __webpack_require__(/*! ./page-dots */ "./node_modules/flickity/js/page-dots.js"),
+      __webpack_require__(/*! ./player */ "./node_modules/flickity/js/player.js"),
+      __webpack_require__(/*! ./add-remove-cell */ "./node_modules/flickity/js/add-remove-cell.js"),
+      __webpack_require__(/*! ./lazyload */ "./node_modules/flickity/js/lazyload.js")
+    ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+})( window, function factory( Flickity ) {
+  /*jshint strict: false*/
+  return Flickity;
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/lazyload.js":
+/*!**********************************************!*\
+  !*** ./node_modules/flickity/js/lazyload.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// lazyload
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Flickity, utils ) {
+      return factory( window, Flickity, utils );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Flickity, utils ) {
+'use strict';
+
+Flickity.createMethods.push('_createLazyload');
+var proto = Flickity.prototype;
+
+proto._createLazyload = function() {
+  this.on( 'select', this.lazyLoad );
+};
+
+proto.lazyLoad = function() {
+  var lazyLoad = this.options.lazyLoad;
+  if ( !lazyLoad ) {
+    return;
+  }
+  // get adjacent cells, use lazyLoad option for adjacent count
+  var adjCount = typeof lazyLoad == 'number' ? lazyLoad : 0;
+  var cellElems = this.getAdjacentCellElements( adjCount );
+  // get lazy images in those cells
+  var lazyImages = [];
+  cellElems.forEach( function( cellElem ) {
+    var lazyCellImages = getCellLazyImages( cellElem );
+    lazyImages = lazyImages.concat( lazyCellImages );
+  });
+  // load lazy images
+  lazyImages.forEach( function( img ) {
+    new LazyLoader( img, this );
+  }, this );
+};
+
+function getCellLazyImages( cellElem ) {
+  // check if cell element is lazy image
+  if ( cellElem.nodeName == 'IMG' ) {
+    var lazyloadAttr = cellElem.getAttribute('data-flickity-lazyload');
+    var srcAttr = cellElem.getAttribute('data-flickity-lazyload-src');
+    var srcsetAttr = cellElem.getAttribute('data-flickity-lazyload-srcset');
+    if ( lazyloadAttr || srcAttr || srcsetAttr ) {
+      return [ cellElem ];
+    }
+  }
+  // select lazy images in cell
+  var lazySelector = 'img[data-flickity-lazyload], ' +
+    'img[data-flickity-lazyload-src], img[data-flickity-lazyload-srcset]';
+  var imgs = cellElem.querySelectorAll( lazySelector );
+  return utils.makeArray( imgs );
+}
+
+// -------------------------- LazyLoader -------------------------- //
+
+/**
+ * class to handle loading images
+ */
+function LazyLoader( img, flickity ) {
+  this.img = img;
+  this.flickity = flickity;
+  this.load();
+}
+
+LazyLoader.prototype.handleEvent = utils.handleEvent;
+
+LazyLoader.prototype.load = function() {
+  this.img.addEventListener( 'load', this );
+  this.img.addEventListener( 'error', this );
+  // get src & srcset
+  var src = this.img.getAttribute('data-flickity-lazyload') ||
+    this.img.getAttribute('data-flickity-lazyload-src');
+  var srcset = this.img.getAttribute('data-flickity-lazyload-srcset');
+  // set src & serset
+  this.img.src = src;
+  if ( srcset ) {
+    this.img.setAttribute( 'srcset', srcset );
+  }
+  // remove attr
+  this.img.removeAttribute('data-flickity-lazyload');
+  this.img.removeAttribute('data-flickity-lazyload-src');
+  this.img.removeAttribute('data-flickity-lazyload-srcset');
+};
+
+LazyLoader.prototype.onload = function( event ) {
+  this.complete( event, 'flickity-lazyloaded' );
+};
+
+LazyLoader.prototype.onerror = function( event ) {
+  this.complete( event, 'flickity-lazyerror' );
+};
+
+LazyLoader.prototype.complete = function( event, className ) {
+  // unbind events
+  this.img.removeEventListener( 'load', this );
+  this.img.removeEventListener( 'error', this );
+
+  var cell = this.flickity.getParentCell( this.img );
+  var cellElem = cell && cell.element;
+  this.flickity.cellSizeChange( cellElem );
+
+  this.img.classList.add( className );
+  this.flickity.dispatchEvent( 'lazyLoad', event, cellElem );
+};
+
+// -----  ----- //
+
+Flickity.LazyLoader = LazyLoader;
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/page-dots.js":
+/*!***********************************************!*\
+  !*** ./node_modules/flickity/js/page-dots.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// page dots
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js"),
+      __webpack_require__(/*! tap-listener/tap-listener */ "./node_modules/tap-listener/tap-listener.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Flickity, TapListener, utils ) {
+      return factory( window, Flickity, TapListener, utils );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Flickity, TapListener, utils ) {
+
+// -------------------------- PageDots -------------------------- //
+
+'use strict';
+
+function PageDots( parent ) {
+  this.parent = parent;
+  this._create();
+}
+
+PageDots.prototype = new TapListener();
+
+PageDots.prototype._create = function() {
+  // create holder element
+  this.holder = document.createElement('ol');
+  this.holder.className = 'flickity-page-dots';
+  // create dots, array of elements
+  this.dots = [];
+  // events
+  this.on( 'tap', this.onTap );
+  this.on( 'pointerDown', this.parent.childUIPointerDown.bind( this.parent ) );
+};
+
+PageDots.prototype.activate = function() {
+  this.setDots();
+  this.bindTap( this.holder );
+  // add to DOM
+  this.parent.element.appendChild( this.holder );
+};
+
+PageDots.prototype.deactivate = function() {
+  // remove from DOM
+  this.parent.element.removeChild( this.holder );
+  TapListener.prototype.destroy.call( this );
+};
+
+PageDots.prototype.setDots = function() {
+  // get difference between number of slides and number of dots
+  var delta = this.parent.slides.length - this.dots.length;
+  if ( delta > 0 ) {
+    this.addDots( delta );
+  } else if ( delta < 0 ) {
+    this.removeDots( -delta );
+  }
+};
+
+PageDots.prototype.addDots = function( count ) {
+  var fragment = document.createDocumentFragment();
+  var newDots = [];
+  var length = this.dots.length;
+  var max = length + count;
+
+  for ( var i = length; i < max; i++ ) {
+    var dot = document.createElement('li');
+    dot.className = 'dot';
+    dot.setAttribute( 'aria-label', 'Page dot ' + ( i + 1 ) );
+    fragment.appendChild( dot );
+    newDots.push( dot );
+  }
+
+  this.holder.appendChild( fragment );
+  this.dots = this.dots.concat( newDots );
+};
+
+PageDots.prototype.removeDots = function( count ) {
+  // remove from this.dots collection
+  var removeDots = this.dots.splice( this.dots.length - count, count );
+  // remove from DOM
+  removeDots.forEach( function( dot ) {
+    this.holder.removeChild( dot );
+  }, this );
+};
+
+PageDots.prototype.updateSelected = function() {
+  // remove selected class on previous
+  if ( this.selectedDot ) {
+    this.selectedDot.className = 'dot';
+    this.selectedDot.removeAttribute('aria-current');
+  }
+  // don't proceed if no dots
+  if ( !this.dots.length ) {
+    return;
+  }
+  this.selectedDot = this.dots[ this.parent.selectedIndex ];
+  this.selectedDot.className = 'dot is-selected';
+  this.selectedDot.setAttribute( 'aria-current', 'step' );
+};
+
+PageDots.prototype.onTap = function( event ) {
+  var target = event.target;
+  // only care about dot clicks
+  if ( target.nodeName != 'LI' ) {
+    return;
+  }
+
+  this.parent.uiChange();
+  var index = this.dots.indexOf( target );
+  this.parent.select( index );
+};
+
+PageDots.prototype.destroy = function() {
+  this.deactivate();
+};
+
+Flickity.PageDots = PageDots;
+
+// -------------------------- Flickity -------------------------- //
+
+utils.extend( Flickity.defaults, {
+  pageDots: true
+});
+
+Flickity.createMethods.push('_createPageDots');
+
+var proto = Flickity.prototype;
+
+proto._createPageDots = function() {
+  if ( !this.options.pageDots ) {
+    return;
+  }
+  this.pageDots = new PageDots( this );
+  // events
+  this.on( 'activate', this.activatePageDots );
+  this.on( 'select', this.updateSelectedPageDots );
+  this.on( 'cellChange', this.updatePageDots );
+  this.on( 'resize', this.updatePageDots );
+  this.on( 'deactivate', this.deactivatePageDots );
+};
+
+proto.activatePageDots = function() {
+  this.pageDots.activate();
+};
+
+proto.updateSelectedPageDots = function() {
+  this.pageDots.updateSelected();
+};
+
+proto.updatePageDots = function() {
+  this.pageDots.setDots();
+};
+
+proto.deactivatePageDots = function() {
+  this.pageDots.deactivate();
+};
+
+// -----  ----- //
+
+Flickity.PageDots = PageDots;
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/player.js":
+/*!********************************************!*\
+  !*** ./node_modules/flickity/js/player.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// player & autoPlay
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ev-emitter/ev-emitter */ "./node_modules/ev-emitter/ev-emitter.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js"),
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( EvEmitter, utils, Flickity ) {
+      return factory( EvEmitter, utils, Flickity );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( EvEmitter, utils, Flickity ) {
+
+'use strict';
+
+// -------------------------- Player -------------------------- //
+
+function Player( parent ) {
+  this.parent = parent;
+  this.state = 'stopped';
+  // visibility change event handler
+  this.onVisibilityChange = this.visibilityChange.bind( this );
+  this.onVisibilityPlay = this.visibilityPlay.bind( this );
+}
+
+Player.prototype = Object.create( EvEmitter.prototype );
+
+// start play
+Player.prototype.play = function() {
+  if ( this.state == 'playing' ) {
+    return;
+  }
+  // do not play if page is hidden, start playing when page is visible
+  var isPageHidden = document.hidden;
+  if ( isPageHidden ) {
+    document.addEventListener( 'visibilitychange', this.onVisibilityPlay );
+    return;
+  }
+
+  this.state = 'playing';
+  // listen to visibility change
+  document.addEventListener( 'visibilitychange', this.onVisibilityChange );
+  // start ticking
+  this.tick();
+};
+
+Player.prototype.tick = function() {
+  // do not tick if not playing
+  if ( this.state != 'playing' ) {
+    return;
+  }
+
+  var time = this.parent.options.autoPlay;
+  // default to 3 seconds
+  time = typeof time == 'number' ? time : 3000;
+  var _this = this;
+  // HACK: reset ticks if stopped and started within interval
+  this.clear();
+  this.timeout = setTimeout( function() {
+    _this.parent.next( true );
+    _this.tick();
+  }, time );
+};
+
+Player.prototype.stop = function() {
+  this.state = 'stopped';
+  this.clear();
+  // remove visibility change event
+  document.removeEventListener( 'visibilitychange', this.onVisibilityChange );
+};
+
+Player.prototype.clear = function() {
+  clearTimeout( this.timeout );
+};
+
+Player.prototype.pause = function() {
+  if ( this.state == 'playing' ) {
+    this.state = 'paused';
+    this.clear();
+  }
+};
+
+Player.prototype.unpause = function() {
+  // re-start play if paused
+  if ( this.state == 'paused' ) {
+    this.play();
+  }
+};
+
+// pause if page visibility is hidden, unpause if visible
+Player.prototype.visibilityChange = function() {
+  var isPageHidden = document.hidden;
+  this[ isPageHidden ? 'pause' : 'unpause' ]();
+};
+
+Player.prototype.visibilityPlay = function() {
+  this.play();
+  document.removeEventListener( 'visibilitychange', this.onVisibilityPlay );
+};
+
+// -------------------------- Flickity -------------------------- //
+
+utils.extend( Flickity.defaults, {
+  pauseAutoPlayOnHover: true
+});
+
+Flickity.createMethods.push('_createPlayer');
+var proto = Flickity.prototype;
+
+proto._createPlayer = function() {
+  this.player = new Player( this );
+
+  this.on( 'activate', this.activatePlayer );
+  this.on( 'uiChange', this.stopPlayer );
+  this.on( 'pointerDown', this.stopPlayer );
+  this.on( 'deactivate', this.deactivatePlayer );
+};
+
+proto.activatePlayer = function() {
+  if ( !this.options.autoPlay ) {
+    return;
+  }
+  this.player.play();
+  this.element.addEventListener( 'mouseenter', this );
+};
+
+// Player API, don't hate the ... thanks I know where the door is
+
+proto.playPlayer = function() {
+  this.player.play();
+};
+
+proto.stopPlayer = function() {
+  this.player.stop();
+};
+
+proto.pausePlayer = function() {
+  this.player.pause();
+};
+
+proto.unpausePlayer = function() {
+  this.player.unpause();
+};
+
+proto.deactivatePlayer = function() {
+  this.player.stop();
+  this.element.removeEventListener( 'mouseenter', this );
+};
+
+// ----- mouseenter/leave ----- //
+
+// pause auto-play on hover
+proto.onmouseenter = function() {
+  if ( !this.options.pauseAutoPlayOnHover ) {
+    return;
+  }
+  this.player.pause();
+  this.element.addEventListener( 'mouseleave', this );
+};
+
+// resume auto-play on hover off
+proto.onmouseleave = function() {
+  this.player.unpause();
+  this.element.removeEventListener( 'mouseleave', this );
+};
+
+// -----  ----- //
+
+Flickity.Player = Player;
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/prev-next-button.js":
+/*!******************************************************!*\
+  !*** ./node_modules/flickity/js/prev-next-button.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// prev/next buttons
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ./flickity */ "./node_modules/flickity/js/flickity.js"),
+      __webpack_require__(/*! tap-listener/tap-listener */ "./node_modules/tap-listener/tap-listener.js"),
+      __webpack_require__(/*! fizzy-ui-utils/utils */ "./node_modules/fizzy-ui-utils/utils.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Flickity, TapListener, utils ) {
+      return factory( window, Flickity, TapListener, utils );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Flickity, TapListener, utils ) {
+'use strict';
+
+var svgURI = 'http://www.w3.org/2000/svg';
+
+// -------------------------- PrevNextButton -------------------------- //
+
+function PrevNextButton( direction, parent ) {
+  this.direction = direction;
+  this.parent = parent;
+  this._create();
+}
+
+PrevNextButton.prototype = Object.create( TapListener.prototype );
+
+PrevNextButton.prototype._create = function() {
+  // properties
+  this.isEnabled = true;
+  this.isPrevious = this.direction == -1;
+  var leftDirection = this.parent.options.rightToLeft ? 1 : -1;
+  this.isLeft = this.direction == leftDirection;
+
+  var element = this.element = document.createElement('button');
+  element.className = 'flickity-button flickity-prev-next-button';
+  element.className += this.isPrevious ? ' previous' : ' next';
+  // prevent button from submitting form http://stackoverflow.com/a/10836076/182183
+  element.setAttribute( 'type', 'button' );
+  // init as disabled
+  this.disable();
+
+  element.setAttribute( 'aria-label', this.isPrevious ? 'Previous' : 'Next' );
+
+  // create arrow
+  var svg = this.createSVG();
+  element.appendChild( svg );
+  // events
+  this.on( 'tap', this.onTap );
+  this.parent.on( 'select', this.update.bind( this ) );
+  this.on( 'pointerDown', this.parent.childUIPointerDown.bind( this.parent ) );
+};
+
+PrevNextButton.prototype.activate = function() {
+  this.bindTap( this.element );
+  // click events from keyboard
+  this.element.addEventListener( 'click', this );
+  // add to DOM
+  this.parent.element.appendChild( this.element );
+};
+
+PrevNextButton.prototype.deactivate = function() {
+  // remove from DOM
+  this.parent.element.removeChild( this.element );
+  // do regular TapListener destroy
+  TapListener.prototype.destroy.call( this );
+  // click events from keyboard
+  this.element.removeEventListener( 'click', this );
+};
+
+PrevNextButton.prototype.createSVG = function() {
+  var svg = document.createElementNS( svgURI, 'svg');
+  svg.setAttribute( 'class', 'flickity-button-icon' );
+  svg.setAttribute( 'viewBox', '0 0 100 100' );
+  var path = document.createElementNS( svgURI, 'path');
+  var pathMovements = getArrowMovements( this.parent.options.arrowShape );
+  path.setAttribute( 'd', pathMovements );
+  path.setAttribute( 'class', 'arrow' );
+  // rotate arrow
+  if ( !this.isLeft ) {
+    path.setAttribute( 'transform', 'translate(100, 100) rotate(180) ' );
+  }
+  svg.appendChild( path );
+  return svg;
+};
+
+// get SVG path movmement
+function getArrowMovements( shape ) {
+  // use shape as movement if string
+  if ( typeof shape == 'string' ) {
+    return shape;
+  }
+  // create movement string
+  return 'M ' + shape.x0 + ',50' +
+    ' L ' + shape.x1 + ',' + ( shape.y1 + 50 ) +
+    ' L ' + shape.x2 + ',' + ( shape.y2 + 50 ) +
+    ' L ' + shape.x3 + ',50 ' +
+    ' L ' + shape.x2 + ',' + ( 50 - shape.y2 ) +
+    ' L ' + shape.x1 + ',' + ( 50 - shape.y1 ) +
+    ' Z';
+}
+
+PrevNextButton.prototype.onTap = function() {
+  if ( !this.isEnabled ) {
+    return;
+  }
+  this.parent.uiChange();
+  var method = this.isPrevious ? 'previous' : 'next';
+  this.parent[ method ]();
+};
+
+PrevNextButton.prototype.handleEvent = utils.handleEvent;
+
+PrevNextButton.prototype.onclick = function( event ) {
+  // only allow clicks from keyboard
+  var focused = document.activeElement;
+  if ( focused && focused == this.element ) {
+    this.onTap( event, event );
+  }
+};
+
+// -----  ----- //
+
+PrevNextButton.prototype.enable = function() {
+  if ( this.isEnabled ) {
+    return;
+  }
+  this.element.disabled = false;
+  this.isEnabled = true;
+};
+
+PrevNextButton.prototype.disable = function() {
+  if ( !this.isEnabled ) {
+    return;
+  }
+  this.element.disabled = true;
+  this.isEnabled = false;
+};
+
+PrevNextButton.prototype.update = function() {
+  // index of first or last slide, if previous or next
+  var slides = this.parent.slides;
+  // enable is wrapAround and at least 2 slides
+  if ( this.parent.options.wrapAround && slides.length > 1 ) {
+    this.enable();
+    return;
+  }
+  var lastIndex = slides.length ? slides.length - 1 : 0;
+  var boundIndex = this.isPrevious ? 0 : lastIndex;
+  var method = this.parent.selectedIndex == boundIndex ? 'disable' : 'enable';
+  this[ method ]();
+};
+
+PrevNextButton.prototype.destroy = function() {
+  this.deactivate();
+};
+
+// -------------------------- Flickity prototype -------------------------- //
+
+utils.extend( Flickity.defaults, {
+  prevNextButtons: true,
+  arrowShape: {
+    x0: 10,
+    x1: 60, y1: 50,
+    x2: 70, y2: 40,
+    x3: 30
+  }
+});
+
+Flickity.createMethods.push('_createPrevNextButtons');
+var proto = Flickity.prototype;
+
+proto._createPrevNextButtons = function() {
+  if ( !this.options.prevNextButtons ) {
+    return;
+  }
+
+  this.prevButton = new PrevNextButton( -1, this );
+  this.nextButton = new PrevNextButton( 1, this );
+
+  this.on( 'activate', this.activatePrevNextButtons );
+};
+
+proto.activatePrevNextButtons = function() {
+  this.prevButton.activate();
+  this.nextButton.activate();
+  this.on( 'deactivate', this.deactivatePrevNextButtons );
+};
+
+proto.deactivatePrevNextButtons = function() {
+  this.prevButton.deactivate();
+  this.nextButton.deactivate();
+  this.off( 'deactivate', this.deactivatePrevNextButtons );
+};
+
+// --------------------------  -------------------------- //
+
+Flickity.PrevNextButton = PrevNextButton;
+
+return Flickity;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/flickity/js/slide.js":
+/*!*******************************************!*\
+  !*** ./node_modules/flickity/js/slide.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;// slide
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory() {
+'use strict';
+
+function Slide( parent ) {
+  this.parent = parent;
+  this.isOriginLeft = parent.originSide == 'left';
+  this.cells = [];
+  this.outerWidth = 0;
+  this.height = 0;
+}
+
+var proto = Slide.prototype;
+
+proto.addCell = function( cell ) {
+  this.cells.push( cell );
+  this.outerWidth += cell.size.outerWidth;
+  this.height = Math.max( cell.size.outerHeight, this.height );
+  // first cell stuff
+  if ( this.cells.length == 1 ) {
+    this.x = cell.x; // x comes from first cell
+    var beginMargin = this.isOriginLeft ? 'marginLeft' : 'marginRight';
+    this.firstMargin = cell.size[ beginMargin ];
+  }
+};
+
+proto.updateTarget = function() {
+  var endMargin = this.isOriginLeft ? 'marginRight' : 'marginLeft';
+  var lastCell = this.getLastCell();
+  var lastMargin = lastCell ? lastCell.size[ endMargin ] : 0;
+  var slideWidth = this.outerWidth - ( this.firstMargin + lastMargin );
+  this.target = this.x + this.firstMargin + slideWidth * this.parent.cellAlign;
+};
+
+proto.getLastCell = function() {
+  return this.cells[ this.cells.length - 1 ];
+};
+
+proto.select = function() {
+  this.changeSelected( true );
+};
+
+proto.unselect = function() {
+  this.changeSelected( false );
+};
+
+proto.changeSelected = function( isSelected ) {
+  var classMethod = isSelected ? 'add' : 'remove';
+  this.cells.forEach( function( cell ) {
+    cell.element.classList[ classMethod ]('is-selected');
+    cell.element.setAttribute( 'aria-selected', isSelected.toString() );
+  });
+};
+
+proto.getCellElements = function() {
+  return this.cells.map( function( cell ) {
+    return cell.element;
+  });
+};
+
+return Slide;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/get-size/get-size.js":
+/*!*******************************************!*\
+  !*** ./node_modules/get-size/get-size.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * getSize v2.0.3
+ * measure size of elements
+ * MIT license
+ */
+
+/* jshint browser: true, strict: true, undef: true, unused: true */
+/* globals console: false */
+
+( function( window, factory ) {
+  /* jshint strict: false */ /* globals define, module */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+})( window, function factory() {
+'use strict';
+
+// -------------------------- helpers -------------------------- //
+
+// get a number from a string, not a percentage
+function getStyleSize( value ) {
+  var num = parseFloat( value );
+  // not a percent like '100%', and a number
+  var isValid = value.indexOf('%') == -1 && !isNaN( num );
+  return isValid && num;
+}
+
+function noop() {}
+
+var logError = typeof console == 'undefined' ? noop :
+  function( message ) {
+    console.error( message );
+  };
+
+// -------------------------- measurements -------------------------- //
+
+var measurements = [
+  'paddingLeft',
+  'paddingRight',
+  'paddingTop',
+  'paddingBottom',
+  'marginLeft',
+  'marginRight',
+  'marginTop',
+  'marginBottom',
+  'borderLeftWidth',
+  'borderRightWidth',
+  'borderTopWidth',
+  'borderBottomWidth'
+];
+
+var measurementsLength = measurements.length;
+
+function getZeroSize() {
+  var size = {
+    width: 0,
+    height: 0,
+    innerWidth: 0,
+    innerHeight: 0,
+    outerWidth: 0,
+    outerHeight: 0
+  };
+  for ( var i=0; i < measurementsLength; i++ ) {
+    var measurement = measurements[i];
+    size[ measurement ] = 0;
+  }
+  return size;
+}
+
+// -------------------------- getStyle -------------------------- //
+
+/**
+ * getStyle, get style of element, check for Firefox bug
+ * https://bugzilla.mozilla.org/show_bug.cgi?id=548397
+ */
+function getStyle( elem ) {
+  var style = getComputedStyle( elem );
+  if ( !style ) {
+    logError( 'Style returned ' + style +
+      '. Are you running this code in a hidden iframe on Firefox? ' +
+      'See https://bit.ly/getsizebug1' );
+  }
+  return style;
+}
+
+// -------------------------- setup -------------------------- //
+
+var isSetup = false;
+
+var isBoxSizeOuter;
+
+/**
+ * setup
+ * check isBoxSizerOuter
+ * do on first getSize() rather than on page load for Firefox bug
+ */
+function setup() {
+  // setup once
+  if ( isSetup ) {
+    return;
+  }
+  isSetup = true;
+
+  // -------------------------- box sizing -------------------------- //
+
+  /**
+   * Chrome & Safari measure the outer-width on style.width on border-box elems
+   * IE11 & Firefox<29 measures the inner-width
+   */
+  var div = document.createElement('div');
+  div.style.width = '200px';
+  div.style.padding = '1px 2px 3px 4px';
+  div.style.borderStyle = 'solid';
+  div.style.borderWidth = '1px 2px 3px 4px';
+  div.style.boxSizing = 'border-box';
+
+  var body = document.body || document.documentElement;
+  body.appendChild( div );
+  var style = getStyle( div );
+  // round value for browser zoom. desandro/masonry#928
+  isBoxSizeOuter = Math.round( getStyleSize( style.width ) ) == 200;
+  getSize.isBoxSizeOuter = isBoxSizeOuter;
+
+  body.removeChild( div );
+}
+
+// -------------------------- getSize -------------------------- //
+
+function getSize( elem ) {
+  setup();
+
+  // use querySeletor if elem is string
+  if ( typeof elem == 'string' ) {
+    elem = document.querySelector( elem );
+  }
+
+  // do not proceed on non-objects
+  if ( !elem || typeof elem != 'object' || !elem.nodeType ) {
+    return;
+  }
+
+  var style = getStyle( elem );
+
+  // if hidden, everything is 0
+  if ( style.display == 'none' ) {
+    return getZeroSize();
+  }
+
+  var size = {};
+  size.width = elem.offsetWidth;
+  size.height = elem.offsetHeight;
+
+  var isBorderBox = size.isBorderBox = style.boxSizing == 'border-box';
+
+  // get all measurements
+  for ( var i=0; i < measurementsLength; i++ ) {
+    var measurement = measurements[i];
+    var value = style[ measurement ];
+    var num = parseFloat( value );
+    // any 'auto', 'medium' value will be 0
+    size[ measurement ] = !isNaN( num ) ? num : 0;
+  }
+
+  var paddingWidth = size.paddingLeft + size.paddingRight;
+  var paddingHeight = size.paddingTop + size.paddingBottom;
+  var marginWidth = size.marginLeft + size.marginRight;
+  var marginHeight = size.marginTop + size.marginBottom;
+  var borderWidth = size.borderLeftWidth + size.borderRightWidth;
+  var borderHeight = size.borderTopWidth + size.borderBottomWidth;
+
+  var isBorderBoxSizeOuter = isBorderBox && isBoxSizeOuter;
+
+  // overwrite width and height if we can get it from style
+  var styleWidth = getStyleSize( style.width );
+  if ( styleWidth !== false ) {
+    size.width = styleWidth +
+      // add padding and border unless it's already including it
+      ( isBorderBoxSizeOuter ? 0 : paddingWidth + borderWidth );
+  }
+
+  var styleHeight = getStyleSize( style.height );
+  if ( styleHeight !== false ) {
+    size.height = styleHeight +
+      // add padding and border unless it's already including it
+      ( isBorderBoxSizeOuter ? 0 : paddingHeight + borderHeight );
+  }
+
+  size.innerWidth = size.width - ( paddingWidth + borderWidth );
+  size.innerHeight = size.height - ( paddingHeight + borderHeight );
+
+  size.outerWidth = size.width + marginWidth;
+  size.outerHeight = size.height + marginHeight;
+
+  return size;
+}
+
+return getSize;
+
+});
 
 
 /***/ }),
@@ -2047,6 +5639,36 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--8-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--8-1!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/src??ref--8-2!./flickity.css?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/App.vue?vue&type=style&index=0&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--8-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/App.vue?vue&type=style&index=0&lang=css& ***!
@@ -2206,6 +5828,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--8-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--8-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Plans.vue?vue&type=style&index=0&id=50b40e0f&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Plans.vue?vue&type=style&index=0&id=50b40e0f&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--8-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--8-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--8-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2766,6 +6418,119 @@ module.exports = function (css) {
 
 /***/ }),
 
+/***/ "./node_modules/tap-listener/tap-listener.js":
+/*!***************************************************!*\
+  !*** ./node_modules/tap-listener/tap-listener.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * Tap listener v2.0.0
+ * listens to taps
+ * MIT license
+ */
+
+/*jshint browser: true, unused: true, undef: true, strict: true */
+
+( function( window, factory ) {
+  // universal module definition
+  /*jshint strict: false*/ /*globals define, module, require */
+
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! unipointer/unipointer */ "./node_modules/unipointer/unipointer.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Unipointer ) {
+      return factory( window, Unipointer );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Unipointer ) {
+
+'use strict';
+
+// --------------------------  TapListener -------------------------- //
+
+function TapListener( elem ) {
+  this.bindTap( elem );
+}
+
+// inherit Unipointer & EventEmitter
+var proto = TapListener.prototype = Object.create( Unipointer.prototype );
+
+/**
+ * bind tap event to element
+ * @param {Element} elem
+ */
+proto.bindTap = function( elem ) {
+  if ( !elem ) {
+    return;
+  }
+  this.unbindTap();
+  this.tapElement = elem;
+  this._bindStartEvent( elem, true );
+};
+
+proto.unbindTap = function() {
+  if ( !this.tapElement ) {
+    return;
+  }
+  this._bindStartEvent( this.tapElement, true );
+  delete this.tapElement;
+};
+
+/**
+ * pointer up
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ */
+proto.pointerUp = function( event, pointer ) {
+  // ignore emulated mouse up clicks
+  if ( this.isIgnoringMouseUp && event.type == 'mouseup' ) {
+    return;
+  }
+
+  var pointerPoint = Unipointer.getPointerPoint( pointer );
+  var boundingRect = this.tapElement.getBoundingClientRect();
+  var scrollX = window.pageXOffset;
+  var scrollY = window.pageYOffset;
+  // calculate if pointer is inside tapElement
+  var isInside = pointerPoint.x >= boundingRect.left + scrollX &&
+    pointerPoint.x <= boundingRect.right + scrollX &&
+    pointerPoint.y >= boundingRect.top + scrollY &&
+    pointerPoint.y <= boundingRect.bottom + scrollY;
+  // trigger callback if pointer is inside element
+  if ( isInside ) {
+    this.emitEvent( 'tap', [ event, pointer ] );
+  }
+
+  // set flag for emulated clicks 300ms after touchend
+  if ( event.type != 'mouseup' ) {
+    this.isIgnoringMouseUp = true;
+    // reset flag after 300ms
+    var _this = this;
+    setTimeout( function() {
+      delete _this.isIgnoringMouseUp;
+    }, 400 );
+  }
+};
+
+proto.destroy = function() {
+  this.pointerDone();
+  this.unbindTap();
+};
+
+// -----  ----- //
+
+return TapListener;
+
+}));
+
+
+/***/ }),
+
 /***/ "./node_modules/timers-browserify/main.js":
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
@@ -2838,6 +6603,1019 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (this && this.clearImmediate);
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/unidragger/unidragger.js":
+/*!***********************************************!*\
+  !*** ./node_modules/unidragger/unidragger.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * Unidragger v2.3.0
+ * Draggable base class
+ * MIT license
+ */
+
+/*jshint browser: true, unused: true, undef: true, strict: true */
+
+( function( window, factory ) {
+  // universal module definition
+  /*jshint strict: false */ /*globals define, module, require */
+
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! unipointer/unipointer */ "./node_modules/unipointer/unipointer.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( Unipointer ) {
+      return factory( window, Unipointer );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, Unipointer ) {
+
+'use strict';
+
+// -------------------------- Unidragger -------------------------- //
+
+function Unidragger() {}
+
+// inherit Unipointer & EvEmitter
+var proto = Unidragger.prototype = Object.create( Unipointer.prototype );
+
+// ----- bind start ----- //
+
+proto.bindHandles = function() {
+  this._bindHandles( true );
+};
+
+proto.unbindHandles = function() {
+  this._bindHandles( false );
+};
+
+/**
+ * Add or remove start event
+ * @param {Boolean} isAdd
+ */
+proto._bindHandles = function( isAdd ) {
+  // munge isAdd, default to true
+  isAdd = isAdd === undefined ? true : isAdd;
+  // bind each handle
+  var bindMethod = isAdd ? 'addEventListener' : 'removeEventListener';
+  var touchAction = isAdd ? this._touchActionValue : '';
+  for ( var i=0; i < this.handles.length; i++ ) {
+    var handle = this.handles[i];
+    this._bindStartEvent( handle, isAdd );
+    handle[ bindMethod ]( 'click', this );
+    // touch-action: none to override browser touch gestures. metafizzy/flickity#540
+    if ( window.PointerEvent ) {
+      handle.style.touchAction = touchAction;
+    }
+  }
+};
+
+// prototype so it can be overwriteable by Flickity
+proto._touchActionValue = 'none';
+
+// ----- start event ----- //
+
+/**
+ * pointer start
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ */
+proto.pointerDown = function( event, pointer ) {
+  var isOkay = this.okayPointerDown( event );
+  if ( !isOkay ) {
+    return;
+  }
+  // track start event position
+  this.pointerDownPointer = pointer;
+
+  event.preventDefault();
+  this.pointerDownBlur();
+  // bind move and end events
+  this._bindPostStartEvents( event );
+  this.emitEvent( 'pointerDown', [ event, pointer ] );
+};
+
+// nodes that have text fields
+var cursorNodes = {
+  TEXTAREA: true,
+  INPUT: true,
+  SELECT: true,
+  OPTION: true,
+};
+
+// input types that do not have text fields
+var clickTypes = {
+  radio: true,
+  checkbox: true,
+  button: true,
+  submit: true,
+  image: true,
+  file: true,
+};
+
+// dismiss inputs with text fields. flickity#403, flickity#404
+proto.okayPointerDown = function( event ) {
+  var isCursorNode = cursorNodes[ event.target.nodeName ];
+  var isClickType = clickTypes[ event.target.type ];
+  var isOkay = !isCursorNode || isClickType;
+  if ( !isOkay ) {
+    this._pointerReset();
+  }
+  return isOkay;
+};
+
+// kludge to blur previously focused input
+proto.pointerDownBlur = function() {
+  var focused = document.activeElement;
+  // do not blur body for IE10, metafizzy/flickity#117
+  var canBlur = focused && focused.blur && focused != document.body;
+  if ( canBlur ) {
+    focused.blur();
+  }
+};
+
+// ----- move event ----- //
+
+/**
+ * drag move
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ */
+proto.pointerMove = function( event, pointer ) {
+  var moveVector = this._dragPointerMove( event, pointer );
+  this.emitEvent( 'pointerMove', [ event, pointer, moveVector ] );
+  this._dragMove( event, pointer, moveVector );
+};
+
+// base pointer move logic
+proto._dragPointerMove = function( event, pointer ) {
+  var moveVector = {
+    x: pointer.pageX - this.pointerDownPointer.pageX,
+    y: pointer.pageY - this.pointerDownPointer.pageY
+  };
+  // start drag if pointer has moved far enough to start drag
+  if ( !this.isDragging && this.hasDragStarted( moveVector ) ) {
+    this._dragStart( event, pointer );
+  }
+  return moveVector;
+};
+
+// condition if pointer has moved far enough to start drag
+proto.hasDragStarted = function( moveVector ) {
+  return Math.abs( moveVector.x ) > 3 || Math.abs( moveVector.y ) > 3;
+};
+
+// ----- end event ----- //
+
+/**
+ * pointer up
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ */
+proto.pointerUp = function( event, pointer ) {
+  this.emitEvent( 'pointerUp', [ event, pointer ] );
+  this._dragPointerUp( event, pointer );
+};
+
+proto._dragPointerUp = function( event, pointer ) {
+  if ( this.isDragging ) {
+    this._dragEnd( event, pointer );
+  } else {
+    // pointer didn't move enough for drag to start
+    this._staticClick( event, pointer );
+  }
+};
+
+// -------------------------- drag -------------------------- //
+
+// dragStart
+proto._dragStart = function( event, pointer ) {
+  this.isDragging = true;
+  // prevent clicks
+  this.isPreventingClicks = true;
+  this.dragStart( event, pointer );
+};
+
+proto.dragStart = function( event, pointer ) {
+  this.emitEvent( 'dragStart', [ event, pointer ] );
+};
+
+// dragMove
+proto._dragMove = function( event, pointer, moveVector ) {
+  // do not drag if not dragging yet
+  if ( !this.isDragging ) {
+    return;
+  }
+
+  this.dragMove( event, pointer, moveVector );
+};
+
+proto.dragMove = function( event, pointer, moveVector ) {
+  event.preventDefault();
+  this.emitEvent( 'dragMove', [ event, pointer, moveVector ] );
+};
+
+// dragEnd
+proto._dragEnd = function( event, pointer ) {
+  // set flags
+  this.isDragging = false;
+  // re-enable clicking async
+  setTimeout( function() {
+    delete this.isPreventingClicks;
+  }.bind( this ) );
+
+  this.dragEnd( event, pointer );
+};
+
+proto.dragEnd = function( event, pointer ) {
+  this.emitEvent( 'dragEnd', [ event, pointer ] );
+};
+
+// ----- onclick ----- //
+
+// handle all clicks and prevent clicks when dragging
+proto.onclick = function( event ) {
+  if ( this.isPreventingClicks ) {
+    event.preventDefault();
+  }
+};
+
+// ----- staticClick ----- //
+
+// triggered after pointer down & up with no/tiny movement
+proto._staticClick = function( event, pointer ) {
+  // ignore emulated mouse up clicks
+  if ( this.isIgnoringMouseUp && event.type == 'mouseup' ) {
+    return;
+  }
+
+  this.staticClick( event, pointer );
+
+  // set flag for emulated clicks 300ms after touchend
+  if ( event.type != 'mouseup' ) {
+    this.isIgnoringMouseUp = true;
+    // reset flag after 300ms
+    setTimeout( function() {
+      delete this.isIgnoringMouseUp;
+    }.bind( this ), 400 );
+  }
+};
+
+proto.staticClick = function( event, pointer ) {
+  this.emitEvent( 'staticClick', [ event, pointer ] );
+};
+
+// ----- utils ----- //
+
+Unidragger.getPointerPoint = Unipointer.getPointerPoint;
+
+// -----  ----- //
+
+return Unidragger;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/unipointer/unipointer.js":
+/*!***********************************************!*\
+  !*** ./node_modules/unipointer/unipointer.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * Unipointer v2.3.0
+ * base class for doing one thing with pointer event
+ * MIT license
+ */
+
+/*jshint browser: true, undef: true, unused: true, strict: true */
+
+( function( window, factory ) {
+  // universal module definition
+  /* jshint strict: false */ /*global define, module, require */
+  if ( true ) {
+    // AMD
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+      __webpack_require__(/*! ev-emitter/ev-emitter */ "./node_modules/ev-emitter/ev-emitter.js")
+    ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( EvEmitter ) {
+      return factory( window, EvEmitter );
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+}( window, function factory( window, EvEmitter ) {
+
+'use strict';
+
+function noop() {}
+
+function Unipointer() {}
+
+// inherit EvEmitter
+var proto = Unipointer.prototype = Object.create( EvEmitter.prototype );
+
+proto.bindStartEvent = function( elem ) {
+  this._bindStartEvent( elem, true );
+};
+
+proto.unbindStartEvent = function( elem ) {
+  this._bindStartEvent( elem, false );
+};
+
+/**
+ * Add or remove start event
+ * @param {Boolean} isAdd - remove if falsey
+ */
+proto._bindStartEvent = function( elem, isAdd ) {
+  // munge isAdd, default to true
+  isAdd = isAdd === undefined ? true : isAdd;
+  var bindMethod = isAdd ? 'addEventListener' : 'removeEventListener';
+
+  // default to mouse events
+  var startEvent = 'mousedown';
+  if ( window.PointerEvent ) {
+    // Pointer Events
+    startEvent = 'pointerdown';
+  } else if ( 'ontouchstart' in window ) {
+    // Touch Events. iOS Safari
+    startEvent = 'touchstart';
+  }
+  elem[ bindMethod ]( startEvent, this );
+};
+
+// trigger handler methods for events
+proto.handleEvent = function( event ) {
+  var method = 'on' + event.type;
+  if ( this[ method ] ) {
+    this[ method ]( event );
+  }
+};
+
+// returns the touch that we're keeping track of
+proto.getTouch = function( touches ) {
+  for ( var i=0; i < touches.length; i++ ) {
+    var touch = touches[i];
+    if ( touch.identifier == this.pointerIdentifier ) {
+      return touch;
+    }
+  }
+};
+
+// ----- start event ----- //
+
+proto.onmousedown = function( event ) {
+  // dismiss clicks from right or middle buttons
+  var button = event.button;
+  if ( button && ( button !== 0 && button !== 1 ) ) {
+    return;
+  }
+  this._pointerDown( event, event );
+};
+
+proto.ontouchstart = function( event ) {
+  this._pointerDown( event, event.changedTouches[0] );
+};
+
+proto.onpointerdown = function( event ) {
+  this._pointerDown( event, event );
+};
+
+/**
+ * pointer start
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ */
+proto._pointerDown = function( event, pointer ) {
+  // dismiss right click and other pointers
+  // button = 0 is okay, 1-4 not
+  if ( event.button || this.isPointerDown ) {
+    return;
+  }
+
+  this.isPointerDown = true;
+  // save pointer identifier to match up touch events
+  this.pointerIdentifier = pointer.pointerId !== undefined ?
+    // pointerId for pointer events, touch.indentifier for touch events
+    pointer.pointerId : pointer.identifier;
+
+  this.pointerDown( event, pointer );
+};
+
+proto.pointerDown = function( event, pointer ) {
+  this._bindPostStartEvents( event );
+  this.emitEvent( 'pointerDown', [ event, pointer ] );
+};
+
+// hash of events to be bound after start event
+var postStartEvents = {
+  mousedown: [ 'mousemove', 'mouseup' ],
+  touchstart: [ 'touchmove', 'touchend', 'touchcancel' ],
+  pointerdown: [ 'pointermove', 'pointerup', 'pointercancel' ],
+};
+
+proto._bindPostStartEvents = function( event ) {
+  if ( !event ) {
+    return;
+  }
+  // get proper events to match start event
+  var events = postStartEvents[ event.type ];
+  // bind events to node
+  events.forEach( function( eventName ) {
+    window.addEventListener( eventName, this );
+  }, this );
+  // save these arguments
+  this._boundPointerEvents = events;
+};
+
+proto._unbindPostStartEvents = function() {
+  // check for _boundEvents, in case dragEnd triggered twice (old IE8 bug)
+  if ( !this._boundPointerEvents ) {
+    return;
+  }
+  this._boundPointerEvents.forEach( function( eventName ) {
+    window.removeEventListener( eventName, this );
+  }, this );
+
+  delete this._boundPointerEvents;
+};
+
+// ----- move event ----- //
+
+proto.onmousemove = function( event ) {
+  this._pointerMove( event, event );
+};
+
+proto.onpointermove = function( event ) {
+  if ( event.pointerId == this.pointerIdentifier ) {
+    this._pointerMove( event, event );
+  }
+};
+
+proto.ontouchmove = function( event ) {
+  var touch = this.getTouch( event.changedTouches );
+  if ( touch ) {
+    this._pointerMove( event, touch );
+  }
+};
+
+/**
+ * pointer move
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ * @private
+ */
+proto._pointerMove = function( event, pointer ) {
+  this.pointerMove( event, pointer );
+};
+
+// public
+proto.pointerMove = function( event, pointer ) {
+  this.emitEvent( 'pointerMove', [ event, pointer ] );
+};
+
+// ----- end event ----- //
+
+
+proto.onmouseup = function( event ) {
+  this._pointerUp( event, event );
+};
+
+proto.onpointerup = function( event ) {
+  if ( event.pointerId == this.pointerIdentifier ) {
+    this._pointerUp( event, event );
+  }
+};
+
+proto.ontouchend = function( event ) {
+  var touch = this.getTouch( event.changedTouches );
+  if ( touch ) {
+    this._pointerUp( event, touch );
+  }
+};
+
+/**
+ * pointer up
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ * @private
+ */
+proto._pointerUp = function( event, pointer ) {
+  this._pointerDone();
+  this.pointerUp( event, pointer );
+};
+
+// public
+proto.pointerUp = function( event, pointer ) {
+  this.emitEvent( 'pointerUp', [ event, pointer ] );
+};
+
+// ----- pointer done ----- //
+
+// triggered on pointer up & pointer cancel
+proto._pointerDone = function() {
+  this._pointerReset();
+  this._unbindPostStartEvents();
+  this.pointerDone();
+};
+
+proto._pointerReset = function() {
+  // reset properties
+  this.isPointerDown = false;
+  delete this.pointerIdentifier;
+};
+
+proto.pointerDone = noop;
+
+// ----- pointer cancel ----- //
+
+proto.onpointercancel = function( event ) {
+  if ( event.pointerId == this.pointerIdentifier ) {
+    this._pointerCancel( event, event );
+  }
+};
+
+proto.ontouchcancel = function( event ) {
+  var touch = this.getTouch( event.changedTouches );
+  if ( touch ) {
+    this._pointerCancel( event, touch );
+  }
+};
+
+/**
+ * pointer cancel
+ * @param {Event} event
+ * @param {Event or Touch} pointer
+ * @private
+ */
+proto._pointerCancel = function( event, pointer ) {
+  this._pointerDone();
+  this.pointerCancel( event, pointer );
+};
+
+// public
+proto.pointerCancel = function( event, pointer ) {
+  this.emitEvent( 'pointerCancel', [ event, pointer ] );
+};
+
+// -----  ----- //
+
+// utility function for getting x/y coords from event
+Unipointer.getPointerPoint = function( pointer ) {
+  return {
+    x: pointer.pageX,
+    y: pointer.pageY
+  };
+};
+
+// -----  ----- //
+
+return Unipointer;
+
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-flickity/src/flickity.vue":
+/*!****************************************************!*\
+  !*** ./node_modules/vue-flickity/src/flickity.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _flickity_vue_vue_type_template_id_2af8bc48___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./flickity.vue?vue&type=template&id=2af8bc48& */ "./node_modules/vue-flickity/src/flickity.vue?vue&type=template&id=2af8bc48&");
+/* harmony import */ var _flickity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./flickity.vue?vue&type=script&lang=js& */ "./node_modules/vue-flickity/src/flickity.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var flickity_dist_flickity_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! flickity/dist/flickity.css?vue&type=style&index=0&lang=css& */ "./node_modules/flickity/dist/flickity.css?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _flickity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _flickity_vue_vue_type_template_id_2af8bc48___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _flickity_vue_vue_type_template_id_2af8bc48___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/vue-flickity/src/flickity.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-flickity/src/flickity.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/vue-flickity/src/flickity.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_flickity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/lib??vue-loader-options!./flickity.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/vue-flickity/src/flickity.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_flickity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./node_modules/vue-flickity/src/flickity.vue?vue&type=template&id=2af8bc48&":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/vue-flickity/src/flickity.vue?vue&type=template&id=2af8bc48& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_flickity_vue_vue_type_template_id_2af8bc48___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../vue-loader/lib??vue-loader-options!./flickity.vue?vue&type=template&id=2af8bc48& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/vue-flickity/src/flickity.vue?vue&type=template&id=2af8bc48&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_flickity_vue_vue_type_template_id_2af8bc48___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_flickity_vue_vue_type_template_id_2af8bc48___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/vue-flickity/src/flickity.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-flickity/src/flickity.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var flickity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flickity */ "./node_modules/flickity/js/index.js");
+/* harmony import */ var flickity__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flickity__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    options: Object,
+  },
+
+  mounted() {
+    this.init();
+  },
+
+  beforeDestroy() {
+    this.$flickity.destroy();
+    this.$flickity = null;
+  },
+
+  methods: {
+    /**
+     * Initialize a new flickity and emit init event.
+     */
+    init() {
+      this.$flickity = new flickity__WEBPACK_IMPORTED_MODULE_0___default.a(this.$el, this.options);
+      this.$emit('init', this.$flickity);
+    },
+
+    /**
+     * Return the current flickity instance to access directly
+     *
+     * @return {Flickity}
+     */
+    flickity() {
+      return this.$flickity;
+    },
+
+    /**
+     * Selecting Slides
+     */
+
+    /**
+     * Select a slide
+     *
+     * @param {number} index
+     * @param {boolean} isWrapped
+     * @param {boolean} isInstant
+     */
+    select(index, isWrapped, isInstant) {
+      this.$flickity.select(index, isWrapped, isInstant);
+    },
+
+    /**
+     * Change to the next slide
+     *
+     * @param {boolean} isWrapped
+     * @param {boolean} isInstant
+     */
+    next(isWrapped, isInstant) {
+      this.$flickity.next(isWrapped, isInstant);
+    },
+
+    /**
+     * Change to the previous slide
+     *
+     * @param {boolean} isWrapped
+     * @param {boolean} isInstant
+     */
+    previous(isWrapped, isInstant) {
+      this.$flickity.previous(isWrapped, isInstant);
+    },
+
+    /**
+     * Select a cell
+     *
+     * @param {number} value
+     * @param {boolean} isWrapped
+     * @param {boolean} isInstant
+     */
+    selectCell(value, isWrapped, isInstant) {
+      this.$flickity.selectCell(value, isWrapped, isInstant);
+    },
+
+    /**
+     * Sizing and Positioning
+     */
+
+    /**
+     * Trigger a resize event
+     */
+    resize() {
+      this.$flickity.resize();
+    },
+
+    /**
+     * Trigger a reposition event
+     */
+    reposition() {
+      this.$flickity.reposition();
+    },
+
+    /**
+     * Adding and removing cells
+     */
+
+    /**
+     * Prepend elements to flickity
+     *
+     * @param {array|HTMLElement|NodeList} elements
+     */
+    prepend(elements) {
+      this.$flickity.prepend(elements);
+    },
+
+    /**
+     * Append elements to flickity
+     *
+     * @param {array|HTMLElement|NodeList} elements
+     */
+    append(elements) {
+      this.$flickity.append(elements);
+    },
+
+    /**
+     * Insert elements at a given index
+     *
+     * @param {array|HTMLElement|NodeList} elements
+     * @param {number} index
+     */
+    insert(elements, index) {
+      this.$flickity.insert(elements, index);
+    },
+
+    /**
+     * Remove elements from flickity
+     *
+     * @param {array|HTMLElement|NodeList} elements
+     */
+    remove(elements) {
+      this.$flickity.remove(elements);
+    },
+
+    /**
+     * Player
+     */
+
+    /**
+     * Trigger a playPlayer event
+     */
+    playPlayer() {
+      this.$flickity.playPlayer();
+    },
+
+    /**
+     * Trigger a stopPlayer event
+     */
+    stopPlayer() {
+      this.$flickity.stopPlayer();
+    },
+
+    /**
+     * Trigger a pausePlayer event
+     */
+    pausePlayer() {
+      this.$flickity.pausePlayer();
+    },
+
+    /**
+     * Trigger a unpausePlayer event
+     */
+    unpausePlayer() {
+      this.$flickity.unpausePlayer();
+    },
+
+    /**
+     * Trigger a rerender event
+     */
+    rerender() {
+      this.$flickity.destroy();
+      this.init();
+    },
+
+    /**
+     * Utilities
+     */
+
+    /**
+     * Destroy the flickity instance
+     */
+    destroy() {
+      this.$flickity.destroy();
+    },
+
+    /**
+     * Trigger a rerender event
+     */
+    reloadCells() {
+      this.$flickity.reloadCells();
+    },
+
+    /**
+     * Get the cell elements
+     *
+     * @return {array}
+     */
+    getCellElements() {
+      return this.$flickity.getCellElements();
+    },
+
+    /**
+     * Return flickity data
+     *
+     * @return {Flickity}
+     */
+    data() {
+      return flickity__WEBPACK_IMPORTED_MODULE_0___default.a.data(this.$el);
+    },
+
+    /**
+     * Events
+     */
+
+    /**
+     * Attach an event
+     *
+     * @param {string} eventName
+     * @param {function} listener
+     */
+    on(eventName, listener) {
+      this.$flickity.on(eventName, listener);
+    },
+
+    /**
+     * Remove an event
+     *
+     * @param {string} eventName
+     * @param {function} listener
+     */
+    off(eventName, listener) {
+      this.$flickity.off(eventName, listener);
+    },
+
+    /**
+     * Attach an event once
+     *
+     * @param {string} eventName
+     * @param {function} listener
+     */
+    once(eventName, listener) {
+      this.$flickity.once(eventName, listener);
+    },
+
+    /**
+     * Properties
+     */
+
+    /**
+     * Return the selected element
+     *
+     * @return {HTMLElement}
+     */
+    selectedElement() {
+      return this.$flickity.selectedElement;
+    },
+
+    /**
+     * Return the selected elements
+     *
+     * @return {array}
+     */
+    selectedElements() {
+      return this.$flickity.selectedElements;
+    },
+
+    /**
+     * Return the selected index
+     *
+     * @return {number}
+     */
+    selectedIndex() {
+      return this.$flickity.selectedIndex;
+    },
+
+    /**
+     * Return the cells
+     *
+     * @return {array}
+     */
+    cells() {
+      return this.$flickity.cells;
+    },
+
+    /**
+     * Return the slides
+     *
+     * @return {array}
+     */
+    slides() {
+      return this.$flickity.slides;
+    },
+
+    /**
+     * Disable dragging of slider
+     */
+    disableDrag() {
+      this.$flickity.options.draggable = false;
+      this.$flickity.updateDraggable();
+    },
+
+    /**
+     * Enable dragging of slider
+     */
+    enableDrag() {
+      this.$flickity.options.draggable = true;
+      this.$flickity.updateDraggable();
+    },
+  },
+
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/vue-flickity/src/flickity.vue?vue&type=template&id=2af8bc48&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-flickity/src/flickity.vue?vue&type=template&id=2af8bc48& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_vm._t("default")], 2)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -4409,6 +9187,202 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=template&id=49478526&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Skills.vue?vue&type=template&id=49478526&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "skill-container", class: { shift: _vm.shift } },
+    [
+      _c(
+        "div",
+        {
+          staticClass: "skill-box tw-text-center tw-flex tw-relative tw-mb-12",
+          class: { show: _vm.hover },
+          on: {
+            mouseenter: function($event) {
+              _vm.hover = true
+            },
+            mouseleave: function($event) {
+              _vm.hover = false
+            }
+          }
+        },
+        [
+          _c("div", {
+            staticClass: "shade tw-absolute tw-pin-l tw-h-full",
+            style: { background: _vm.skill.color }
+          }),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "skill-box-inner tw-p-4 tw-flex tw-flex-col tw-justify-around"
+            },
+            [
+              _c(
+                "a",
+                {
+                  staticClass: "menu-border tw-px-3 tw-uppercase tw-text-white",
+                  style: { background: _vm.skill.secondarycolor },
+                  attrs: { href: _vm.skill.link }
+                },
+                [
+                  _c("div", [
+                    _c("h5", {
+                      staticClass: "tw-font-light tw-text-white",
+                      domProps: { textContent: _vm._s(_vm.skill.name) }
+                    })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("a", { attrs: { href: _vm.skill.link } }, [
+                _c("div", [_c("img", { attrs: { src: _vm.skill.image } })])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("h5", {
+                  staticClass: "tw-font-light tw-text-white",
+                  domProps: { textContent: _vm._s(_vm.skill.difficulty) }
+                }),
+                _vm._v(" "),
+                _c("h5", { staticClass: "tw-font-light tw-text-white" }, [
+                  _vm._v("Difficulty")
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "tw-w-full tw-flex tw-justify-around tw-flex-col tw-pr-4 md:tw-px-4 color"
+            },
+            [
+              _c("div", { staticClass: "tw-w-full tw-text-left" }, [
+                _c(
+                  "a",
+                  { staticClass: "tw-py-2", attrs: { href: _vm.skill.link } },
+                  [
+                    _c("h2", {
+                      staticClass: "tw-font-normal",
+                      domProps: { textContent: _vm._s(_vm.skill.title) }
+                    })
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "tw-w-full tw-py-1 tw-text-left" }, [
+                _c("p", {
+                  staticClass: "tw-font-light",
+                  domProps: { textContent: _vm._s(_vm.skill.text) }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "tw-flex" }, [
+                _c("div", { staticClass: "tw-w-full tw-py-1" }, [
+                  _c("h5", [
+                    _c(
+                      "svg",
+                      {
+                        staticClass: "expanded-card-meta-icon tw-mr-1",
+                        attrs: {
+                          xmlns: "http://www.w3.org/2000/svg",
+                          width: "13",
+                          height: "14",
+                          viewBox: "0 0 13 14"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          staticClass: "tw-fill-current",
+                          attrs: {
+                            "fill-rule": "nonzero",
+                            d:
+                              "M4.129 6.44v4.873c0 .217-.159.41-.395.481a4.098 4.098 0 0 1-1.167.155c-1.236 0-2.564-.437-2.564-1.398V4.317c-.028-.429.145-1.185.976-1.595.386-.19 2.412-1.314 3.43-1.882A.674.674 0 0 1 5.01.82c.19.09.309.262.309.448v.739c0 .281-.265.51-.591.51-.254 0-.47-.139-.554-.333-.92.51-2.273 1.258-2.61 1.423a.683.683 0 0 0-.38.573c0 .167.041.299.117.37.21.198.909.075 1.671-.32.733-.38 4.346-2.455 4.382-2.476a.67.67 0 0 1 .606-.025.505.505 0 0 1 .313.45v.058c0 .17-.099.329-.263.424 0 0-2.508 1.444-2.73 1.567-.85.472-1.152 1.051-1.152 2.213zM13 3.98V10.6a.498.498 0 0 1-.276.431s-3.445 2.308-4.144 2.675c-.367.193-.835.295-1.352.295-1.228 0-2.499-.574-2.499-1.532V6.14l.002-.006c.012-.373.113-.906.917-1.418C6.13 4.41 9 2.721 9.123 2.65a.674.674 0 0 1 .608-.03.505.505 0 0 1 .315.452v.738c0 .281-.264.51-.59.51a.598.598 0 0 1-.544-.31c-.917.54-2.262 1.337-2.563 1.528-.38.243-.431.403-.438.609.001.152.05.268.146.345.301.238 1.113.138 1.912-.276.592-.307 3.143-2.007 4.076-2.636a.673.673 0 0 1 .623-.056c.203.085.332.262.332.458zm-1.182 2.272L8.865 8.23v1.02l2.953-1.978v-1.02z",
+                            opacity: ".5"
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("span", {
+                      staticClass: "tw-font-light",
+                      domProps: { textContent: _vm._s(_vm.skill.lessons) }
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "tw-font-light" }, [
+                      _vm._v("lessons")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "tw-w-full tw-py-1" }, [
+                  _c("h5", [
+                    _c(
+                      "svg",
+                      {
+                        staticClass: "expanded-card-meta-icon tw-mr-1",
+                        attrs: {
+                          xmlns: "http://www.w3.org/2000/svg",
+                          width: "13",
+                          height: "13",
+                          viewBox: "0 0 13 13"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          staticClass: "tw-fill-current",
+                          attrs: {
+                            "fill-rule": "evenodd",
+                            d:
+                              "M6.5 0C2.925 0 0 2.925 0 6.5S2.925 13 6.5 13 13 10.075 13 6.5 10.075 0 6.5 0zm2.967 9L6 6.913V3h1v3.391l3 1.761L9.467 9z",
+                            opacity: ".5"
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("span", {
+                      staticClass: "tw-font-light",
+                      domProps: { textContent: _vm._s(_vm.skill.time) }
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "tw-font-light" }, [
+                      _vm._v("mins")
+                    ])
+                  ])
+                ])
+              ])
+            ]
+          )
+        ]
+      )
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true&":
 /*!**************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true& ***!
@@ -4830,7 +9804,7 @@ var render = function() {
       "div",
       {
         ref: "concise",
-        staticClass: "section concise",
+        staticClass: "section concise tw-my-5",
         attrs: { id: "concise" }
       },
       [
@@ -4889,8 +9863,41 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
-    _c("div", { staticClass: "section plan-section" }, [
+    _c("div", { staticClass: "learn tw-my-5 tw-hidden lg:tw-block" }, [
       _vm._m(6),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "learn-box tw-pt-8 carousel" },
+        [
+          _c(
+            "Flickity",
+            { ref: "flickity", attrs: { options: _vm.flickityOptions } },
+            _vm._l(_vm.activeskills, function(skill, index) {
+              return _c(
+                "div",
+                { key: index, staticClass: "carousel-cell" },
+                [
+                  _c("Skills", { attrs: { skill: skill } }),
+                  _vm._v(" "),
+                  _c("Skills", {
+                    attrs: { skill: _vm.inactiveskills[index], shift: true }
+                  })
+                ],
+                1
+              )
+            }),
+            0
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _vm._m(7)
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section plan-section tw-my-5" }, [
+      _vm._m(8),
       _vm._v(" "),
       _c("div", { staticClass: "plans-toggle-wrap tw-mx-auto tw-mb-8" }, [
         _c("div", { staticClass: "plans-toggle tw-flex tw-h-full" }, [
@@ -4950,13 +9957,13 @@ var render = function() {
         [
           _c("Plans", { attrs: { personal: _vm.personal, plans: _vm.plans } }),
           _vm._v(" "),
-          _vm._m(7)
+          _vm._m(9)
         ],
         1
       )
     ]),
     _vm._v(" "),
-    _vm._m(8),
+    _vm._m(10),
     _vm._v(" "),
     _c("div", { staticClass: "footer-box" }, [_c("Footer")], 1)
   ])
@@ -5066,6 +10073,35 @@ var staticRenderFns = [
           attrs: { href: "/" }
         },
         [_vm._v("Browse all courses")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "tw-max-w-md tw-m-auto tw-text-center" }, [
+      _c("h1", {}, [_vm._v("What will you learn next")]),
+      _vm._v(" "),
+      _c("h3", { staticClass: "tw-font-light tw-my-5" }, [
+        _vm._v(
+          "\n        There's no shortage of content at Laracasts.\n        Check back most work-days for new lessons on your\n        favorite web technologies and techniques.\n      "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "tw-text-center tw-pb-12" }, [
+      _c(
+        "a",
+        {
+          staticClass: "menu-border-dark tw-px-8 tw-py-3",
+          attrs: { href: "/" }
+        },
+        [_vm._v("Explore More")]
       )
     ])
   },
@@ -19780,6 +24816,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Plans_vue_vue_type_template_id_50b40e0f_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Plans_vue_vue_type_template_id_50b40e0f_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Skills.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Skills.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Skills_vue_vue_type_template_id_49478526_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Skills.vue?vue&type=template&id=49478526&scoped=true& */ "./resources/js/components/Skills.vue?vue&type=template&id=49478526&scoped=true&");
+/* harmony import */ var _Skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Skills.vue?vue&type=script&lang=js& */ "./resources/js/components/Skills.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css& */ "./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Skills_vue_vue_type_template_id_49478526_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Skills_vue_vue_type_template_id_49478526_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "49478526",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Skills.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Skills.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/Skills.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Skills.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css& ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_8_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--8-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--8-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=style&index=0&id=49478526&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_8_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_8_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_8_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_8_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_8_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_style_index_0_id_49478526_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Skills.vue?vue&type=template&id=49478526&scoped=true&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/Skills.vue?vue&type=template&id=49478526&scoped=true& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_template_id_49478526_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Skills.vue?vue&type=template&id=49478526&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Skills.vue?vue&type=template&id=49478526&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_template_id_49478526_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Skills_vue_vue_type_template_id_49478526_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

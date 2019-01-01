@@ -8,7 +8,7 @@
     
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script>window.Laravel = { csrfToken: '{{ csrf_token() }}' }</script>
-    <title>Vue SPA Demo</title>
+    <title>Lara</title>
 </head>
 <body>
     <div id="app">

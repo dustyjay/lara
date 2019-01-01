@@ -257,7 +257,7 @@
       </div>
     </div>
 
-    <div class="section concise" id="concise" ref="concise">
+    <div class="section concise tw-my-5" id="concise" ref="concise">
       <div class="tw-text-center">
         <h1 class="tw-max-w-md tw-m-auto">The most concise screencasts for the working developer.</h1>
       </div>
@@ -293,7 +293,31 @@
       </div>
     </div>
 
-    <div class="section plan-section">
+    <div class="learn tw-my-5 tw-hidden lg:tw-block">
+      <div class="tw-max-w-md tw-m-auto tw-text-center">
+        <h1 class>What will you learn next</h1>
+        <h3 class="tw-font-light tw-my-5">
+          There's no shortage of content at Laracasts.
+          Check back most work-days for new lessons on your
+          favorite web technologies and techniques.
+        </h3>
+      </div>
+
+      <div class="learn-box tw-pt-8 carousel">
+        <Flickity ref="flickity" :options="flickityOptions">
+          <div v-for="(skill,index) in activeskills" :key="index" class="carousel-cell">
+            <Skills :skill="skill"/>
+            <Skills :skill="inactiveskills[index]" :shift="true"/>
+          </div>
+        </Flickity>
+      </div>
+
+      <div class="tw-text-center tw-pb-12">
+        <a href="/" class="menu-border-dark tw-px-8 tw-py-3">Explore More</a>
+      </div>
+    </div>
+
+    <div class="section plan-section tw-my-5">
       <div class="tw-max-w-md tw-m-auto tw-text-center">
         <h1 class>Choose the plan that fits your needs.</h1>
         <h3 class="tw-font-light tw-my-5">
@@ -389,7 +413,9 @@ import BannerClip from "../components/BannerClip";
 import Courses from "../components/Courses";
 import CoursesMobile from "../components/CoursesMobile";
 import Plans from "../components/Plans";
+import Skills from "../components/Skills";
 import Footer from "../components/Footer";
+import Flickity from "vue-flickity";
 
 export default {
   name: "Home",
@@ -399,10 +425,17 @@ export default {
     Courses,
     CoursesMobile,
     Plans,
+    Skills,
+    Flickity,
     Footer
   },
   data() {
     return {
+      flickityOptions: {
+        pageDots: false,
+        wrapAround: true,
+        freeScroll: false
+      },
       social_hover: ["fill:#ccc;", "fill:#ccc;", "fill:#bbb;"],
 
       personal: true,
@@ -520,6 +553,128 @@ export default {
           text:
             "Wire your account to support 5 developers with a year’s worth of access to Laracasts!"
         }
+      ],
+      skills: [
+        {
+          id: 1,
+          name: "Laravel",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 2,
+          name: "JavaScript",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 3,
+          name: "PHP",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 1,
+          name: "VueJs",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 1,
+          name: "ReactJs",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 1,
+          name: "Angular",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 1,
+          name: "Django",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        },
+        {
+          id: 1,
+          name: "Python",
+          difficulty: "Beginner",
+          title: "Eloquent Relationships",
+          text:
+            "Eloquent make the process of interacting with your database tables as natural and intuitive as possible. It's vital that you recognize and underst...",
+          image:
+            "https://laracasts.com/images/series/2018/build-an-app-with-tdd.svg",
+          color: "linear-gradient(0deg,#f19a1a,#ffc73c)",
+          secondarycolor: "#dba112",
+          lessons: 12,
+          time: "300",
+          link: "/"
+        }
       ]
     };
   },
@@ -544,6 +699,33 @@ export default {
         if (normalizedTime < 1) window.requestAnimationFrame(step);
       }
       window.requestAnimationFrame(step);
+    },
+    next() {
+      this.$refs.flickity.next();
+    },
+
+    previous() {
+      this.$refs.flickity.previous();
+    }
+  },
+  computed: {
+    activeskills: function() {
+      let newarray = [];
+      this.skills.forEach((element, index) => {
+        if (index % 2 == 0) {
+          newarray.push(element);
+        }
+      });
+      return newarray;
+    },
+    inactiveskills: function() {
+      let newarray = [];
+      this.skills.forEach((element, index) => {
+        if (index % 2 != 0) {
+          newarray.push(element);
+        }
+      });
+      return newarray;
     }
   }
 };
@@ -595,6 +777,11 @@ export default {
   .course {
     height: 250px;
   }
+}
+
+.carousel-cell {
+  width: 45%;
+  margin-right: 20px;
 }
 
 @keyframes bounce {

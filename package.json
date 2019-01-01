@@ -31,6 +31,7 @@
         "autoprefixer": "^9.4.3",
         "imagemin": "^6.0.0",
         "postcss-cli": "^6.1.0",
+        "vue-flickity": "^1.1.2",
         "vue-loader": "^15.4.2",
         "vue-router": "^3.0.2",
         "yarn": "^1.12.3"
